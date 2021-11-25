@@ -1,0 +1,980 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\SysWOW64\wintrust.dll
+
+File Type: DLL
+
+  Image has the following delay load dependencies:
+
+    MSASN1.dll
+    CRYPTSP.dll
+    CRYPT32.dll
+    bcrypt.dll
+    api-ms-win-security-lsalookup-l2-1-0.dll
+    api-ms-win-security-sddl-l1-1-0.dll
+    ext-ms-win-advapi32-safer-l1-1-0.dll
+    USER32.dll
+    imagehlp.dll
+    api-ms-win-service-private-l1-1-0.dll
+    api-ms-win-service-management-l1-1-0.dll
+    api-ms-win-service-management-l2-1-0.dll
+    api-ms-win-service-winsvc-l1-1-0.dll
+
+  Section contains the following exports for WINTRUST.dll
+
+    00000000 characteristics
+    BB5D9D29 time date stamp
+        0.00 version
+           1 ordinal base
+         159 number of functions
+         159 number of names
+
+    ordinal hint RVA      name
+
+         12    0 0002C280 AddPersonalTrustDBPages
+         13    1 00013D00 CatalogCompactHashDatabase
+          1    2 000232D0 ComputeFirstPageHash
+         14    3 0002D780 ConfigCiFinalPolicy
+         15    4 0002DB20 ConfigCiPackageFamilyNameCheck
+         17    5 0000D310 CryptCATAdminAcquireContext
+         16    6 00010690 CryptCATAdminAcquireContext2
+         18    7 00024A60 CryptCATAdminAddCatalog
+         21    8 00024E20 CryptCATAdminCalcHashFromFileHandle
+         19    9 00024D40 CryptCATAdminCalcHashFromFileHandle2
+         20    A 00024DC0 CryptCATAdminCalcHashFromFileHandle3
+         22    B 0000D390 CryptCATAdminEnumCatalogFromHash
+         23    C 00024EC0 CryptCATAdminPauseServiceForBackup
+         24    D 00008C00 CryptCATAdminReleaseCatalogContext
+         25    E 000108E0 CryptCATAdminReleaseContext
+         26    F 00024F00 CryptCATAdminRemoveCatalog
+         27   10 00024F40 CryptCATAdminResolveCatalogPath
+         28   11 000124E0 CryptCATAllocSortedMemberInfo
+         29   12 00026350 CryptCATCDFClose
+         30   13 000263D0 CryptCATCDFEnumAttributes
+         31   14 00026400 CryptCATCDFEnumAttributesWithCDFTag
+         32   15 00026440 CryptCATCDFEnumCatAttributes
+         33   16 00026500 CryptCATCDFEnumMembers
+         34   17 00026550 CryptCATCDFEnumMembersByCDFTag
+         35   18 00026590 CryptCATCDFEnumMembersByCDFTagEx
+         36   19 000265D0 CryptCATCDFOpen
+         37   1A 00008A80 CryptCATCatalogInfoFromContext
+         38   1B 00009320 CryptCATClose
+         39   1C 000091C0 CryptCATEnumerateAttr
+         40   1D 00009280 CryptCATEnumerateCatAttr
+         41   1E 00024210 CryptCATEnumerateMember
+         42   1F 000242D0 CryptCATFreeSortedMemberInfo
+         43   20 00009160 CryptCATGetAttrInfo
+         44   21 00009220 CryptCATGetCatAttrInfo
+         45   22 00024310 CryptCATGetMemberInfo
+         46   23 00013CA0 CryptCATHandleFromStore
+         47   24 000123A0 CryptCATOpen
+         48   25 000243C0 CryptCATPersistStore
+         49   26 00024400 CryptCATPutAttrInfo
+         50   27 00024570 CryptCATPutCatAttrInfo
+         51   28 00024780 CryptCATPutMemberInfo
+         52   29 00013CA0 CryptCATStoreFromHandle
+          2   2A 000241C0 CryptCATVerifyMember
+         53   2B 000110C0 CryptSIPCreateIndirectData
+         54   2C 00011010 CryptSIPGetCaps
+          3   2D 00027F60 CryptSIPGetInfo
+          4   2E 00027F50 CryptSIPGetRegWorkingFlags
+         55   2F 00027FA0 CryptSIPGetSealedDigest
+         56   30 00013FF0 CryptSIPGetSignedDataMsg
+         57   31 00028030 CryptSIPPutSignedDataMsg
+         58   32 000280D0 CryptSIPRemoveSignedDataMsg
+         59   33 00028150 CryptSIPVerifyIndirectData
+         60   34 0001F470 DllRegisterServer
+         61   35 0001F4B0 DllUnregisterServer
+         62   36 0000A3C0 DriverCleanupPolicy
+         63   37 00009CA0 DriverFinalPolicy
+         64   38 0000A1A0 DriverInitializePolicy
+         65   39 0002F650 FindCertsByIssuer
+          5   3A 0002B7D0 GenericChainCertificateTrust
+          6   3B 0002BA70 GenericChainFinalProv
+         66   3C 0002DE00 GetAuthenticodeSha256Hash
+          7   3D 0000AB70 HTTPSCertificateTrust
+         67   3E 0000AA80 HTTPSFinalProv
+         68   3F 000274F0 IsCatalogFile
+         69   40 00011A10 MsCatConstructHashTag
+         70   41 00027720 MsCatFreeHashTag
+         71   42 0002F970 OfficeCleanupPolicy
+         72   43 0002F970 OfficeInitializePolicy
+         73   44 0002C2A0 OpenPersonalTrustDBDialog
+         74   45 0002C2C0 OpenPersonalTrustDBDialogEx
+         75   46 0000A520 SoftpubAuthenticode
+         76   47 00013AD0 SoftpubCheckCert
+         77   48 0000CC70 SoftpubCleanup
+          8   49 0002C030 SoftpubDefCertInit
+         78   4A 0002FF90 SoftpubDllRegisterServer
+         79   4B 000301C0 SoftpubDllUnregisterServer
+         80   4C 00030B50 SoftpubDumpStructure
+          9   4D 0002C100 SoftpubFreeDefUsageCallData
+         81   4E 0000CC80 SoftpubInitialize
+         10   4F 0002C140 SoftpubLoadDefUsageCallData
+         82   50 0000BC60 SoftpubLoadMessage
+         83   51 0000BBA0 SoftpubLoadSignature
+         84   52 00032820 SrpCheckSmartlockerEAandProcessToken
+         85   53 00021B60 TrustDecode
+         86   54 00021BF0 TrustFindIssuerCertificate
+         87   55 00021D60 TrustFreeDecode
+         88   56 00021D90 TrustIsCertificateSelfSigned
+         89   57 00021E00 TrustOpenStores
+         90   58 0002DFB0 WTConvertCertCtxToChainInfo
+         91   59 00023D00 WTGetBioSignatureInfo
+         92   5A 00023E80 WTGetPluginSignatureInfo
+         93   5B 00010C20 WTGetSignatureInfo
+         94   5C 00022610 WTHelperCertCheckValidSignature
+         11   5D 0001F240 WTHelperCertFindIssuerCertificate
+         95   5E 0001F270 WTHelperCertIsSelfSigned
+         96   5F 00022640 WTHelperCheckCertUsage
+         97   60 00022730 WTHelperGetAgencyInfo
+         98   61 000227C0 WTHelperGetFileHandle
+         99   62 00022400 WTHelperGetFileHash
+        100   63 000100C0 WTHelperGetFileName
+        101   64 00022800 WTHelperGetKnownUsages
+        102   65 00009650 WTHelperGetProvCertFromChain
+        103   66 0000A360 WTHelperGetProvPrivateDataFromChain
+        104   67 00013A70 WTHelperGetProvSignerFromChain
+        105   68 00022880 WTHelperIsChainedToMicrosoft
+        106   69 00022990 WTHelperIsChainedToMicrosoftFromStateData
+        107   6A 00022A30 WTHelperIsInRootStore
+        108   6B 00022AF0 WTHelperOpenKnownStores
+        109   6C 00013CA0 WTHelperProvDataFromStateData
+        110   6D 0002E000 WTIsFirstConfigCiResultPreferred
+        111   6E 0002E060 WTLogConfigCiScriptEvent
+        112   6F 0002E450 WTLogConfigCiSignerEvent
+        113   70 00023FB0 WTValidateBioSignaturePolicy
+        114   71 00013590 WVTAsn1CatMemberInfo2Decode
+        115   72 0001FAE0 WVTAsn1CatMemberInfo2Encode
+        116   73 0001FB80 WVTAsn1CatMemberInfoDecode
+        117   74 0001FC60 WVTAsn1CatMemberInfoEncode
+        118   75 00012F80 WVTAsn1CatNameValueDecode
+        119   76 0001FCA0 WVTAsn1CatNameValueEncode
+        120   77 0001FCF0 WVTAsn1IntentToSealAttributeDecode
+        121   78 0001FDB0 WVTAsn1IntentToSealAttributeEncode
+        122   79 0001FDE0 WVTAsn1SealingSignatureAttributeDecode
+        123   7A 0001FEC0 WVTAsn1SealingSignatureAttributeEncode
+        124   7B 0001FF60 WVTAsn1SealingTimestampAttributeDecode
+        125   7C 00020040 WVTAsn1SealingTimestampAttributeEncode
+        126   7D 00020090 WVTAsn1SpcFinancialCriteriaInfoDecode
+        127   7E 00020160 WVTAsn1SpcFinancialCriteriaInfoEncode
+        128   7F 00020190 WVTAsn1SpcIndirectDataContentDecode
+        129   80 000202E0 WVTAsn1SpcIndirectDataContentEncode
+        130   81 000203B0 WVTAsn1SpcLinkDecode
+        131   82 000087A0 WVTAsn1SpcLinkEncode
+        132   83 00020490 WVTAsn1SpcMinimalCriteriaInfoDecode
+        133   84 00020560 WVTAsn1SpcMinimalCriteriaInfoEncode
+        134   85 00020590 WVTAsn1SpcPeImageDataDecode
+        135   86 000150C0 WVTAsn1SpcPeImageDataEncode
+        136   87 000206B0 WVTAsn1SpcSigInfoDecode
+        137   88 00020780 WVTAsn1SpcSigInfoEncode
+        138   89 000207C0 WVTAsn1SpcSpAgencyInfoDecode
+        139   8A 000209F0 WVTAsn1SpcSpAgencyInfoEncode
+        140   8B 00020B90 WVTAsn1SpcSpOpusInfoDecode
+        141   8C 00020CD0 WVTAsn1SpcSpOpusInfoEncode
+        142   8D 00020DA0 WVTAsn1SpcStatementTypeDecode
+        143   8E 00020ED0 WVTAsn1SpcStatementTypeEncode
+        144   8F 0000B530 WinVerifyTrust
+        145   90 000224C0 WinVerifyTrustEx
+        146   91 00020F70 WintrustAddActionID
+        147   92 00021F30 WintrustAddDefaultForUsage
+        148   93 0000B2A0 WintrustCertificateTrust
+        149   94 00022140 WintrustGetDefaultForUsage
+        150   95 000213F0 WintrustGetRegPolicyFlags
+        151   96 0000C490 WintrustLoadFunctionPointers
+        152   97 000210F0 WintrustRemoveActionID
+        153   98 00029510 WintrustSetDefaultIncludePEPageHashes
+        154   99 00021480 WintrustSetRegPolicyFlags
+        155   9A 0002E6A0 WintrustUserWriteabilityCheck
+        156   9B 00013D80 mscat32DllRegisterServer
+        157   9C 00013D80 mscat32DllUnregisterServer
+        158   9D 00028240 mssip32DllRegisterServer
+        159   9E 00028480 mssip32DllUnregisterServer
+
+  Section contains the following delay load imports:
+
+    MSASN1.dll
+              00000001 Characteristics
+              4763E584 Address of HMODULE
+              47641190 Import Address Table
+              4763AC54 Import Name Table
+              4763BE20 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          47616226              4B ASN1CEREncEndBlk
+          4761623A              3B ASN1BEREncRemoveZeroBits
+          47616467              6E ASN1_Decode
+          47616471              75 ASN1_SetEncoderOption
+          4761645D              71 ASN1_FreeEncoded
+          47616230              16 ASN1BERDecOpenType2
+          47616453              6F ASN1_Encode
+          476163E8              70 ASN1_FreeDecoded
+          476163DE              77 ASN1bitstring_free
+          476163D4               5 ASN1BERDecCharString
+          476163CA              6D ASN1_CreateModule
+          47616244              76 ASN1bitstring_cmp
+          476163C0              10 ASN1BERDecNull
+          476163B6              1F ASN1BERDecU32Val
+          476163AC              14 ASN1BERDecOctetString2
+          476163A2              2A ASN1BEREncChar16String
+          47616398              21 ASN1BERDecUTCTime
+          4761638E               0 ASN1BERDecBitString
+          47616384              7D ASN1charstring_free
+          4761637A              19 ASN1BERDecS32Val
+          47616370              3A ASN1BEREncOpenType
+          47616366               3 ASN1BERDecChar16String
+          4761635C              65 ASN1Free
+          47616352              12 ASN1BERDecObjectIdentifier2
+          47616348              69 ASN1_CloseModule
+          4761633E              39 ASN1BEREncOctetString
+          47616334              36 ASN1BEREncNull
+          4761632A              29 ASN1BEREncBool
+          47616320              4F ASN1CEREncNewBlkElement
+          47616316              2F ASN1BEREncEndOfContents
+          4761630C              2C ASN1BEREncCharString
+          4761624E              8C ASN1octetstring_free
+          47616258              63 ASN1DecSetError
+          47616302              38 ASN1BEREncObjectIdentifier2
+          476162F8              4C ASN1CEREncFlushBlkElement
+          476162EE              3D ASN1BEREncS32
+          476162E4              64 ASN1EncSetError
+          476162DA              62 ASN1DecRealloc
+          47616262               A ASN1BERDecExplicitTag
+          4761626C              17 ASN1BERDecPeekTag
+          47616276              79 ASN1char16string_free
+          47616280              51 ASN1CEREncUTCTime
+          4761628A              28 ASN1BEREncBitString
+          476162D0              8A ASN1objectidentifier_free
+          476162C6               2 ASN1BERDecBool
+          476162BC               8 ASN1BERDecEndOfContents
+          476162B2              31 ASN1BEREncExplicitTag
+          476162A8               F ASN1BERDecNotEndOfContents
+          4761629E              13 ASN1BERDecOctetString
+          47616294              40 ASN1BEREncU32
+          4761620B              46 ASN1CEREncBeginBlk
+
+    CRYPTSP.dll
+              00000001 Characteristics
+              4763E588 Address of HMODULE
+              4764116C Import Address Table
+              4763AC30 Import Name Table
+              4763BEE0 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          4761640D               1 CryptAcquireContextA
+          47616417              15 CryptGetHashParam
+          47616421               7 CryptDestroyHash
+          4761642B              19 CryptHashData
+          47616435               4 CryptCreateHash
+          4761643F               2 CryptAcquireContextW
+          47616449              1F CryptSetProvParam
+          476163F2              1C CryptReleaseContext
+
+    CRYPT32.dll
+              00000001 Characteristics
+              4763E58C Address of HMODULE
+              47641000 Import Address Table
+              4763AAC4 Import Name Table
+              4763BF14 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          4761654A              17 CertControlStore
+          476168DA             10D I_CryptFreeTls
+          476168D0             101 I_CryptAllocTlsEx
+          476168C6             104 I_CryptDetachTls
+          476168BC             110 I_CryptGetDefaultCryptProv
+          476168B2             11A I_CryptReadTrustedPublisherDWORDValueFromRegistry
+          476168A8              F6 I_CertDiagControl
+          4761689E             10E I_CryptGetAsn1Decoder
+          47616894             120 I_CryptUninstallAsn1Module
+          4761688A             118 I_CryptInstallAsn1Module
+          47616880             10F I_CryptGetAsn1Encoder
+          47616876             11D I_CryptRemoveLruEntry
+          4761686C             11C I_CryptReleaseLruEntry
+          47616862             109 I_CryptFindLruEntryData
+          47616858             117 I_CryptInsertLruEntry
+          4761684E             103 I_CryptCreateLruEntry
+          47616844             102 I_CryptCreateLruCache
+          4761683A             10C I_CryptFreeLruCache
+          47616830             10B I_CryptFlushLruCache
+          476168EE             116 I_CryptGetTls
+          47616781              4F CertGetSubjectCertificateFromStore
+          47616777              A8 CryptImportPublicKeyInfoEx2
+          4761676D              B2 CryptMsgControl
+          47616763              AE CryptMemFree
+          47616759              BE CryptMsgVerifyCountersignatureEncodedEx
+          4761673B              B8 CryptMsgGetParam
+          47616731              B9 CryptMsgOpenToDecode
+          47616727              BC CryptMsgUpdate
+          4761671D              38 CertFindRDNAttr
+          47616713              5D CertRDNValueToStrW
+          47616709              A1 CryptHashCertificate2
+          476166FF              6C CertSetCertificateContextProperty
+          476166F5              90 CryptExportPublicKeyInfo
+          476166EB              5A CertOpenSystemStoreA
+          476166E1              1C CertCreateCertificateContext
+          476166D7              D6 CryptSIPRetrieveSubjectGuid
+          476166CD              2C CertEnumCertificatesInStore
+          476166C3               4 CertAddCertificateContextToStore
+          476166B9              21 CertDeleteCertificateFromStore
+          476166AF              89 CryptEncodeObjectEx
+          476166A5              31 CertFindAttribute
+          47616A98              D0 CryptSIPGetSealedDigest
+          47616AA2              13 CertCompareCertificate
+          47616AAC              CF CryptSIPGetCaps
+          47616673              95 CryptFindOIDInfo
+          47616669              CD CryptSIPAddProvider
+          4761665F              D4 CryptSIPRemoveProvider
+          47616655              88 CryptEncodeObject
+          4761664B              B6 CryptMsgEncodeAndSignCTL
+          47616641              B5 CryptMsgDuplicate
+          47616637              1D CertCreateContext
+          4761662D              D7 CryptSIPRetrieveSubjectGuidForCatalogFile
+          47616623              3A CertFindSubjectInSortedCTL
+          47616619              54 CertIsWeakHash
+          4761660F              D2 CryptSIPLoad
+          47616605              52 CertIsStrongHashToSign
+          476165FB              E4 CryptStringToBinaryW
+          476165F1              4B CertGetNameStringW
+          476165C2              8D CryptEnumOIDInfo
+          476165B8              46 CertGetCertificateContextProperty
+          476165AE              76 CertVerifyCertificateChainPolicy
+          476165A4              35 CertFindCertificateInStore
+          4761647B              85 CryptDecodeObjectEx
+          4761659A              57 CertOIDToAlgId
+          47616496              14 CertCompareCertificateName
+          476164A0              37 CertFindExtension
+          476164AA               F CertAddStoreToCollection
+          476164B4              47 CertGetEnhancedKeyUsage
+          476164BE              45 CertGetCertificateChain
+          476164C8              3E CertFreeCertificateChainEngine
+          476164D2              C8 CryptQueryObject
+          476164DC              12 CertCloseStore
+          476164E6              3D CertFreeCertificateChain
+          476164F0              59 CertOpenStore
+          476164FA              16 CertComparePublicKeyInfo
+          47616504              1B CertCreateCertificateChainEngine
+          4761650E              3C CertFreeCTLContext
+          47616518              40 CertFreeCertificateContext
+          47616522              26 CertDuplicateStore
+          4761652C              25 CertDuplicateCertificateContext
+          47616536              E9 CryptUnregisterOIDFunction
+          47616540              CA CryptRegisterOIDFunction
+          476168E4             11E I_CryptSetTls
+          47616554              84 CryptDecodeObject
+          4761655E              49 CertGetIssuerCertificateFromStore
+          47616568              7A CertVerifyValidityNesting
+          47616572              79 CertVerifyTimeValidity
+          4761657C              15 CertCompareIntegerBlob
+          47616586              78 CertVerifySubjectCertificateContext
+          47616590              B1 CryptMsgClose
+
+    bcrypt.dll
+              00000001 Characteristics
+              4763E590 Address of HMODULE
+              476412AC Import Address Table
+              4763AD70 Import Name Table
+              4763BF98 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          4761674F              39 BCryptVerifySignature
+          47616904              21 BCryptGetProperty
+          476165E7               2 BCryptCloseAlgorithmProvider
+          47616745               E BCryptDestroyKey
+          476165CC              27 BCryptOpenAlgorithmProvider
+          4761669B               6 BCryptCreateHash
+          47616691              23 BCryptHashData
+          47616687               D BCryptDestroyHash
+          4761667D              1B BCryptFinishHash
+
+    api-ms-win-security-lsalookup-l2-1-0.dll
+              00000001 Characteristics
+              4763E594 Address of HMODULE
+              4764126C Import Address Table
+              4763AD30 Import Name Table
+              4763C048 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          4761678B               1 LookupAccountSidW
+
+    api-ms-win-security-sddl-l1-1-0.dll
+              00000001 Characteristics
+              4763E598 Address of HMODULE
+              47641274 Import Address Table
+              4763AD38 Import Name Table
+              4763C050 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          476167A6               3 ConvertStringSidToSidW
+
+    ext-ms-win-advapi32-safer-l1-1-0.dll
+              00000001 Characteristics
+              4763E59C Address of HMODULE
+              476412D4 Import Address Table
+              4763AD98 Import Name Table
+              4763C058 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          476167D0               B SaferiSearchMatchingHashRules
+
+    USER32.dll
+              00000001 Characteristics
+              4763E5A4 Address of HMODULE
+              47641260 Import Address Table
+              4763AD24 Import Name Table
+              4763C0B4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          47616929             19D MessageBoxA
+          4761690E              C8 GetDesktopWindow
+
+    imagehlp.dll
+              00000001 Characteristics
+              4763E5A8 Address of HMODULE
+              476412DC Import Address Table
+              4763ADA0 Import Name Table
+              4763C0C0 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          4761696C              22 IsBufferCleanOfInvalidMarkers
+          47616933              15 ImageEnumerateCertificates
+          4761694E              1C ImageRemoveCertificate
+          47616958              12 ImageAddCertificate
+          47616962              17 ImageGetCertificateDataEx
+
+    api-ms-win-service-private-l1-1-0.dll
+              00000001 Characteristics
+              4763E5AC Address of HMODULE
+              4764129C Import Address Table
+              4763AD60 Import Name Table
+              4763C0D8 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          47616A7D              18 WaitServiceState
+
+    api-ms-win-service-management-l1-1-0.dll
+              00000001 Characteristics
+              4763E5B0 Address of HMODULE
+              4764127C Import Address Table
+              4763AD40 Import Name Table
+              4763C0EC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          47616B25               0 CloseServiceHandle
+          47616B1B               4 OpenSCManagerW
+          47616AF6               6 StartServiceW
+          47616AB6               5 OpenServiceW
+
+    api-ms-win-service-management-l2-1-0.dll
+              00000001 Characteristics
+              4763E5B4 Address of HMODULE
+              47641290 Import Address Table
+              4763AD54 Import Name Table
+              4763C0F4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          47616AD1               1 ChangeServiceConfigW
+          47616AEC               4 QueryServiceConfigW
+
+    api-ms-win-service-winsvc-l1-1-0.dll
+              00000001 Characteristics
+              4763E5B8 Address of HMODULE
+              476412A4 Import Address Table
+              4763AD68 Import Name Table
+              4763C104 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          47616B00               2 ControlService
+
+  Image has the following dependencies:
+
+    msvcrt.dll
+    api-ms-win-core-version-private-l1-1-0.dll
+    api-ms-win-core-file-l1-1-0.dll
+    api-ms-win-core-errorhandling-l1-1-0.dll
+    api-ms-win-core-synch-l1-1-0.dll
+    api-ms-win-core-heap-l2-1-0.dll
+    api-ms-win-eventing-provider-l1-1-0.dll
+    api-ms-win-core-processenvironment-l1-1-0.dll
+    api-ms-win-core-libraryloader-l1-2-0.dll
+    api-ms-win-core-libraryloader-l1-2-1.dll
+    api-ms-win-core-registry-l1-1-0.dll
+    api-ms-win-core-string-l1-1-0.dll
+    api-ms-win-core-heap-l1-1-0.dll
+    api-ms-win-core-handle-l1-1-0.dll
+    api-ms-win-core-sysinfo-l1-1-0.dll
+    api-ms-win-core-memory-l1-1-0.dll
+    api-ms-win-core-version-l1-1-0.dll
+    api-ms-win-core-synch-l1-2-0.dll
+    api-ms-win-core-processthreads-l1-1-0.dll
+    api-ms-win-core-profile-l1-1-0.dll
+    api-ms-win-core-memory-l1-1-1.dll
+    api-ms-win-core-io-l1-1-0.dll
+    api-ms-win-core-datetime-l1-1-0.dll
+    api-ms-win-core-timezone-l1-1-0.dll
+    api-ms-win-security-base-l1-1-0.dll
+    RPCRT4.dll
+    api-ms-win-core-debug-l1-1-0.dll
+    api-ms-win-core-kernel32-legacy-l1-1-0.dll
+    api-ms-win-core-string-obsolete-l1-1-0.dll
+    ntdll.dll
+    api-ms-win-core-apiquery-l1-1-0.dll
+    api-ms-win-core-delayload-l1-1-1.dll
+    api-ms-win-core-delayload-l1-1-0.dll
+
+  Section contains the following imports:
+
+    msvcrt.dll
+              4763F2B0 Import Address Table
+              4763F900 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  309 _onexit
+                  50B memmove
+                  260 _lock
+                  3C4 _unlock
+                  4A0 atol
+                  509 memcpy
+                  508 memcmp
+                  169 _except_handler3
+                  51A qsort_s
+                  16A _except_handler4_common
+                  1E8 _initterm
+                  111 _amsg_exit
+                   6F _XcptFilter
+                  122 _callnewh
+                  4FD malloc
+                  4C5 free
+                  3EC _vsnwprintf
+                  4A1 bsearch
+                  40D _wcsicmp
+                   9D __dllonexit
+                   79 __CxxFrameHandler3
+                  50A memcpy_s
+                  519 qsort
+                  570 wcschr
+                  587 wcstol
+                  247 _itow_s
+                  2FC _memicmp
+                  37C _stricmp
+                  417 _wcsnicmp
+                  57F wcsrchr
+                  56F wcscat_s
+                  48C _wtol
+                  55B towupper
+                  3E6 _vsnprintf
+                  26A _ltoa
+                  50D memset
+
+    api-ms-win-core-version-private-l1-1-0.dll
+              4763F240 Import Address Table
+              4763F890 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 GetFileVersionInfoByHandle
+
+    api-ms-win-core-file-l1-1-0.dll
+              4763F060 Import Address Table
+              4763F6B0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   4E SetEndOfFile
+                   2B GetFileAttributesExW
+                   56 SetFilePointerEx
+                    1 CompareFileTime
+                   49 ReadFile
+                   2E GetFileSize
+                    3 CreateDirectoryW
+                    6 CreateFileW
+                   55 SetFilePointer
+                   5B WriteFile
+                   2C GetFileAttributesW
+                    C FindClose
+                   2D GetFileInformationByHandle
+                   1A FindNextFileW
+                   2F GetFileSizeEx
+                   52 SetFileAttributesW
+                   14 FindFirstFileW
+
+    api-ms-win-core-errorhandling-l1-1-0.dll
+              4763F04C Import Address Table
+              4763F69C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    5 GetLastError
+                   11 UnhandledExceptionFilter
+                    D SetLastError
+                    F SetUnhandledExceptionFilter
+
+    api-ms-win-core-synch-l1-1-0.dll
+              4763F1C8 Import Address Table
+              4763F818 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   27 ResetEvent
+                   36 WaitForSingleObject
+                   25 ReleaseSRWLockShared
+                    1 AcquireSRWLockShared
+                   18 InitializeCriticalSection
+                   23 ReleaseMutex
+                   35 WaitForMultipleObjectsEx
+                    7 CreateMutexA
+                   1D LeaveCriticalSection
+                    3 CreateEventA
+                   11 EnterCriticalSection
+                    0 AcquireSRWLockExclusive
+                   29 SetEvent
+                   24 ReleaseSRWLockExclusive
+                    F DeleteCriticalSection
+
+    api-ms-win-core-heap-l2-1-0.dll
+              4763F0C4 Import Address Table
+              4763F714 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    2 LocalAlloc
+                    5 LocalReAlloc
+                    3 LocalFree
+
+    api-ms-win-eventing-provider-l1-1-0.dll
+              4763F248 Import Address Table
+              4763F898 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    5 EventUnregister
+                    4 EventSetInformation
+                    9 EventWriteTransfer
+                    3 EventRegister
+
+    api-ms-win-core-processenvironment-l1-1-0.dll
+              4763F134 Import Address Table
+              4763F784 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 ExpandEnvironmentStringsW
+                    B GetEnvironmentVariableW
+                    A GetEnvironmentVariableA
+                    0 ExpandEnvironmentStringsA
+                    7 GetCurrentDirectoryW
+
+    api-ms-win-core-libraryloader-l1-2-0.dll
+              4763F0E8 Import Address Table
+              4763F738 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    E FreeResource
+                   15 GetProcAddress
+                   20 SizeofResource
+                    C FreeLibrary
+                    1 DisableThreadLibraryCalls
+                   12 GetModuleHandleExA
+                   17 LoadLibraryExA
+                   1A LoadResource
+                   1D LockResource
+
+    api-ms-win-core-libraryloader-l1-2-1.dll
+              4763F110 Import Address Table
+              4763F760 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   19 LoadLibraryW
+                   16 LoadLibraryA
+
+    api-ms-win-core-registry-l1-1-0.dll
+              4763F174 Import Address Table
+              4763F7C4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    3 RegCreateKeyExW
+                    0 RegCloseKey
+                   20 RegQueryInfoKeyA
+                   1E RegOpenKeyExW
+                   25 RegQueryValueExW
+                    5 RegDeleteKeyExW
+                   2D RegSetValueExA
+                    F RegEnumValueA
+                   2E RegSetValueExW
+                   14 RegGetValueW
+                   24 RegQueryValueExA
+                    D RegEnumKeyExA
+                   1D RegOpenKeyExA
+
+    api-ms-win-core-string-l1-1-0.dll
+              4763F1AC Import Address Table
+              4763F7FC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    7 WideCharToMultiByte
+                    6 MultiByteToWideChar
+
+    api-ms-win-core-heap-l1-1-0.dll
+              4763F0B4 Import Address Table
+              4763F704 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    2 HeapAlloc
+                    0 GetProcessHeap
+                    6 HeapFree
+
+    api-ms-win-core-handle-l1-1-0.dll
+              4763F0A8 Import Address Table
+              4763F6F8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 CloseHandle
+                    2 DuplicateHandle
+
+    api-ms-win-core-sysinfo-l1-1-0.dll
+              4763F214 Import Address Table
+              4763F864 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   11 GetSystemInfo
+                    5 GetLocalTime
+                   1B GetTickCount64
+                    F GetSystemDirectoryW
+                   16 GetSystemTimeAsFileTime
+                   1A GetTickCount
+
+    api-ms-win-core-memory-l1-1-0.dll
+              4763F11C Import Address Table
+              4763F76C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   24 UnmapViewOfFile
+                    5 CreateFileMappingW
+                   10 MapViewOfFile
+
+    api-ms-win-core-version-l1-1-0.dll
+              4763F238 Import Address Table
+              4763F888 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    5 VerQueryValueW
+
+    api-ms-win-core-synch-l1-2-0.dll
+              4763F208 Import Address Table
+              4763F858 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   2D Sleep
+                   15 InitOnceExecuteOnce
+
+    api-ms-win-core-processthreads-l1-1-0.dll
+              4763F14C Import Address Table
+              4763F79C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   33 OpenThreadToken
+                   31 OpenProcessToken
+                   4F TerminateProcess
+                    C GetCurrentProcess
+                   11 GetCurrentThreadId
+                   10 GetCurrentThread
+                    D GetCurrentProcessId
+
+    api-ms-win-core-profile-l1-1-0.dll
+              4763F16C Import Address Table
+              4763F7BC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 QueryPerformanceCounter
+
+    api-ms-win-core-memory-l1-1-1.dll
+              4763F12C Import Address Table
+              4763F77C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   36 VirtualUnlock
+
+    api-ms-win-core-io-l1-1-0.dll
+              4763F0D4 Import Address Table
+              4763F724 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    4 DeviceIoControl
+
+    api-ms-win-core-datetime-l1-1-0.dll
+              4763F028 Import Address Table
+              4763F678 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 GetDateFormatA
+                    4 GetTimeFormatA
+
+    api-ms-win-core-timezone-l1-1-0.dll
+              4763F230 Import Address Table
+              4763F880 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 FileTimeToSystemTime
+
+    api-ms-win-security-base-l1-1-0.dll
+              4763F25C Import Address Table
+              4763F8AC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   2E FreeSid
+                   48 InitializeSecurityDescriptor
+                    D AddAce
+                   47 InitializeAcl
+                    8 AddAccessAllowedAceEx
+                   35 GetLengthSid
+                   16 AllocateAndInitializeSid
+                   2C EqualSid
+                   2F GetAce
+                   30 GetAclInformation
+                   41 GetSidSubAuthorityCount
+                   40 GetSidSubAuthority
+                   5C SetFileSecurityW
+                   1E CopySid
+                   4D IsValidSid
+                   38 GetSecurityDescriptorDacl
+                   62 SetSecurityDescriptorDacl
+                   3E GetSidIdentifierAuthority
+                   33 GetFileSecurityW
+                   42 GetTokenInformation
+
+    RPCRT4.dll
+              4763F000 Import Address Table
+              4763F650 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  20B RpcStringBindingComposeW
+                  20F RpcStringFreeW
+                  191 RpcEpResolveBinding
+                  16F RpcBindingFree
+                   A4 NdrClientCall2
+                  171 RpcBindingFromStringBindingW
+                  180 RpcBindingSetAuthInfoExW
+
+    api-ms-win-core-debug-l1-1-0.dll
+              4763F034 Import Address Table
+              4763F684 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    6 OutputDebugStringA
+
+    api-ms-win-core-kernel32-legacy-l1-1-0.dll
+              4763F0DC Import Address Table
+              4763F72C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   1B FindResourceExA
+                    8 CreateFileMappingA
+
+    api-ms-win-core-string-obsolete-l1-1-0.dll
+              4763F1B8 Import Address Table
+              4763F808 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    A lstrlenA
+                    B lstrlenW
+                    2 lstrcmpA
+
+    ntdll.dll
+              4763F344 Import Address Table
+              4763F994 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  1F8 NtQuerySecurityAttributesToken
+                  1DA NtQueryEaFile
+                  43C RtlGetVersion
+                  34E RtlCreateUnicodeString
+                  1F9 NtQuerySecurityObject
+                  459 RtlInitUnicodeString
+                  3EE RtlFreeUnicodeString
+                  312 RtlCompareUnicodeString
+                  2E1 RtlAppendUnicodeStringToString
+                  3B1 RtlEqualUnicodeString
+                  2D7 RtlAllocateHeap
+                   A1 LdrResSearchResource
+                  3F2 RtlGetAce
+                  332 RtlCopyUnicodeString
+                  41F RtlGetNtSystemRoot
+                  470 RtlInitializeSidEx
+                  3AF RtlEqualSid
+                  403 RtlGetDaclSecurityDescriptor
+                  7FB ZwQueryVolumeInformationFile
+                  4ED RtlNtStatusToDosError
+                  1FF NtQuerySystemInformation
+                  3E8 RtlFreeHeap
+                  500 RtlPrefixUnicodeString
+
+    api-ms-win-core-apiquery-l1-1-0.dll
+              4763F020 Import Address Table
+              4763F670 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 ApiSetQueryApiSetPresence
+
+    api-ms-win-core-delayload-l1-1-1.dll
+              4763F044 Import Address Table
+              4763F694 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 ResolveDelayLoadedAPI
+
+    api-ms-win-core-delayload-l1-1-0.dll
+              4763F03C Import Address Table
+              4763F68C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 DelayLoadFailureHook
+
+  Summary
+
+        1000 .data
+        1000 .didat
+        2000 .idata
+        3000 .reloc
+        2000 .rsrc
+       3D000 .text

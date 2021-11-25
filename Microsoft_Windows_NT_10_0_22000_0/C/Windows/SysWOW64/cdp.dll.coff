@@ -1,0 +1,1561 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\SysWOW64\cdp.dll
+
+File Type: DLL
+
+  Image has the following delay load dependencies:
+
+    RPCRT4.dll
+    wlanapi.dll
+    FirewallAPI.dll
+    SHCORE.dll
+    ext-ms-win-core-game-streaming-l1-1-0.dll
+    UMPDC.dll
+    sbservicetrigger.dll
+    api-ms-win-core-winrt-string-l1-1-0.dll
+    api-ms-win-core-winrt-error-l1-1-1.dll
+    api-ms-win-core-com-l1-1-0.dll
+    api-ms-win-core-winrt-error-l1-1-0.dll
+    api-ms-win-core-winrt-l1-1-0.dll
+    api-ms-win-appmodel-runtime-l1-1-0.dll
+    api-ms-win-appmodel-runtime-l1-1-1.dll
+    api-ms-win-core-sysinfo-l2-1-0.dll
+    WINHTTP.dll
+    api-ms-win-security-sddl-l1-1-0.dll
+    api-ms-win-core-com-l1-1-1.dll
+    bcrypt.dll
+    CRYPT32.dll
+    ncrypt.dll
+    IPHLPAPI.DLL
+    WS2_32.dll
+    api-ms-win-devices-query-l1-1-0.dll
+    PROPSYS.dll
+    ext-ms-win-bluetooth-apis-l1-1-0.dll
+    ext-ms-win-ole32-bindctx-l1-1-0.dll
+    ext-ms-win-session-wtsapi32-l1-1-0.dll
+    ext-ms-win-session-usermgr-l1-1-0.dll
+    ext-ms-win-session-usertoken-l1-1-0.dll
+    ext-ms-win-xblauth-console-l1-1-0.dll
+    ext-ms-win-devmgmt-policy-l1-1-0.dll
+    ext-ms-win32-subsystem-query-l1-1-0.dll
+    ext-ms-win-containers-policymanagercli-l1-1-0.dll
+    winsqlite3.dll
+    dsreg.dll
+    api-ms-win-security-capability-l1-1-0.dll
+
+  Section contains the following exports for cdp.dll
+
+    00000000 characteristics
+    600416ED time date stamp
+        0.00 version
+           3 ordinal base
+         133 number of functions
+         133 number of names
+
+    ordinal hint RVA      name
+
+          4    0 0020E610 CDPAccountFromWebAccount
+          5    1 0020FCE0 CDPAcquireNetworkingInternal
+          6    2 0034D3D0 CDPCreateAFSRegistrationClientInternal
+          7    3 00115400 CDPCreateAFSUserSettingsInternal
+          8    4 000B59E0 CDPCreateAccountInternalForUser
+          9    5 00210500 CDPCreateAccountInternalWithStableUserId
+         10    6 00119030 CDPCreateAccountProviderInternal
+         11    7 0008FDE0 CDPCreateActivity
+         12    8 00184CE0 CDPCreateActivityAsset
+         13    9 000901E0 CDPCreateActivityInternal
+         14    A 000AE5B0 CDPCreateActivityStoreInfoInternal
+         15    B 0013A040 CDPCreateActivityStoreInfoWatcher
+         16    C 000F0F50 CDPCreateActivityStoreInfoWatcherForUser
+         17    D 000FBF60 CDPCreateActivityStoreInfoWatcherInternal
+         18    E 000AA240 CDPCreateActivityStoreReader
+         19    F 000AC3E0 CDPCreateActivityStoreReaderForUser
+         20   10 000AC8B0 CDPCreateActivityStoreReaderInternal
+         21   11 0026B8C0 CDPCreateAllDevicesQuery
+         22   12 0026B990 CDPCreateAllDevicesQueryForUser
+         23   13 000BBDF0 CDPCreateAnonymousAccount
+         24   14 00210610 CDPCreateAnonymousAccountInternal
+         25   15 00271BA0 CDPCreateAppControlClient
+         26   16 00271C90 CDPCreateAppControlClientInternal
+         27   17 000FAE20 CDPCreateAppId
+         28   18 00273C20 CDPCreateAppRegistrationManager
+         29   19 00273D80 CDPCreateAppRegistrationManagerForUser
+         30   1A 00135F50 CDPCreateAppRegistrationManagerInternal
+         31   1B 00210670 CDPCreateAzureActiveDirectoryAccount
+         32   1C 00312810 CDPCreateBeaconControl
+         33   1D 00312900 CDPCreateBeaconControlInternal
+         34   1E 00276620 CDPCreateBinaryClient
+         35   1F 002766F0 CDPCreateBinaryClientInternal
+         36   20 00278B60 CDPCreateBinaryHost
+         37   21 000FB070 CDPCreateBinaryHostInternal
+         38   22 00278B90 CDPCreateBinaryHostWithSettings
+         39   23 000DD850 CDPCreateCallbackNotifierInternal
+         40   24 0021D7D0 CDPCreateCloudNotification
+         41   25 0021E290 CDPCreateComObjectInternal
+         42   26 000D0C70 CDPCreateCrossPlatformAppId
+         43   27 0021F500 CDPCreateCrossPlatformAppIdFromAppId
+         44   28 0021F640 CDPCreateCurrentCrossPlatformAppId
+         45   29 00279AF0 CDPCreateDedupedDevice
+         46   2A 0027C5D0 CDPCreateDedupedDeviceQuery
+         47   2B 0027C6A0 CDPCreateDedupedDeviceQueryForUser
+         48   2C 0027C790 CDPCreateDedupedDeviceQueryInternal
+         49   2D 0027DA80 CDPCreateDedupedDeviceQueryParameters
+         50   2E 00281090 CDPCreateDeviceInternal
+         51   2F 000A5080 CDPCreateDeviceQuery
+         52   30 0026BA90 CDPCreateDeviceQueryForSessionInternal
+         53   31 000A50D0 CDPCreateDeviceQueryForUser
+         54   32 000A4AF0 CDPCreateDeviceQueryInternal
+         55   33 0026BC00 CDPCreateDeviceQueryWithIdentity
+         56   34 00282560 CDPCreateDirectNotificationHost
+         57   35 002203D0 CDPCreateEmptyAccountSettings
+         58   36 00221C10 CDPCreateEnvironmentManagerInternal
+         59   37 00223730 CDPCreateHttpRequestInternal
+         60   38 00283D00 CDPCreateMessagingHost
+         61   39 00283DE0 CDPCreateMessagingHostInternal
+         62   3A 00210700 CDPCreateMicrosoftAccount
+         63   3B 00284F90 CDPCreateOrGetDdsRegistrationUserObjectInternal
+         64   3C 00223C40 CDPCreatePlatformSettingsInternal
+         65   3D 00312E00 CDPCreateRemoteUserInternal
+         66   3E 00227220 CDPCreateResource
+         67   3F 00227480 CDPCreateResourceCollection
+         68   40 0011FC30 CDPCreateSettingsInteropInternal
+         69   41 00351660 CDPCreateTask
+         70   42 00351830 CDPCreateTaskInternal
+         71   43 002287A0 CDPCreateTelemetryTask
+         72   44 00228880 CDPCreateTelemetryTaskInternal
+         73   45 00184DE0 CDPCreateTestActivityAsset
+         74   46 0022A080 CDPCreateUserInternal
+         75   47 00285B30 CDPCreateUserNotificationClientInternal
+         76   48 000E48E0 CDPCreateUserServiceNotificationClient
+         77   49 000E4950 CDPCreateUserServiceNotificationClientForUser
+         78   4A 00096D50 CDPCreateUuid
+         79   4B 00314940 CDPFixAccounts
+         80   4C 00351FC0 CDPGetAFCInitializer
+         81   4D 000D2080 CDPGetAccountProviderInternal
+         82   4E 00314B00 CDPGetAccountsNeedAttention
+         83   4F 002204B0 CDPGetAccountsSettings
+         84   50 000A6C30 CDPGetActivityStore
+         85   51 003577D0 CDPGetActivityStoreForAccount
+         86   52 00357910 CDPGetActivityStoreForAccountInternal
+         87   53 00133C60 CDPGetActivityStoreForStoreInfo
+         88   54 00133CB0 CDPGetActivityStoreForStoreInfoAndUser
+         89   55 001367D0 CDPGetActivityStoreForStoreInfoInternal
+         90   56 000A80E0 CDPGetActivityStoreForUser
+         91   57 000A8210 CDPGetActivityStoreInternal
+         92   58 0022C440 CDPGetCloudNotificationProviderInternal
+         93   59 0022CDB0 CDPGetCoreInitializer
+         94   5A 002863B0 CDPGetDeviceCache
+         95   5B 002864A0 CDPGetDeviceCacheInternal
+         96   5C 001362F0 CDPGetHost
+         97   5D 00189200 CDPGetInProcActivityStoreForUserToken
+         98   5E 001378F0 CDPGetLogger
+         99   5F 00230200 CDPGetNearShareAuthorizationPolicyOfInteractiveUser
+        100   60 00286F40 CDPGetRelayInitializer
+        101   61 002277A0 CDPGetResourceHandler
+        102   62 001255E0 CDPGetResourceManager
+        103   63 00230340 CDPGetSDKAuthorizationPolicyOfInteractiveUser
+        104   64 00314F60 CDPGetSGSocket
+        105   65 0021C670 CDPGetSystemAppId
+        106   66 000F1180 CDPGetUserActivitySettings
+        107   67 000F11D0 CDPGetUserActivitySettingsForUser
+        108   68 0012DBC0 CDPGetUserActivitySettingsInternal
+        109   69 00230B80 CDPGetUserCollectionInternal
+        110   6A 000CD2E0 CDPInitialize
+        111   6B 001332D0 CDPInitializeForService
+        112   6C 00315380 CDPInitializeSGPowerOnPacket
+        113   6D 00119A20 CDPInitializeUserService
+        114   6E 00119E10 CDPInitializeUserServicePhase2
+        115   6F 00314C60 CDPIsEnabled
+        116   70 00230EF0 CDPPreShutdown
+        117   71 001346D0 CDPRegisterActivityConflictResolverInternal
+        118   72 0020FE20 CDPReleaseNetworkingInternal
+        119   73 001371D0 CDPResume
+        120   74 00126F90 CDPSetAccountProviderInternal
+        121   75 0028AC80 CDPSetAppControlHostCallback
+        122   76 00281260 CDPSetExtendedLocalDeviceStatus
+        123   77 00231F00 CDPSetResourceConfigProvider
+        124   78 0013B8F0 CDPSetServicePid
+        125   79 000A62D0 CDPShutdown
+        126   7A 00287240 CDPShutdownBluetooth
+        127   7B 00287310 CDPStartCCSPolling
+        128   7C 00287330 CDPStopCCSPolling
+        129   7D 00287350 CDPSuspend
+        130   7E 00317130 CDPUninitializeUserService
+        131   7F 002207F0 CDPWriteAccountSettings
+        132   80 000EBA70 DllCanUnloadNow
+        133   81 000E6D90 DllGetClassObject
+        134   82 0020E050 DllRegisterServer
+        135   83 0020E070 DllUnregisterServer
+          3   84 0020E090 GetProxyDllInfo
+
+  Section contains the following delay load imports:
+
+    RPCRT4.dll
+              00000001 Characteristics
+              10409EEC Address of HMODULE
+              1041006C Import Address Table
+              103FBA84 Import Name Table
+              103FD0B8 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013CCB5              D7 NdrDllCanUnloadNow
+          1013CC95              D9 NdrDllRegisterProxy
+          1013CC74              DA NdrDllUnregisterProxy
+          1013DBDC             141 NdrStubCall2
+          1013DBBC             142 NdrStubForwardingFunction
+          1013DB9C              10 IUnknown_QueryInterface_Proxy
+          1013DB7C             112 NdrOleAllocate
+          1013DB6C              A5 NdrClientCall4
+          1013DB4C              11 IUnknown_Release_Proxy
+          1013CCA5              D8 NdrDllGetClassObject
+          1013DAED             1CD RpcServerInqCallAttributesW
+          1013DAFD             21E UuidFromStringW
+          1013DB0D               F IUnknown_AddRef_Proxy
+          1013DB2C             113 NdrOleFree
+
+    wlanapi.dll
+              00000001 Characteristics
+              10409EF0 Address of HMODULE
+              104103F4 Import Address Table
+              103FBE0C Import Name Table
+              103FD0CC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013CD26              52 WFDQueryPropertyInt
+          1013CD16              2B WFDGetSessionEndpointPairsInt
+          1013CD06              19 WFDCloseSessionInt
+          1013CCF6              15 WFDCancelOpenSessionInt
+          1013CCE6              5E WFDStartOpenSessionInt
+          1013CCD6              65 WFDStopUsingGroupInt
+          1013CD46              24 WFDFreeMemoryInt
+          1013CD36              57 WFDSetPropertyInt
+
+    FirewallAPI.dll
+              00000001 Characteristics
+              10409EF4 Address of HMODULE
+              10410040 Import Address Table
+              103FBA58 Import Name Table
+              103FD0F0 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013CD77              5F FWResetIndicatedTupleInUse
+          1013CD56              54 FWIndicateTupleInUse2
+
+    SHCORE.dll
+              00000001 Characteristics
+              10409EF8 Address of HMODULE
+              104100A8 Import Address Table
+              103FBAC0 Import Name Table
+              103FD0FC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013CDF8              14 IStream_Size
+          1013CDE8              12 IStream_ReadStr
+          1013CDD8              16 IStream_WriteStr
+          1013CD87                 Ordinal   190
+          1013CDB8              15 IStream_Write
+          1013CDA8              28 SHCreateMemStream
+          1013CE08              11 IStream_Read
+          1013CDC8              13 IStream_Reset
+
+    ext-ms-win-core-game-streaming-l1-1-0.dll
+              00000001 Characteristics
+              10409F00 Address of HMODULE
+              104102E0 Import Address Table
+              103FBCF8 Import Name Table
+              103FD120 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013CE63               0 IsGameStreamingServer
+
+    UMPDC.dll
+              00000001 Characteristics
+              10409F30 Address of HMODULE
+              104100CC Import Address Table
+              103FBAE4 Import Name Table
+              103FD128 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013D7F7              1E Pdcv2ActivationClientActivate
+          1013D7E7              23 Pdcv2ActivationClientUnregister
+          1013D7B6              1F Pdcv2ActivationClientDeactivate
+          1013D7D7              20 Pdcv2ActivationClientRegister
+
+    sbservicetrigger.dll
+              00000001 Characteristics
+              10409F34 Address of HMODULE
+              10410358 Import Address Table
+              103FBD70 Import Name Table
+              103FD13C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013DACD               2 ServiceTriggerRetrieveSockets
+          1013DAAC               3 ServiceTriggerTransferSocketOwnership
+          1013DADD               0 ServiceTriggerEnumerateTransferredSockets
+
+    api-ms-win-core-winrt-string-l1-1-0.dll
+              00000001 Characteristics
+              10409F38 Address of HMODULE
+              10410210 Import Address Table
+              103FBC28 Import Name Table
+              103FD174 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E5AC               0 HSTRING_UserFree
+          1013E5CC               3 HSTRING_UserUnmarshal
+          1013E562               2 HSTRING_UserSize
+          1013DC1D               C WindowsGetStringRawBuffer
+          1013DC7D               7 WindowsCreateStringReference
+          1013E58C               1 HSTRING_UserMarshal
+          1013E2A2               6 WindowsCreateString
+          1013DBFC               8 WindowsDeleteString
+
+    api-ms-win-core-winrt-error-l1-1-1.dll
+              00000001 Characteristics
+              10409F3C Address of HMODULE
+              104101F4 Import Address Table
+              103FBC0C Import Name Table
+              103FD180 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013DC2D               6 RoGetMatchingRestrictedErrorInfo
+
+    api-ms-win-core-com-l1-1-0.dll
+              00000001 Characteristics
+              10409F40 Address of HMODULE
+              104101A8 Import Address Table
+              103FBBC0 Import Name Table
+              103FD188 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013DD2F              49 CoWaitForMultipleHandles
+          1013DD80              26 CoImpersonateClient
+          1013DCAE              44 CoTaskMemRealloc
+          1013E3D1              3F CoSetProxyBlanket
+          1013DCBE              42 CoTaskMemAlloc
+          1013DD0F               9 CoCreateInstance
+          1013DF22              41 CoSwitchCallContext
+          1013DC50              43 CoTaskMemFree
+          1013DCFF               2 CLSIDFromString
+          1013DD3F               7 CoCreateFreeThreadedMarshaler
+          1013DD1F              53 StringFromCLSID
+          1013DD70              3B CoRevertToSelf
+
+    api-ms-win-core-winrt-error-l1-1-0.dll
+              00000001 Characteristics
+              10409F44 Address of HMODULE
+              104101EC Import Address Table
+              103FBC04 Import Name Table
+              103FD194 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013DC8D              12 SetRestrictedErrorInfo
+
+    api-ms-win-core-winrt-l1-1-0.dll
+              00000001 Characteristics
+              10409F48 Address of HMODULE
+              104101FC Import Address Table
+              103FBC14 Import Name Table
+              103FD1A4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E4C1               3 RoInitialize
+          1013E4D1               7 RoUninitialize
+          1013DCCE               1 RoGetActivationFactory
+          1013DCEF               0 RoActivateInstance
+
+    api-ms-win-appmodel-runtime-l1-1-0.dll
+              00000001 Characteristics
+              10409F4C Address of HMODULE
+              10410194 Import Address Table
+              103FBBAC Import Name Table
+              103FD1C4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013DD4F              14 GetCurrentPackageInfo
+
+    api-ms-win-appmodel-runtime-l1-1-1.dll
+              00000001 Characteristics
+              10409F50 Address of HMODULE
+              1041019C Import Address Table
+              103FBBB4 Import Name Table
+              103FD1D4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013DD90               F GetApplicationUserModelIdFromToken
+          1013DDB1              1B GetPackageFamilyNameFromToken
+
+    api-ms-win-core-sysinfo-l2-1-0.dll
+              00000001 Characteristics
+              10409F54 Address of HMODULE
+              104101E4 Import Address Table
+              103FBBFC Import Name Table
+              103FD1E0 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013DDC1               1 GetUserNameW
+
+    WINHTTP.dll
+              00000001 Characteristics
+              10409F58 Address of HMODULE
+              104100E0 Import Address Table
+              103FBAF8 Import Name Table
+              103FD1E8 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013DED0               8 WinHttpCloseHandle
+          1013DEB3              31 WinHttpReadData
+          1013DEA3              2D WinHttpQueryDataAvailable
+          1013DE93              2E WinHttpQueryHeaders
+          1013DE83              35 WinHttpReceiveResponse
+          1013DE73              27 WinHttpOpen
+          1013DE63              38 WinHttpSendRequest
+          1013DE53              3F WinHttpSetTimeouts
+          1013DE43               4 WinHttpAddRequestHeaders
+          1013DE33              3B WinHttpSetOption
+          1013DE23              28 WinHttpOpenRequest
+          1013DE13               9 WinHttpConnect
+          1013DE03              15 WinHttpCrackUrl
+          1013DDE2              3E WinHttpSetStatusCallback
+
+    api-ms-win-security-sddl-l1-1-0.dll
+              00000001 Characteristics
+              10409F5C Address of HMODULE
+              1041024C Import Address Table
+              103FBC64 Import Name Table
+              103FD224 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013DEE0               2 ConvertStringSecurityDescriptorToSecurityDescriptorW
+          1013E230               1 ConvertSidToStringSidW
+
+    api-ms-win-core-com-l1-1-1.dll
+              00000001 Characteristics
+              10409F60 Address of HMODULE
+              104101DC Import Address Table
+              103FBBF4 Import Name Table
+              103FD22C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013DF01              52 RoGetAgileReference
+
+    bcrypt.dll
+              00000001 Characteristics
+              10409F64 Address of HMODULE
+              10410258 Import Address Table
+              103FBC70 Import Name Table
+              103FD238 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E1E0              1B BCryptFinishHash
+          1013E1D0              21 BCryptGetProperty
+          1013E1C0              32 BCryptSecretAgreement
+          1013E1B0              36 BCryptSignHash
+          1013E190               F BCryptDestroySecret
+          1013E180               A BCryptDeriveKey
+          1013E170              19 BCryptExportKey
+          1013E1F0              23 BCryptHashData
+          1013E150               8 BCryptDecrypt
+          1013E140              1A BCryptFinalizeKeyPair
+          1013E130              39 BCryptVerifySignature
+          1013E120              12 BCryptEncrypt
+          1013E200               6 BCryptCreateHash
+          1013E210              24 BCryptImportKey
+          1013E1A0              25 BCryptImportKeyPair
+          1013E552              22 BCryptHash
+          1013E542              35 BCryptSetProperty
+          1013E220              1F BCryptGenerateSymmetricKey
+          1013E160              1E BCryptGenerateKeyPair
+          1013DF40               E BCryptDestroyKey
+          1013DF61              27 BCryptOpenAlgorithmProvider
+          1013DF91               D BCryptDestroyHash
+          1013DF81               2 BCryptCloseAlgorithmProvider
+          1013DF71              1D BCryptGenRandom
+
+    CRYPT32.dll
+              00000001 Characteristics
+              10409F68 Address of HMODULE
+              10410000 Import Address Table
+              103FBA18 Import Name Table
+              103FD250 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E532              C6 CryptProtectData
+          1013E4E1              E6 CryptUnprotectData
+          1013DFA1              21 CertDeleteCertificateFromStore
+          1013E040              64 CertSaveStore
+          1013E003              1E CertCreateSelfSignCertificate
+          1013E020              40 CertFreeCertificateContext
+          1013E030               4 CertAddCertificateContextToStore
+          1013E110              46 CertGetCertificateContextProperty
+          1013E100              4B CertGetNameStringW
+          1013E0F0              1C CertCreateCertificateContext
+          1013E0C0              70 CertStrToNameW
+          1013E0B0              59 CertOpenStore
+          1013E090              35 CertFindCertificateInStore
+          1013E070              12 CertCloseStore
+          1013E060              25 CertDuplicateCertificateContext
+
+    ncrypt.dll
+              00000001 Characteristics
+              10409F6C Address of HMODULE
+              10410334 Import Address Table
+              103FBD4C Import Name Table
+              103FD258 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013DFF3              48 NCryptExportKey
+          1013DFE3              49 NCryptFinalizeKey
+          1013E080              53 NCryptOpenKey
+          1013E050              55 NCryptOpenStorageProvider
+          1013E0D0              4B NCryptFreeObject
+          1013E0E0              5C NCryptSetProperty
+          1013E0A0              3E NCryptCreatePersistedKey
+          1013DFC2              41 NCryptDeleteKey
+
+    IPHLPAPI.DLL
+              00000001 Characteristics
+              10409F70 Address of HMODULE
+              1041004C Import Address Table
+              103FBA64 Import Name Table
+              103FD2F4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E240              42 GetAdaptersAddresses
+          1013E2F2              60 GetIpAddrTable
+          1013E292               D ConvertInterfaceGuidToLuid
+
+    WS2_32.dll
+              00000001 Characteristics
+              10409F74 Address of HMODULE
+              1041011C Import Address Table
+              103FBB34 Import Name Table
+              103FD2FC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E370                 Ordinal    23
+          1013E352                 Ordinal     6
+          1013E3E1                 Ordinal     5
+          1013E3F1              49 WSARecv
+          1013E401              4E WSASend
+          1013E380                 Ordinal     3
+          1013E4A1               9 GetNameInfoW
+          1013E411                 Ordinal    13
+          1013E421                 Ordinal     9
+          1013E431                 Ordinal    15
+          1013E441              56 WSASetServiceW
+          1013E451              3B WSAIoctl
+          1013E2E2              13 WSAAddressToStringA
+          1013E461                 Ordinal   115
+          1013E312              51 WSASendTo
+          1013E302              4B WSARecvFrom
+          1013E2D2                 Ordinal   111
+          1013E2C2              31 WSAGetOverlappedResult
+          1013E2B2                 Ordinal    21
+          1013E261                 Ordinal    12
+          1013E471                 Ordinal   116
+          1013E481               2 FreeAddrInfoW
+          1013E322              58 WSASocketW
+          1013E491               7 GetAddrInfoW
+          1013E390              9B getnameinfo
+          1013E282                 Ordinal    14
+          1013E332                 Ordinal     2
+          1013E4B1              5A WSAStringToAddressA
+          1013E342                 Ordinal    11
+
+    api-ms-win-devices-query-l1-1-0.dll
+              00000001 Characteristics
+              10409F78 Address of HMODULE
+              10410234 Import Address Table
+              103FBC4C Import Name Table
+              103FD348 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E3C1               0 DevCloseObjectQuery
+          1013E3A0               1 DevCreateObjectQuery
+
+    PROPSYS.dll
+              00000001 Characteristics
+              10409F7C Address of HMODULE
+              1041005C Import Address Table
+              103FBA74 Import Name Table
+              103FD39C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E522              2D PSCreateMemoryPropertyStore
+          1013E4F1              64 PSPropertyBag_WriteUnknown
+          1013E512              61 PSPropertyBag_WriteStr
+
+    ext-ms-win-bluetooth-apis-l1-1-0.dll
+              00000001 Characteristics
+              10409F80 Address of HMODULE
+              104102C8 Import Address Table
+              103FBCE0 Import Name Table
+              103FD3C8 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E619              17 BluetoothGetRadioInfo
+          1013E5F8               5 BluetoothFindFirstRadio
+          1013E629               8 BluetoothFindRadioClose
+
+    ext-ms-win-ole32-bindctx-l1-1-0.dll
+              00000001 Characteristics
+              10409F88 Address of HMODULE
+              104102F0 Import Address Table
+              103FBD08 Import Name Table
+              103FD3D8 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E684               0 CoGetObject
+
+    ext-ms-win-session-wtsapi32-l1-1-0.dll
+              00000001 Characteristics
+              10409F8C Address of HMODULE
+              10410310 Import Address Table
+              103FBD28 Import Name Table
+              103FD3E0 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E711               3 WTSEnumerateSessionsExW
+          1013E6A5               6 WTSFreeMemoryExW
+
+    ext-ms-win-session-usermgr-l1-1-0.dll
+              00000001 Characteristics
+              10409F94 Address of HMODULE
+              104102F8 Import Address Table
+              103FBD10 Import Name Table
+              103FD3EC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E78D              1A UMgrQueryUserToken
+          1013E721               9 UMgrGetConstrainedUserToken
+          1013E79D              19 UMgrQueryUserContext
+
+    ext-ms-win-session-usertoken-l1-1-0.dll
+              00000001 Characteristics
+              10409FA0 Address of HMODULE
+              10410308 Import Address Table
+              103FBD20 Import Name Table
+              103FD3FC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E7F8               1 QueryActiveSession
+
+    ext-ms-win-xblauth-console-l1-1-0.dll
+              00000001 Characteristics
+              10409FA4 Address of HMODULE
+              1041031C Import Address Table
+              103FBD34 Import Name Table
+              103FD404 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E84A               C XblaGetConsoleId
+          1013E83A               D XblaGetConsoleSerialNumber
+          1013E819              1C XblaInitialize
+
+    ext-ms-win-devmgmt-policy-l1-1-0.dll
+              00000001 Characteristics
+              10409FB8 Address of HMODULE
+              104102E8 Import Address Table
+              103FBD00 Import Name Table
+              103FD414 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E8A5              20 PolicyManager_GetPolicyInt
+
+    ext-ms-win32-subsystem-query-l1-1-0.dll
+              00000001 Characteristics
+              10409FC0 Address of HMODULE
+              1041032C Import Address Table
+              103FBD44 Import Name Table
+              103FD41C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E911               0 QueryWin32SubsystemHost
+
+    ext-ms-win-containers-policymanagercli-l1-1-0.dll
+              00000001 Characteristics
+              10409FCC Address of HMODULE
+              104102D8 Import Address Table
+              103FBCF0 Import Name Table
+              103FD424 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E97D               2 CpmcGetContainerIdForUser
+
+    winsqlite3.dll
+              00000001 Characteristics
+              10409FD0 Address of HMODULE
+              10410368 Import Address Table
+              103FBD80 Import Name Table
+              103FD42C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013E9FF              65 sqlite3_extended_result_codes
+          1013EA0F              79 sqlite3_last_insert_rowid
+          1013E99E              23 sqlite3_close
+          1013EA2F              C1 sqlite3_sourceid
+          1013EA3F              52 sqlite3_db_filename
+          1013EA4F              8B sqlite3_next_stmt
+          1013EA5F              C6 sqlite3_stmt_busy
+          1013EA6F              96 sqlite3_prepare_v2
+          1013EA7F              61 sqlite3_exec
+          1013EA8F              6B sqlite3_free
+          1013EA9F               C sqlite3_bind_int64
+          1013EAAF               B sqlite3_bind_int
+          1013EABF               A sqlite3_bind_double
+          1013EACF              22 sqlite3_clear_bindings
+          1013E9DF              64 sqlite3_extended_errcode
+          1013EAEF               8 sqlite3_bind_blob
+          1013EAFF              30 sqlite3_column_int
+          1013EB0F              5D sqlite3_errcode
+          1013EB1F              31 sqlite3_column_int64
+          1013EB2F              2F sqlite3_column_double
+          1013EB3F              38 sqlite3_column_text
+          1013EB4F              27 sqlite3_column_blob
+          1013EA1F              7A sqlite3_libversion
+          1013EB6F              3A sqlite3_column_type
+          1013EB7F              C2 sqlite3_sql
+          1013EB8F              53 sqlite3_db_handle
+          1013EB9F              6A sqlite3_finalize
+          1013EBAF              9E sqlite3_reset
+          1013EBBF              C5 sqlite3_step
+          1013E9CF              8E sqlite3_open_v2
+          1013E9EF              66 sqlite3_file_control
+          1013E9BF              5E sqlite3_errmsg
+          1013EADF              12 sqlite3_bind_text
+          1013EB5F              28 sqlite3_column_bytes
+
+    dsreg.dll
+              00000001 Characteristics
+              10409FD4 Address of HMODULE
+              104102BC Import Address Table
+              103FBCD4 Import Name Table
+              103FD4B8 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013EBF1              1A DsrGetJoinInfo
+          1013EBD0              15 DsrFreeJoinInfo
+
+    api-ms-win-security-capability-l1-1-0.dll
+              00000001 Characteristics
+              10409FD8 Address of HMODULE
+              10410240 Import Address Table
+              103FBC58 Import Name Table
+              103FD4C4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1013EC22               4 RpcClientCapabilityCheck
+          1013EC01               0 CapabilityCheck
+
+  Image has the following dependencies:
+
+    api-ms-win-crt-runtime-l1-1-0.dll
+    api-ms-win-crt-private-l1-1-0.dll
+    api-ms-win-crt-string-l1-1-0.dll
+    combase.dll
+    api-ms-win-core-libraryloader-l1-2-0.dll
+    api-ms-win-core-profile-l1-1-0.dll
+    api-ms-win-core-processthreads-l1-1-0.dll
+    api-ms-win-core-sysinfo-l1-1-0.dll
+    api-ms-win-core-interlocked-l1-1-0.dll
+    api-ms-win-core-debug-l1-1-0.dll
+    api-ms-win-core-errorhandling-l1-1-0.dll
+    api-ms-win-core-processthreads-l1-1-1.dll
+    msvcp_win.dll
+    api-ms-win-crt-time-l1-1-0.dll
+    ntdll.dll
+    api-ms-win-core-string-l1-1-0.dll
+    api-ms-win-core-localization-l1-2-0.dll
+    api-ms-win-eventing-provider-l1-1-0.dll
+    api-ms-win-core-heap-l1-1-0.dll
+    api-ms-win-core-synch-l1-2-0.dll
+    api-ms-win-core-synch-l1-1-0.dll
+    api-ms-win-core-handle-l1-1-0.dll
+    api-ms-win-core-threadpool-l1-2-0.dll
+    api-ms-win-core-registry-l1-1-0.dll
+    api-ms-win-security-base-l1-1-0.dll
+    api-ms-win-core-processenvironment-l1-1-0.dll
+    api-ms-win-core-file-l1-1-0.dll
+    api-ms-win-core-file-l1-2-0.dll
+    api-ms-win-core-synch-l1-2-1.dll
+    api-ms-win-core-heap-l2-1-0.dll
+    api-ms-win-core-file-l2-1-0.dll
+    api-ms-win-core-path-l1-1-0.dll
+    api-ms-win-core-timezone-l1-1-0.dll
+    api-ms-win-core-io-l1-1-0.dll
+    api-ms-win-core-heap-obsolete-l1-1-0.dll
+    api-ms-win-core-apiquery-l1-1-0.dll
+    api-ms-win-core-delayload-l1-1-1.dll
+    api-ms-win-core-delayload-l1-1-0.dll
+    KERNELBASE.dll
+
+  Section contains the following imports:
+
+    api-ms-win-crt-runtime-l1-1-0.dll
+              1040B3A4 Import Address Table
+              1040BE5C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   39 _initterm_e
+                   38 _initterm
+
+    api-ms-win-crt-private-l1-1-0.dll
+              1040B294 Import Address Table
+              1040BD4C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  132 _o__get_errno
+                  158 _o__gmtime32_s
+                  163 _o__initialize_narrow_environment
+                  164 _o__initialize_onexit_table
+                  166 _o__invalid_parameter_noinfo
+                  167 _o__invalid_parameter_noinfo_noreturn
+                  1CD _o__localtime32_s
+                  267 _o__mkgmtime32
+                  26B _o__mktime32
+                  273 _o__purecall
+                  281 _o__register_onexit_function
+                  288 _o__seh_filter_dll
+                  28D _o__set_errno
+                  2AC _o__stricmp
+                  2B6 _o__strnicmp
+                  2C5 _o__strtoui64
+                  2FC _o__wcsicmp
+                  483 memmove
+                  381 _o_atoi
+                  38A _o_ceil
+                  3B1 _o_free
+                  3DA _o_iswspace
+                  3FA _o_malloc
+                  407 _o_modf
+                  41E _o_rand
+                  420 _o_realloc
+                  440 _o_strcpy_s
+                  443 _o_strftime
+                  445 _o_strncpy_s
+                  44A _o_strtol
+                  44D _o_strtoul
+                  452 _o_terminate
+                  458 _o_tolower
+                  459 _o_toupper
+                  472 _o_wcstoul
+                   1C __current_exception
+                   1D __current_exception_context
+                   32 _except_handler4_common
+                   E8 _o__errno
+                   BB _o__cexit
+                   B9 _o__callnewh
+                   B7 _o__beginthreadex
+                  487 strstr
+                   9A _o___stdio_common_vswprintf_s
+                   98 _o___stdio_common_vswprintf
+                   97 _o___stdio_common_vsscanf
+                   96 _o___stdio_common_vsprintf_s
+                   94 _o___stdio_common_vsprintf
+                   92 _o___stdio_common_vsnprintf_s
+                   C8 _o__configure_narrow_argv
+                   88 _o___std_type_info_destroy_list
+                   87 _o___std_exception_destroy
+                   86 _o___std_exception_copy
+                   D5 _o__difftime32
+                   D4 _o__dclass
+                   EA _o__execute_onexit_table
+                   44 _o__CIpow
+                   CF _o__crt_atexit
+                  480 memchr
+                  481 memcmp
+                  482 memcpy
+                    1 _CxxThrowException
+                  489 wcschr
+                  485 strchr
+                   27 __std_type_info_compare
+                   26 __std_terminate
+                   10 __CxxFrameHandler3
+
+    api-ms-win-crt-string-l1-1-0.dll
+              1040B3B0 Import Address Table
+              1040BE68 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   83 memset
+                   8E strncmp
+                   A6 wcsncmp
+                   92 strpbrk
+
+    combase.dll
+              1040B404 Import Address Table
+              1040BEBC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                      Ordinal     4
+                    D CStdStubBuffer_AddRef
+                      Ordinal     5
+                      Ordinal     7
+                      Ordinal     8
+                    F CStdStubBuffer_CountRefs
+                      Ordinal    16
+                      Ordinal     9
+                   15 CStdStubBuffer_QueryInterface
+                   11 CStdStubBuffer_DebugServerRelease
+                      Ordinal    15
+                   12 CStdStubBuffer_Disconnect
+                   14 CStdStubBuffer_IsIIDSupported
+                    E CStdStubBuffer_Connect
+                      Ordinal     3
+                      Ordinal    12
+                      Ordinal    21
+                      Ordinal    26
+                      Ordinal    27
+                      Ordinal    19
+                      Ordinal    22
+                    B CStdStubBuffer2_Disconnect
+                    C CStdStubBuffer2_QueryInterface
+                      Ordinal    18
+                      Ordinal    33
+                      Ordinal    34
+                      Ordinal    25
+                      Ordinal    20
+                      Ordinal    32
+                    9 CStdStubBuffer2_Connect
+                      Ordinal    23
+                      Ordinal    24
+                      Ordinal     6
+                    A CStdStubBuffer2_CountRefs
+                      Ordinal   154
+                   13 CStdStubBuffer_Invoke
+                      Ordinal    11
+                   20 NdrCStdStubBuffer2_Release
+                   21 NdrCStdStubBuffer_Release
+                      Ordinal    14
+                      Ordinal    13
+                      Ordinal    10
+                   10 CStdStubBuffer_DebugServerQueryInterface
+                      Ordinal     2
+                      Ordinal    17
+
+    api-ms-win-core-libraryloader-l1-2-0.dll
+              1040B0F0 Import Address Table
+              1040BBA8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   14 GetModuleHandleExW
+                   19 LoadLibraryExW
+                   15 GetModuleHandleW
+                    1 DisableThreadLibraryCalls
+                   13 GetModuleHandleExA
+                   12 GetModuleHandleA
+                    A FindResourceExW
+                   1B LoadResource
+                    C FindStringOrdinal
+                   16 GetProcAddress
+                   10 GetModuleFileNameA
+                    D FreeLibrary
+                   1E LockResource
+
+    api-ms-win-core-profile-l1-1-0.dll
+              1040B178 Import Address Table
+              1040BC30 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 QueryPerformanceCounter
+
+    api-ms-win-core-processthreads-l1-1-0.dll
+              1040B14C Import Address Table
+              1040BC04 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   55 TerminateProcess
+                   36 OpenThreadToken
+                   11 GetCurrentThreadId
+                    D GetCurrentProcessId
+                   34 OpenProcessToken
+                    C GetCurrentProcess
+                   10 GetCurrentThread
+                   52 SetThreadToken
+
+    api-ms-win-core-sysinfo-l1-1-0.dll
+              1040B22C Import Address Table
+              1040BCE4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    3 GetComputerNameExW
+                   1E GetVersionExW
+                    5 GetLocalTime
+                   13 GetSystemTime
+                   16 GetSystemTimeAsFileTime
+
+    api-ms-win-core-interlocked-l1-1-0.dll
+              1040B0D4 Import Address Table
+              1040BB8C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 InitializeSListHead
+
+    api-ms-win-core-debug-l1-1-0.dll
+              1040B010 Import Address Table
+              1040BAC8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    4 DebugBreak
+                    7 OutputDebugStringW
+                    5 IsDebuggerPresent
+
+    api-ms-win-core-errorhandling-l1-1-0.dll
+              1040B030 Import Address Table
+              1040BAE8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    D SetLastError
+                    7 RaiseException
+                   11 UnhandledExceptionFilter
+                    F SetUnhandledExceptionFilter
+                    5 GetLastError
+
+    api-ms-win-core-processthreads-l1-1-1.dll
+              1040B170 Import Address Table
+              1040BC28 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   32 IsProcessorFeaturePresent
+
+    msvcp_win.dll
+              1040B4BC Import Address Table
+              1040BF74 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  276 ?_Throw_future_error@std@@YAXABVerror_code@1@@Z
+                  5B6 _Thrd_sleep
+                  29A ?__ExceptionPtrRethrow@@YAXPBX@Z
+                  293 ?__ExceptionPtrAssign@@YAXPAXPBX@Z
+                  298 ?__ExceptionPtrCurrentException@@YAXPAX@Z
+                  274 ?_Throw_C_error@std@@YAXH@Z
+                  295 ?__ExceptionPtrCopy@@YAXPAXPBX@Z
+                  299 ?__ExceptionPtrDestroy@@YAXPAX@Z
+                  297 ?__ExceptionPtrCreate@@YAXPAX@Z
+                  585 _Mtx_lock
+                  584 _Mtx_init_in_situ
+                  581 _Mtx_destroy_in_situ
+                  10D ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_N@Z
+                  4B8 ?setf@ios_base@std@@QAEHH@Z
+                  100 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@I@Z
+                   FF ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z
+                  108 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z
+                  360 ?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEDD@Z
+                  4CE ?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+                  4B9 ?setf@ios_base@std@@QAEHHH@Z
+                  28D ?_Xinvalid_argument@std@@YAXPBD@Z
+                  5B0 _Thrd_detach
+                  555 _Cnd_wait
+                  28E ?_Xlength_error@std@@YAXPBD@Z
+                  54E _Cnd_do_broadcast_at_thread_exit
+                  54B _Cnd_broadcast
+                  5B3 _Thrd_hardware_concurrency
+                  552 _Cnd_signal
+                  50F ?tolower@?$ctype@D@std@@QBEDD@Z
+                  40F ?is@?$ctype@D@std@@QBE_NFD@Z
+                  291 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
+                  1C6 ?_Getcoll@_Locinfo@std@@QBE?AU_Collvec@@XZ
+                  3CC ?id@?$collate@D@std@@2V0locale@2@A
+                  131 ??Bid@locale@std@@QAEIXZ
+                  3CF ?id@?$ctype@D@std@@2V0locale@2@A
+                  1D5 ?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ
+                   6D ??0_Lockit@std@@QAE@H@Z
+                   6C ??0_Locinfo@std@@QAE@PBD@Z
+                  29F ?c_str@?$_Yarn@D@std@@QBEPBDXZ
+                  28F ?_Xout_of_range@std@@YAXPBD@Z
+                   A4 ??1_Locinfo@std@@QAE@XZ
+                  1B6 ?_Getcat@?$ctype@D@std@@SAIPAPBVfacet@locale@2@PBV42@@Z
+                  1F2 ?_Incref@facet@locale@std@@UAEXXZ
+                  20F ?_Init@locale@std@@CAPAV_Locimp@12@_N@Z
+                  19E ?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
+                  5A8 _Strcoll
+                  5A9 _Strxfrm
+                   AB ??1facet@locale@std@@MAE@XZ
+                   75 ??0facet@locale@std@@IAE@I@Z
+                  5C0 _Unlock_shared_ptr_spin_lock
+                  57A _Lock_shared_ptr_spin_lock
+                  25D ?_Random_device@std@@YAIXZ
+                   CC ??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAH@Z
+                   1A ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+                  273 ?_Syserror_map@std@@YAPBDH@Z
+                  590 _Query_perf_counter
+                   83 ??1?$basic_istream@DU?$char_traits@D@std@@@std@@UAE@XZ
+                  510 ?tolower@?$ctype@D@std@@QBEPBDPADPBD@Z
+                  589 _Mtx_unlock
+                  28B ?_Xbad_alloc@std@@YAXXZ
+                   25 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+                   86 ??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ
+                  28C ?_Xbad_function_call@std@@YAXXZ
+                  113 ??6?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV01@K@Z
+                   28 ??0?$basic_ostream@GU?$char_traits@G@std@@@std@@QAE@PAV?$basic_streambuf@GU?$char_traits@G@std@@@1@_N@Z
+                    E ??0?$basic_ios@GU?$char_traits@G@std@@@std@@IAE@XZ
+                  4C0 ?setp@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXPAG00@Z
+                  35A ?epptr@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ
+                  4BB ?setg@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXPAG00@Z
+                  351 ?egptr@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ
+                  34E ?eback@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ
+                  4C1 ?setp@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXPAG0@Z
+                  43F ?pbase@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ
+                   32 ??0?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAE@XZ
+                  4E2 ?sputn@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAE_JPBG_J@Z
+                  3F7 ?imbue@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEXABVlocale@2@@Z
+                  4B6 ?setbuf@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEPAV12@PAG_J@Z
+                  544 ?xsgetn@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAE_JPAG_J@Z
+                  51C ?uflow@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEGXZ
+                  4D6 ?showmanyc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAE_JXZ
+                  547 ?xsputn@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAE_JPBG_J@Z
+                  4DF ?sputc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEGG@Z
+                  363 ?fill@?$basic_ios@GU?$char_traits@G@std@@@std@@QBEGXZ
+                  229 ?_Lock@?$basic_streambuf@GU?$char_traits@G@std@@@std@@UAEXXZ
+                  50C ?tie@?$basic_ios@GU?$char_traits@G@std@@@std@@QBEPAV?$basic_ostream@GU?$char_traits@G@std@@@2@XZ
+                  280 ?_Unlock@?$basic_streambuf@GU?$char_traits@G@std@@@std@@UAEXXZ
+                  489 ?rdbuf@?$basic_ios@GU?$char_traits@G@std@@@std@@QBEPAV?$basic_streambuf@GU?$char_traits@G@std@@@2@XZ
+                  245 ?_Osfx@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEXXZ
+                  4FE ?sync@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MAEHXZ
+                  4C7 ?setstate@?$basic_ios@GU?$char_traits@G@std@@@std@@QAEXH_N@Z
+                  369 ?flush@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEAAV12@XZ
+                  551 _Cnd_register_at_thread_exit
+                   87 ??1?$basic_ostream@GU?$char_traits@G@std@@@std@@UAE@XZ
+                   8A ??1?$basic_streambuf@GU?$char_traits@G@std@@@std@@UAE@XZ
+                  24B ?_Pninc@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEPAGXZ
+                  36C ?gbump@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IAEXH@Z
+                  448 ?pptr@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ
+                  3C7 ?gptr@?$basic_streambuf@GU?$char_traits@G@std@@@std@@IBEPAGXZ
+                   7E ??1?$basic_ios@GU?$char_traits@G@std@@@std@@UAE@XZ
+                   13 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+                    C ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ
+                  4BE ?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z
+                  359 ?epptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+                  4BA ?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z
+                  350 ?egptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+                  34D ?eback@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+                  4BF ?setp@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD0@Z
+                  43E ?pbase@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+                   2F ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ
+                  4C5 ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z
+                  361 ?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEDXZ
+                  487 ?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_streambuf@DU?$char_traits@D@std@@@2@XZ
+                  4E1 ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z
+                  368 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ
+                  244 ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ
+                  29C ?__ExceptionPtrToBool@@YA_NPBX@Z
+                  50A ?tie@?$basic_ios@DU?$char_traits@D@std@@@std@@QBEPAV?$basic_ostream@DU?$char_traits@D@std@@@2@XZ
+                  3F6 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
+                  4B5 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z
+                  543 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
+                  51B ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+                  4D5 ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ
+                  5B5 _Thrd_join
+                  4FD ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
+                   A5 ??1_Lockit@std@@QAE@XZ
+                  228 ?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+                  27F ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
+                  546 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
+                  3C5 ?good@ios_base@std@@QBE_NXZ
+                  51E ?uncaught_exception@std@@YA_NXZ
+                  53D ?width@ios_base@std@@QAE_J_J@Z
+                  4DE ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z
+                  265 ?_Rethrow_future_exception@std@@YAXVexception_ptr@1@@Z
+                  367 ?flags@ios_base@std@@QBEHXZ
+                  53E ?width@ios_base@std@@QBE_JXZ
+                   80 ??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UAE@XZ
+                   89 ??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ
+                  24A ?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ
+                  36B ?gbump@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXH@Z
+                   D1 ??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAN@Z
+                  130 ??7ios_base@std@@QBE_NXZ
+                  242 ?_New_Locimp@_Locimp@locale@std@@CAPAV123@ABV123@@Z
+                  3CA ?id@?$codecvt@GDU_Mbstatet@@@std@@2V0locale@2@A
+                   B1 ??4?$_Yarn@D@std@@QAEAAV01@PBD@Z
+                   8D ??1?$codecvt@GDU_Mbstatet@@@std@@MAE@XZ
+                   39 ??0?$codecvt@GDU_Mbstatet@@@std@@QAE@I@Z
+                  434 ?out@?$codecvt@GDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBG1AAPBGPAD3AAPAD@Z
+                  3FB ?in@?$codecvt@GDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPAG3AAPAG@Z
+                  192 ?_Addfac@_Locimp@locale@std@@AAEXPAVfacet@23@I@Z
+                   CF ??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAK@Z
+                  554 _Cnd_unregister_at_thread_exit
+                  447 ?pptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+                  591 _Query_perf_frequency
+                  553 _Cnd_timedwait
+                  275 ?_Throw_Cpp_error@std@@YAXH@Z
+                  57F _Mtx_current_owns
+                  5B8 _Thrd_yield
+                  5CC _Xtime_get_ticks
+                  54D _Cnd_destroy_in_situ
+                  3C6 ?gptr@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IBEPADXZ
+                  296 ?__ExceptionPtrCopyException@@YAXPAXPBX1@Z
+                   7D ??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ
+                  550 _Cnd_init_in_situ
+                  5B4 _Thrd_id
+
+    api-ms-win-crt-time-l1-1-0.dll
+              1040B3C4 Import Address Table
+              1040BE7C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   45 clock
+                   2F _time32
+
+    ntdll.dll
+              1040B750 Import Address Table
+              1040C208 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  502 RtlNtStatusToDosError
+                  156 NtDeleteWnfStateName
+                  147 NtCreateWnfStateName
+                  607 RtlUnsubscribeWnfNotificationWaitForCompletion
+                  20F NtQueryWnfStateData
+                  1B5 NtOpenMutant
+                  518 RtlPublishWnfStateData
+                  3FE RtlFreeUnicodeString
+                  449 RtlGetTokenNamedObjectPath
+                  139 NtCreateSemaphore
+                  46C RtlInitUnicodeString
+                  5D0 RtlSubscribeWnfStateChangeNotification
+                  5BE RtlSidDominates
+                  414 RtlGetDeviceFamilyInfoEnum
+                  4B5 RtlIsMultiUsersInSessionSku
+                  1BF NtOpenSemaphore
+
+    api-ms-win-core-string-l1-1-0.dll
+              1040B1AC Import Address Table
+              1040BC64 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 CompareStringOrdinal
+
+    api-ms-win-core-localization-l1-2-0.dll
+              1040B128 Import Address Table
+              1040BBE0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    9 FormatMessageW
+                   1D GetSystemPreferredUILanguages
+                   14 GetLocaleInfoEx
+
+    api-ms-win-eventing-provider-l1-1-0.dll
+              1040B3D0 Import Address Table
+              1040BE88 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    4 EventSetInformation
+                    5 EventUnregister
+                    3 EventRegister
+                    0 EventActivityIdControl
+                    9 EventWriteTransfer
+
+    api-ms-win-core-heap-l1-1-0.dll
+              1040B0B0 Import Address Table
+              1040BB68 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 GetProcessHeap
+                    2 HeapAlloc
+                    6 HeapFree
+
+    api-ms-win-core-synch-l1-2-0.dll
+              1040B218 Import Address Table
+              1040BCD0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   14 InitOnceComplete
+                   13 InitOnceBeginInitialize
+
+    api-ms-win-core-synch-l1-1-0.dll
+              1040B1B4 Import Address Table
+              1040BC6C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   1B InitializeSRWLock
+                    0 AcquireSRWLockExclusive
+                   29 SetEvent
+                   26 ReleaseSemaphore
+                    5 CreateEventExW
+                    B CreateSemaphoreExW
+                   11 EnterCriticalSection
+                   1D LeaveCriticalSection
+                   1A InitializeCriticalSectionEx
+                   36 WaitForSingleObject
+                   23 ReleaseMutex
+                   37 WaitForSingleObjectEx
+                   21 OpenSemaphoreW
+                   25 ReleaseSRWLockShared
+                    9 CreateMutexExW
+                    1 AcquireSRWLockShared
+                    F DeleteCriticalSection
+                   27 ResetEvent
+                   20 OpenMutexW
+                    A CreateMutexW
+                   19 InitializeCriticalSectionAndSpinCount
+                    6 CreateEventW
+                   24 ReleaseSRWLockExclusive
+                   31 TryAcquireSRWLockExclusive
+
+    api-ms-win-core-handle-l1-1-0.dll
+              1040B0A8 Import Address Table
+              1040BB60 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 CloseHandle
+
+    api-ms-win-core-threadpool-l1-2-0.dll
+              1040B244 Import Address Table
+              1040BCFC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    D CreateThreadpoolWait
+                   23 WaitForThreadpoolWaitCallbacks
+                    7 CloseThreadpoolWait
+                    C CreateThreadpoolTimer
+                   1A SetThreadpoolTimer
+                    8 CloseThreadpoolWork
+                   24 WaitForThreadpoolWorkCallbacks
+                   1F SubmitThreadpoolWork
+                   10 FreeLibraryWhenCallbackReturns
+                    E CreateThreadpoolWork
+                   1C SetThreadpoolWait
+                    6 CloseThreadpoolTimer
+                    2 CloseThreadpool
+                    9 CreateThreadpool
+                   19 SetThreadpoolThreadMinimum
+                   18 SetThreadpoolThreadMaximum
+                   22 WaitForThreadpoolTimerCallbacks
+
+    api-ms-win-core-registry-l1-1-0.dll
+              1040B180 Import Address Table
+              1040BC38 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    2 RegCreateKeyExA
+                   2E RegSetValueExW
+                   20 RegQueryInfoKeyA
+                   1D RegOpenKeyExA
+                    D RegEnumKeyExA
+                   13 RegGetValueA
+                    0 RegCloseKey
+                   1B RegNotifyChangeKeyValue
+                   14 RegGetValueW
+                    3 RegCreateKeyExW
+
+    api-ms-win-security-base-l1-1-0.dll
+              1040B3E8 Import Address Table
+              1040BEA0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   1E CopySid
+                   35 GetLengthSid
+                   45 ImpersonateLoggedOnUser
+                   59 RevertToSelf
+                   23 CreateWellKnownSid
+                   42 GetTokenInformation
+
+    api-ms-win-core-processenvironment-l1-1-0.dll
+              1040B144 Import Address Table
+              1040BBFC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 ExpandEnvironmentStringsW
+
+    api-ms-win-core-file-l1-1-0.dll
+              1040B048 Import Address Table
+              1040BB00 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   59 SetFilePointerEx
+                    A DeleteFileW
+                   55 SetFileAttributesW
+                    7 CreateFileW
+                    D FindClose
+                   50 RemoveDirectoryW
+                   1B FindNextFileW
+                   30 GetFileSizeEx
+                   5E WriteFile
+                   58 SetFilePointer
+                   51 SetEndOfFile
+                   2D GetFileAttributesW
+                   36 GetFullPathNameW
+                    3 CreateDirectoryA
+                   1F FlushFileBuffers
+                   15 FindFirstFileW
+                    4 CreateDirectoryW
+                   4C ReadFile
+
+    api-ms-win-core-file-l1-2-0.dll
+              1040B094 Import Address Table
+              1040BB4C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    5 CreateFile2
+
+    api-ms-win-core-synch-l1-2-1.dll
+              1040B224 Import Address Table
+              1040BCDC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   65 WaitForMultipleObjects
+
+    api-ms-win-core-heap-l2-1-0.dll
+              1040B0C0 Import Address Table
+              1040BB78 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    A LocalFree
+                    8 LocalAlloc
+
+    api-ms-win-core-file-l2-1-0.dll
+              1040B09C Import Address Table
+              1040BB54 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    8 MoveFileExW
+                    7 GetFileInformationByHandleEx
+
+    api-ms-win-core-path-l1-1-0.dll
+              1040B138 Import Address Table
+              1040BBF0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   12 PathCchSkipRoot
+                    1 PathAllocCombine
+
+    api-ms-win-core-timezone-l1-1-0.dll
+              1040B28C Import Address Table
+              1040BD44 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 FileTimeToSystemTime
+
+    api-ms-win-core-io-l1-1-0.dll
+              1040B0DC Import Address Table
+              1040BB94 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 CancelIoEx
+                    3 CreateIoCompletionPort
+                    9 PostQueuedCompletionStatus
+                    7 GetQueuedCompletionStatus
+
+    api-ms-win-core-heap-obsolete-l1-1-0.dll
+              1040B0CC Import Address Table
+              1040BB84 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    D LocalSize
+
+    api-ms-win-core-apiquery-l1-1-0.dll
+              1040B008 Import Address Table
+              1040BAC0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 ApiSetQueryApiSetPresence
+
+    api-ms-win-core-delayload-l1-1-1.dll
+              1040B028 Import Address Table
+              1040BAE0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 ResolveDelayLoadedAPI
+
+    api-ms-win-core-delayload-l1-1-0.dll
+              1040B020 Import Address Table
+              1040BAD8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 DelayLoadFailureHook
+
+    KERNELBASE.dll
+              1040B000 Import Address Table
+              1040BAB8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   23 BaseFormatObjectAttributes
+
+  Summary
+
+        C000 .data
+        1000 .didat
+        5000 .idata
+       35000 .reloc
+        1000 .rsrc
+      3FE000 .text

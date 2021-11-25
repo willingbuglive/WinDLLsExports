@@ -1,0 +1,342 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\ci.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    ntoskrnl.exe
+    HAL.dll
+    msrpc.sys
+    ext-ms-win-ci-xbox-l1-1-0.dll
+
+  Section contains the following imports:
+
+    ntoskrnl.exe
+             1C003A098 Import Address Table
+             1C003A948 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         AF9 ZwCreateKey
+                         801 RtlCheckTokenMembership
+                         4B9 KeInitializeTimer
+                         827 RtlCopyUnicodeString
+                          A1 ExAcquirePushLockExclusiveEx
+                         5E9 MmProtectDriverSection
+                         133 ExReleasePushLockExclusiveEx
+                         551 KeStackAttachProcess
+                         72A PsGetCurrentProcessId
+                          B4 ExAllocatePool2
+                          8E EtwUnregister
+                         B0C ZwDeleteKey
+                         134 ExReleasePushLockSharedEx
+                         729 PsGetCurrentProcess
+                         79B PsReferenceProcessFilePointer
+                          A2 ExAcquirePushLockSharedEx
+                          89 EtwRegister
+                         B7A ZwQueryValueKey
+                         755 PsGetProcessSectionBaseAddress
+                          E5 ExFreePoolWithTag
+                         B3A ZwOpenFile
+                          EC ExGetPreviousMode
+                         B76 ZwQuerySystemEnvironmentValueEx
+                         489 KeExpandKernelStackAndCalloutEx
+                         A40 SeSinglePrivilegeCheck
+                         152 ExSystemExceptionFilter
+                         850 RtlDuplicateUnicodeString
+                         AEA ZwClose
+                         BB3 ZwSetValueKey
+                         A10 SeExports
+                         561 KeUnstackDetachProcess
+                         B3C ZwOpenKey
+                         4D1 KeLeaveCriticalRegion
+                         538 KeSetCoalescableTimer
+                          94 EtwWriteTransfer
+                         782 PsIsSystemProcess
+                         781 PsIsProtectedProcessLight
+                         AF6 ZwCreateFile
+                         336 IoFileObjectType
+                         69B ObReferenceObjectByHandle
+                         4FB KeQuerySystemTimePrecise
+                         C1B qsort_s
+                         C05 bsearch_s
+                         57A LdrResSearchResource
+                         80E RtlCompareMemory
+                         B4F ZwPowerInformation
+                         B1F ZwFsControlFile
+                         22E FsRtlQueryKernelEaFile
+                         758 PsGetProcessServerSilo
+                         699 ObQueryNameString
+                         179 ExpInterlockedPopEntrySList
+                         85D RtlEqualString
+                         36D IoGetRelatedDeviceObject
+                         39F IoQueryVolumeInformation
+                         17A ExpInterlockedPushEntrySList
+                         B00 ZwCreateSection
+                          F5 ExInitializePagedLookasideList
+                         714 PsAttachSiloToCurrentThread
+                         754 PsGetProcessProtection
+                         10F ExQueryDepthSList
+                         350 IoGetDeviceAttachmentBaseRef
+                         35A IoGetDiskDeviceObject
+                         696 ObOpenObjectByPointer
+                         9AC RtlUTF8ToUnicodeN
+                         399 IoQueryFileInformation
+                         9BA RtlUnicodeToUTF8N
+                         1F0 FsRtlKernelFsControlFile
+                         722 PsDetachSiloFromCurrentThread
+                         247 FsRtlSetKernelEaFile
+                         BA7 ZwSetInformationVirtualMemory
+                         811 RtlCompareUnicodeString
+                         BC3 ZwUnmapViewOfSection
+                         7F6 RtlAvlInsertNodeEx
+                         7ED RtlAppendUnicodeStringToString
+                         7EE RtlAppendUnicodeToString
+                          CE ExDeleteResourceLite
+                         B5E ZwQueryDirectoryObject
+                         B7D ZwQueryWnfStateData
+                          A3 ExAcquireResourceExclusiveLite
+                         B68 ZwQueryInformationThread
+                         109 ExIsResourceAcquiredExclusiveLite
+                          A4 ExAcquireResourceSharedLite
+                         C1A qsort
+                         607 MmUserProbeAddress
+                         B5C ZwQueryDirectoryFile
+                         B30 ZwMapViewOfSection
+                         BA4 ZwSetInformationThread
+                         138 ExReleaseResourceLite
+                         B37 ZwOpenDirectoryObject
+                         C04 bsearch
+                         72E PsGetCurrentServerSilo
+                         117 ExRaiseDatatypeMisalignment
+                         B64 ZwQueryInformationFile
+                         7F7 RtlAvlRemoveNode
+                          F7 ExInitializeResourceLite
+                          C2 ExConvertExclusiveToSharedLite
+                         47B KeDelayExecutionThread
+                         973 RtlRunOnceExecuteOnce
+                         4AF KeInitializeEvent
+                         566 KeWaitForSingleObject
+                         5F1 MmSectionObjectType
+                         604 MmUnmapViewInSystemSpace
+                         5DC MmMapViewInSystemSpaceEx
+                          D6 ExEnterCriticalRegionAndAcquireResourceShared
+                         135 ExReleaseResourceAndLeaveCriticalRegion
+                         793 PsProcessType
+                         7B1 PsSetCreateProcessNotifyRoutineEx
+                          D5 ExEnterCriticalRegionAndAcquireResourceExclusive
+                         833 RtlCreateUnicodeString
+                         B18 ZwEnumerateValueKey
+                         8CC RtlInitUnicodeString
+                         8C1 RtlImageNtHeaderEx
+                          6E DbgPrint
+                         4E2 KeQueryActiveProcessorCountEx
+                         780 PsIsProtectedProcess
+                         794 PsQueryProcessAttributesByToken
+                         300 IoClearActivityIdThread
+                         949 RtlPrefixUnicodeString
+                         578 LdrResFindResource
+                         77A PsIsCurrentThreadPrefetching
+                          85 EtwActivityIdControl
+                         8C0 RtlImageNtHeader
+                         75B PsGetProcessSignatureLevel
+                         3D6 IoSetActivityIdThread
+                         882 RtlFindUnicodeSubstring
+                         659 NtQuerySystemInformation
+                         9A2 RtlTimeToTimeFields
+                         B7F ZwReadFile
+                          87 EtwEventEnabled
+                         A36 SeReportSecurityEventWithSubCategory
+                         345 IoGetActivityIdThread
+                         1BC FsRtlGetFileNameInformation
+                          8F EtwWrite
+                         A1A SeLocateProcessImageName
+                         238 FsRtlReleaseFileNameInformation
+                         B7C ZwQueryVolumeInformationFile
+                         41B IoVolumeDeviceToDosName
+                         B74 ZwQuerySecurityObject
+                         A28 SeQuerySecureBootPlatformManifest
+                         88F RtlGUIDFromString
+                         953 RtlQueryPackageClaims
+                         B16 ZwEnumerateKey
+                         4FC KeQueryTimeIncrement
+                         7F8 RtlCapabilityCheck
+                         C4C wcsncpy_s
+                         BC4 ZwUpdateWnfStateData
+                         8AF RtlGetPersistedStateLocation
+                         BF5 _wcsicmp
+                         A2A SeQuerySecurityAttributesToken
+                         C4E wcsrchr
+                         469 KeBugCheckEx
+                         745 PsGetPermanentSiloContext
+                         7D1 PsUnregisterSiloMonitor
+                         765 PsGetSiloMonitorContextSlot
+                         79F PsRegisterSiloMonitor
+                         71B PsCreateSiloContext
+                         7C7 PsStartSiloMonitor
+                         776 PsInsertPermanentSiloContext
+                         721 PsDereferenceSiloContext
+                         309 IoConvertFileHandleToKernelHandle
+                         848 RtlDeleteRegistryValue
+                         BC7 ZwWriteFile
+                         5FD MmUnlockPages
+                         8BF RtlImageDirectoryEntryToData
+                         5E6 MmProbeAndLockPages
+                         5F8 MmSizeOfMdl
+                         8E7 RtlInterlockedSetClearRun
+                         8E3 RtlInterlockedClearBitRun
+                         8CF RtlInitializeBitMap
+                          C4 ExConvertPushLockExclusiveToShared
+                         132 ExReleasePushLockEx
+                         BCA __chkstk
+                         BF0 _vsnprintf
+                         1BD FsRtlGetFileSize
+                         88E RtlFreeUnicodeString
+                         BEF _ultow_s
+                         6AB ObfDereferenceObject
+                         484 KeEnterCriticalRegion
+                         7FE RtlCheckRegistryKey
+                         43B KdDebuggerNotPresent
+                         A29 SeQuerySecureBootPolicyValue
+                         85E RtlEqualUnicodeString
+                          8C EtwSetInformation
+                         115 ExQueueWorkItem
+                          6F DbgPrintEx
+                         4AB KeInitializeDpc
+                         43A KdDebuggerEnabled
+                         B77 ZwQuerySystemInformation
+                         B6F ZwQueryLicenseValue
+                         52C KeRestoreExtendedProcessorState
+                         8A1 RtlGetEnabledExtendedFeatures
+                         532 KeSaveExtendedProcessorState
+                         8BA RtlGetVersion
+                         99E RtlTimeFieldsToTime
+                         C02 atoi
+                         C06 isdigit
+                         7EA RtlAnsiStringToUnicodeString
+                         892 RtlGetAce
+                         8AD RtlGetNtSystemRoot
+                         8D7 RtlInitializeSidEx
+                         85C RtlEqualSid
+                         89C RtlGetDaclSecurityDescriptor
+                         BF2 _vsnwprintf
+                         994 RtlStringFromGUID
+                         9AF RtlUnicodeStringToAnsiString
+                         B0B ZwDeleteFile
+                         812 RtlCompareUnicodeStrings
+                         79A PsReferencePrimaryToken
+                         954 RtlQueryPackageIdentity
+                         720 PsDereferencePrimaryToken
+                         9B2 RtlUnicodeStringToInteger
+                         71C PsCreateSystemThread
+                         8C3 RtlInitAnsiString
+                         C42 wcschr
+                         7B0 PsSetCreateProcessNotifyRoutine
+                         34F IoGetCurrentProcess
+                         66E NtSetInformationThread
+                         775 PsInitialSystemProcess
+                         652 NtQueryInformationThread
+                         542 KeSetPriorityThread
+                         7CA PsTerminateSystemThread
+                         C4A wcsncmp
+                         4CC KeIsExecutingDpc
+                         14A ExSetTimer
+                         13D ExReleaseSpinLockExclusive
+                          CF ExDeleteTimer
+                         49B KeGetCurrentIrql
+                          BA ExAllocateTimer
+                         15A ExTryAcquirePushLockExclusiveEx
+                         140 ExReleaseSpinLockSharedFromDpcLevel
+                         13F ExReleaseSpinLockShared
+                          AD ExAcquireSpinLockShared
+                         53A KeSetEvent
+                          AE ExAcquireSpinLockSharedAtDpcLevel
+                          AB ExAcquireSpinLockExclusive
+                          B8 ExAllocatePoolWithTag
+                         910 RtlIsStateSeparationEnabled
+                         BC9 __C_specific_handler
+                          CD ExDeletePagedLookasideList
+                         BD3 _local_unwind
+
+    HAL.dll
+             1C003A000 Import Address Table
+             1C003A8B0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          54 KeQueryPerformanceCounter
+
+    msrpc.sys
+             1C003A040 Import Address Table
+             1C003A8F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          3F RpcBindingUnbind
+                          33 RpcAsyncCancelCall
+                          34 RpcAsyncCompleteCall
+                          35 RpcAsyncGetCallStatus
+                           4 I_RpcExceptionFilter
+                          37 RpcBindingBind
+                          36 RpcAsyncInitializeHandle
+                          39 RpcBindingCreateW
+                          3A RpcBindingFree
+                          16 Ndr64AsyncClientCall
+
+    ext-ms-win-ci-xbox-l1-1-0.dll
+             1C003A010 Import Address Table
+             1C003A8C0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           4 XciValidateImageHeader
+                           1 XciQueryInformation
+                           0 XciInitialize
+                           2 XciSupported
+                           3 XciValidateImageData
+
+  Section contains the following exports for CI.dll
+
+    00000000 characteristics
+    4084621C time date stamp
+        0.00 version
+           1 ordinal base
+          13 number of functions
+          10 number of names
+
+    ordinal hint RVA      name
+
+          4    0 0003FAB0 CiCheckSignedFile
+          5    1 0003FB70 CiFindPageHashesInCatalog
+          6    2 0003FC10 CiFindPageHashesInSignedFile
+          7    3 0003FC50 CiFreePolicyInfo
+          8    4 0005DF00 CiGetCertPublisherName
+          9    5 0003F9A0 CiGetPEInformation
+         10    6 0003E140 CiInitialize
+         11    7 0005E500 CiSetTrustedOriginClaimId
+         12    8 00050270 CiValidateFileObject
+         13    9 0003FA40 CiVerifyHashInCatalog
+          1      00050CF0 [NONAME]
+          2      00059890 [NONAME]
+          3      00059AE0 [NONAME]
+
+  Summary
+
+        2000 .data
+        1000 .edata
+        3000 .idata
+        7000 .pdata
+        E000 .rdata
+        4000 .reloc
+       14000 .rsrc
+       22000 .text
+        1000 CiPolicy
+        2000 GFIDS
+        1000 INIT
+       7D000 PAGE
+        C000 PAGECONS
+        1000 PAGEDATA

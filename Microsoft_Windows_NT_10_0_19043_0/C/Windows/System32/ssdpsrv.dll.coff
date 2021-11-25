@@ -1,0 +1,534 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\ssdpsrv.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    msvcrt.dll
+    ntdll.dll
+    api-ms-win-core-synch-l1-1-0.dll
+    RPCRT4.dll
+    api-ms-win-service-winsvc-l1-1-0.dll
+    api-ms-win-service-core-l1-1-0.dll
+    api-ms-win-core-synch-l1-2-0.dll
+    api-ms-win-core-profile-l1-1-0.dll
+    api-ms-win-core-processthreads-l1-1-0.dll
+    api-ms-win-core-sysinfo-l1-1-0.dll
+    api-ms-win-core-errorhandling-l1-1-0.dll
+    api-ms-win-core-synch-l1-2-1.dll
+    api-ms-win-core-handle-l1-1-0.dll
+    api-ms-win-core-threadpool-l1-2-0.dll
+    WS2_32.dll
+    api-ms-win-core-kernel32-legacy-l1-1-0.dll
+    api-ms-win-security-base-l1-1-0.dll
+    api-ms-win-core-string-obsolete-l1-1-0.dll
+    api-ms-win-core-libraryloader-l1-2-0.dll
+    api-ms-win-core-threadpool-legacy-l1-1-0.dll
+    api-ms-win-core-registry-l1-1-0.dll
+    api-ms-win-core-io-l1-1-0.dll
+    api-ms-win-security-cryptoapi-l1-1-0.dll
+    api-ms-win-core-libraryloader-l1-2-1.dll
+    api-ms-win-core-string-l1-1-0.dll
+    api-ms-win-core-delayload-l1-1-1.dll
+    api-ms-win-core-delayload-l1-1-0.dll
+    api-ms-win-core-apiquery-l1-1-0.dll
+    NSI.dll
+    api-ms-win-stateseparation-helpers-l1-1-0.dll
+
+  Image has the following delay load dependencies:
+
+    POWRPROF.dll
+    IPHLPAPI.DLL
+    WINHTTP.dll
+    ext-ms-win32-subsystem-query-l1-1-0.dll
+    ext-ms-win-firewallapi-webproxy-l1-1-0.dll
+
+  Section contains the following exports for ssdpsrv.dll
+
+    00000000 characteristics
+    88A5F3DD time date stamp
+        0.00 version
+           1 ordinal base
+           2 number of functions
+           2 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000129C0 ServiceMain
+          2    1 00012BB0 SvchostPushServiceGlobals
+
+  Section contains the following imports:
+
+    msvcrt.dll
+             180032AB0 Import Address Table
+             1800385B0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         290 _onexit
+                         496 memset
+                         4D4 strstr
+                         420 atoi
+                          B4 _atoi64
+                         363 _vsnprintf
+                         4D6 strtok
+                         1D8 _itoa_s
+                          7B __dllonexit
+                         341 _unlock
+                          55 _XcptFilter
+                         1E6 _lock
+                          57 __C_specific_handler
+                         2FA _stricmp
+                         4D9 strtoul
+                         421 atol
+                         17D _initterm
+                         304 _strnicmp
+                         466 isdigit
+                         369 _vsnwprintf
+                         4CD strncmp
+                         486 malloc
+                         44C free
+                          AE _amsg_exit
+                         4C1 strchr
+                         4A7 rand
+                         4D2 strrchr
+                         2F2 _strcmpi
+                         492 memcpy
+                         4A9 realloc
+                         29E _purecall
+                         4C2 strcmp
+
+    ntdll.dll
+             180032BB8 Import Address Table
+             1800386B8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         4E9 RtlLookupFunctionEntry
+                         2F3 RtlCaptureContext
+                          56 EtwUnregisterTraceGuids
+                         628 RtlVirtualUnwind
+                          54 EtwTraceMessage
+                          48 EtwGetTraceLoggerHandle
+                          47 EtwGetTraceEnableLevel
+                          4F EtwRegisterTraceGuidsW
+                          46 EtwGetTraceEnableFlags
+
+    api-ms-win-core-synch-l1-1-0.dll
+             1800328C8 Import Address Table
+             1800383C8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          26 ReleaseSemaphore
+                           F DeleteCriticalSection
+                          36 WaitForSingleObject
+                          27 ResetEvent
+                          11 EnterCriticalSection
+                          1D LeaveCriticalSection
+                          18 InitializeCriticalSection
+                           B CreateSemaphoreExW
+                          35 WaitForMultipleObjectsEx
+                           3 CreateEventA
+                           6 CreateEventW
+                          29 SetEvent
+                          33 TryEnterCriticalSection
+
+    RPCRT4.dll
+             1800325E0 Import Address Table
+             1800380E0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         203 RpcSsContextLockExclusive
+                         222 UuidFromStringW
+                         18C RpcBindingVectorFree
+                         1EB RpcServerUseProtseqA
+                         1E6 RpcServerUnsubscribeForNotification
+                         221 UuidFromStringA
+                         16C RpcAsyncCompleteCall
+                         1DC RpcServerRegisterAuthInfoA
+                         1E5 RpcServerUnregisterIfEx
+                          23 I_RpcBindingInqTransportType
+                         1E1 RpcServerRegisterIfEx
+                         192 RpcEpRegisterA
+                         1A6 RpcImpersonateClient
+                         1CA RpcRevertToSelf
+                         177 RpcBindingInqAuthClientA
+                         131 NdrServerCall2
+                         1CE RpcServerInqBindings
+                          96 Ndr64AsyncServerCallAll
+                         1E2 RpcServerSubscribeForNotification
+                         132 NdrServerCallAll
+                          9B NdrAsyncServerCall
+
+    api-ms-win-service-winsvc-l1-1-0.dll
+             180032A90 Import Address Table
+             180038590 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           C RegisterServiceCtrlHandlerExA
+
+    api-ms-win-service-core-l1-1-0.dll
+             180032A80 Import Address Table
+             180038580 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           8 SetServiceStatus
+
+    api-ms-win-core-synch-l1-2-0.dll
+             180032938 Import Address Table
+             180038438 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          2D Sleep
+
+    api-ms-win-core-profile-l1-1-0.dll
+             180032858 Import Address Table
+             180038358 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 QueryPerformanceCounter
+
+    api-ms-win-core-processthreads-l1-1-0.dll
+             180032820 Import Address Table
+             180038320 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          4E TerminateProcess
+                           C GetCurrentProcess
+                           6 CreateThread
+                          11 GetCurrentThreadId
+                           D GetCurrentProcessId
+                          14 GetExitCodeThread
+
+    api-ms-win-core-sysinfo-l1-1-0.dll
+             180032958 Import Address Table
+             180038458 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1A GetTickCount
+                          11 GetSystemInfo
+                          19 GetSystemWindowsDirectoryW
+                          13 GetSystemTime
+                          16 GetSystemTimeAsFileTime
+                          1B GetTickCount64
+
+    api-ms-win-core-errorhandling-l1-1-0.dll
+             180032788 Import Address Table
+             180038288 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           D SetLastError
+                           5 GetLastError
+                          11 UnhandledExceptionFilter
+                           F SetUnhandledExceptionFilter
+
+    api-ms-win-core-synch-l1-2-1.dll
+             180032948 Import Address Table
+             180038448 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          61 WaitForMultipleObjects
+
+    api-ms-win-core-handle-l1-1-0.dll
+             1800327B0 Import Address Table
+             1800382B0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 CloseHandle
+
+    api-ms-win-core-threadpool-l1-2-0.dll
+             180032990 Import Address Table
+             180038490 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           9 CreateThreadpool
+                          20 TrySubmitThreadpoolCallback
+                           A CreateThreadpoolCleanupGroup
+                           2 CloseThreadpool
+                          22 WaitForThreadpoolTimerCallbacks
+                          18 SetThreadpoolThreadMaximum
+                           6 CloseThreadpoolTimer
+                           3 CloseThreadpoolCleanupGroup
+                           C CreateThreadpoolTimer
+                          1A SetThreadpoolTimer
+                           4 CloseThreadpoolCleanupGroupMembers
+
+    WS2_32.dll
+             180032690 Import Address Table
+             180038190 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                             Ordinal     8
+                             Ordinal    18
+                           7 GetAddrInfoW
+                             Ordinal    10
+                             Ordinal     9
+                             Ordinal    23
+                          3A WSAIoctl
+                           2 FreeAddrInfoW
+                             Ordinal    21
+                             Ordinal    20
+                             Ordinal    11
+                             Ordinal     6
+                          12 WSAAddressToStringA
+                             Ordinal   115
+                             Ordinal     2
+                          2B WSAEnumNetworkEvents
+                             Ordinal   116
+                          5A WSAStringToAddressW
+                             Ordinal   151
+                             Ordinal    14
+                             Ordinal   111
+                          59 WSAStringToAddressA
+                             Ordinal     3
+                          2E WSAEventSelect
+
+    api-ms-win-core-kernel32-legacy-l1-1-0.dll
+             1800327D8 Import Address Table
+             1800382D8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          5D UnregisterWait
+                          50 RegisterWaitForSingleObject
+
+    api-ms-win-security-base-l1-1-0.dll
+             180032A28 Import Address Table
+             180038528 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1B CheckTokenMembership
+                          23 CreateWellKnownSid
+
+    api-ms-win-core-string-obsolete-l1-1-0.dll
+             1800328B0 Import Address Table
+             1800383B0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           A lstrlenA
+                           2 lstrcmpA
+
+    api-ms-win-core-libraryloader-l1-2-0.dll
+             1800327F0 Import Address Table
+             1800382F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          18 LoadLibraryExW
+                           C FreeLibrary
+                          15 GetProcAddress
+
+    api-ms-win-core-threadpool-legacy-l1-1-0.dll
+             1800329F0 Import Address Table
+             1800384F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           3 DeleteTimerQueueEx
+                           2 CreateTimerQueueTimer
+                           1 CreateTimerQueue
+                           5 QueueUserWorkItem
+                           4 DeleteTimerQueueTimer
+                           6 UnregisterWaitEx
+
+    api-ms-win-core-registry-l1-1-0.dll
+             180032868 Import Address Table
+             180038368 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          24 RegQueryValueExA
+                          25 RegQueryValueExW
+                           0 RegCloseKey
+                          1E RegOpenKeyExW
+                          1D RegOpenKeyExA
+
+    api-ms-win-core-io-l1-1-0.dll
+             1800327C0 Import Address Table
+             1800382C0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           5 GetOverlappedResult
+                           1 CancelIoEx
+
+    api-ms-win-security-cryptoapi-l1-1-0.dll
+             180032A40 Import Address Table
+             180038540 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          14 CryptGetHashParam
+                          1B CryptReleaseContext
+                          11 CryptGenRandom
+                           1 CryptAcquireContextW
+                          18 CryptHashData
+                           3 CryptCreateHash
+                           6 CryptDestroyHash
+
+    api-ms-win-core-libraryloader-l1-2-1.dll
+             180032810 Import Address Table
+             180038310 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          3E LoadLibraryW
+
+    api-ms-win-core-string-l1-1-0.dll
+             180032898 Import Address Table
+             180038398 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           7 WideCharToMultiByte
+                           6 MultiByteToWideChar
+
+    api-ms-win-core-delayload-l1-1-1.dll
+             180032778 Import Address Table
+             180038278 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           1 ResolveDelayLoadedAPI
+
+    api-ms-win-core-delayload-l1-1-0.dll
+             180032768 Import Address Table
+             180038268 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 DelayLoadFailureHook
+
+    api-ms-win-core-apiquery-l1-1-0.dll
+             180032758 Import Address Table
+             180038258 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 ApiSetQueryApiSetPresence
+
+    NSI.dll
+             1800325D0 Import Address Table
+             1800380D0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           E NsiGetParameter
+
+    api-ms-win-stateseparation-helpers-l1-1-0.dll
+             180032AA0 Import Address Table
+             1800385A0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           1 GetPersistedRegistryLocationW
+
+  Section contains the following delay load imports:
+
+    POWRPROF.dll
+              00000001 Characteristics
+      000000018003A660 Address of HMODULE
+      000000018003F030 Import Address Table
+      0000000180037948 Import Name Table
+      0000000180037CE0 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018000BA51    5F PowerSettingUnregisterNotification
+                                    000000018000B9C6    5D PowerSettingRegisterNotification
+
+    IPHLPAPI.DLL
+              00000001 Characteristics
+      000000018003A668 Address of HMODULE
+      000000018003F000 Import Address Table
+      0000000180037918 Import Name Table
+      0000000180037CF8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018000BB79    F5 NotifyUnicastIpAddressChange
+                                    000000018000BA63     5 CancelMibChangeNotify2
+                                    000000018000BD6E    43 GetAdaptersAddresses
+                                    000000018000BC3F    44 GetAdaptersInfo
+                                    000000018000BD5C     E ConvertInterfaceGuidToLuid
+
+    WINHTTP.dll
+              00000001 Characteristics
+      000000018003A670 Address of HMODULE
+      000000018003F048 Import Address Table
+      0000000180037960 Import Name Table
+      0000000180037D08 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018000BB8B    15 WinHttpCrackUrl
+                                    000000018000BBC1    3A WinHttpSetTimeouts
+                                    000000018000BBD3    34 WinHttpSendRequest
+                                    000000018000BBE5    37 WinHttpSetOption
+                                    000000018000BBF7    27 WinHttpOpenRequest
+                                    000000018000BC09    2C WinHttpQueryHeaders
+                                    000000018000BC1B    26 WinHttpOpen
+                                    000000018000BC2D    31 WinHttpReceiveResponse
+                                    000000018000BAEE     8 WinHttpCloseHandle
+                                    000000018000BB9D     9 WinHttpConnect
+                                    000000018000BBAF    39 WinHttpSetStatusCallback
+
+    ext-ms-win32-subsystem-query-l1-1-0.dll
+              00000001 Characteristics
+      000000018003A680 Address of HMODULE
+      000000018003F100 Import Address Table
+      0000000180037A18 Import Name Table
+      0000000180037D78 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018000BCA8     0 QueryWin32SubsystemHost
+
+    ext-ms-win-firewallapi-webproxy-l1-1-0.dll
+              00000001 Characteristics
+      000000018003A690 Address of HMODULE
+      000000018003F0A8 Import Address Table
+      00000001800379C0 Import Name Table
+      0000000180037D98 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018000BEDD     7 FWIndicateTupleInUse
+                                    000000018000BE83     2 FWGetConfig
+                                    000000018000BDD4     E IsFirewallInCoExistanceMode
+                                    000000018000BECB     4 FWIndicatePortInUse
+                                    000000018000BE5F     3 FWGetGlobalConfig
+                                    000000018000BE71     9 FWOpenPolicyStore
+                                    000000018000BEEF     D FWResetIndicatedTupleInUse
+                                    000000018000BE95     A FWQueryFirewallRules
+                                    000000018000BEA7     1 FWFreeFirewallRules
+                                    000000018000BEB9     0 FWClosePolicyStore
+
+  Summary
+
+        2000 .data
+        1000 .didat
+        3000 .pdata
+        9000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       30000 .text

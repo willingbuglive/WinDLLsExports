@@ -1,0 +1,262 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\hlink.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    msvcrt.dll
+    ADVAPI32.dll
+    KERNEL32.dll
+    USER32.dll
+    ole32.dll
+    SHELL32.dll
+
+  Section contains the following exports for hlink.dll
+
+    00000000 characteristics
+    E73566ED time date stamp
+        0.00 version
+           3 ordinal base
+          32 number of functions
+          32 number of names
+
+    ordinal hint RVA      name
+
+         13    0 00002E00 DllCanUnloadNow
+         17    1 00002E20 DllGetClassObject
+         19    2 0000F760 DllRegisterServer
+         34    3 0000F8B0 DllUnregisterServer
+          7    4 00009540 HlinkClone
+          6    5 00009750 HlinkCreateBrowseContext
+         32    6 00009810 HlinkCreateExtensionServices
+          5    7 00009840 HlinkCreateFromData
+          3    8 00009AA0 HlinkCreateFromMoniker
+          4    9 00009B20 HlinkCreateFromString
+         23    A 00009B90 HlinkCreateShortcut
+         29    B 00009D00 HlinkCreateShortcutFromMoniker
+         27    C 00009D30 HlinkCreateShortcutFromString
+         22    D 00009D40 HlinkGetSpecialReference
+         28    E 00009D70 HlinkGetValueFromParams
+         25    F 00009E70 HlinkIsShortcut
+         10   10 00009F00 HlinkNavigate
+          8   11 0000A1E0 HlinkNavigateToStringReference
+          9   12 0000A2A0 HlinkOnNavigate
+         12   13 0000A360 HlinkOnRenameDocument
+         18   14 0000A410 HlinkParseDisplayName
+         33   15 0000A480 HlinkPreprocessMoniker
+         20   16 0000A5E0 HlinkQueryCreateFromData
+         14   17 0000A700 HlinkResolveMonikerForData
+         24   18 0000A750 HlinkResolveShortcut
+         30   19 0000A8E0 HlinkResolveShortcutToMoniker
+         26   1A 0000A920 HlinkResolveShortcutToString
+         15   1B 0000A960 HlinkResolveStringForData
+         21   1C 0000AAA0 HlinkSetSpecialReference
+         31   1D 000118D0 HlinkTranslateURL
+         11   1E 0000ACE0 HlinkUpdateStackItem
+         16   1F 0000AD80 OleSaveToStreamEx
+
+  Section contains the following imports:
+
+    msvcrt.dll
+             18001EB68 Import Address Table
+             180021D50 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         4A0 memcpy_s
+                          5E __C_specific_handler
+                         4D2 strcpy_s
+                         4A2 memmove_s
+                         34E _unlock
+                         4CD strcat_s
+                         376 _vsnwprintf
+                          84 __dllonexit
+                         310 _strnicmp
+                         473 isdigit
+                         4CE strchr
+                         3A1 _wcsnicmp
+                         480 iswdigit
+                         50E wcschr
+                          5A _XcptFilter
+                          B7 _amsg_exit
+                         459 free
+                         493 malloc
+                         189 _initterm
+                         4E9 swprintf_s
+                         4A1 memmove
+                         49F memcpy
+                         49E memcmp
+                         1F2 _lock
+                         29C _onexit
+                         4A3 memset
+                         347 _ultow_s
+                         4C6 sprintf_s
+                         4CF strcmp
+
+    ADVAPI32.dll
+             18001E828 Import Address Table
+             180021A10 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         272 RegDeleteKeyA
+                         2A1 RegQueryValueA
+                         2A3 RegQueryValueExW
+                         296 RegOpenKeyExW
+                         2B2 RegSetValueExA
+                         2B3 RegSetValueExW
+                         26E RegCreateKeyExW
+                         26D RegCreateKeyExA
+                         265 RegCloseKey
+                         2A2 RegQueryValueExA
+                         295 RegOpenKeyExA
+
+    KERNEL32.dll
+             18001E888 Import Address Table
+             180021A70 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         62A WinExec
+                         3D6 LeaveCriticalSection
+                          F4 CreateSemaphoreExW
+                          E1 CreateMutexExW
+                         22B GetCurrentProcessId
+                         254 GetFileAttributesA
+                         3DB LoadLibraryExA
+                         25F GetFileSize
+                          CB CreateFileA
+                          D3 CreateFileW
+                          FF CreateThreadpoolTimer
+                         428 OpenSemaphoreW
+                         11B DeleteCriticalSection
+                         5A7 Sleep
+                         4E9 RtlCaptureContext
+                         4F1 RtlLookupFunctionEntry
+                         4F8 RtlVirtualUnwind
+                         5D8 UnhandledExceptionFilter
+                         597 SetUnhandledExceptionFilter
+                         22A GetCurrentProcess
+                         5B6 TerminateProcess
+                         464 QueryPerformanceCounter
+                         301 GetSystemTimeAsFileTime
+                         259 GetFileAttributesW
+                           0 AcquireSRWLockExclusive
+                         338 GetVersionExA
+                         12C DisableThreadLibraryCalls
+                         352 GlobalFree
+                         34B GlobalAlloc
+                         356 GlobalLock
+                         35D GlobalUnlock
+                         323 GetTickCount
+                         661 lstrcmpiA
+                         5DB UnmapViewOfFile
+                          8E CloseHandle
+                          CC CreateFileMappingA
+                         274 GetLastError
+                         3F7 MapViewOfFile
+                          DF CreateMutexA
+                         602 WaitForSingleObject
+                         4C9 ReleaseMutex
+                         22F GetCurrentThreadId
+                         41B OpenFileMappingA
+                         41F OpenMutexA
+                         662 lstrcmpiW
+                         2EE GetStringTypeExW
+                         2ED GetStringTypeExA
+                         408 MultiByteToWideChar
+                         629 WideCharToMultiByte
+                         2C1 GetPrivateProfileStringW
+                         2C0 GetPrivateProfileStringA
+                         643 WritePrivateProfileStringW
+                         642 WritePrivateProfileStringA
+                         3DA LoadLibraryA
+                         2C4 GetProcAddress
+                         287 GetModuleFileNameA
+                         1B9 FormatMessageW
+                         363 HeapAlloc
+                         2CB GetProcessHeap
+                         367 HeapFree
+                         28B GetModuleHandleExW
+                         111 DebugBreak
+                         28C GetModuleHandleW
+                         397 IsDebuggerPresent
+                         430 OutputDebugStringW
+                         37E InitializeCriticalSectionEx
+                         4CC ReleaseSRWLockExclusive
+                           1 AcquireSRWLockShared
+                         4CD ReleaseSRWLockShared
+                         557 SetLastError
+                         4CE ReleaseSemaphore
+                         590 SetThreadpoolTimer
+                         605 WaitForThreadpoolTimerCallbacks
+                          98 CloseThreadpoolTimer
+                         603 WaitForSingleObjectEx
+                         141 EnterCriticalSection
+
+    USER32.dll
+             18001EB18 Import Address Table
+             180021D00 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         266 LoadStringA
+                          32 CharNextA
+                          35 CharPrevA
+                          3C CharUpperA
+                          3F CharUpperW
+                         11A GetActiveWindow
+                         28A MessageBoxW
+                         267 LoadStringW
+                         2E0 RegisterClipboardFormatA
+
+    ole32.dll
+             18001EC58 Import Address Table
+             180021E40 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          69 CoLockObjectExternal
+                         1FB StgCreateDocfile
+                          A7 CreateItemMoniker
+                          A5 CreateGenericComposite
+                          2B CoCreateInstance
+                          6C CoMarshalInterface
+                          94 CoUnmarshalInterface
+                          51 CoGetMalloc
+                         146 MkParseDisplayName
+                          9E CreateAntiMoniker
+                          52 CoGetMarshalSizeMax
+                          AC CreateStreamOnHGlobal
+                         1C2 OleSaveToStream
+                         1B1 OleLoadFromStream
+                          A4 CreateFileMoniker
+                         1CB ProgIDFromCLSID
+                          C4 GetRunningObjectTable
+                         1DA ReleaseStgMedium
+                          9F CreateBindCtx
+                          C1 GetHGlobalFromStream
+
+    SHELL32.dll
+             18001EAF0 Import Address Table
+             180021CD8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         1B0 ShellExecuteW
+                         1AC ShellExecuteA
+                          2A DragQueryFileW
+                          28 DragQueryFileA
+
+  Summary
+
+        1000 .data
+        2000 .pdata
+        5000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       1D000 .text

@@ -1,0 +1,2174 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\SysWOW64\setupapi.dll
+
+File Type: DLL
+
+  Image has the following delay load dependencies:
+
+    api-ms-win-core-file-l1-1-0.dll
+    api-ms-win-core-string-l2-1-0.dll
+    DEVOBJ.dll
+    CFGMGR32.dll
+    api-ms-win-core-registry-l1-1-0.dll
+    api-ms-win-ntuser-sysparams-l1-1-0.dll
+    api-ms-win-rtcore-ntuser-window-l1-1-0.dll
+    api-ms-win-devices-config-l1-1-1.dll
+    api-ms-win-core-registry-l2-1-0.dll
+    api-ms-win-core-stringansi-l1-1-0.dll
+    api-ms-win-service-management-l1-1-0.dll
+    api-ms-win-service-management-l2-1-0.dll
+    api-ms-win-service-winsvc-l1-1-0.dll
+    api-ms-win-security-base-l1-1-0.dll
+    api-ms-win-security-sddl-l1-1-0.dll
+    api-ms-win-security-provider-l1-1-0.dll
+    Cabinet.dll
+    CRYPT32.dll
+    WINTRUST.dll
+    api-ms-win-rtcore-ntuser-synch-l1-1-0.dll
+    ext-ms-win-shell32-shellfolders-l1-1-0.dll
+    api-ms-win-core-com-l1-1-0.dll
+    USERENV.dll
+    api-ms-win-shell-changenotify-l1-1-0.dll
+    api-ms-win-core-shutdown-l1-1-0.dll
+    RPCRT4.dll
+    MPR.dll
+    GDI32.dll
+    ADVAPI32.dll
+    DEVRTL.dll
+    USER32.dll
+    SCECLI.dll
+    ServicingCommon.dll
+    drvstore.dll
+    ext-ms-win-printer-winspool-l1-1-1.dll
+    ext-ms-win-driver-setup-l1-1-0.dll
+    ext-ms-win-com-ole32-l1-1-0.dll
+    ext-ms-win-shell-shell32-l1-2-1.dll
+    ext-ms-win-shell-shlwapi-l1-2-0.dll
+    ext-ms-win-uxtheme-themes-l1-1-0.dll
+    SPFILEQ.dll
+    SPINF.dll
+    api-ms-win-security-lsalookup-l2-1-0.dll
+    api-ms-win-core-io-l1-1-0.dll
+    bcrypt.dll
+    ext-ms-win-security-slc-l1-1-0.dll
+
+  Section contains the following exports for SETUPAPI.dll
+
+    00000000 characteristics
+    3540629A time date stamp
+        0.00 version
+           1 ordinal base
+         679 number of functions
+         679 number of names
+
+    ordinal hint RVA      name
+
+          1    0          CMP_GetBlockedDriverInfo (forwarded to cfgmgr32.CMP_GetBlockedDriverInfo)
+          2    1          CMP_GetServerSideDeviceInstallFlags (forwarded to cfgmgr32.CMP_GetServerSideDeviceInstallFlags)
+          3    2          CMP_Init_Detection (forwarded to cfgmgr32.CMP_Init_Detection)
+          4    3          CMP_Report_LogOn (forwarded to cfgmgr32.CMP_Report_LogOn)
+          5    4          CMP_WaitNoPendingInstallEvents (forwarded to cfgmgr32.CMP_WaitNoPendingInstallEvents)
+          6    5          CMP_WaitServicesAvailable (forwarded to cfgmgr32.CMP_WaitServicesAvailable)
+          7    6          CM_Add_Driver_PackageW (forwarded to cfgmgr32.CM_Add_Driver_PackageW)
+          8    7          CM_Add_Empty_Log_Conf (forwarded to cfgmgr32.CM_Add_Empty_Log_Conf)
+          9    8          CM_Add_Empty_Log_Conf_Ex (forwarded to cfgmgr32.CM_Add_Empty_Log_Conf_Ex)
+         10    9          CM_Add_IDA (forwarded to cfgmgr32.CM_Add_IDA)
+         11    A          CM_Add_IDW (forwarded to cfgmgr32.CM_Add_IDW)
+         12    B          CM_Add_ID_ExA (forwarded to cfgmgr32.CM_Add_ID_ExA)
+         13    C          CM_Add_ID_ExW (forwarded to cfgmgr32.CM_Add_ID_ExW)
+         14    D          CM_Add_Range (forwarded to cfgmgr32.CM_Add_Range)
+         15    E          CM_Add_Res_Des (forwarded to cfgmgr32.CM_Add_Res_Des)
+         16    F          CM_Add_Res_Des_Ex (forwarded to cfgmgr32.CM_Add_Res_Des_Ex)
+         17   10 000A4C60 CM_Apply_PowerScheme
+         18   11          CM_Connect_MachineA (forwarded to cfgmgr32.CM_Connect_MachineA)
+         19   12          CM_Connect_MachineW (forwarded to cfgmgr32.CM_Connect_MachineW)
+         20   13          CM_Create_DevNodeA (forwarded to cfgmgr32.CM_Create_DevNodeA)
+         21   14          CM_Create_DevNodeW (forwarded to cfgmgr32.CM_Create_DevNodeW)
+         22   15          CM_Create_DevNode_ExA (forwarded to cfgmgr32.CM_Create_DevNode_ExA)
+         23   16          CM_Create_DevNode_ExW (forwarded to cfgmgr32.CM_Create_DevNode_ExW)
+         24   17          CM_Create_Range_List (forwarded to cfgmgr32.CM_Create_Range_List)
+         25   18          CM_Delete_Class_Key (forwarded to cfgmgr32.CM_Delete_Class_Key)
+         26   19          CM_Delete_Class_Key_Ex (forwarded to cfgmgr32.CM_Delete_Class_Key_Ex)
+         27   1A          CM_Delete_DevNode_Key (forwarded to cfgmgr32.CM_Delete_DevNode_Key)
+         28   1B          CM_Delete_DevNode_Key_Ex (forwarded to cfgmgr32.CM_Delete_DevNode_Key_Ex)
+         29   1C          CM_Delete_Device_Interface_KeyA (forwarded to cfgmgr32.CM_Delete_Device_Interface_KeyA)
+         30   1D          CM_Delete_Device_Interface_KeyW (forwarded to cfgmgr32.CM_Delete_Device_Interface_KeyW)
+         31   1E          CM_Delete_Device_Interface_Key_ExA (forwarded to cfgmgr32.CM_Delete_Device_Interface_Key_ExA)
+         32   1F          CM_Delete_Device_Interface_Key_ExW (forwarded to cfgmgr32.CM_Delete_Device_Interface_Key_ExW)
+         33   20          CM_Delete_Driver_PackageW (forwarded to cfgmgr32.CM_Delete_Driver_PackageW)
+         34   21 000A4C70 CM_Delete_PowerScheme
+         35   22          CM_Delete_Range (forwarded to cfgmgr32.CM_Delete_Range)
+         36   23          CM_Detect_Resource_Conflict (forwarded to cfgmgr32.CM_Detect_Resource_Conflict)
+         37   24          CM_Detect_Resource_Conflict_Ex (forwarded to cfgmgr32.CM_Detect_Resource_Conflict_Ex)
+         38   25          CM_Disable_DevNode (forwarded to cfgmgr32.CM_Disable_DevNode)
+         39   26          CM_Disable_DevNode_Ex (forwarded to cfgmgr32.CM_Disable_DevNode_Ex)
+         40   27          CM_Disconnect_Machine (forwarded to cfgmgr32.CM_Disconnect_Machine)
+         41   28          CM_Dup_Range_List (forwarded to cfgmgr32.CM_Dup_Range_List)
+         42   29 000A4C80 CM_Duplicate_PowerScheme
+         43   2A          CM_Enable_DevNode (forwarded to cfgmgr32.CM_Enable_DevNode)
+         44   2B          CM_Enable_DevNode_Ex (forwarded to cfgmgr32.CM_Enable_DevNode_Ex)
+         45   2C          CM_Enumerate_Classes (forwarded to cfgmgr32.CM_Enumerate_Classes)
+         46   2D          CM_Enumerate_Classes_Ex (forwarded to cfgmgr32.CM_Enumerate_Classes_Ex)
+         47   2E          CM_Enumerate_EnumeratorsA (forwarded to cfgmgr32.CM_Enumerate_EnumeratorsA)
+         48   2F          CM_Enumerate_EnumeratorsW (forwarded to cfgmgr32.CM_Enumerate_EnumeratorsW)
+         49   30          CM_Enumerate_Enumerators_ExA (forwarded to cfgmgr32.CM_Enumerate_Enumerators_ExA)
+         50   31          CM_Enumerate_Enumerators_ExW (forwarded to cfgmgr32.CM_Enumerate_Enumerators_ExW)
+         51   32          CM_Find_Range (forwarded to cfgmgr32.CM_Find_Range)
+         52   33          CM_First_Range (forwarded to cfgmgr32.CM_First_Range)
+         53   34          CM_Free_Log_Conf (forwarded to cfgmgr32.CM_Free_Log_Conf)
+         54   35          CM_Free_Log_Conf_Ex (forwarded to cfgmgr32.CM_Free_Log_Conf_Ex)
+         55   36          CM_Free_Log_Conf_Handle (forwarded to cfgmgr32.CM_Free_Log_Conf_Handle)
+         56   37          CM_Free_Range_List (forwarded to cfgmgr32.CM_Free_Range_List)
+         57   38          CM_Free_Res_Des (forwarded to cfgmgr32.CM_Free_Res_Des)
+         58   39          CM_Free_Res_Des_Ex (forwarded to cfgmgr32.CM_Free_Res_Des_Ex)
+         59   3A          CM_Free_Res_Des_Handle (forwarded to cfgmgr32.CM_Free_Res_Des_Handle)
+         60   3B          CM_Free_Resource_Conflict_Handle (forwarded to cfgmgr32.CM_Free_Resource_Conflict_Handle)
+         61   3C          CM_Get_Child (forwarded to cfgmgr32.CM_Get_Child)
+         62   3D          CM_Get_Child_Ex (forwarded to cfgmgr32.CM_Get_Child_Ex)
+         63   3E          CM_Get_Class_Key_NameA (forwarded to cfgmgr32.CM_Get_Class_Key_NameA)
+         64   3F          CM_Get_Class_Key_NameW (forwarded to cfgmgr32.CM_Get_Class_Key_NameW)
+         65   40          CM_Get_Class_Key_Name_ExA (forwarded to cfgmgr32.CM_Get_Class_Key_Name_ExA)
+         66   41          CM_Get_Class_Key_Name_ExW (forwarded to cfgmgr32.CM_Get_Class_Key_Name_ExW)
+         67   42          CM_Get_Class_NameA (forwarded to cfgmgr32.CM_Get_Class_NameA)
+         68   43          CM_Get_Class_NameW (forwarded to cfgmgr32.CM_Get_Class_NameW)
+         69   44          CM_Get_Class_Name_ExA (forwarded to cfgmgr32.CM_Get_Class_Name_ExA)
+         70   45          CM_Get_Class_Name_ExW (forwarded to cfgmgr32.CM_Get_Class_Name_ExW)
+         71   46          CM_Get_Class_Registry_PropertyA (forwarded to cfgmgr32.CM_Get_Class_Registry_PropertyA)
+         72   47          CM_Get_Class_Registry_PropertyW (forwarded to cfgmgr32.CM_Get_Class_Registry_PropertyW)
+         73   48          CM_Get_Depth (forwarded to cfgmgr32.CM_Get_Depth)
+         74   49          CM_Get_Depth_Ex (forwarded to cfgmgr32.CM_Get_Depth_Ex)
+         75   4A          CM_Get_DevNode_Custom_PropertyA (forwarded to cfgmgr32.CM_Get_DevNode_Custom_PropertyA)
+         76   4B          CM_Get_DevNode_Custom_PropertyW (forwarded to cfgmgr32.CM_Get_DevNode_Custom_PropertyW)
+         77   4C          CM_Get_DevNode_Custom_Property_ExA (forwarded to cfgmgr32.CM_Get_DevNode_Custom_Property_ExA)
+         78   4D          CM_Get_DevNode_Custom_Property_ExW (forwarded to cfgmgr32.CM_Get_DevNode_Custom_Property_ExW)
+         79   4E          CM_Get_DevNode_Registry_PropertyA (forwarded to cfgmgr32.CM_Get_DevNode_Registry_PropertyA)
+         80   4F          CM_Get_DevNode_Registry_PropertyW (forwarded to cfgmgr32.CM_Get_DevNode_Registry_PropertyW)
+         81   50          CM_Get_DevNode_Registry_Property_ExA (forwarded to cfgmgr32.CM_Get_DevNode_Registry_Property_ExA)
+         82   51          CM_Get_DevNode_Registry_Property_ExW (forwarded to cfgmgr32.CM_Get_DevNode_Registry_Property_ExW)
+         83   52          CM_Get_DevNode_Status (forwarded to cfgmgr32.CM_Get_DevNode_Status)
+         84   53          CM_Get_DevNode_Status_Ex (forwarded to cfgmgr32.CM_Get_DevNode_Status_Ex)
+         85   54          CM_Get_Device_IDA (forwarded to cfgmgr32.CM_Get_Device_IDA)
+         86   55          CM_Get_Device_IDW (forwarded to cfgmgr32.CM_Get_Device_IDW)
+         87   56          CM_Get_Device_ID_ExA (forwarded to cfgmgr32.CM_Get_Device_ID_ExA)
+         88   57          CM_Get_Device_ID_ExW (forwarded to cfgmgr32.CM_Get_Device_ID_ExW)
+         89   58          CM_Get_Device_ID_ListA (forwarded to cfgmgr32.CM_Get_Device_ID_ListA)
+         90   59          CM_Get_Device_ID_ListW (forwarded to cfgmgr32.CM_Get_Device_ID_ListW)
+         91   5A          CM_Get_Device_ID_List_ExA (forwarded to cfgmgr32.CM_Get_Device_ID_List_ExA)
+         92   5B          CM_Get_Device_ID_List_ExW (forwarded to cfgmgr32.CM_Get_Device_ID_List_ExW)
+         93   5C          CM_Get_Device_ID_List_SizeA (forwarded to cfgmgr32.CM_Get_Device_ID_List_SizeA)
+         94   5D          CM_Get_Device_ID_List_SizeW (forwarded to cfgmgr32.CM_Get_Device_ID_List_SizeW)
+         95   5E          CM_Get_Device_ID_List_Size_ExA (forwarded to cfgmgr32.CM_Get_Device_ID_List_Size_ExA)
+         96   5F          CM_Get_Device_ID_List_Size_ExW (forwarded to cfgmgr32.CM_Get_Device_ID_List_Size_ExW)
+         97   60          CM_Get_Device_ID_Size (forwarded to cfgmgr32.CM_Get_Device_ID_Size)
+         98   61          CM_Get_Device_ID_Size_Ex (forwarded to cfgmgr32.CM_Get_Device_ID_Size_Ex)
+         99   62          CM_Get_Device_Interface_AliasA (forwarded to cfgmgr32.CM_Get_Device_Interface_AliasA)
+        100   63          CM_Get_Device_Interface_AliasW (forwarded to cfgmgr32.CM_Get_Device_Interface_AliasW)
+        101   64          CM_Get_Device_Interface_Alias_ExA (forwarded to cfgmgr32.CM_Get_Device_Interface_Alias_ExA)
+        102   65          CM_Get_Device_Interface_Alias_ExW (forwarded to cfgmgr32.CM_Get_Device_Interface_Alias_ExW)
+        103   66          CM_Get_Device_Interface_ListA (forwarded to cfgmgr32.CM_Get_Device_Interface_ListA)
+        104   67          CM_Get_Device_Interface_ListW (forwarded to cfgmgr32.CM_Get_Device_Interface_ListW)
+        105   68          CM_Get_Device_Interface_List_ExA (forwarded to cfgmgr32.CM_Get_Device_Interface_List_ExA)
+        106   69          CM_Get_Device_Interface_List_ExW (forwarded to cfgmgr32.CM_Get_Device_Interface_List_ExW)
+        107   6A          CM_Get_Device_Interface_List_SizeA (forwarded to cfgmgr32.CM_Get_Device_Interface_List_SizeA)
+        108   6B          CM_Get_Device_Interface_List_SizeW (forwarded to cfgmgr32.CM_Get_Device_Interface_List_SizeW)
+        109   6C          CM_Get_Device_Interface_List_Size_ExA (forwarded to cfgmgr32.CM_Get_Device_Interface_List_Size_ExA)
+        110   6D          CM_Get_Device_Interface_List_Size_ExW (forwarded to cfgmgr32.CM_Get_Device_Interface_List_Size_ExW)
+        111   6E          CM_Get_First_Log_Conf (forwarded to cfgmgr32.CM_Get_First_Log_Conf)
+        112   6F          CM_Get_First_Log_Conf_Ex (forwarded to cfgmgr32.CM_Get_First_Log_Conf_Ex)
+        113   70          CM_Get_Global_State (forwarded to cfgmgr32.CM_Get_Global_State)
+        114   71          CM_Get_Global_State_Ex (forwarded to cfgmgr32.CM_Get_Global_State_Ex)
+        115   72          CM_Get_HW_Prof_FlagsA (forwarded to cfgmgr32.CM_Get_HW_Prof_FlagsA)
+        116   73          CM_Get_HW_Prof_FlagsW (forwarded to cfgmgr32.CM_Get_HW_Prof_FlagsW)
+        117   74          CM_Get_HW_Prof_Flags_ExA (forwarded to cfgmgr32.CM_Get_HW_Prof_Flags_ExA)
+        118   75          CM_Get_HW_Prof_Flags_ExW (forwarded to cfgmgr32.CM_Get_HW_Prof_Flags_ExW)
+        119   76          CM_Get_Hardware_Profile_InfoA (forwarded to cfgmgr32.CM_Get_Hardware_Profile_InfoA)
+        120   77          CM_Get_Hardware_Profile_InfoW (forwarded to cfgmgr32.CM_Get_Hardware_Profile_InfoW)
+        121   78          CM_Get_Hardware_Profile_Info_ExA (forwarded to cfgmgr32.CM_Get_Hardware_Profile_Info_ExA)
+        122   79          CM_Get_Hardware_Profile_Info_ExW (forwarded to cfgmgr32.CM_Get_Hardware_Profile_Info_ExW)
+        123   7A          CM_Get_Log_Conf_Priority (forwarded to cfgmgr32.CM_Get_Log_Conf_Priority)
+        124   7B          CM_Get_Log_Conf_Priority_Ex (forwarded to cfgmgr32.CM_Get_Log_Conf_Priority_Ex)
+        125   7C          CM_Get_Next_Log_Conf (forwarded to cfgmgr32.CM_Get_Next_Log_Conf)
+        126   7D          CM_Get_Next_Log_Conf_Ex (forwarded to cfgmgr32.CM_Get_Next_Log_Conf_Ex)
+        127   7E          CM_Get_Next_Res_Des (forwarded to cfgmgr32.CM_Get_Next_Res_Des)
+        128   7F          CM_Get_Next_Res_Des_Ex (forwarded to cfgmgr32.CM_Get_Next_Res_Des_Ex)
+        129   80          CM_Get_Parent (forwarded to cfgmgr32.CM_Get_Parent)
+        130   81          CM_Get_Parent_Ex (forwarded to cfgmgr32.CM_Get_Parent_Ex)
+        131   82          CM_Get_Res_Des_Data (forwarded to cfgmgr32.CM_Get_Res_Des_Data)
+        132   83          CM_Get_Res_Des_Data_Ex (forwarded to cfgmgr32.CM_Get_Res_Des_Data_Ex)
+        133   84          CM_Get_Res_Des_Data_Size (forwarded to cfgmgr32.CM_Get_Res_Des_Data_Size)
+        134   85          CM_Get_Res_Des_Data_Size_Ex (forwarded to cfgmgr32.CM_Get_Res_Des_Data_Size_Ex)
+        135   86          CM_Get_Resource_Conflict_Count (forwarded to cfgmgr32.CM_Get_Resource_Conflict_Count)
+        136   87          CM_Get_Resource_Conflict_DetailsA (forwarded to cfgmgr32.CM_Get_Resource_Conflict_DetailsA)
+        137   88          CM_Get_Resource_Conflict_DetailsW (forwarded to cfgmgr32.CM_Get_Resource_Conflict_DetailsW)
+        138   89          CM_Get_Sibling (forwarded to cfgmgr32.CM_Get_Sibling)
+        139   8A          CM_Get_Sibling_Ex (forwarded to cfgmgr32.CM_Get_Sibling_Ex)
+        140   8B          CM_Get_Version (forwarded to cfgmgr32.CM_Get_Version)
+        141   8C          CM_Get_Version_Ex (forwarded to cfgmgr32.CM_Get_Version_Ex)
+        142   8D 000A4C80 CM_Import_PowerScheme
+        143   8E          CM_Install_DevNodeW (forwarded to cfgmgr32.CM_Install_DevNodeW)
+        144   8F          CM_Install_DevNode_ExW (forwarded to cfgmgr32.CM_Install_DevNode_ExW)
+        145   90          CM_Intersect_Range_List (forwarded to cfgmgr32.CM_Intersect_Range_List)
+        146   91          CM_Invert_Range_List (forwarded to cfgmgr32.CM_Invert_Range_List)
+        147   92          CM_Is_Dock_Station_Present (forwarded to cfgmgr32.CM_Is_Dock_Station_Present)
+        148   93          CM_Is_Dock_Station_Present_Ex (forwarded to cfgmgr32.CM_Is_Dock_Station_Present_Ex)
+        149   94          CM_Is_Version_Available (forwarded to cfgmgr32.CM_Is_Version_Available)
+        150   95          CM_Is_Version_Available_Ex (forwarded to cfgmgr32.CM_Is_Version_Available_Ex)
+        151   96          CM_Locate_DevNodeA (forwarded to cfgmgr32.CM_Locate_DevNodeA)
+        152   97          CM_Locate_DevNodeW (forwarded to cfgmgr32.CM_Locate_DevNodeW)
+        153   98          CM_Locate_DevNode_ExA (forwarded to cfgmgr32.CM_Locate_DevNode_ExA)
+        154   99          CM_Locate_DevNode_ExW (forwarded to cfgmgr32.CM_Locate_DevNode_ExW)
+        155   9A          CM_Merge_Range_List (forwarded to cfgmgr32.CM_Merge_Range_List)
+        156   9B          CM_Modify_Res_Des (forwarded to cfgmgr32.CM_Modify_Res_Des)
+        157   9C          CM_Modify_Res_Des_Ex (forwarded to cfgmgr32.CM_Modify_Res_Des_Ex)
+        158   9D          CM_Move_DevNode (forwarded to cfgmgr32.CM_Move_DevNode)
+        159   9E          CM_Move_DevNode_Ex (forwarded to cfgmgr32.CM_Move_DevNode_Ex)
+        160   9F          CM_Next_Range (forwarded to cfgmgr32.CM_Next_Range)
+        161   A0          CM_Open_Class_KeyA (forwarded to cfgmgr32.CM_Open_Class_KeyA)
+        162   A1          CM_Open_Class_KeyW (forwarded to cfgmgr32.CM_Open_Class_KeyW)
+        163   A2          CM_Open_Class_Key_ExA (forwarded to cfgmgr32.CM_Open_Class_Key_ExA)
+        164   A3          CM_Open_Class_Key_ExW (forwarded to cfgmgr32.CM_Open_Class_Key_ExW)
+        165   A4          CM_Open_DevNode_Key (forwarded to cfgmgr32.CM_Open_DevNode_Key)
+        166   A5          CM_Open_DevNode_Key_Ex (forwarded to cfgmgr32.CM_Open_DevNode_Key_Ex)
+        167   A6          CM_Open_Device_Interface_KeyA (forwarded to cfgmgr32.CM_Open_Device_Interface_KeyA)
+        168   A7          CM_Open_Device_Interface_KeyW (forwarded to cfgmgr32.CM_Open_Device_Interface_KeyW)
+        169   A8          CM_Open_Device_Interface_Key_ExA (forwarded to cfgmgr32.CM_Open_Device_Interface_Key_ExA)
+        170   A9          CM_Open_Device_Interface_Key_ExW (forwarded to cfgmgr32.CM_Open_Device_Interface_Key_ExW)
+        171   AA          CM_Query_And_Remove_SubTreeA (forwarded to cfgmgr32.CM_Query_And_Remove_SubTreeA)
+        172   AB          CM_Query_And_Remove_SubTreeW (forwarded to cfgmgr32.CM_Query_And_Remove_SubTreeW)
+        173   AC          CM_Query_And_Remove_SubTree_ExA (forwarded to cfgmgr32.CM_Query_And_Remove_SubTree_ExA)
+        174   AD          CM_Query_And_Remove_SubTree_ExW (forwarded to cfgmgr32.CM_Query_And_Remove_SubTree_ExW)
+        175   AE          CM_Query_Arbitrator_Free_Data (forwarded to cfgmgr32.CM_Query_Arbitrator_Free_Data)
+        176   AF          CM_Query_Arbitrator_Free_Data_Ex (forwarded to cfgmgr32.CM_Query_Arbitrator_Free_Data_Ex)
+        177   B0          CM_Query_Arbitrator_Free_Size (forwarded to cfgmgr32.CM_Query_Arbitrator_Free_Size)
+        178   B1          CM_Query_Arbitrator_Free_Size_Ex (forwarded to cfgmgr32.CM_Query_Arbitrator_Free_Size_Ex)
+        179   B2          CM_Query_Remove_SubTree (forwarded to cfgmgr32.CM_Query_Remove_SubTree)
+        180   B3          CM_Query_Remove_SubTree_Ex (forwarded to cfgmgr32.CM_Query_Remove_SubTree_Ex)
+        181   B4          CM_Query_Resource_Conflict_List (forwarded to cfgmgr32.CM_Query_Resource_Conflict_List)
+        182   B5          CM_Reenumerate_DevNode (forwarded to cfgmgr32.CM_Reenumerate_DevNode)
+        183   B6          CM_Reenumerate_DevNode_Ex (forwarded to cfgmgr32.CM_Reenumerate_DevNode_Ex)
+        184   B7          CM_Register_Device_Driver (forwarded to cfgmgr32.CM_Register_Device_Driver)
+        185   B8          CM_Register_Device_Driver_Ex (forwarded to cfgmgr32.CM_Register_Device_Driver_Ex)
+        186   B9          CM_Register_Device_InterfaceA (forwarded to cfgmgr32.CM_Register_Device_InterfaceA)
+        187   BA          CM_Register_Device_InterfaceW (forwarded to cfgmgr32.CM_Register_Device_InterfaceW)
+        188   BB          CM_Register_Device_Interface_ExA (forwarded to cfgmgr32.CM_Register_Device_Interface_ExA)
+        189   BC          CM_Register_Device_Interface_ExW (forwarded to cfgmgr32.CM_Register_Device_Interface_ExW)
+        190   BD          CM_Remove_SubTree (forwarded to cfgmgr32.CM_Remove_SubTree)
+        191   BE          CM_Remove_SubTree_Ex (forwarded to cfgmgr32.CM_Remove_SubTree_Ex)
+        192   BF          CM_Request_Device_EjectA (forwarded to cfgmgr32.CM_Request_Device_EjectA)
+        193   C0          CM_Request_Device_EjectW (forwarded to cfgmgr32.CM_Request_Device_EjectW)
+        194   C1          CM_Request_Device_Eject_ExA (forwarded to cfgmgr32.CM_Request_Device_Eject_ExA)
+        195   C2          CM_Request_Device_Eject_ExW (forwarded to cfgmgr32.CM_Request_Device_Eject_ExW)
+        196   C3          CM_Request_Eject_PC (forwarded to cfgmgr32.CM_Request_Eject_PC)
+        197   C4          CM_Request_Eject_PC_Ex (forwarded to cfgmgr32.CM_Request_Eject_PC_Ex)
+        198   C5 000A4C90 CM_RestoreAll_DefaultPowerSchemes
+        199   C6 000A4C70 CM_Restore_DefaultPowerScheme
+        200   C7          CM_Run_Detection (forwarded to cfgmgr32.CM_Run_Detection)
+        201   C8          CM_Run_Detection_Ex (forwarded to cfgmgr32.CM_Run_Detection_Ex)
+        202   C9 000A4C70 CM_Set_ActiveScheme
+        203   CA          CM_Set_Class_Registry_PropertyA (forwarded to cfgmgr32.CM_Set_Class_Registry_PropertyA)
+        204   CB          CM_Set_Class_Registry_PropertyW (forwarded to cfgmgr32.CM_Set_Class_Registry_PropertyW)
+        205   CC          CM_Set_DevNode_Problem (forwarded to cfgmgr32.CM_Set_DevNode_Problem)
+        206   CD          CM_Set_DevNode_Problem_Ex (forwarded to cfgmgr32.CM_Set_DevNode_Problem_Ex)
+        207   CE          CM_Set_DevNode_Registry_PropertyA (forwarded to cfgmgr32.CM_Set_DevNode_Registry_PropertyA)
+        208   CF          CM_Set_DevNode_Registry_PropertyW (forwarded to cfgmgr32.CM_Set_DevNode_Registry_PropertyW)
+        209   D0          CM_Set_DevNode_Registry_Property_ExA (forwarded to cfgmgr32.CM_Set_DevNode_Registry_Property_ExA)
+        210   D1          CM_Set_DevNode_Registry_Property_ExW (forwarded to cfgmgr32.CM_Set_DevNode_Registry_Property_ExW)
+        211   D2          CM_Set_HW_Prof (forwarded to cfgmgr32.CM_Set_HW_Prof)
+        212   D3          CM_Set_HW_Prof_Ex (forwarded to cfgmgr32.CM_Set_HW_Prof_Ex)
+        213   D4          CM_Set_HW_Prof_FlagsA (forwarded to cfgmgr32.CM_Set_HW_Prof_FlagsA)
+        214   D5          CM_Set_HW_Prof_FlagsW (forwarded to cfgmgr32.CM_Set_HW_Prof_FlagsW)
+        215   D6          CM_Set_HW_Prof_Flags_ExA (forwarded to cfgmgr32.CM_Set_HW_Prof_Flags_ExA)
+        216   D7          CM_Set_HW_Prof_Flags_ExW (forwarded to cfgmgr32.CM_Set_HW_Prof_Flags_ExW)
+        217   D8          CM_Setup_DevNode (forwarded to cfgmgr32.CM_Setup_DevNode)
+        218   D9          CM_Setup_DevNode_Ex (forwarded to cfgmgr32.CM_Setup_DevNode_Ex)
+        219   DA          CM_Test_Range_Available (forwarded to cfgmgr32.CM_Test_Range_Available)
+        220   DB          CM_Uninstall_DevNode (forwarded to cfgmgr32.CM_Uninstall_DevNode)
+        221   DC          CM_Uninstall_DevNode_Ex (forwarded to cfgmgr32.CM_Uninstall_DevNode_Ex)
+        222   DD          CM_Unregister_Device_InterfaceA (forwarded to cfgmgr32.CM_Unregister_Device_InterfaceA)
+        223   DE          CM_Unregister_Device_InterfaceW (forwarded to cfgmgr32.CM_Unregister_Device_InterfaceW)
+        224   DF          CM_Unregister_Device_Interface_ExA (forwarded to cfgmgr32.CM_Unregister_Device_Interface_ExA)
+        225   E0          CM_Unregister_Device_Interface_ExW (forwarded to cfgmgr32.CM_Unregister_Device_Interface_ExW)
+        226   E1 000A4CA0 CM_Write_UserPowerKey
+        227   E2 000AFE00 DoesUserHavePrivilege
+        228   E3 000AE940 DriverStoreAddDriverPackageA
+        229   E4 000AEAD0 DriverStoreAddDriverPackageW
+        230   E5 000AEC50 DriverStoreDeleteDriverPackageA
+        231   E6 000AECB0 DriverStoreDeleteDriverPackageW
+        232   E7 000AED20 DriverStoreEnumDriverPackageA
+        233   E8 000AEDC0 DriverStoreEnumDriverPackageW
+        234   E9 000AEE60 DriverStoreFindDriverPackageA
+        235   EA 000AF010 DriverStoreFindDriverPackageW
+        236   EB 000618C0 ExtensionPropSheetPageProc
+        237   EC 000A4BB0 InstallCatalog
+        238   ED 0008EFA0 InstallHinfSection
+        239   EE 0008EFA0 InstallHinfSectionA
+        240   EF 0008F000 InstallHinfSectionW
+        241   F0 000B0210 IsUserAdmin
+        242   F1 000A4BD0 MyFree
+        243   F2 000A4BE0 MyMalloc
+        244   F3 000A4C00 MyRealloc
+        245   F4 00080B40 PnpEnumDrpFile
+        246   F5 00080E20 PnpIsFileAclIntact
+        247   F6 00080EE0 PnpIsFileContentIntact
+        248   F7 0002C7E0 PnpIsFilePnpDriver
+        249   F8 00080FB0 PnpRepairWindowsProtectedDriver
+        250   F9 0007B730 SetupAddInstallSectionToDiskSpaceListA
+        251   FA 0007B800 SetupAddInstallSectionToDiskSpaceListW
+        252   FB 0007B8C0 SetupAddSectionToDiskSpaceListA
+        253   FC 0007B980 SetupAddSectionToDiskSpaceListW
+        254   FD 0007BA10 SetupAddToDiskSpaceListA
+        255   FE 0007BB00 SetupAddToDiskSpaceListW
+        256   FF 000A29C0 SetupAddToSourceListA
+        257  100 000A2A70 SetupAddToSourceListW
+        258  101 0007BC70 SetupAdjustDiskSpaceListA
+        259  102 0007BD50 SetupAdjustDiskSpaceListW
+        260  103 000A84B0 SetupBackupErrorA
+        261  104 000A85F0 SetupBackupErrorW
+        262  105 000A2B20 SetupCancelTemporarySourceList
+        263  106 0002AE00 SetupCloseFileQueue
+        264  107 00017BF0 SetupCloseInfFile
+        265  108 000A1200 SetupCloseLog
+        266  109 00086E20 SetupCommitFileQueue
+        267  10A 00086EB0 SetupCommitFileQueueA
+        268  10B 00086F40 SetupCommitFileQueueW
+        269  10C 00079520 SetupConfigureWmiFromInfSectionA
+        270  10D 00079640 SetupConfigureWmiFromInfSectionW
+        271  10E 000A8840 SetupCopyErrorA
+        272  10F 000A8B00 SetupCopyErrorW
+        273  110 0009C830 SetupCopyOEMInfA
+        274  111 0009CB30 SetupCopyOEMInfW
+        275  112 0007BEC0 SetupCreateDiskSpaceListA
+        276  113 0007BF40 SetupCreateDiskSpaceListW
+        277  114 0004BFC0 SetupDecompressOrCopyFileA
+        278  115 0004C080 SetupDecompressOrCopyFileW
+        279  116 00087B90 SetupDefaultQueueCallback
+        280  117 00087B10 SetupDefaultQueueCallbackA
+        281  118 00087B90 SetupDefaultQueueCallbackW
+        282  119 000A91A0 SetupDeleteErrorA
+        283  11A 000A92B0 SetupDeleteErrorW
+        284  11B 0007C060 SetupDestroyDiskSpaceList
+        285  11C 000A4C60 SetupDiApplyPowerScheme
+        286  11D 000615B0 SetupDiAskForOEMDisk
+        287  11E 0004D620 SetupDiBuildClassInfoList
+        288  11F 0004D710 SetupDiBuildClassInfoListExA
+        289  120 0004D840 SetupDiBuildClassInfoListExW
+        290  121 00029750 SetupDiBuildDriverInfoList
+        291  122 0002C010 SetupDiCallClassInstaller
+        292  123 0004F410 SetupDiCancelDriverInfoSearch
+        293  124 0005C3D0 SetupDiChangeState
+        294  125 0004DAA0 SetupDiClassGuidsFromNameA
+        295  126 0004DBC0 SetupDiClassGuidsFromNameExA
+        296  127 0004DD20 SetupDiClassGuidsFromNameExW
+        297  128 0004DE10 SetupDiClassGuidsFromNameW
+        298  129 0004DF00 SetupDiClassNameFromGuidA
+        299  12A 0004DFF0 SetupDiClassNameFromGuidExA
+        300  12B 0004E1B0 SetupDiClassNameFromGuidExW
+        301  12C 0004E2D0 SetupDiClassNameFromGuidW
+        302  12D 00062720 SetupDiCreateDevRegKeyA
+        303  12E 00062850 SetupDiCreateDevRegKeyW
+        304  12F 00053A00 SetupDiCreateDeviceInfoA
+        305  130 0002D990 SetupDiCreateDeviceInfoList
+        306  131 00053AF0 SetupDiCreateDeviceInfoListExA
+        307  132 00019470 SetupDiCreateDeviceInfoListExW
+        308  133 00053BB0 SetupDiCreateDeviceInfoW
+        309  134 00053F90 SetupDiCreateDeviceInterfaceA
+        310  135 00062B20 SetupDiCreateDeviceInterfaceRegKeyA
+        311  136 00062C50 SetupDiCreateDeviceInterfaceRegKeyW
+        312  137 00054060 SetupDiCreateDeviceInterfaceW
+        313  138 00062F80 SetupDiDeleteDevRegKey
+        314  139 000541B0 SetupDiDeleteDeviceInfo
+        315  13A 000542C0 SetupDiDeleteDeviceInterfaceData
+        316  13B 000630B0 SetupDiDeleteDeviceInterfaceRegKey
+        317  13C 00051CA0 SetupDiDestroyClassImageList
+        318  13D 000184F0 SetupDiDestroyDeviceInfoList
+        319  13E 0002B7F0 SetupDiDestroyDriverInfoList
+        320  13F 00051DF0 SetupDiDrawMiniIcon
+        321  140 00018A90 SetupDiEnumDeviceInfo
+        322  141 00018400 SetupDiEnumDeviceInterfaces
+        323  142 0004F500 SetupDiEnumDriverInfoA
+        324  143 0001F650 SetupDiEnumDriverInfoW
+        325  144 0005CD60 SetupDiGetActualModelsSectionA
+        326  145 0005CEE0 SetupDiGetActualModelsSectionW
+        327  146 0005D150 SetupDiGetActualSectionToInstallA
+        328  147 0005D1E0 SetupDiGetActualSectionToInstallExA
+        329  148 0005D420 SetupDiGetActualSectionToInstallExW
+        330  149 0001F360 SetupDiGetActualSectionToInstallW
+        331  14A 000520D0 SetupDiGetClassBitmapIndex
+        332  14B 0004E3C0 SetupDiGetClassDescriptionA
+        333  14C 0004E4B0 SetupDiGetClassDescriptionExA
+        334  14D 0004E6D0 SetupDiGetClassDescriptionExW
+        335  14E 0004E7C0 SetupDiGetClassDescriptionW
+        336  14F 000619F0 SetupDiGetClassDevPropertySheetsA
+        337  150 00061B30 SetupDiGetClassDevPropertySheetsW
+        338  151 0002D850 SetupDiGetClassDevsA
+        339  152 000543B0 SetupDiGetClassDevsExA
+        340  153 000182B0 SetupDiGetClassDevsExW
+        341  154 00018250 SetupDiGetClassDevsW
+        342  155 00052260 SetupDiGetClassImageIndex
+        343  156 000523C0 SetupDiGetClassImageList
+        344  157 000524A0 SetupDiGetClassImageListExA
+        345  158 000525C0 SetupDiGetClassImageListExW
+        346  159 00054E30 SetupDiGetClassInstallParamsA
+        347  15A 000550C0 SetupDiGetClassInstallParamsW
+        348  15B 0001FAE0 SetupDiGetClassPropertyExW
+        349  15C 000631D0 SetupDiGetClassPropertyKeys
+        350  15D 000632C0 SetupDiGetClassPropertyKeysExW
+        351  15E 0001FA30 SetupDiGetClassPropertyW
+        352  15F 00063390 SetupDiGetClassRegistryPropertyA
+        353  160 00063590 SetupDiGetClassRegistryPropertyW
+        354  161 000635B0 SetupDiGetCustomDevicePropertyA
+        355  162 00063690 SetupDiGetCustomDevicePropertyW
+        356  163 000544B0 SetupDiGetDeviceInfoListClass
+        357  164 000545A0 SetupDiGetDeviceInfoListDetailA
+        358  165 0002B310 SetupDiGetDeviceInfoListDetailW
+        359  166 00055200 SetupDiGetDeviceInstallParamsA
+        360  167 0002BAA0 SetupDiGetDeviceInstallParamsW
+        361  168 00054670 SetupDiGetDeviceInstanceIdA
+        362  169 0002D690 SetupDiGetDeviceInstanceIdW
+        363  16A 0002C1D0 SetupDiGetDeviceInterfaceAlias
+        364  16B 0002D9F0 SetupDiGetDeviceInterfaceDetailA
+        365  16C 0002D320 SetupDiGetDeviceInterfaceDetailW
+        366  16D 00063770 SetupDiGetDeviceInterfacePropertyKeys
+        367  16E 000638D0 SetupDiGetDeviceInterfacePropertyW
+        368  16F 00063A30 SetupDiGetDevicePropertyKeys
+        369  170 00018930 SetupDiGetDevicePropertyW
+        370  171 0002CE00 SetupDiGetDeviceRegistryPropertyA
+        371  172 0002CEA0 SetupDiGetDeviceRegistryPropertyW
+        372  173 0004F5D0 SetupDiGetDriverInfoDetailA
+        373  174 0002A700 SetupDiGetDriverInfoDetailW
+        374  175 0004FAB0 SetupDiGetDriverInstallParamsA
+        375  176 0004FBA0 SetupDiGetDriverInstallParamsW
+        376  177 00055330 SetupDiGetHwProfileFriendlyNameA
+        377  178 00055420 SetupDiGetHwProfileFriendlyNameExA
+        378  179 00055640 SetupDiGetHwProfileFriendlyNameExW
+        379  17A 00055850 SetupDiGetHwProfileFriendlyNameW
+        380  17B 00055940 SetupDiGetHwProfileList
+        381  17C 00055A30 SetupDiGetHwProfileListExA
+        382  17D 00055B60 SetupDiGetHwProfileListExW
+        383  17E 0004E8B0 SetupDiGetINFClassA
+        384  17F 0004EA70 SetupDiGetINFClassW
+        385  180 000776E0 SetupDiGetSelectedDevice
+        386  181 0004FD20 SetupDiGetSelectedDriverA
+        387  182 0001F780 SetupDiGetSelectedDriverW
+        388  183 00077800 SetupDiGetWizardPage
+        389  184 00055D50 SetupDiInstallClassA
+        390  185 00055E70 SetupDiInstallClassExA
+        391  186 00055FA0 SetupDiInstallClassExW
+        392  187 00056B30 SetupDiInstallClassW
+        393  188 0005D4E0 SetupDiInstallDevice
+        394  189 0005DE10 SetupDiInstallDeviceInterfaces
+        395  18A 00020080 SetupDiInstallDriverFiles
+        396  18B 00052AF0 SetupDiLoadClassIcon
+        397  18C 00052C30 SetupDiLoadDeviceIcon
+        398  18D 0005DE90 SetupDiMoveDuplicateDevice
+        399  18E 00063BA0 SetupDiOpenClassRegKey
+        400  18F 00063C90 SetupDiOpenClassRegKeyExA
+        401  190 00063DC0 SetupDiOpenClassRegKeyExW
+        402  191 0002D770 SetupDiOpenDevRegKey
+        403  192 000547F0 SetupDiOpenDeviceInfoA
+        404  193 0002D430 SetupDiOpenDeviceInfoW
+        405  194 000548B0 SetupDiOpenDeviceInterfaceA
+        406  195 0002BC30 SetupDiOpenDeviceInterfaceRegKey
+        407  196 0002A0B0 SetupDiOpenDeviceInterfaceW
+        408  197 0005E7A0 SetupDiRegisterCoDeviceInstallers
+        409  198 00054960 SetupDiRegisterDeviceInfo
+        410  199 0005E820 SetupDiRemoveDevice
+        411  19A 00054B50 SetupDiRemoveDeviceInterface
+        412  19B 000ACF80 SetupDiReportAdditionalSoftwareRequested
+        413  19C 000ACFA0 SetupDiReportDeviceInstallError
+        414  19D 000AD740 SetupDiReportDriverNotFoundError
+        415  19E 000ACF80 SetupDiReportDriverPackageImportationError
+        416  19F 000ACF80 SetupDiReportGenericDriverInstalled
+        417  1A0 000ACFC0 SetupDiReportPnPDeviceProblem
+        418  1A1 0005EA30 SetupDiRestartDevices
+        419  1A2 0005EBB0 SetupDiSelectBestCompatDrv
+        420  1A3 00077AA0 SetupDiSelectDevice
+        421  1A4 000617D0 SetupDiSelectOEMDrv
+        422  1A5 00056C20 SetupDiSetClassInstallParamsA
+        423  1A6 00056DD0 SetupDiSetClassInstallParamsW
+        424  1A7 00063DE0 SetupDiSetClassPropertyExW
+        425  1A8 00063EB0 SetupDiSetClassPropertyW
+        426  1A9 00063FA0 SetupDiSetClassRegistryPropertyA
+        427  1AA 00064170 SetupDiSetClassRegistryPropertyW
+        428  1AB 00056F00 SetupDiSetDeviceInstallParamsA
+        429  1AC 000296C0 SetupDiSetDeviceInstallParamsW
+        430  1AD 00054C40 SetupDiSetDeviceInterfaceDefault
+        431  1AE 00064190 SetupDiSetDeviceInterfacePropertyW
+        432  1AF 000642F0 SetupDiSetDevicePropertyW
+        433  1B0 00064460 SetupDiSetDeviceRegistryPropertyA
+        434  1B1 00064530 SetupDiSetDeviceRegistryPropertyW
+        435  1B2 0004FDF0 SetupDiSetDriverInstallParamsA
+        436  1B3 0004FEE0 SetupDiSetDriverInstallParamsW
+        437  1B4 00077D10 SetupDiSetSelectedDevice
+        438  1B5 00050030 SetupDiSetSelectedDriverA
+        439  1B6 00028A90 SetupDiSetSelectedDriverW
+        440  1B7 0005F3A0 SetupDiUnremoveDevice
+        441  1B8 0007C1C0 SetupDuplicateDiskSpaceListA
+        442  1B9 0007C240 SetupDuplicateDiskSpaceListW
+        443  1BA 00099E20 SetupEnumInfSectionsA
+        444  1BB 0009A050 SetupEnumInfSectionsW
+        445  1BC 000ADB20 SetupEnumPublishedInfA
+        446  1BD 000ADB80 SetupEnumPublishedInfW
+        447  1BE 0001C280 SetupFindFirstLineA
+        448  1BF 00099B80 SetupFindFirstLineW
+        449  1C0 0001E3C0 SetupFindNextLine
+        450  1C1 00099BA0 SetupFindNextMatchLineA
+        451  1C2 00099C60 SetupFindNextMatchLineW
+        452  1C3 000A2BE0 SetupFreeSourceListA
+        453  1C4 000A2C60 SetupFreeSourceListW
+        454  1C5 0004A600 SetupGetBackupInformationA
+        455  1C6 0004A670 SetupGetBackupInformationW
+        456  1C7 0001E080 SetupGetBinaryField
+        457  1C8 000203F0 SetupGetFieldCount
+        458  1C9 0004C4C0 SetupGetFileCompressionInfoA
+        459  1CA 0004C6A0 SetupGetFileCompressionInfoExA
+        460  1CB 0004C870 SetupGetFileCompressionInfoExW
+        461  1CC 0004CA20 SetupGetFileCompressionInfoW
+        462  1CD 00084E20 SetupGetFileQueueCount
+        463  1CE 00084FB0 SetupGetFileQueueFlags
+        464  1CF 0009D940 SetupGetInfDriverStoreLocationA
+        465  1D0 0002C4B0 SetupGetInfDriverStoreLocationW
+        466  1D1 0009DB70 SetupGetInfFileListA
+        467  1D2 0009DC60 SetupGetInfFileListW
+        468  1D3 0009DD50 SetupGetInfInformationA
+        469  1D4 0009DE60 SetupGetInfInformationW
+        470  1D5 0009E1D0 SetupGetInfPublishedNameA
+        471  1D6 0002DC30 SetupGetInfPublishedNameW
+        472  1D7 0009F870 SetupGetInfSections
+        473  1D8 00021460 SetupGetIntField
+        474  1D9 00099C80 SetupGetLineByIndexA
+        475  1DA 00099D30 SetupGetLineByIndexW
+        476  1DB 00099D50 SetupGetLineCountA
+        477  1DC 00099E00 SetupGetLineCountW
+        478  1DD 0009FA10 SetupGetLineTextA
+        479  1DE 0009FE40 SetupGetLineTextW
+        480  1DF 000A0170 SetupGetMultiSzFieldA
+        481  1E0 000A04E0 SetupGetMultiSzFieldW
+        482  1E1 0008B740 SetupGetNonInteractiveMode
+        483  1E2 0008D7C0 SetupGetSourceFileLocationA
+        484  1E3 0008D9D0 SetupGetSourceFileLocationW
+        485  1E4 0008DBA0 SetupGetSourceFileSizeA
+        486  1E5 0008DD50 SetupGetSourceFileSizeW
+        487  1E6 0009F680 SetupGetSourceInfoA
+        488  1E7 0009F7E0 SetupGetSourceInfoW
+        489  1E8 000176F0 SetupGetStringFieldA
+        490  1E9 00021C40 SetupGetStringFieldW
+        491  1EA 0008DEF0 SetupGetTargetPathA
+        492  1EB 000275B0 SetupGetTargetPathW
+        493  1EC          SetupGetThreadLogToken (forwarded to devrtl.DevRtlGetThreadLogToken)
+        494  1ED 00087E60 SetupInitDefaultQueueCallback
+        495  1EE 00087EE0 SetupInitDefaultQueueCallbackEx
+        496  1EF 000842A0 SetupInitializeFileLogA
+        497  1F0 00084310 SetupInitializeFileLogW
+        498  1F1 0004A860 SetupInstallFileA
+        499  1F2 0004A8F0 SetupInstallFileExA
+        500  1F3 0004AA40 SetupInstallFileExW
+        501  1F4 0004AC40 SetupInstallFileW
+        502  1F5 0008FE90 SetupInstallFilesFromInfSectionA
+        503  1F6 0008FF90 SetupInstallFilesFromInfSectionW
+        504  1F7 00090210 SetupInstallFromInfSectionA
+        505  1F8 00090330 SetupInstallFromInfSectionW
+        506  1F9 000B0400 SetupInstallLogCloseEventGroup
+        507  1FA 000B0570 SetupInstallLogCreateEventGroup
+        508  1FB 000903D0 SetupInstallServicesFromInfSectionA
+        509  1FC 00090490 SetupInstallServicesFromInfSectionExA
+        510  1FD 00090550 SetupInstallServicesFromInfSectionExW
+        511  1FE 00090B30 SetupInstallServicesFromInfSectionW
+        512  1FF 0007A3A0 SetupIterateCabinetA
+        513  200 0007A450 SetupIterateCabinetW
+        514  201 000A12B0 SetupLogErrorA
+        515  202 000A1350 SetupLogErrorW
+        516  203 000844F0 SetupLogFileA
+        517  204 00084670 SetupLogFileW
+        518  205 0009E350 SetupOpenAppendInfFileA
+        519  206 000206F0 SetupOpenAppendInfFileW
+        520  207 0001E6A0 SetupOpenFileQueue
+        521  208 0001B040 SetupOpenInfFileA
+        522  209 0001B150 SetupOpenInfFileW
+        523  20A 000A13E0 SetupOpenLog
+        524  20B 0009E440 SetupOpenMasterInf
+        525  20C 0004A6E0 SetupPrepareQueueForRestoreA
+        526  20D 0004A750 SetupPrepareQueueForRestoreW
+        527  20E 000A9500 SetupPromptForDiskA
+        528  20F 000A97C0 SetupPromptForDiskW
+        529  210 00089CC0 SetupPromptReboot
+        530  211 0007C420 SetupQueryDrivesInDiskSpaceListA
+        531  212 0007C4A0 SetupQueryDrivesInDiskSpaceListW
+        532  213 000847F0 SetupQueryFileLogA
+        533  214 000849C0 SetupQueryFileLogW
+        534  215 0009E500 SetupQueryInfFileInformationA
+        535  216 0009E660 SetupQueryInfFileInformationW
+        536  217 0009E6E0 SetupQueryInfOriginalFileInformationA
+        537  218 0009E8C0 SetupQueryInfOriginalFileInformationW
+        538  219 0009EAA0 SetupQueryInfVersionInformationA
+        539  21A 0009ED10 SetupQueryInfVersionInformationW
+        540  21B 000A2D30 SetupQuerySourceListA
+        541  21C 000A2EA0 SetupQuerySourceListW
+        542  21D 0007C520 SetupQuerySpaceRequiredOnDriveA
+        543  21E 0007C5E0 SetupQuerySpaceRequiredOnDriveW
+        544  21F 00085A60 SetupQueueCopyA
+        545  220 00085CE0 SetupQueueCopyIndirectA
+        546  221 00085F40 SetupQueueCopyIndirectW
+        547  222 00086020 SetupQueueCopySectionA
+        548  223 00021940 SetupQueueCopySectionW
+        549  224 00086120 SetupQueueCopyW
+        550  225 00086200 SetupQueueDefaultCopyA
+        551  226 0002C340 SetupQueueDefaultCopyW
+        552  227 00086660 SetupQueueDeleteA
+        553  228 00086740 SetupQueueDeleteSectionA
+        554  229 0001E260 SetupQueueDeleteSectionW
+        555  22A 000867F0 SetupQueueDeleteW
+        556  22B 000868D0 SetupQueueRenameA
+        557  22C 00086A20 SetupQueueRenameSectionA
+        558  22D 00086AD0 SetupQueueRenameSectionW
+        559  22E 00086CF0 SetupQueueRenameW
+        560  22F 00084B90 SetupRemoveFileLogEntryA
+        561  230 00084C50 SetupRemoveFileLogEntryW
+        562  231 0007C870 SetupRemoveFromDiskSpaceListA
+        563  232 0007C950 SetupRemoveFromDiskSpaceListW
+        564  233 000A3440 SetupRemoveFromSourceListA
+        565  234 000A34F0 SetupRemoveFromSourceListW
+        566  235 0007CAC0 SetupRemoveInstallSectionFromDiskSpaceListA
+        567  236 0007CB90 SetupRemoveInstallSectionFromDiskSpaceListW
+        568  237 0007CC50 SetupRemoveSectionFromDiskSpaceListA
+        569  238 0007CD10 SetupRemoveSectionFromDiskSpaceListW
+        570  239 000A9A20 SetupRenameErrorA
+        571  23A 000A9B60 SetupRenameErrorW
+        572  23B 0002C0A0 SetupScanFileQueue
+        573  23C 00089E50 SetupScanFileQueueA
+        574  23D 0002C0A0 SetupScanFileQueueW
+        575  23E 0008E0B0 SetupSetDirectoryIdA
+        576  23F 0008E130 SetupSetDirectoryIdExA
+        577  240 0008E200 SetupSetDirectoryIdExW
+        578  241 0008E280 SetupSetDirectoryIdW
+        579  242 00085170 SetupSetFileQueueAlternatePlatformA
+        580  243 00085260 SetupSetFileQueueAlternatePlatformW
+        581  244 00085550 SetupSetFileQueueFlags
+        582  245 0008B770 SetupSetNonInteractiveMode
+        583  246 00086330 SetupSetPlatformPathOverrideA
+        584  247 000863F0 SetupSetPlatformPathOverrideW
+        585  248 000A35A0 SetupSetSourceListA
+        586  249 000A3750 SetupSetSourceListW
+        587  24A          SetupSetThreadLogToken (forwarded to devrtl.DevRtlSetThreadLogToken)
+        588  24B 00088060 SetupTermDefaultQueueCallback
+        589  24C 00084D00 SetupTerminateFileLog
+        590  24D 00086FD0 SetupUninstallNewlyCopiedInfs
+        591  24E 0009D360 SetupUninstallOEMInfA
+        592  24F 0009D440 SetupUninstallOEMInfW
+        593  250 0009EEA0 SetupVerifyInfFileA
+        594  251 0001C890 SetupVerifyInfFileW
+        595  252          SetupWriteTextLog (forwarded to devrtl.DevRtlWriteTextLog)
+        596  253          SetupWriteTextLogError (forwarded to devrtl.DevRtlWriteTextLogError)
+        597  254 000202B0 SetupWriteTextLogInfLine
+        598  255 0002D610 UnicodeToMultiByte
+        599  256 000ACF50 VerifyCatalogFile
+        600  257 000AC9F0 pGetDriverPackageHash
+        601  258 000AC0F0 pSetupAccessRunOnceNodeList
+        602  259 00052D50 pSetupAddMiniIconToList
+        603  25A 00072510 pSetupAddTagToGroupOrderListEntry
+        604  25B 0002B470 pSetupAppendPath
+        605  25C 0001C350 pSetupCaptureAndConvertAnsiArg
+        606  25D 000A2720 pSetupCenterWindowRelativeToParent
+        607  25E          pSetupCloseTextLogSection (forwarded to devrtl.DevRtlCloseTextLogSection)
+        608  25F 0002CC00 pSetupConcatenatePaths
+        609  260          pSetupCreateTextLogSectionA (forwarded to devrtl.DevRtlCreateTextLogSectionA)
+        610  261          pSetupCreateTextLogSectionW (forwarded to devrtl.DevRtlCreateTextLogSectionW)
+        611  262 000AC100 pSetupDestroyRunOnceNodeList
+        612  263 00050600 pSetupDiBuildInfoDataFromStrongName
+        613  264 000AD400 pSetupDiCrimsonLogDeviceInstall
+        614  265 00050DA0 pSetupDiEnumSelectedDrivers
+        615  266 00050EF0 pSetupDiGetDriverInfoExtensionId
+        616  267 000806A0 pSetupDiGetStrongNameForDriverNode
+        617  268 00018FD0 pSetupDiInvalidateHelperModules
+        618  269 000A07C0 pSetupDoLastKnownGoodBackup
+        619  26A 000AFE00 pSetupDoesUserHavePrivilege
+        620  26B 0001A8E0 pSetupDuplicateString
+        621  26C 000AFF00 pSetupEnablePrivilege
+        622  26D 000B19E0 pSetupFree
+        623  26E 000A4C20 pSetupGetCurrentDriverSigningPolicy
+        624  26F 00020A10 pSetupGetDriverDate
+        625  270 00021370 pSetupGetDriverVersion
+        626  271 00021DE0 pSetupGetField
+        627  272 0002C640 pSetupGetFileTitle
+        628  273 0008B7C0 pSetupGetGlobalFlags
+        629  274 000A4900 pSetupGetIndirectStringsFromDriverInfo
+        630  275 0009F8F0 pSetupGetInfSections
+        631  276 00085790 pSetupGetQueueFlags
+        632  277 0001C540 pSetupGetRealSystemTime
+        633  278 0001C610 pSetupGuidFromString
+        634  279 000A4C30 pSetupHandleFailedVerification
+        635  27A 000ACCA0 pSetupInfGetDigitalSignatureInfo
+        636  27B 0002DBA0 pSetupInfIsInbox
+        637  27C 000ACE30 pSetupInfSetDigitalSignatureInfo
+        638  27D 000C4D00 pSetupInstallCatalog
+        639  27E 00053790 pSetupIsBiDiLocalizedSystemEx
+        640  27F 000B1AF0 pSetupIsGuidNull
+        641  280 0002C290 pSetupIsLocalSystem
+        642  281 000B0210 pSetupIsUserAdmin
+        643  282 00082E50 pSetupIsUserTrustedInstaller
+        644  283 000A4AB0 pSetupLoadIndirectString
+        645  284 0002B650 pSetupMakeSurePathExists
+        646  285 000B1A00 pSetupMalloc
+        647  286 0008B7F0 pSetupModifyGlobalFlags
+        648  287 000B0E00 pSetupMultiByteToUnicode
+        649  288 000B1670 pSetupOpenAndMapFileForRead
+        650  289 000A1EB0 pSetupOutOfMemory
+        651  28A 000AB560 pSetupQueryMultiSzValueToArray
+        652  28B 000B1A20 pSetupRealloc
+        653  28C 000B1F90 pSetupRegistryDelnode
+        654  28D 00072B50 pSetupRetrieveServiceConfig
+        655  28E 000AB7A0 pSetupSetArrayToMultiSzValue
+        656  28F 0008B850 pSetupSetGlobalFlags
+        657  290 00085840 pSetupSetQueueFlags
+        658  291 00051420 pSetupShouldDeviceBeExcluded
+        659  292 0002A4B0 pSetupStringFromGuid
+        660  293 00026EF0 pSetupStringTableAddString
+        661  294 00028630 pSetupStringTableAddStringEx
+        662  295 0002B3F0 pSetupStringTableDestroy
+        663  296 000B2290 pSetupStringTableDuplicate
+        664  297 000B2320 pSetupStringTableEnum
+        665  298 000B23A0 pSetupStringTableGetExtraData
+        666  299 0001E800 pSetupStringTableInitialize
+        667  29A 0001E7B0 pSetupStringTableInitializeEx
+        668  29B 0002A030 pSetupStringTableLookUpString
+        669  29C 000281F0 pSetupStringTableLookUpStringEx
+        670  29D 000289E0 pSetupStringTableSetExtraData
+        671  29E 000B2420 pSetupStringTableStringFromId
+        672  29F 000B24A0 pSetupStringTableStringFromIdEx
+        673  2A0 0002D610 pSetupUnicodeToMultiByte
+        674  2A1 000C5030 pSetupUninstallCatalog
+        675  2A2 000B1920 pSetupUnmapAndCloseFile
+        676  2A3 000ACF50 pSetupVerifyCatalogFile
+        677  2A4 00087750 pSetupVerifyQueuedCatalogs
+        678  2A5 000A4C40 pSetupWriteLogEntry
+        679  2A6 000A4C50 pSetupWriteLogError
+
+  Section contains the following delay load imports:
+
+    api-ms-win-core-file-l1-1-0.dll
+              00000001 Characteristics
+              100D85A4 Address of HMODULE
+              100DC400 Import Address Table
+              100CC4CC Import Name Table
+              100CECCC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F873              29 GetDriveTypeW
+          1002E9FA              55 SetFileAttributesW
+          1002E9EA              3D GetTempFileNameW
+          1002F7B2              2C GetFileAttributesExW
+          1002F883              38 GetLogicalDrives
+          1002F924               4 CreateDirectoryW
+          1002F64D              3B GetShortPathNameW
+          1002EA0A               A DeleteFileW
+          1002F7C2              1F FlushFileBuffers
+          1002F49A              50 RemoveDirectoryW
+          1002F48A               D FindClose
+          1002F47A              1B FindNextFileW
+          1002F46A              15 FindFirstFileW
+          1002F45A              2D GetFileAttributesW
+          1002F43A              25 GetDiskFreeSpaceW
+          1002F3E9              58 SetFilePointer
+          1002F3D9              5E WriteFile
+          1002F3C9              4C ReadFile
+          1002F3B9               6 CreateFileA
+          1002F3A9              48 LocalFileTimeToFileTime
+          1002EA3B               7 CreateFileW
+          1002E9C9              36 GetFullPathNameW
+          100308E5               C FileTimeToLocalFileTime
+          1002EA4B              31 GetFileTime
+          1002EA5B              5A SetFileTime
+          10030916              2F GetFileSize
+          10030926              51 SetEndOfFile
+          10030936              2E GetFileInformationByHandle
+          1002EE63               2 CompareFileTime
+
+    api-ms-win-core-string-l2-1-0.dll
+              00000001 Characteristics
+              100D85A8 Address of HMODULE
+              100DC4CC Import Address Table
+              100CC598 Import Name Table
+              100CECE0 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F7D2               2 CharNextW
+          1002EA1A               3 CharPrevW
+          1002F194               5 CharUpperW
+
+    DEVOBJ.dll
+              00000001 Characteristics
+              100D85AC Address of HMODULE
+              100DC0F0 Import Address Table
+              100CC1BC Import Name Table
+              100CECF4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002EBB0               6 DevObjCreateDeviceInfo
+          1002EBA0              1A DevObjGetDeviceInfoListDetail
+          1002EB90               7 DevObjCreateDeviceInfoList
+          1002EDD1              23 DevObjLocateDevice
+          1002EDE1               1 DevObjChangeState
+          1002EC10              29 DevObjRegisterDeviceInfo
+          1002EC20              1B DevObjGetDeviceInstanceId
+          1002EBC0               D DevObjDeleteDeviceInfo
+          1002ED01              2B DevObjRestartDevices
+          1002EA6B               2 DevObjClassGuidsFromName
+          1002ED81               C DevObjDeleteDevice
+          1002EC30              12 DevObjEnumDeviceInterfaces
+          1002EC40              1D DevObjGetDeviceInterfaceDetail
+          1002EE73              24 DevObjOpenClassRegKey
+          1002EE83               5 DevObjCreateDevRegKey
+          1002EE93              25 DevObjOpenDevRegKey
+          1002EEA3              22 DevObjGetDeviceRegistryProperty
+          1002EEB3              32 DevObjSetDeviceRegistryProperty
+          1002EBD0              26 DevObjOpenDeviceInfo
+          1002EED3              2D DevObjSetClassRegistryProperty
+          1002EEE3              21 DevObjGetDevicePropertyKeys
+          1002EEF3              20 DevObjGetDeviceProperty
+          1002EF03              31 DevObjSetDeviceProperty
+          1002EF13              1F DevObjGetDeviceInterfacePropertyKeys
+          1002EF23              1E DevObjGetDeviceInterfaceProperty
+          1002EF33              30 DevObjSetDeviceInterfaceProperty
+          1002EF43              16 DevObjGetClassPropertyKeys
+          1002EF53              15 DevObjGetClassProperty
+          1002EF63              2C DevObjSetClassProperty
+          1002EF73               B DevObjDeleteDevRegKey
+          1002EF83               9 DevObjCreateDeviceInterfaceRegKey
+          1002EF93               F DevObjDeleteDeviceInterfaceRegKey
+          1002EFA3              28 DevObjOpenDeviceInterfaceRegKey
+          1002EC50              27 DevObjOpenDeviceInterface
+          1002EC90              2A DevObjRemoveDeviceInterface
+          1002EC80               E DevObjDeleteDeviceInterfaceData
+          1002F44A              10 DevObjDestroyDeviceInfoList
+          1002ED61               A DevObjDeleteAllInterfacesForDevice
+          1002EBE0              14 DevObjGetClassDevs
+          1002EA8C              13 DevObjGetClassDescription
+          1002EC70               8 DevObjCreateDeviceInterface
+          1002EBF0              2F DevObjSetDeviceInterfaceDefault
+          1002EEC3              17 DevObjGetClassRegistryProperty
+          1002EC00              11 DevObjEnumDeviceInfo
+          1002EC60              1C DevObjGetDeviceInterfaceAlias
+
+    CFGMGR32.dll
+              00000001 Characteristics
+              100D85B0 Address of HMODULE
+              100DC008 Import Address Table
+              100CC0D4 Import Name Table
+              100CED00 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F023              30 CM_Free_Res_Des_Handle
+          1002FD84               8 CM_Add_Driver_PackageW
+          1002F133              31 CM_Free_Resource_Conflict_Handle
+          1002F123              8A CM_Get_Resource_Conflict_DetailsW
+          1002F113              88 CM_Get_Resource_Conflict_Count
+          1002F103              B4 CM_Query_Resource_Conflict_List
+          1002F0F3              83 CM_Get_Parent_Ex
+          1002F0E3              81 CM_Get_Next_Res_Des_Ex
+          1002F0C3               9 CM_Add_Res_Des_Ex
+          1002F0B3              85 CM_Get_Res_Des_Data_Ex
+          1002F0A3              87 CM_Get_Res_Des_Data_Size_Ex
+          1002EA9C               B CM_Connect_MachineW
+          1002F093               2 CM_Add_Empty_Log_Conf_Ex
+          1002EABD              23 CM_Enumerate_Classes_Ex
+          1002EACD              1E CM_Disconnect_Machine
+          1002EADD              55 CM_Get_Device_ID_ExW
+          1002F67E              C9 CM_Set_Class_Property_ExW
+          1002F083              2B CM_Free_Log_Conf_Ex
+          1002F68E              3D CM_Get_Class_Property_ExW
+          1002F944              CD CM_Set_DevNode_Problem_Ex
+          1002F073              7D CM_Get_Log_Conf_Priority_Ex
+          1002F063              CF CM_Set_DevNode_Property_ExW
+          1002F053              7F CM_Get_Next_Log_Conf_Ex
+          1002EFC3              47 CM_Get_DevNode_Custom_Property_ExW
+          1002EFB3              46 CM_Get_DevNode_Custom_Property_ExA
+          1002EE32              49 CM_Get_DevNode_Property_ExW
+          1002EDC1              B6 CM_Reenumerate_DevNode_Ex
+          1002EDB1              98 CM_Locate_DevNode_ExW
+          1002EDA1              DB CM_Set_HW_Prof_Flags_ExW
+          1002ED91              77 CM_Get_HW_Prof_Flags_ExW
+          1002ED71              DD CM_Setup_DevNode_Ex
+          1002ED51              AD CM_Query_And_Remove_SubTree_ExW
+          1002ED41              2C CM_Free_Log_Conf_Handle
+          1002ED31              2A CM_Free_Log_Conf
+          1002ED21              71 CM_Get_First_Log_Conf_Ex
+          1002ED11              51 CM_Get_DevNode_Status_Ex
+          1002ECC0              7B CM_Get_Hardware_Profile_Info_ExW
+          1002ECB0              12 CM_Delete_Class_Key_Ex
+          1002ECA0              A3 CM_Open_Class_Key_ExW
+          1002FD74              AC CM_MapCrToSpErr
+
+    api-ms-win-core-registry-l1-1-0.dll
+              00000001 Characteristics
+              100D85B4 Address of HMODULE
+              100DC480 Import Address Table
+              100CC54C Import Name Table
+              100CED14 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002EE12              2E RegSetValueExW
+          1002EB3F              25 RegQueryValueExW
+          1002EB0E              1E RegOpenKeyExW
+          10030996               5 RegDeleteKeyExW
+          100309A6              14 RegGetValueW
+          1002F266               3 RegCreateKeyExW
+          1002F54C               E RegEnumKeyExW
+          1002F853              1A RegLoadMUIStringW
+          1002F8D4              21 RegQueryInfoKeyW
+          1002EAED               0 RegCloseKey
+          1002F216               B RegDeleteValueW
+
+    api-ms-win-ntuser-sysparams-l1-1-0.dll
+              00000001 Characteristics
+              100D85B8 Address of HMODULE
+              100DC508 Import Address Table
+              100CC5D4 Import Name Table
+              100CED20 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F5ED               B SystemParametersInfoW
+          1002EB1E               9 GetSystemMetrics
+
+    api-ms-win-rtcore-ntuser-window-l1-1-0.dll
+              00000001 Characteristics
+              100D85BC Address of HMODULE
+              100DC51C Import Address Table
+              100CC5E8 Import Name Table
+              100CED2C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F55C              34 PeekMessageW
+          1002EB4F              2F IsWindow
+          1002EFF3              21 GetParent
+          1002F003              35 PostMessageW
+          1002EFE3              3F SendMessageW
+          1002F013              43 SetFocus
+          1002EFD3              4A SetWindowLongW
+          10030874               6 CreateWindowExW
+          1002F2A6              31 IsWindowVisible
+          1002F2B6              32 KillTimer
+          1002EB80               9 DestroyWindow
+          1002F2C6              48 SetTimer
+          1002F2D6              28 GetWindowRect
+          1002F2E6              3A RegisterWindowMessageW
+          1002F2F6              18 GetClientRect
+          1002F306              4B SetWindowPos
+          1002F7F2              33 MoveWindow
+          1002F5DD              22 GetPropW
+          1002F5CD              44 SetForegroundWindow
+          1002F5BD              47 SetPropW
+          1002F5AD              29 GetWindowTextW
+          1002F59D               A DispatchMessageW
+          1002F58D              4E TranslateMessage
+          1002EB70              27 GetWindowLongW
+          1002F143              4C SetWindowTextW
+          1002F0D3              4D ShowWindow
+          1002F043              25 GetWindow
+          1002F863              3B RemovePropW
+          1002F033               B EnableWindow
+          1002F7E2               5 ClientToScreen
+
+    api-ms-win-devices-config-l1-1-1.dll
+              00000001 Characteristics
+              100D85C0 Address of HMODULE
+              100DC4E4 Import Address Table
+              100CC5B0 Import Name Table
+              100CED8C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          10030956              CE CM_Set_DevNode_PropertyW
+          1002ECD0              53 CM_Get_Device_IDW
+          1002ECF1              50 CM_Get_DevNode_Status
+          10030946              99 CM_MapCrToWin32Err
+          1002EE22              DC CM_Setup_DevNode
+          1002F153              48 CM_Get_DevNode_PropertyW
+          10030AB7              3C CM_Get_Class_PropertyW
+          1002F914              5E CM_Get_Device_ID_Size
+
+    api-ms-win-core-registry-l2-1-0.dll
+              00000001 Characteristics
+              100D85C4 Address of HMODULE
+              100DC4B0 Import Address Table
+              100CC57C Import Name Table
+              100CEDD4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002EDF1               6 RegCreateKeyW
+          10030976               5 RegCreateKeyTransactedW
+          10030966              10 RegOpenKeyTransactedW
+          10030986               9 RegDeleteKeyTransactedW
+
+    api-ms-win-core-stringansi-l1-1-0.dll
+              00000001 Characteristics
+              100D85C8 Address of HMODULE
+              100DC4DC Import Address Table
+              100CC5A8 Import Name Table
+              100CEDE8 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002EE42               2 CharNextA
+
+    api-ms-win-service-management-l1-1-0.dll
+              00000001 Characteristics
+              100D85CC Address of HMODULE
+              100DC634 Import Address Table
+              100CC700 Import Name Table
+              100CEEB0 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F1C5               0 CloseServiceHandle
+          1002F206               3 DeleteService
+          1002F184               5 OpenServiceW
+          1002F276               6 StartServiceW
+          1002F236               2 CreateServiceW
+          1002F163               4 OpenSCManagerW
+
+    api-ms-win-service-management-l2-1-0.dll
+              00000001 Characteristics
+              100D85D0 Address of HMODULE
+              100DC650 Import Address Table
+              100CC71C Import Name Table
+              100CEEC0 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F286               6 QueryServiceStatusEx
+          1002F256               3 QueryServiceConfig2W
+          1002F246               0 ChangeServiceConfig2W
+          1002F226               2 NotifyServiceStatusChangeW
+          1002F1A4               1 ChangeServiceConfigW
+          1002F296               4 QueryServiceConfigW
+
+    api-ms-win-service-winsvc-l1-1-0.dll
+              00000001 Characteristics
+              100D85D4 Address of HMODULE
+              100DC66C Import Address Table
+              100CC738 Import Name Table
+              100CEECC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F1F6               A QueryServiceStatus
+          1002F1D5               2 ControlService
+
+    api-ms-win-security-base-l1-1-0.dll
+              00000001 Characteristics
+              100D85D8 Address of HMODULE
+              100DC598 Import Address Table
+              100CC664 Import Name Table
+              100CEF1C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F53C              2C EqualSid
+          10030A06               D AddAce
+          100309F6              51 MapGenericMask
+          100309E6              2F GetAce
+          1002F357              3D GetSecurityDescriptorSacl
+          1002F347              38 GetSecurityDescriptorDacl
+          1002F337              39 GetSecurityDescriptorGroup
+          1002F316              3B GetSecurityDescriptorOwner
+          1002F5FD              33 GetFileSecurityW
+          1002F60D              5C SetFileSecurityW
+          1002F4AA              4C IsValidSecurityDescriptor
+          1002F62D              48 InitializeSecurityDescriptor
+          1002F63D              64 SetSecurityDescriptorOwner
+          100309D6              30 GetAclInformation
+          1002F69E              16 AllocateAndInitializeSid
+          100308C5              29 DuplicateTokenEx
+          100308B5              34 GetKernelObjectSecurity
+          100308A5              15 AdjustTokenPrivileges
+          1002F6AE              35 GetLengthSid
+          1002F6BE              47 InitializeAcl
+          1002F6CE               7 AddAccessAllowedAce
+          1002F6DE              62 SetSecurityDescriptorDacl
+          1002F6EE              2E FreeSid
+          1002F61D              42 GetTokenInformation
+          100309B6              37 GetSecurityDescriptorControl
+          10030A16              63 SetSecurityDescriptorGroup
+          1002F51C              1B CheckTokenMembership
+          100309C6              3A GetSecurityDescriptorLength
+          10030A26              50 MakeSelfRelativeSD
+
+    api-ms-win-security-sddl-l1-1-0.dll
+              00000001 Characteristics
+              100D85DC Address of HMODULE
+              100DC624 Import Address Table
+              100CC6F0 Import Name Table
+              100CEF30 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F50C               3 ConvertStringSidToSidW
+          100308D5               0 ConvertSecurityDescriptorToStringSecurityDescriptorW
+          1002F367               2 ConvertStringSecurityDescriptorToSecurityDescriptorW
+
+    api-ms-win-security-provider-l1-1-0.dll
+              00000001 Characteristics
+              100D85E0 Address of HMODULE
+              100DC618 Import Address Table
+              100CC6E4 Import Name Table
+              100CEF38 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F388               4 SetNamedSecurityInfoW
+          1002F52C               1 GetNamedSecurityInfoW
+
+    Cabinet.dll
+              00000001 Characteristics
+              100D85E4 Address of HMODULE
+              100DC0E0 Import Address Table
+              100CC1AC Import Name Table
+              100CEF54 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F42A                 Ordinal    23
+          1002F41A                 Ordinal    20
+          1002F3F9                 Ordinal    22
+
+    CRYPT32.dll
+              00000001 Characteristics
+              100D85E8 Address of HMODULE
+              100DC0AC Import Address Table
+              100CC178 Import Name Table
+              100CEF84 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          10030AC7              17 CertControlStore
+          1002F904              3C CertFreeCTLContext
+          1002F8F4              44 CertGetCTLContextProperty
+          1002F4BA              47 CertGetEnhancedKeyUsage
+          10030AD7               4 CertAddCertificateContextToStore
+          10030AE7              12 CertCloseStore
+          1002F8E4              C8 CryptQueryObject
+          10030B27              46 CertGetCertificateContextProperty
+          10030AF7              35 CertFindCertificateInStore
+          10030B07              4B CertGetNameStringW
+          10030B17              59 CertOpenStore
+          1002F4FC              40 CertFreeCertificateContext
+
+    WINTRUST.dll
+              00000001 Characteristics
+              100D85EC Address of HMODULE
+              100DC3AC Import Address Table
+              100CC478 Import Name Table
+              100CEF8C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002FD13              65 WTHelperGetProvCertFromChain
+          1002FD23              6C WTHelperProvDataFromStateData
+          1002FD03              1B CryptCATClose
+          1002F4DB               0 WinVerifyTrust
+          10030B67               7 CryptCATAdminAddCatalog
+          10030B77               F CryptCATAdminRemoveCatalog
+          1002FC83               8 CryptCATAdminCalcHashFromFileHandle
+          1002FC93               5 CryptCATAdminAcquireContext
+          1002FCA3               B CryptCATAdminEnumCatalogFromHash
+          1002FCB3              1A CryptCATCatalogInfoFromContext
+          10030B87              10 CryptCATAdminResolveCatalogPath
+          10030B97              22 CryptCATGetMemberInfo
+          1002FCC3               D CryptCATAdminReleaseCatalogContext
+          1002FCD3               E CryptCATAdminReleaseContext
+          1002FCE3              24 CryptCATOpen
+          1002FCF3              1D CryptCATEnumerateCatAttr
+          1002FD33              67 WTHelperGetProvSignerFromChain
+
+    api-ms-win-rtcore-ntuser-synch-l1-1-0.dll
+              00000001 Characteristics
+              100D85F0 Address of HMODULE
+              100DC514 Import Address Table
+              100CC5E0 Import Name Table
+              100CEFB0 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F56C               1 MsgWaitForMultipleObjectsEx
+
+    ext-ms-win-shell32-shellfolders-l1-1-0.dll
+              00000001 Characteristics
+              100D85F4 Address of HMODULE
+              100DC718 Import Address Table
+              100CC7E4 Import Name Table
+              100CEFEC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F802               9 SHGetFolderPathW
+          1002F65D               D SHGetSpecialFolderPathW
+
+    api-ms-win-core-com-l1-1-0.dll
+              00000001 Characteristics
+              100D85F8 Address of HMODULE
+              100DC3F4 Import Address Table
+              100CC4C0 Import Name Table
+              100CF014 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F6FE               8 CoCreateGuid
+          1002F934               9 CoCreateInstance
+
+    USERENV.dll
+              00000001 Characteristics
+              100D85FC Address of HMODULE
+              100DC398 Import Address Table
+              100CC464 Import Name Table
+              100CF01C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F750                 Ordinal   122
+          1002F740                 Ordinal   137
+          1002F71F                 Ordinal   104
+          1002F760                 Ordinal   139
+
+    api-ms-win-shell-changenotify-l1-1-0.dll
+              00000001 Characteristics
+              100D8600 Address of HMODULE
+              100DC678 Import Address Table
+              100CC744 Import Name Table
+              100CF030 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F770               2 SHChangeNotify
+
+    api-ms-win-core-shutdown-l1-1-0.dll
+              00000001 Characteristics
+              100D8604 Address of HMODULE
+              100DC4C4 Import Address Table
+              100CC590 Import Name Table
+              100CF038 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F791               2 InitiateSystemShutdownExW
+
+    RPCRT4.dll
+              00000001 Characteristics
+              100D8608 Address of HMODULE
+              100DC208 Import Address Table
+              100CC2D4 Import Name Table
+              100CF058 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F833              45 I_RpcMapWin32Status
+          1002F843             1C6 RpcRevertToSelf
+          1002F812             1A2 RpcImpersonateClient
+
+    MPR.dll
+              00000001 Characteristics
+              100D860C Address of HMODULE
+              100DC1F8 Import Address Table
+              100CC2C4 Import Name Table
+              100CF078 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002F893              3C WNetGetResourceInformationW
+          1002F8B4               F WNetAddConnection3W
+          1002F8C4              15 WNetCancelConnection2W
+
+    GDI32.dll
+              00000001 Characteristics
+              100D8610 Address of HMODULE
+              100DC1BC Import Address Table
+              100CC288 Import Name Table
+              100CF0A8 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002FA35             2D0 GetTextExtentExPointW
+          1002F975             397 SetTextColor
+          1002F985             368 SelectObject
+          1002FA05             185 DeleteDC
+          1002F9A5              13 BitBlt
+          1002F9B5              31 CreateCompatibleDC
+          1002F9C5             2B1 GetObjectW
+          1002F9D5              29 CreateBitmap
+          1002F9E5             188 DeleteObject
+          1002F9F5              30 CreateCompatibleBitmap
+          1002F954             36F SetBkColor
+          1002FA15             27F GetDeviceCaps
+          1002F995             3A4 StretchBlt
+          1002FA25              43 CreateFontIndirectW
+
+    ADVAPI32.dll
+              00000001 Characteristics
+              100D8614 Address of HMODULE
+              100DC000 Import Address Table
+              100CC0CC Import Name Table
+              100CF0E4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002FA45              EA DecryptFileW
+
+    DEVRTL.dll
+              00000001 Characteristics
+              100D8618 Address of HMODULE
+              100DC1A8 Import Address Table
+              100CC274 Import Name Table
+              100CF0EC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          10030B37               5 DevRtlWriteTextLog
+          10030B47               6 DevRtlWriteTextLogError
+          1002FA70               3 DevRtlGetThreadLogToken
+          1002FA91               4 DevRtlSetThreadLogToken
+
+    USER32.dll
+              00000001 Characteristics
+              100D861C Address of HMODULE
+              100DC328 Import Address Table
+              100CC3F4 Import Name Table
+              100CF0F8 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002FAF2             250 LoadBitmapW
+          1002FB02             2F8 ReleaseDC
+          1002FB12             15D GetIconInfo
+          1002FB22             256 LoadIconW
+          10030B57              BA DialogBoxParamW
+          1002FAA1             1C2 GetSysColor
+          1002FAE2             140 GetDC
+          1002FC42             1CB GetThreadDesktop
+          1002FC32             1F3 GetWindowTextLengthW
+          1002FB32             322 SetCursor
+          1002FB42             254 LoadCursorW
+          1002FB52             14B GetDlgItem
+          1002FB62             30B SendDlgItemMessageW
+          1002FB72             22F IsDlgButtonChecked
+          1002FB82             32E SetDlgItemTextW
+          1002FB92              42 CheckDlgButton
+          1002FAD2              B1 DestroyIcon
+          1002FC22             27E MessageBeep
+          1002FBA2              F2 EndDialog
+          1002FBB2             14E GetDlgItemTextW
+          1002FBC2             3C4 UpdateWindow
+          1002FBD2             27A MapWindowPoints
+          1002FC12             1D7 GetUserObjectInformationW
+          1002FBE2              CD DrawAnimatedRects
+          1002FBF2             286 MessageBoxW
+          1002FC02             1AD GetProcessWindowStation
+          1002FAC2             258 LoadImageW
+
+    SCECLI.dll
+              00000001 Characteristics
+              100D8620 Address of HMODULE
+              100DC218 Import Address Table
+              100CC2E4 Import Name Table
+              100CF164 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002FC73              39 SceSetupUpdateSecurityKey
+          1002FC63              3A SceSetupUpdateSecurityService
+
+    ServicingCommon.dll
+              00000001 Characteristics
+              100D8624 Address of HMODULE
+              100DC31C Import Address Table
+              100CC3E8 Import Name Table
+              100CF1A0 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002FD64              21 RemoveFileProtection
+          1002FD43               D CompareObjectSDToSddl
+
+    drvstore.dll
+              00000001 Characteristics
+              100D8628 Address of HMODULE
+              100DC6A0 Import Address Table
+              100CC76C Import Name Table
+              100CF1B4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002FE05              1B DriverStoreEnumW
+          1002FE15              1A DriverStoreEnumRelatedDriversW
+          1002FE25              14 DriverStoreCopyW
+          1002FE35               8 DriverPackageEnumFilesW
+          1002FE45              11 DriverPackageOpenW
+          1002FDF5              30 DriverStoreSetObjectPropertyW
+          1002FE65              2F DriverStoreSetLogContext
+          10030BA7               F DriverPackageGetPropertyW
+          1002FD94              29 DriverStoreOpenW
+          1002FE55               0 DriverPackageClose
+          1002FDB5              1C DriverStoreFindW
+          1002FDC5              1E DriverStoreGetObjectPropertyW
+          1002FDD5              12 DriverStoreClose
+          1002FDE5              13 DriverStoreConfigureW
+
+    ext-ms-win-printer-winspool-l1-1-1.dll
+              00000001 Characteristics
+              100D862C Address of HMODULE
+              100DC6F8 Import Address Table
+              100CC7C4 Import Name Table
+              100CF1EC Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002FE75              18 GetPrinterDriverDirectoryW
+
+    ext-ms-win-driver-setup-l1-1-0.dll
+              00000001 Characteristics
+              100D8630 Address of HMODULE
+              100DC6E8 Import Address Table
+              100CC7B4 Import Name Table
+              100CF1F4 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002FEC7               2 pDrvSetupUninstallDriver
+          1002FEB7               1 DrvSetupUninstallDriver
+          1002FE96               0 DrvSetupInstallDriver
+
+    ext-ms-win-com-ole32-l1-1-0.dll
+              00000001 Characteristics
+              100D8634 Address of HMODULE
+              100DC6DC Import Address Table
+              100CC7A8 Import Name Table
+              100CF204 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002FEF8              4B OleUninitialize
+          1002FED7              38 OleInitialize
+
+    ext-ms-win-shell-shell32-l1-2-1.dll
+              00000001 Characteristics
+              100D8638 Address of HMODULE
+              100DC708 Import Address Table
+              100CC7D4 Import Name Table
+              100CF210 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002FF08              18 RestartDialogEx
+
+    ext-ms-win-shell-shlwapi-l1-2-0.dll
+              00000001 Characteristics
+              100D863C Address of HMODULE
+              100DC710 Import Address Table
+              100CC7DC Import Name Table
+              100CF218 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002FF29              1C SHAutoComplete
+
+    ext-ms-win-uxtheme-themes-l1-1-0.dll
+              00000001 Characteristics
+              100D8640 Address of HMODULE
+              100DC724 Import Address Table
+              100CC7F0 Import Name Table
+              100CF220 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1002FF4A              2B SetWindowTheme
+
+    SPFILEQ.dll
+              00000001 Characteristics
+              100D8644 Address of HMODULE
+              100DC224 Import Address Table
+              100CC2F0 Import Name Table
+              100CF228 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          1003005F               E SpFileQueueNodeRemove
+          1002FFEC               7 SpFileQueueNodeGetSecurityDescriptor
+          1002FFBC               2 SpFileQueueCopy
+          1002FFAC               5 SpFileQueueGetFlags
+          1002FF9C               0 SpFileQueueClose
+          1002FF8C              11 SpFileQueueSetFlags
+          1003004F               C SpFileQueueNodeGetTargetDirectory
+          1002FFDC              10 SpFileQueueRename
+          1002FFCC               3 SpFileQueueDelete
+          1003000F               9 SpFileQueueNodeGetSourcePath
+          1003003F               D SpFileQueueNodeGetTargetFilename
+          1003002F               1 SpFileQueueCommit
+          1002FF6B               F SpFileQueueOpen
+          1003001F               8 SpFileQueueNodeGetSourceFilename
+          1002FFFF               A SpFileQueueNodeGetSourceRootPath
+          1003006F               4 SpFileQueueFileInUse
+
+    SPINF.dll
+              00000001 Characteristics
+              100D8648 Address of HMODULE
+              100DC268 Import Address Table
+              100CC334 Import Name Table
+              100CF26C Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          10030330              17 SpInfGetLineTextWithKey
+          10030160               4 SpInfFindFirstLine
+          10030180               5 SpInfFindNextMatchLine
+          10030190               1 SpInfDoesInfContainString
+          100301A0              19 SpInfGetNextInf
+          100301B0              23 SpInfLineFromContext
+          100301C0               8 SpInfGetBestInstallSection
+          100301D0               D SpInfGetIndirectString
+          10030340              22 SpInfIsIndirectString
+          100301E0              18 SpInfGetLogToken
+          100301F0               F SpInfGetInfLineNumber
+          10030200              1A SpInfGetOriginalInfName
+          10030210               3 SpInfFileFullPathFromLineContext
+          10030220              2B SpInfSectionNameFromLineContext
+          10030230              2E SpInfSourcePathFromHandle
+          10030150               6 SpInfFindValueInSectionList
+          10030240              1F SpInfGetTargetPath
+          10030250              2D SpInfSetDirectoryId
+          10030260              1B SpInfGetPathFromDirId
+          10030270              13 SpInfGetLineByIndex
+          10030280              14 SpInfGetLineCount
+          10030140              16 SpInfGetLineFieldCount
+          10030130              1E SpInfGetStringsSection
+          10030120               9 SpInfGetBestModelsSection
+          10030110               C SpInfGetField
+          10030290              2C SpInfSetDirIdHandler
+          10030100              26 SpInfLocateLine
+          100300F0              27 SpInfLocateSection
+          100300E0              11 SpInfGetInfStyle
+          100300D0               7 SpInfFreeInfFile
+          100300C0              21 SpInfGetVersionNode
+          100300B0              20 SpInfGetVersionDatum
+          100300A0              2F SpInfUnlockInf
+          100302A0              12 SpInfGetLanguageId
+          1003007F              28 SpInfLockInf
+          100302B0              25 SpInfLoadInfFile
+          100302C0               2 SpInfEnumInfSections
+          100302D0               E SpInfGetInfInformation
+          100302E0              29 SpInfQueryInfFileInformation
+          100302F0              30 SpInfVersionNodeFromInfInformation
+          10030300               0 SpInfDetermineInfStyle
+          10030310              1C SpInfGetPrevInf
+          10030320              10 SpInfGetInfSections
+          10030170              1D SpInfGetStringField
+
+    api-ms-win-security-lsalookup-l2-1-0.dll
+              00000001 Characteristics
+              100D8654 Address of HMODULE
+              100DC610 Import Address Table
+              100CC6DC Import Name Table
+              100CF324 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          10030884               4 LookupPrivilegeValueW
+
+    api-ms-win-core-io-l1-1-0.dll
+              00000001 Characteristics
+              100D8658 Address of HMODULE
+              100DC478 Import Address Table
+              100CC544 Import Name Table
+              100CF340 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          100308F5               4 DeviceIoControl
+
+    bcrypt.dll
+              00000001 Characteristics
+              100D865C Address of HMODULE
+              100DC680 Import Address Table
+              100CC74C Import Name Table
+              100CF390 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          10030A97              23 BCryptHashData
+          10030AA7               6 BCryptCreateHash
+          10030A87               D BCryptDestroyHash
+          10030A77               2 BCryptCloseAlgorithmProvider
+          10030A67              1B BCryptFinishHash
+          10030A57              27 BCryptOpenAlgorithmProvider
+          10030A36              21 BCryptGetProperty
+
+    ext-ms-win-security-slc-l1-1-0.dll
+              00000001 Characteristics
+              100D8664 Address of HMODULE
+              100DC700 Import Address Table
+              100CC7CC Import Name Table
+              100CF3F0 Bound Import Name Table
+              00000000 Unload Import Name Table
+                     0 time date stamp
+
+          10030C02               3 SLGetWindowsInformationDWORD
+
+  Image has the following dependencies:
+
+    msvcrt.dll
+    ntdll.dll
+    api-ms-win-core-errorhandling-l1-1-0.dll
+    api-ms-win-core-string-obsolete-l1-1-0.dll
+    api-ms-win-core-kernel32-legacy-l1-1-0.dll
+    api-ms-win-core-handle-l1-1-0.dll
+    api-ms-win-core-synch-l1-1-0.dll
+    api-ms-win-core-wow64-l1-1-0.dll
+    api-ms-win-core-libraryloader-l1-2-1.dll
+    api-ms-win-core-libraryloader-l1-2-0.dll
+    api-ms-win-core-timezone-l1-1-0.dll
+    api-ms-win-core-string-l1-1-0.dll
+    api-ms-win-core-heap-l1-1-0.dll
+    api-ms-win-core-processenvironment-l1-1-0.dll
+    api-ms-win-core-shlwapi-legacy-l1-1-0.dll
+    api-ms-win-core-localization-l1-2-0.dll
+    api-ms-win-core-synch-l1-2-0.dll
+    api-ms-win-core-sysinfo-l1-1-0.dll
+    api-ms-win-core-datetime-l1-1-0.dll
+    api-ms-win-core-heap-l2-1-0.dll
+    api-ms-win-core-processthreads-l1-1-0.dll
+    api-ms-win-core-sysinfo-l1-2-0.dll
+    api-ms-win-core-file-l2-1-2.dll
+    api-ms-win-core-file-l2-1-0.dll
+    api-ms-win-core-privateprofile-l1-1-0.dll
+    api-ms-win-core-version-l1-1-0.dll
+    api-ms-win-core-sidebyside-l1-1-0.dll
+    api-ms-win-core-kernel32-legacy-l1-1-1.dll
+    api-ms-win-core-wow64-l1-1-1.dll
+    api-ms-win-core-memory-l1-1-0.dll
+    api-ms-win-core-privateprofile-l1-1-1.dll
+    api-ms-win-core-localization-obsolete-l1-2-0.dll
+    api-ms-win-core-profile-l1-1-0.dll
+    KERNEL32.dll
+    api-ms-win-core-debug-l1-1-0.dll
+    api-ms-win-eventing-classicprovider-l1-1-0.dll
+    api-ms-win-core-util-l1-1-0.dll
+    api-ms-win-core-apiquery-l1-1-0.dll
+
+  Section contains the following imports:
+
+    msvcrt.dll
+              100D92A4 Import Address Table
+              100D99F4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  4F6 iswctype
+                  41C _wcslwr
+                  559 swscanf
+                  508 malloc
+                  58D wcsspn
+                  595 wcstoul
+                  592 wcstol
+                  566 towupper
+                  58E wcsstr
+                  3F1 _vsnprintf
+                  32F _resetstkoflw
+                   80 __CxxFrameHandler3
+                   13 ??3@YAXPAX@Z
+                  325 _purecall
+                  170 _errno
+                  431 _wcstoui64
+                  127 _beginthread
+                  588 wcsnlen
+                  1F3 _initterm
+                  252 _itow_s
+                  57F wcscpy_s
+                  12B _callnewh
+                    9 ??0exception@@QAE@ABQBD@Z
+                    A ??0exception@@QAE@ABQBDH@Z
+                    B ??0exception@@QAE@ABV0@@Z
+                   10 ??1exception@@UAE@XZ
+                   3C ?what@exception@@UBEPBDXZ
+                   69 _CxxThrowException
+                  514 memcpy
+                  516 memmove
+                   3A ?terminate@@YAXXZ
+                   11 ??1type_info@@UAE@XZ
+                  585 wcsncmp
+                  493 _wtoi
+                  128 _beginthreadex
+                  564 toupper
+                  3F7 _vsnwprintf
+                  3C8 _ultow_s
+                   74 _XcptFilter
+                  11A _amsg_exit
+                  4D0 free
+                   29 ??_V@YAXPAX@Z
+                  173 _except_handler4_common
+                  26B _lock
+                  422 _wcsnicmp
+                  3CF _unlock
+                  57B wcschr
+                  418 _wcsicmp
+                  16C _endthread
+                   A5 __dllonexit
+                  314 _onexit
+                  58A wcsrchr
+                  513 memcmp
+                  518 memset
+
+    ntdll.dll
+              100D9380 Import Address Table
+              100D9AD0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  54F RtlRandomEx
+                  3F2 RtlFormatCurrentUserKeyPath
+                  3FE RtlFreeUnicodeString
+                  151 NtDeleteKey
+                  1B0 NtOpenKey
+                  125 NtCreateKey
+                  20C NtQueryValueKey
+                  275 NtSetValueKey
+                  154 NtDeleteValueKey
+                  161 NtEnumerateKey
+                  254 NtSetInformationFile
+                  1E7 NtQueryInformationFile
+                  400 RtlGUIDFromString
+                  25C NtSetInformationThread
+                  1EC NtQueryInformationThread
+                  46D RtlInitUnicodeStringEx
+                  5F4 RtlUnicodeStringToInteger
+                  207 NtQuerySystemInformation
+                  60B RtlUpcaseUnicodeChar
+                  4F4 RtlMultiByteToUnicodeN
+                  4F5 RtlMultiByteToUnicodeSize
+                  5F9 RtlUnicodeToMultiByteN
+                  5FA RtlUnicodeToMultiByteSize
+                  142 NtCreateTransaction
+                  10B NtCommitTransaction
+                  458 RtlImageNtHeader
+                   3C EtwEventSetInformation
+                  495 RtlIoEncodeMemIoResource
+                  609 RtlUnsubscribeWnfStateChangeNotification
+                  502 RtlNtStatusToDosError
+                  5D0 RtlSubscribeWnfStateChangeNotification
+                  547 RtlQueryWnfStateData
+                  515 RtlPrefixUnicodeString
+                   3D EtwEventUnregister
+                   3B EtwEventRegister
+                   56 EtwUnregisterTraceGuids
+                   4F EtwRegisterTraceGuidsW
+                   46 EtwGetTraceEnableFlags
+                   47 EtwGetTraceEnableLevel
+                   48 EtwGetTraceLoggerHandle
+                  503 RtlNtStatusToDosErrorNoTeb
+                  451 RtlHashUnicodeString
+                  46C RtlInitUnicodeString
+                  44F RtlGetVersion
+                   45 EtwEventWriteTransfer
+                   54 EtwTraceMessage
+                  106 NtClose
+
+    api-ms-win-core-errorhandling-l1-1-0.dll
+              100D9028 Import Address Table
+              100D9778 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    7 RaiseException
+                    D SetLastError
+                    5 GetLastError
+                    C SetErrorMode
+                    F SetUnhandledExceptionFilter
+                   11 UnhandledExceptionFilter
+
+    api-ms-win-core-string-obsolete-l1-1-0.dll
+              100D91D0 Import Address Table
+              100D9920 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    5 lstrcmpiW
+                    3 lstrcmpW
+
+    api-ms-win-core-kernel32-legacy-l1-1-0.dll
+              100D908C Import Address Table
+              100D97DC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   46 MoveFileW
+                   14 DosDateTimeToFileTime
+
+    api-ms-win-core-handle-l1-1-0.dll
+              100D905C Import Address Table
+              100D97AC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 CloseHandle
+                    2 DuplicateHandle
+
+    api-ms-win-core-synch-l1-1-0.dll
+              100D91DC Import Address Table
+              100D992C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   30 SleepEx
+                   24 ReleaseSRWLockExclusive
+                   29 SetEvent
+                   36 WaitForSingleObject
+                   18 InitializeCriticalSection
+                    F DeleteCriticalSection
+                   11 EnterCriticalSection
+                    6 CreateEventW
+                   35 WaitForMultipleObjectsEx
+                   23 ReleaseMutex
+                   1D LeaveCriticalSection
+                   37 WaitForSingleObjectEx
+                    0 AcquireSRWLockExclusive
+                   27 ResetEvent
+                    A CreateMutexW
+
+    api-ms-win-core-wow64-l1-1-0.dll
+              100D9284 Import Address Table
+              100D99D4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    7 Wow64DisableWow64FsRedirection
+                    5 IsWow64Process
+                    A Wow64RevertWow64FsRedirection
+
+    api-ms-win-core-libraryloader-l1-2-1.dll
+              100D90DC Import Address Table
+              100D982C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   40 LoadLibraryW
+                   1D FindResourceW
+
+    api-ms-win-core-libraryloader-l1-2-0.dll
+              100D90A0 Import Address Table
+              100D97F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    A FindResourceExW
+                   1B LoadResource
+                   12 GetModuleHandleA
+                   16 GetProcAddress
+                    F FreeResource
+                    D FreeLibrary
+                   10 GetModuleFileNameA
+                   1D LoadStringW
+                   18 LoadLibraryExA
+                   21 SizeofResource
+                   19 LoadLibraryExW
+                   1E LockResource
+                   11 GetModuleFileNameW
+                   15 GetModuleHandleW
+
+    api-ms-win-core-timezone-l1-1-0.dll
+              100D925C Import Address Table
+              100D99AC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    A SystemTimeToFileTime
+                    1 FileTimeToSystemTime
+
+    api-ms-win-core-string-l1-1-0.dll
+              100D91B8 Import Address Table
+              100D9908 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    7 WideCharToMultiByte
+                    6 MultiByteToWideChar
+                    2 CompareStringW
+                    4 GetStringTypeExW
+                    1 CompareStringOrdinal
+
+    api-ms-win-core-heap-l1-1-0.dll
+              100D9068 Import Address Table
+              100D97B8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    6 HeapFree
+                    2 HeapAlloc
+                    0 GetProcessHeap
+                    9 HeapReAlloc
+
+    api-ms-win-core-processenvironment-l1-1-0.dll
+              100D9138 Import Address Table
+              100D9888 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 ExpandEnvironmentStringsW
+                   12 SetCurrentDirectoryW
+                    4 GetCommandLineA
+                    7 GetCurrentDirectoryW
+                    B GetEnvironmentVariableW
+
+    api-ms-win-core-shlwapi-legacy-l1-1-0.dll
+              100D919C Import Address Table
+              100D98EC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   3A PathParseIconLocationW
+
+    api-ms-win-core-localization-l1-2-0.dll
+              100D90E8 Import Address Table
+              100D9838 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   1E GetThreadLocale
+                   35 LCMapStringW
+                   15 GetLocaleInfoW
+                   20 GetThreadUILanguage
+                    9 FormatMessageW
+
+    api-ms-win-core-synch-l1-2-0.dll
+              100D921C Import Address Table
+              100D996C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   2D Sleep
+                   14 InitOnceComplete
+                   13 InitOnceBeginInitialize
+
+    api-ms-win-core-sysinfo-l1-1-0.dll
+              100D922C Import Address Table
+              100D997C Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   1B GetTickCount64
+                   11 GetSystemInfo
+                   19 GetSystemWindowsDirectoryW
+                   20 GetWindowsDirectoryW
+                    5 GetLocalTime
+                    F GetSystemDirectoryW
+                   1A GetTickCount
+                   16 GetSystemTimeAsFileTime
+
+    api-ms-win-core-datetime-l1-1-0.dll
+              100D9018 Import Address Table
+              100D9768 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    2 GetDateFormatW
+
+    api-ms-win-core-heap-l2-1-0.dll
+              100D907C Import Address Table
+              100D97CC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    8 LocalAlloc
+                    C LocalReAlloc
+                    A LocalFree
+
+    api-ms-win-core-processthreads-l1-1-0.dll
+              100D9150 Import Address Table
+              100D98A0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   14 GetExitCodeThread
+                   13 GetExitCodeProcess
+                   59 TlsGetValue
+                   34 OpenProcessToken
+                   5A TlsSetValue
+                   52 SetThreadToken
+                   57 TlsAlloc
+                   58 TlsFree
+                    3 CreateProcessW
+                   10 GetCurrentThread
+                    D GetCurrentProcessId
+                    C GetCurrentProcess
+                   36 OpenThreadToken
+                   22 GetStartupInfoW
+                   11 GetCurrentThreadId
+                   55 TerminateProcess
+
+    api-ms-win-core-sysinfo-l1-2-0.dll
+              100D9250 Import Address Table
+              100D99A0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  6B3 VerSetConditionMask
+                    8 GetNativeSystemInfo
+
+    api-ms-win-core-file-l2-1-2.dll
+              100D9054 Import Address Table
+              100D97A4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    7 CopyFileW
+
+    api-ms-win-core-file-l2-1-0.dll
+              100D9044 Import Address Table
+              100D9794 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    8 MoveFileExW
+                    5 CreateHardLinkW
+                    1 CopyFileExW
+
+    api-ms-win-core-privateprofile-l1-1-0.dll
+              100D9120 Import Address Table
+              100D9870 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    3 GetPrivateProfileSectionW
+                    5 GetPrivateProfileStringW
+                    F WritePrivateProfileStringW
+
+    api-ms-win-core-version-l1-1-0.dll
+              100D9274 Import Address Table
+              100D99C4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    5 VerQueryValueW
+                    1 GetFileVersionInfoSizeExW
+                    0 GetFileVersionInfoExW
+
+    api-ms-win-core-sidebyside-l1-1-0.dll
+              100D91A4 Import Address Table
+              100D98F4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    3 DeactivateActCtx
+                    2 CreateActCtxW
+                    9 ReleaseActCtx
+                    0 ActivateActCtx
+
+    api-ms-win-core-kernel32-legacy-l1-1-1.dll
+              100D9098 Import Address Table
+              100D97E8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                   63 VerifyVersionInfoW
+
+    api-ms-win-core-wow64-l1-1-1.dll
+              100D9294 Import Address Table
+              100D99E4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    6 IsWow64Process2
+
+    api-ms-win-core-memory-l1-1-0.dll
+              100D9108 Import Address Table
+              100D9858 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    6 CreateFileMappingW
+                   36 VirtualProtect
+                   39 VirtualQuery
+                   12 MapViewOfFile
+                   29 UnmapViewOfFile
+
+    api-ms-win-core-privateprofile-l1-1-1.dll
+              100D9130 Import Address Table
+              100D9880 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    D WritePrivateProfileSectionW
+
+    api-ms-win-core-localization-obsolete-l1-2-0.dll
+              100D9100 Import Address Table
+              100D9850 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    7 GetSystemDefaultUILanguage
+
+    api-ms-win-core-profile-l1-1-0.dll
+              100D9194 Import Address Table
+              100D98E4 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 QueryPerformanceCounter
+
+    KERNEL32.dll
+              100D9000 Import Address Table
+              100D9750 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                  3C6 LZClose
+                  3CD LZOpenFileW
+                  3C8 LZCopy
+
+    api-ms-win-core-debug-l1-1-0.dll
+              100D9020 Import Address Table
+              100D9770 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    7 OutputDebugStringW
+
+    api-ms-win-eventing-classicprovider-l1-1-0.dll
+              100D929C Import Address Table
+              100D99EC Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    5 TraceMessage
+
+    api-ms-win-core-util-l1-1-0.dll
+              100D9268 Import Address Table
+              100D99B8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    1 DecodePointer
+                    4 EncodePointer
+
+    api-ms-win-core-apiquery-l1-1-0.dll
+              100D9010 Import Address Table
+              100D9760 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                    0 ApiSetQueryApiSetPresence
+
+  Summary
+
+        1000 .data
+        1000 .didat
+        3000 .idata
+        D000 .reloc
+      351000 .rsrc
+       D7000 .text

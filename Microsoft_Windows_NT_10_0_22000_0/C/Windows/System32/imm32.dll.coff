@@ -1,0 +1,683 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\imm32.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    ntdll.dll
+    api-ms-win-core-heap-l1-1-0.dll
+    api-ms-win-core-processthreads-l1-1-0.dll
+    api-ms-win-core-synch-l1-2-0.dll
+    api-ms-win-core-handle-l1-1-0.dll
+    api-ms-win-security-base-l1-1-0.dll
+    api-ms-win-security-base-l1-2-0.dll
+    api-ms-win-core-heap-l2-1-0.dll
+    api-ms-win-core-localization-l1-2-0.dll
+    api-ms-win-core-string-l1-1-0.dll
+    api-ms-win-core-libraryloader-l1-2-0.dll
+    api-ms-win-core-processthreads-l1-1-1.dll
+    api-ms-win-core-registry-l1-1-0.dll
+    api-ms-win-core-file-l1-1-0.dll
+    api-ms-win-core-sysinfo-l1-1-0.dll
+    api-ms-win-core-wow64-l1-1-1.dll
+    api-ms-win-core-errorhandling-l1-1-0.dll
+    api-ms-win-core-memory-l1-1-0.dll
+    api-ms-win-core-profile-l1-1-0.dll
+    api-ms-win-core-delayload-l1-1-1.dll
+    api-ms-win-core-delayload-l1-1-0.dll
+    api-ms-win-core-kernel32-legacy-l1-1-0.dll
+    api-ms-win-core-string-obsolete-l1-1-0.dll
+    api-ms-win-core-heap-obsolete-l1-1-0.dll
+    api-ms-win-core-privateprofile-l1-1-0.dll
+    api-ms-win-core-appcompat-l1-1-0.dll
+    win32u.dll
+
+  Image has the following delay load dependencies:
+
+    USER32.dll
+    api-ms-win-core-com-l1-1-0.dll
+    api-ms-win-core-com-private-l1-1-0.dll
+    GDI32.dll
+    MSCTF.dll
+
+  Section contains the following exports for IMM32.dll
+
+    00000000 characteristics
+    356942C7 time date stamp
+        0.00 version
+           1 ordinal base
+         137 number of functions
+         137 number of names
+
+    ordinal hint RVA      name
+
+         17    0 00009CE0 CtfImmAppCompatEnableIMEonProtectedCode
+         18    1 00005650 CtfImmCoUninitialize
+         19    2 00004C60 CtfImmDispatchDefImeMessage
+         20    3 00009D00 CtfImmEnterCoInitCountSkipMode
+         21    4 00012350 CtfImmGenerateMessage
+         22    5 00009D30 CtfImmGetCompatibleKeyboardLayout
+         23    6 00009D50 CtfImmGetGlobalIMEStatus
+         24    7 00009D70 CtfImmGetGuidAtom
+         25    8 00009E30 CtfImmGetIMEFileName
+         26    9 00004050 CtfImmGetTMAEFlags
+         27    A 00009EE0 CtfImmHideToolbarWnd
+         28    B 00009F90 CtfImmIsCiceroEnabled
+         29    C 000057A0 CtfImmIsCiceroStartedInThread
+         30    D 00009FC0 CtfImmIsComStartedInThread
+         31    E 00009FE0 CtfImmIsGuidMapEnable
+         32    F 00006C80 CtfImmIsTextFrameServiceDisabled
+         33   10 00001DD0 CtfImmLastEnabledWndDestroy
+         34   11 0000A070 CtfImmLeaveCoInitCountSkipMode
+         35   12 00005630 CtfImmNotify
+         36   13 0000A0B0 CtfImmRestoreToolbarWnd
+         37   14 00005CB0 CtfImmSetAppCompatFlags
+         38   15 00005A60 CtfImmSetCiceroStartInThread
+         39   16 00005B20 CtfImmSetDefaultRemoteKeyboardLayout
+         40   17 00003C60 CtfImmTIMActivate
+         41   18 00012520 GetKeyboardLayoutCP
+         42   19 0000F530 ImmActivateLayout
+         43   1A 0000A7D0 ImmAssociateContext
+         44   1B 0000A990 ImmAssociateContextEx
+          1   1C 0001E600 ImmCallImeConsoleIME
+         45   1D 0000F720 ImmConfigureIMEA
+         46   1E 0000F9D0 ImmConfigureIMEW
+         47   1F 0000AB00 ImmCreateContext
+         48   20 00005A90 ImmCreateIMCC
+         49   21 00018160 ImmCreateSoftKeyboard
+         50   22 0000ABB0 ImmDestroyContext
+         51   23 00005AE0 ImmDestroyIMCC
+         52   24 000183D0 ImmDestroySoftKeyboard
+         53   25 00005AC0 ImmDisableIME
+         54   26 00005AC0 ImmDisableIme
+         55   27 000059F0 ImmDisableLegacyIME
+         56   28 0000A2C0 ImmDisableTextFrameService
+         57   29 00001970 ImmEnumInputContext
+         58   2A 00012E60 ImmEnumRegisterWordA
+         59   2B 00013090 ImmEnumRegisterWordW
+         60   2C 0000FC90 ImmEscapeA
+         61   2D 0000FFA0 ImmEscapeW
+         62   2E 00010240 ImmFreeLayout
+         63   2F 000125B0 ImmGenerateMessage
+         64   30 000057D0 ImmGetAppCompatFlags
+         65   31 0000C150 ImmGetCandidateListA
+         66   32 0000C170 ImmGetCandidateListCountA
+         67   33 0000C190 ImmGetCandidateListCountW
+         68   34 0000C320 ImmGetCandidateListW
+         69   35 00002A30 ImmGetCandidateWindow
+         70   36 0000C4B0 ImmGetCompositionFontA
+         71   37 00002CF0 ImmGetCompositionFontW
+         72   38 0000C5A0 ImmGetCompositionStringA
+         73   39 0000C690 ImmGetCompositionStringW
+         74   3A 00001D40 ImmGetCompositionWindow
+         75   3B 00003030 ImmGetContext
+         76   3C 0000C780 ImmGetConversionListA
+         77   3D 0000C9A0 ImmGetConversionListW
+         78   3E 00002AA0 ImmGetConversionStatus
+         79   3F 00005560 ImmGetDefaultIMEWnd
+         80   40 000118F0 ImmGetDescriptionA
+         81   41 000119E0 ImmGetDescriptionW
+         82   42 0000CBC0 ImmGetGuideLineA
+         83   43 0000CBE0 ImmGetGuideLineW
+         84   44 0000F290 ImmGetHotKey
+         85   45 000127D0 ImmGetIMCCLockCount
+         86   46 00012800 ImmGetIMCCSize
+         87   47 00012820 ImmGetIMCLockCount
+         88   48 00011AB0 ImmGetIMEFileNameA
+         89   49 00011C10 ImmGetIMEFileNameW
+         90   4A 000058F0 ImmGetImeInfoEx
+         91   4B 0001F810 ImmGetImeMenuItemsA
+         92   4C 0001F850 ImmGetImeMenuItemsW
+         93   4D 00002C10 ImmGetOpenStatus
+         94   4E 00011D50 ImmGetProperty
+         95   4F 000132E0 ImmGetRegisterWordStyleA
+         96   50 00013450 ImmGetRegisterWordStyleW
+         97   51 0000CEF0 ImmGetStatusWindowPos
+         98   52 00012910 ImmGetVirtualKey
+          2   53 00018CA0 ImmIMPGetIMEA
+          3   54 00018D30 ImmIMPGetIMEW
+          4   55 00018D80 ImmIMPQueryIMEA
+          5   56 00018E50 ImmIMPQueryIMEW
+          6   57 00018FA0 ImmIMPSetIMEA
+          7   58 00019070 ImmIMPSetIMEW
+         99   59 00011E80 ImmInstallIMEA
+        100   5A 00011FC0 ImmInstallIMEW
+        101   5B 00005840 ImmIsIME
+        102   5C 00012970 ImmIsUIMessageA
+        103   5D 00012990 ImmIsUIMessageW
+        104   5E 00004DE0 ImmLoadIME
+        105   5F 00005B40 ImmLoadLayout
+        106   60 000033F0 ImmLockClientImc
+        107   61 00003150 ImmLockIMC
+        108   62 00005480 ImmLockIMCC
+        109   63 000042A0 ImmLockImeDpi
+        110   64 00010470 ImmNotifyIME
+        111   65 000043C0 ImmProcessKey
+          8   66 0001F1F0 ImmPutImeMenuItemsIntoMappedFile
+        112   67 00012A60 ImmReSizeIMCC
+          9   68 00004CF0 ImmRegisterClient
+        113   69 000135B0 ImmRegisterWordA
+        114   6A 00013790 ImmRegisterWordW
+        115   6B 000058E0 ImmReleaseContext
+        116   6C 0000CF50 ImmRequestMessageA
+        117   6D 0000CF70 ImmRequestMessageW
+         10   6E 00019200 ImmSendIMEMessageExA
+         11   6F 00019220 ImmSendIMEMessageExW
+        118   70 00001E90 ImmSetActiveContext
+         12   71 0001E780 ImmSetActiveContextConsoleIME
+        119   72 0000CF80 ImmSetCandidateWindow
+        120   73 0000D050 ImmSetCompositionFontA
+        121   74 00001010 ImmSetCompositionFontW
+        122   75 0000D200 ImmSetCompositionStringA
+        123   76 0000D240 ImmSetCompositionStringW
+        124   77 00001160 ImmSetCompositionWindow
+        125   78 0000D830 ImmSetConversionStatus
+        126   79          ImmSetHotKey (forwarded to USER32.CliImmSetHotKey)
+        127   7A 0000D980 ImmSetOpenStatus
+        128   7B 0000DA80 ImmSetStatusWindowPos
+        129   7C 000183F0 ImmShowSoftKeyboard
+        130   7D 0000F2C0 ImmSimulateHotKey
+         13   7E 000122E0 ImmSystemHandler
+        131   7F 00018590 ImmTranslateMessage
+        132   80 00001C60 ImmUnlockClientImc
+        133   81 00003AE0 ImmUnlockIMC
+        134   82 000054A0 ImmUnlockIMCC
+        135   83 000029C0 ImmUnlockImeDpi
+        136   84 00013990 ImmUnregisterWordA
+        137   85 00013B70 ImmUnregisterWordW
+         14   86 00019230 ImmWINNLSEnableIME
+         15   87 00019280 ImmWINNLSGetEnableStatus
+         16   88 000192E0 ImmWINNLSGetIMEHotkey
+
+  Section contains the following imports:
+
+    ntdll.dll
+             1800204F8 Import Address Table
+             1800252E8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         611 RtlUnicodeStringToInteger
+                         925 _wcsicmp
+                         4A1 RtlIntegerToUnicodeString
+                         201 NtQuerySystemInformation
+                         99D wcstol
+                         37E RtlDeleteCriticalSection
+                         922 _vsnwprintf
+                         8E7 __C_specific_handler
+                         48A RtlInitializeCriticalSection
+                         4D9 RtlIsThreadWithinLoaderCallout
+                         4FE RtlLookupFunctionEntry
+                         2FE RtlCaptureContext
+                         39F RtlDllShutdownInProgress
+                         642 RtlVirtualUnwind
+                         4E4 RtlLeaveCriticalSection
+                         95A memcpy
+                         3BC RtlEnterCriticalSection
+                         617 RtlUnicodeToMultiByteSize
+                         959 memcmp
+                         5BB RtlSetLastWin32Error
+                         95E memset
+
+    api-ms-win-core-heap-l1-1-0.dll
+             180020268 Import Address Table
+             180025058 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           2 HeapAlloc
+                           6 HeapFree
+
+    api-ms-win-core-processthreads-l1-1-0.dll
+             1800203A0 Import Address Table
+             180025190 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          57 TlsAlloc
+                           C GetCurrentProcess
+                          58 TlsFree
+                          11 GetCurrentThreadId
+                          5A TlsSetValue
+                          59 TlsGetValue
+                           D GetCurrentProcessId
+                           6 CreateThread
+                          55 TerminateProcess
+
+    api-ms-win-core-synch-l1-2-0.dll
+             180020488 Import Address Table
+             180025278 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          2D Sleep
+
+    api-ms-win-core-handle-l1-1-0.dll
+             180020258 Import Address Table
+             180025048 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 CloseHandle
+
+    api-ms-win-security-base-l1-1-0.dll
+             1800204C8 Import Address Table
+             1800252B8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          2E FreeSid
+                          1B CheckTokenMembership
+                          16 AllocateAndInitializeSid
+
+    api-ms-win-security-base-l1-2-0.dll
+             1800204E8 Import Address Table
+             1800252D8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1C CheckTokenMembershipEx
+
+    api-ms-win-core-heap-l2-1-0.dll
+             180020280 Import Address Table
+             180025070 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           3 LocalFree
+                           6 LocalUnlock
+                           4 LocalLock
+                           0 GlobalAlloc
+                           1 GlobalFree
+                           5 LocalReAlloc
+                           2 LocalAlloc
+
+    api-ms-win-core-localization-l1-2-0.dll
+             180020330 Import Address Table
+             180025120 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          2B IsDBCSLeadByteEx
+                          1A GetSystemDefaultLCID
+                          15 GetLocaleInfoW
+                          1E GetThreadLocale
+                          2A IsDBCSLeadByte
+                           A GetACP
+
+    api-ms-win-core-string-l1-1-0.dll
+             180020450 Import Address Table
+             180025240 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           7 WideCharToMultiByte
+                           6 MultiByteToWideChar
+
+    api-ms-win-core-libraryloader-l1-2-0.dll
+             180020300 Import Address Table
+             1800250F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          15 GetModuleHandleW
+                          14 GetModuleHandleExW
+                          19 LoadLibraryExW
+                          16 GetProcAddress
+                           D FreeLibrary
+
+    api-ms-win-core-processthreads-l1-1-1.dll
+             1800203F0 Import Address Table
+             1800251E0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1D GetProcessMitigationPolicy
+
+    api-ms-win-core-registry-l1-1-0.dll
+             180020410 Import Address Table
+             180025200 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          25 RegQueryValueExW
+                           E RegEnumKeyExW
+                           3 RegCreateKeyExW
+                           5 RegDeleteKeyExW
+                          1E RegOpenKeyExW
+                           0 RegCloseKey
+                          2E RegSetValueExW
+
+    api-ms-win-core-file-l1-1-0.dll
+             180020240 Import Address Table
+             180025030 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          36 GetFullPathNameW
+                           7 CreateFileW
+
+    api-ms-win-core-sysinfo-l1-1-0.dll
+             180020498 Import Address Table
+             180025288 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           F GetSystemDirectoryW
+                          16 GetSystemTimeAsFileTime
+                          1A GetTickCount
+
+    api-ms-win-core-wow64-l1-1-1.dll
+             1800204B8 Import Address Table
+             1800252A8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           3 GetSystemWow64DirectoryW
+
+    api-ms-win-core-errorhandling-l1-1-0.dll
+             180020218 Import Address Table
+             180025008 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           D SetLastError
+                           5 GetLastError
+                           F SetUnhandledExceptionFilter
+                          11 UnhandledExceptionFilter
+
+    api-ms-win-core-memory-l1-1-0.dll
+             180020368 Import Address Table
+             180025158 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           6 CreateFileMappingW
+                          1B OpenFileMappingW
+                          29 UnmapViewOfFile
+                          12 MapViewOfFile
+
+    api-ms-win-core-profile-l1-1-0.dll
+             180020400 Import Address Table
+             1800251F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 QueryPerformanceCounter
+
+    api-ms-win-core-delayload-l1-1-1.dll
+             180020208 Import Address Table
+             180024FF8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           1 ResolveDelayLoadedAPI
+
+    api-ms-win-core-delayload-l1-1-0.dll
+             1800201F8 Import Address Table
+             180024FE8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 DelayLoadFailureHook
+
+    api-ms-win-core-kernel32-legacy-l1-1-0.dll
+             1800202F0 Import Address Table
+             1800250E0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          48 OpenFile
+
+    api-ms-win-core-string-obsolete-l1-1-0.dll
+             180020468 Import Address Table
+             180025258 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           3 lstrcmpW
+                           A lstrlenA
+                           B lstrlenW
+
+    api-ms-win-core-heap-obsolete-l1-1-0.dll
+             1800202C0 Import Address Table
+             1800250B0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           6 GlobalSize
+                           7 GlobalUnlock
+                           9 LocalFlags
+                           D LocalSize
+                           4 GlobalLock
+
+    api-ms-win-core-privateprofile-l1-1-0.dll
+             180020390 Import Address Table
+             180025180 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           7 GetProfileIntW
+
+    api-ms-win-core-appcompat-l1-1-0.dll
+             1800201E8 Import Address Table
+             180024FD8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 BaseCheckAppcompatCache
+
+    win32u.dll
+             1800205A8 Import Address Table
+             180025398 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         35A NtUserDestroyInputContext
+                         2FE NtUserAssociateInputContext
+                         341 NtUserCreateInputContext
+                         3D8 NtUserGetImeHotKey
+                         523 NtUserSetImeInfoEx
+                         4AC NtUserQueryWindow
+                         362 NtUserDisableThreadIme
+                         59F NtUserUpdateInputContext
+                         3D9 NtUserGetImeInfoEx
+                         3A4 NtUserGetAppImeLevel
+                         4FA NtUserSetAppImeLevel
+                         555 NtUserSetThreadLayoutHandles
+                         309 NtUserBuildHimcList
+                         4AA NtUserQueryInputContext
+                         47D NtUserMapDesktopObject
+                         5AA NtUserValidateHandleSecure
+                         41F NtUserGetThreadState
+                         48C NtUserNotifyIMEStatus
+
+  Section contains the following delay load imports:
+
+    USER32.dll
+              00000001 Characteristics
+      00000001800275D0 Address of HMODULE
+      000000018002A1C8 Import Address Table
+      0000000180022E08 Import Name Table
+      0000000180023940 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    00000001800064C2   16E GetKeyboardState
+                                    00000001800064D4   3A8 ToAsciiEx
+                                    00000001800064E6   159 GetForegroundWindow
+                                    00000001800064F8   27E MapWindowPoints
+                                    000000018000649E   27C MapVirtualKeyW
+                                    000000018000651C   24C IsWindowUnicode
+                                    000000018000652E    34 CharNextW
+                                    0000000180006540    32 CharNextA
+                                    0000000180006552   146 GetDesktopWindow
+                                    000000018000648C    B5 DestroyWindow
+                                    000000018000647A   28F MonitorFromWindow
+                                    0000000180006468    76 CreateWindowExW
+                                    0000000180006456   2DE RegisterClassExW
+                                    0000000180006444   392 ShowWindow
+                                    0000000180006432   18C GetMonitorInfoW
+                                    0000000180006420   25A LoadIconW
+                                    000000018000640E   3A2 SystemParametersInfoW
+                                    00000001800063FC   12A GetClassInfoExW
+                                    00000001800063EA   3CC UpdateWindow
+                                    00000001800063D8   125 GetCapture
+                                    00000001800063C6    D1 DrawEdge
+                                    00000001800063B4   191 GetParent
+                                    00000001800063A2    A7 DefWindowProcW
+                                    0000000180006390   1DC GetWindow
+                                    000000018000637E   1F1 GetWindowRect
+                                    000000018000636C   142 GetDC
+                                    000000018000635A   37E SetWindowPos
+                                    0000000180006348   3EC keybd_event
+                                    0000000180006336   37B SetWindowLongPtrW
+                                    0000000180006324   309 ScreenToClient
+                                    0000000180006312   1C8 GetSystemMetrics
+                                    0000000180006300   282 MessageBeep
+                                    00000001800062EE   1E9 GetWindowLongPtrW
+                                    00000001800062DC   254 LoadBitmapW
+                                    00000001800062CA    DD DrawTextExW
+                                    00000001800062B8   258 LoadCursorW
+                                    00000001800064B0   3A9 ToUnicode
+                                    00000001800062A6   31C SetCapture
+                                    0000000180006294   328 SetCursor
+                                    0000000180006282   133 GetClientRect
+                                    0000000180006270   2FB ReleaseCapture
+                                    000000018000625E   223 InvalidateRect
+                                    000000018000624C   2FC ReleaseDC
+                                    000000018000623A   141 GetCursorPos
+                                    0000000180006228    11 BeginPaint
+                                    0000000180006216    F4 EndPaint
+                                    0000000180006204       Ordinal  2521
+                                    00000001800061F2    3F CharUpperW
+                                    00000001800061E0   3B9 UnloadKeyboardLayout
+                                    00000001800061CE   3CE User32InitializeImmEntryTable
+                                    00000001800061BC   158 GetFocus
+                                    00000001800061AA   11A GetActiveWindow
+                                    0000000180006198   12B GetClassInfoW
+                                    0000000180006186   25F LoadKeyboardLayoutW
+                                    0000000180006174   1F9 GetWindowThreadProcessId
+                                    0000000180006162   16B GetKeyboardLayoutList
+                                    0000000180006150   2AD PostMessageW
+                                    0000000180006130   2AC PostMessageA
+                                    0000000180006110   313 SendMessageA
+                                    00000001800060F2   3DD WCSToMBEx
+                                    00000001800060E0   318 SendMessageW
+                                    00000001800060C2   247 IsWindow
+                                    00000001800060B0   317 SendMessageTimeoutW
+                                    000000018000650A    4D ClientToScreen
+                                    0000000180006025   16A GetKeyboardLayout
+
+    api-ms-win-core-com-l1-1-0.dll
+              00000001 Characteristics
+      00000001800275D8 Address of HMODULE
+      000000018002A3D8 Import Address Table
+      0000000180023018 Import Name Table
+      0000000180023B50 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    00000001800065FB    46 CoUninitialize
+                                    0000000180006570    28 CoInitializeEx
+
+    api-ms-win-core-com-private-l1-1-0.dll
+              00000001 Characteristics
+      00000001800275E0 Address of HMODULE
+      000000018002A3F0 Import Address Table
+      0000000180023030 Import Name Table
+      0000000180023B68 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018000660D    1A CoRegisterInitializeSpy
+                                    0000000180006698    21 CoRevokeInitializeSpy
+
+    GDI32.dll
+              00000001 Characteristics
+      00000001800275E8 Address of HMODULE
+      000000018002A000 Import Address Table
+      0000000180022C40 Import Name Table
+      0000000180023B80 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    00000001800066AA   3AB TranslateCharsetInfo
+                                    0000000180006735    43 CreateFontIndirectW
+                                    0000000180006747   188 DeleteObject
+                                    0000000180006759   36F SetBkColor
+                                    000000018000676B   2B1 GetObjectW
+                                    000000018000677D   326 Rectangle
+                                    000000018000678F   185 DeleteDC
+                                    00000001800067A1   2C2 GetStockObject
+                                    00000001800067B3    34 CreateDCW
+                                    00000001800067C5   30D PatBlt
+                                    00000001800067D7    31 CreateCompatibleDC
+                                    00000001800067E9   368 SelectObject
+                                    00000001800067FB    30 CreateCompatibleBitmap
+                                    000000018000680D    13 BitBlt
+                                    000000018000681F   1DB ExtTextOutW
+                                    0000000180006831   2D3 GetTextExtentPoint32W
+                                    0000000180006843   2DB GetTextMetricsW
+                                    0000000180006855   27E GetDIBits
+                                    0000000180006867    38 CreateDIBitmap
+
+    MSCTF.dll
+              00000001 Characteristics
+      00000001800275F0 Address of HMODULE
+      000000018002A0A0 Import Address Table
+      0000000180022CE0 Import Name Table
+      0000000180023C20 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    0000000180006982    10 CtfImeIsGuidMapEnable
+                                    0000000180006970     C CtfImeGetGuidAtom
+                                    000000018000695E    31 TF_CreateLangBarMgr
+                                    000000018000694C     6 CtfImeDestroyInputContext
+                                    0000000180006994     7 CtfImeDestroyThreadMgr
+                                    0000000180006928     4 CtfImeCreateThreadMgr
+                                    0000000180006916    2A TF_CleanUpPrivateMessages
+                                    0000000180006904    29 TF_CanUninitialize
+                                    0000000180006879    33 TF_GetAppCompatFlags
+                                    00000001800069A6     8 CtfImeDispatchDefImeMessage
+                                    00000001800069B8    42 TF_Notify
+                                    00000001800069CA    46 TF_SetDefaultRemoteKeyboardLayout
+                                    00000001800069DC    34 TF_GetCompatibleKeyboardLayout
+                                    00000001800069EE     0 CtfImeAssociateFocus
+                                    0000000180006A00    16 CtfImeSelectEx
+                                    0000000180006A12    19 CtfImeSetFocus
+                                    0000000180006A24     D CtfImeGetRegisterWordStyle
+                                    0000000180006A4C     1 CtfImeConfigure
+                                    0000000180006A6C     B CtfImeEscapeEx
+                                    0000000180006A7E    17 CtfImeSetActiveContext
+                                    0000000180006AAC     A CtfImeEscape
+                                    0000000180006ACC     5 CtfImeDestroy
+                                    0000000180006AEC     9 CtfImeEnumRegisterWord
+                                    0000000180006B0C    15 CtfImeSelect
+                                    0000000180006B2C     2 CtfImeConversionList
+                                    0000000180006B4C     F CtfImeInquireExW
+                                    0000000180006B5E    13 CtfImeProcessKey
+                                    000000018000693A     3 CtfImeCreateInputContext
+                                    0000000180006BAC    1A CtfImeToAsciiEx
+                                    0000000180006BCC    14 CtfImeRegisterWord
+                                    0000000180006BEC    1C CtfNotifyIME
+                                    0000000180006C0C     E CtfImeInquire
+                                    0000000180006C2C    1B CtfImeUnregisterWord
+                                    0000000180006C4C    41 TF_MapCompatibleKeyboardTip
+                                    0000000180006C5E    12 CtfImeProcessCicHotkey
+                                    0000000180006B8C    18 CtfImeSetCompositionString
+
+  Summary
+
+        1000 .data
+        1000 .didat
+        2000 .pdata
+        7000 .rdata
+        1000 .reloc
+        5000 .rsrc
+       1F000 .text

@@ -1,0 +1,703 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\apphelp.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    ntdll.dll
+    api-ms-win-core-registry-l1-1-0.dll
+    api-ms-win-core-appcompat-l1-1-1.dll
+    api-ms-win-core-appcompat-l1-1-0.dll
+    api-ms-win-core-handle-l1-1-0.dll
+    api-ms-win-core-file-l1-1-0.dll
+    api-ms-win-core-processthreads-l1-1-1.dll
+    api-ms-win-core-processthreads-l1-1-0.dll
+    api-ms-win-core-errorhandling-l1-1-0.dll
+    api-ms-win-core-sysinfo-l1-1-0.dll
+    api-ms-win-core-profile-l1-1-0.dll
+    api-ms-win-eventing-provider-l1-1-0.dll
+    KERNEL32.dll
+    api-ms-win-core-file-l1-2-4.dll
+    api-ms-win-core-synch-l1-1-0.dll
+    api-ms-win-core-synch-l1-2-0.dll
+    api-ms-win-core-libraryloader-l1-2-0.dll
+    api-ms-win-core-libraryloader-l1-2-1.dll
+    api-ms-win-core-processenvironment-l1-1-0.dll
+    api-ms-win-core-localization-obsolete-l1-2-0.dll
+    api-ms-win-core-localization-l1-2-0.dll
+    api-ms-win-core-debug-l1-1-0.dll
+    api-ms-win-core-apiquery-l1-1-0.dll
+
+  Image has the following delay load dependencies:
+
+    ext-ms-win32-subsystem-query-l1-1-0.dll
+
+  Section contains the following exports for apphelp.dll
+
+    00000000 characteristics
+    5CEEFE62 time date stamp
+        0.00 version
+          19 ordinal base
+         237 number of functions
+         221 number of names
+
+    ordinal hint RVA      name
+
+         35    0 0001C2C0 AllowPermLayer
+         36    1 0003E8F0 ApphelpCheckExe
+         37    2 0001A990 ApphelpCheckIME
+         38    3 0001A9F0 ApphelpCheckInstallShieldPackage
+         39    4 0003E920 ApphelpCheckModule
+         40    5 0001AC20 ApphelpCheckMsiPackage
+         41    6 0003EAF0 ApphelpCheckRunApp
+         42    7 0003EB80 ApphelpCheckRunAppEx
+         43    8 00006800 ApphelpCheckShellObject
+         44    9 0003FAD0 ApphelpChpeModSettingsFromQueryResult
+         45    A 00004460 ApphelpCreateAppcompatData
+         46    B 0001AEF0 ApphelpFixMsiPackage
+         47    C 0001B1D0 ApphelpFixMsiPackageExe
+         48    D 0001C4E0 ApphelpFreeFileAttributes
+         49    E 0001C4F0 ApphelpGetFileAttributes
+         50    F 0001B470 ApphelpGetMsiProperties
+         51   10 0001B530 ApphelpGetNTVDMInfo
+         52   11 0001CEB0 ApphelpGetShimDebugLevel
+         53   12 0001B680 ApphelpIsPortMonAllowed
+         54   13 0001CEC0 ApphelpNotifyPcaOfProblem
+         55   14 0003EFC0 ApphelpParseModuleData
+         56   15 0003F0F0 ApphelpQueryModuleData
+         57   16 0003F130 ApphelpQueryModuleDataEx
+         58   17 0001C500 ApphelpShowDialog
+         59   18 0001C3B0 ApphelpUpdateCacheEntry
+         60   19 0001C3E0 GetPermLayers
+         61   1A 00040DB0 SE_AddHookset
+         62   1B 00040F30 SE_CALLBACK_AddHook
+         63   1C 00040FE0 SE_CALLBACK_Lookup
+         64   1D 00041070 SE_COM_AddHook
+         65   1E 00041110 SE_COM_AddServer
+         66   1F 000411C0 SE_COM_HookInterface
+         67   20 00041250 SE_COM_HookObject
+         68   21 000412E0 SE_COM_Lookup
+         69   22 00008450 SE_DllLoaded
+         70   23 00041360 SE_DllUnloaded
+         71   24 000413B0 SE_DynamicShim
+         72   25 000416B0 SE_GetHookAPIs
+         73   26 00041850 SE_GetMaxShimCount
+         74   27 0000D7C0 SE_GetProcAddressForCaller
+         75   28 00041860 SE_GetProcAddressIgnoreIncExc
+         76   29 000418E0 SE_GetProcAddressLoad
+         77   2A 00041930 SE_GetShimCount
+         78   2B 000018A0 SE_GetShimId
+         79   2C 00003490 SE_InitializeEngine
+         80   2D 0000ECA0 SE_InstallAfterInit
+         81   2E 0000E440 SE_InstallBeforeInit
+         82   2F 00041A50 SE_IsShimDll
+         83   30 0000EBF0 SE_LdrEntryRemoved
+         84   31 0000E2F0 SE_LdrResolveDllName
+         85   32 00041AB0 SE_LookupAddress
+         86   33 00041BC0 SE_LookupCaller
+         87   34 00011820 SE_ProcessDying
+         88   35 00001980 SE_ShimDPF
+         89   36 00001830 SE_ShimDllLoaded
+         90   37 00041D70 SE_WINRT_AddHook
+         91   38 00041E90 SE_WINRT_HookObject
+         92   39 00001010 SdbAddLayerTagRefToQuery
+         93   3A 0002D2D0 SdbApphelpNotify
+         94   3B 0002D350 SdbApphelpNotifyEx
+         95   3C 0002D3D0 SdbApphelpNotifyEx2
+         96   3D 000281C0 SdbBeginWriteListTag
+         97   3E 00030E40 SdbBuildCompatEnvVariables
+         98   3F 0002D5B0 SdbCloseApphelpInformation
+         99   40 00005BB0 SdbCloseDatabase
+        100   41 000284C0 SdbCloseDatabaseWrite
+        101   42 00032850 SdbCloseLocalDatabase
+        102   43 000284D0 SdbCommitIndexes
+        103   44 00028590 SdbCreateDatabase
+        104   45 0002D680 SdbCreateHelpCenterURL
+        105   46 000331F0 SdbCreateMsiTransformFile
+        106   47 000286F0 SdbDeclareIndex
+        107   48 00031160 SdbDeletePermLayerKeys
+        108   49 0001D330 SdbDumpSearchPathPartCaches
+        109   4A 00028AC0 SdbEndWriteListTag
+        110   4B 00033350 SdbEnumMsiTransforms
+        111   4C 0002DD70 SdbEscapeApphelpURL
+        112   4D 00033500 SdbFindCustomActionForPackage
+        113   4E 00034360 SdbFindFirstDWORDIndexedTag
+        114   4F 00034430 SdbFindFirstGUIDIndexedTag
+        115   50 00010C10 SdbFindFirstMsiPackage
+        116   51 00010C80 SdbFindFirstMsiPackage_Str
+        117   52 00001240 SdbFindFirstNamedTag
+        118   53 00034500 SdbFindFirstStringIndexedTag
+        119   54 0000A950 SdbFindFirstTag
+        120   55 0000A110 SdbFindFirstTagRef
+        121   56 000335F0 SdbFindMsiPackageByID
+        122   57 000345D0 SdbFindNextDWORDIndexedTag
+        123   58 00034610 SdbFindNextGUIDIndexedTag
+        124   59 00033680 SdbFindNextMsiPackage
+        125   5A 00034650 SdbFindNextStringIndexedTag
+        126   5B 0000A6D0 SdbFindNextTag
+        127   5C 0000B1D0 SdbFindNextTagRef
+        128   5D 000353D0 SdbFormatAttribute
+        129   5E 00031F30 SdbFreeDatabaseInformation
+        130   5F 000364B0 SdbFreeFileAttributes
+        131   60 0001D330 SdbFreeFileInfo
+        132   61 0002AB10 SdbFreeFlagInfo
+        133   62 0001D340 SdbGUIDFromString
+        134   63 0001D370 SdbGUIDToString
+        135   64 00040B70 SdbGetAppCompatDataSize
+        136   65 00036A30 SdbGetAppPatchDir
+        137   66 00009770 SdbGetBinaryTagData
+        138   67 0002AB50 SdbGetDatabaseGUID
+        139   68 0000A1A0 SdbGetDatabaseID
+        140   69 00031F70 SdbGetDatabaseInformation
+        141   6A 00031F80 SdbGetDatabaseInformationByName
+        142   6B 00038870 SdbGetDatabaseMatch
+        143   6C 00032210 SdbGetDatabaseVersion
+        144   6D 00032870 SdbGetDllPath
+        145   6E 0003C970 SdbGetEntryFlags
+        146   6F 00036560 SdbGetFileAttributes
+        147   70 00036840 SdbGetFileImageType
+        148   71 00036860 SdbGetFileImageTypeEx
+        149   72 0001D3A0 SdbGetFileInfo
+        150   73 0000A5C0 SdbGetFirstChild
+        151   74 0000F9C0 SdbGetImageType
+        152   75 00034690 SdbGetIndex
+        153   76 0000B380 SdbGetItemFromItemRef
+        154   77 00036AB0 SdbGetLayerName
+        155   78 0002ACA0 SdbGetLayerTagRef
+        156   79 0002AD90 SdbGetLocalPDB
+        157   7A 00035770 SdbGetMatchingExe
+        158   7B 00033740 SdbGetMsiPackageInformation
+        159   7C 0002B320 SdbGetNamedLayer
+        160   7D 0000A480 SdbGetNextChild
+        161   7E 000113E0 SdbGetNthUserSdb
+        162   7F 0002B3A0 SdbGetPDBFromGUID
+        163   80 00036B80 SdbGetPathCustomSdb
+        164   81 00005480 SdbGetPathSystemSdb
+        165   82 00031430 SdbGetPermLayerKeys
+        166   83 0002B450 SdbGetShowDebugInfoOption
+        167   84 0002B450 SdbGetShowDebugInfoOptionValue
+        168   85 00036CA0 SdbGetStandardDatabaseGUID
+        169   86 0000A260 SdbGetStringTagPtr
+        170   87 0000AAF0 SdbGetTagDataSize
+        171   88 0000AE40 SdbGetTagFromTagID
+        172   89 0003CB40 SdbGrabMatchingInfo
+        173   8A 0003CB70 SdbGrabMatchingInfoEx
+        174   8B 0001C270 SdbInitDatabase
+        175   8C 000057F0 SdbInitDatabaseEx
+        176   8D 00038A70 SdbIsDbRuntimePlatformSupportedOnHost
+        177   8E 00020320 SdbIsNullGUID
+        178   8F 00036D20 SdbIsStandardDatabase
+        179   90 0002B460 SdbIsTagrefFromLocalDB
+        180   91 0002B480 SdbIsTagrefFromMainDB
+        181   92 0002DF80 SdbLoadString
+        182   93 00034770 SdbMakeIndexKeyFromString
+        183   94 0002E090 SdbOpenApphelpDetailsDatabase
+        184   95 0001D3E0 SdbOpenApphelpDetailsDatabaseSP
+        185   96 0002E130 SdbOpenApphelpInformation
+        186   97 0002E370 SdbOpenApphelpInformationByID
+        187   98 0002E4D0 SdbOpenApphelpResourceFile
+        188   99 000324B0 SdbOpenDatabase
+        189   9A 0002E5C0 SdbOpenDbFromGuid
+        190   9B 00032970 SdbOpenLocalDatabase
+        191   9C 00004620 SdbPackAppCompatData
+        192   9D 0002E6C0 SdbQueryApphelpInformation
+        193   9E 0002B7A0 SdbQueryBlockUpgrade
+        194   9F 0002B830 SdbQueryContext
+        195   A0 00038B10 SdbQueryData
+        196   A1 00038B50 SdbQueryDataEx
+        197   A2 00038C40 SdbQueryDataExTagID
+        198   A3 0002BAC0 SdbQueryFlagInfo
+        199   A4 0002BB10 SdbQueryFlagMask
+        200   A5 0003DEA0 SdbQueryName
+        201   A6 0002C150 SdbQueryReinstallUpgrade
+        202   A7 0002E9C0 SdbReadApphelpData
+        203   A8 0002EB30 SdbReadApphelpDetailsData
+        204   A9 000382D0 SdbReadBYTETag
+        205   AA 00038380 SdbReadBYTETagRef
+        206   AB 00009460 SdbReadBinaryTag
+        207   AC 0000B310 SdbReadDWORDTag
+        208   AD 000017D0 SdbReadDWORDTagRef
+        209   AE 00039210 SdbReadEntryInformation
+        210   AF 000338D0 SdbReadMsiTransformInfo
+        211   B0 000329B0 SdbReadPatchBits
+        212   B1 0000D2E0 SdbReadQWORDTag
+        213   B2 0000D360 SdbReadQWORDTagRef
+        214   B3 0000CB60 SdbReadStringTag
+        215   B4 0000CBF0 SdbReadStringTagRef
+        216   B5 000384F0 SdbReadWORDTag
+        217   B6 000385A0 SdbReadWORDTagRef
+        218   B7 000359D0 SdbRegisterDatabase
+        219   B8 000359E0 SdbRegisterDatabaseEx
+        220   B9 00005A80 SdbReleaseDatabase
+        221   BA 0002C290 SdbReleaseMatchingExe
+        222   BB 00036DB0 SdbResolveDatabase
+        223   BC 0002EFA0 SdbSetApphelpDebugParameters
+        224   BD 000371D0 SdbSetEntryFlags
+        225   BE 0000F9E0 SdbSetImageType
+        226   BF 000314F0 SdbSetPermLayerKeys
+        227   C0 0002F0E0 SdbShowApphelpDialog
+        228   C1 00002B20 SdbShowApphelpFromQuery
+        229   C2 00029350 SdbStartIndexing
+        230   C3 00029380 SdbStopIndexing
+        231   C4 0001D3F0 SdbStringDuplicate
+        232   C5 0001D430 SdbStringReplace
+        233   C6 0001D470 SdbStringReplaceArray
+        234   C7 0000B170 SdbTagIDToTagRef
+        235   C8 0000AE80 SdbTagRefToTagID
+        236   C9 00036920 SdbTagToString
+        237   CA 00002950 SdbUnpackAppCompatData
+        238   CB 00002A30 SdbUnpackQueryResult
+        239   CC 000361C0 SdbUnregisterDatabase
+        240   CD 000293B0 SdbWriteBYTETag
+        241   CE 00029400 SdbWriteBinaryTag
+        242   CF 00029440 SdbWriteBinaryTagFromFile
+        243   D0 00029630 SdbWriteDWORDTag
+        244   D1 00029680 SdbWriteNULLTag
+        245   D2 000296D0 SdbWriteQWORDTag
+        246   D3 00029720 SdbWriteStringRefTag
+        247   D4 00029770 SdbWriteStringTag
+        248   D5 000297E0 SdbWriteStringTagDirect
+        249   D6 00029840 SdbWriteWORDTag
+        250   D7 0001C3F0 SetPermLayerState
+        251   D8 0001C420 SetPermLayerStateEx
+        252   D9 0001C470 SetPermLayers
+        253   DA 0001D4C0 ShimDbgPrint
+        254   DB 0001C540 ShimDumpCache
+        255   DC 0003FAB0 ShimFlushCache
+         19      00028710 [NONAME]
+         20      00034780 [NONAME]
+         21      00028170 [NONAME]
+         22      000286B0 [NONAME]
+         23      00001510 [NONAME]
+         24      0002A9B0 [NONAME]
+         25      0002AC00 [NONAME]
+         26      000312C0 [NONAME]
+         27      0001D3B0 [NONAME]
+         28      000323A0 [NONAME]
+         29      00036050 [NONAME]
+         30      000363A0 [NONAME]
+         31      000358A0 [NONAME]
+         32      000316E0 [NONAME]
+         33      00031710 [NONAME]
+         34      000012F0 [NONAME]
+
+  Section contains the following imports:
+
+    ntdll.dll
+             1800510D8 Import Address Table
+             18006ED58 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         996 wcsncmp
+                         7F1 ZwOpenKey
+                          F2 NtApphelpCacheControl
+                         11A NtCreateFile
+                         34D RtlCreateEnvironmentEx
+                         5B3 RtlSetEnvironmentVar
+                         5E2 RtlSizeHeap
+                         395 RtlDestroyEnvironment
+                         210 NtReadFile
+                         84A ZwQuerySystemTime
+                         29D NtWriteFile
+                         962 qsort
+                         99C wcsspn
+                         921 _vscwprintf
+                         42E RtlGetFileMUIPath
+                         1E1 NtQueryInformationFile
+                         361 RtlCreateUnicodeString
+                         3A2 RtlDoesFileExists_U
+                         26F NtSetValueKey
+                         14E NtDeleteValueKey
+                         464 RtlGetVersion
+                         343 RtlCopyUnicodeString
+                         59C RtlRunOnceExecuteOnce
+                         206 NtQueryValueKey
+                         120 NtCreateKey
+                          9E LdrResSearchResource
+                         14B NtDeleteKey
+                         836 ZwQueryKey
+                         7A6 ZwEnumerateValueKey
+                         612 RtlUnicodeStringToInteger
+                         8B6 ZwSetValueKey
+                         5B4 RtlSetEnvironmentVariable
+                         405 RtlFreeAnsiString
+                         65C RtlWow64GetProcessMachines
+                          71 LdrFindEntryForAddress
+                         48B RtlInitializeCriticalSection
+                         37F RtlDeleteCriticalSection
+                         933 _wtoi
+                         979 strrchr
+                         90F _stricmp
+                         922 _vsnprintf
+                         608 RtlTryEnterCriticalSection
+                         4E5 RtlLeaveCriticalSection
+                         3BD RtlEnterCriticalSection
+                         301 RtlCaptureStackBackTrace
+                         476 RtlInitAnsiStringEx
+                          84 LdrInitShimEngineDynamic
+                         444 RtlGetNtSystemRoot
+                          42 EtwEventWriteNoRegistration
+                         1D0 NtQueryAttributesFile
+                         1F3 NtQueryObject
+                         2D8 RtlAddVectoredExceptionHandler
+                         96F strcpy_s
+                         928 _wcslwr
+                         514 RtlNtStatusToDosError
+                         2DC RtlAllocateAndInitializeSid
+                         30A RtlCheckTokenMembership
+                         40B RtlFreeSid
+                          8A LdrLoadDll
+                         966 sprintf_s
+                         969 sscanf_s
+                          81 LdrGetProcedureAddressEx
+                          80 LdrGetProcedureAddress
+                         4E6 RtlLengthRequiredSid
+                         35A RtlCreateServiceSid
+                         1A7 NtOpenFile
+                         1FB NtQuerySecurityObject
+                         446 RtlGetOwnerSecurityDescriptor
+                         3CA RtlEqualSid
+                         31E RtlCompareMemory
+                         1CD NtProtectVirtualMemory
+                         497 RtlInitializeSRWLock
+                          6F LdrEnumerateLoadedModules
+                         2B9 RtlAcquireSRWLockExclusive
+                         57E RtlReleaseSRWLockExclusive
+                         2BA RtlAcquireSRWLockShared
+                         57F RtlReleaseSRWLockShared
+                         828 ZwQueryInformationFile
+                         1AA NtOpenKey
+                         7EE ZwOpenFile
+                         6E7 VerSetConditionMask
+                         84D ZwQueryValueKey
+                         47D RtlInitString
+                         7FB ZwOpenProcessToken
+                         7A3 ZwEnumerateKey
+                         98E wcschr
+                         980 swprintf_s
+                         475 RtlInitAnsiString
+                         974 strncmp
+                         7E1 ZwMapViewOfSection
+                         82E ZwQueryInformationToken
+                         610 RtlUnicodeStringToAnsiString
+                         89A ZwSetInformationProcess
+                         81E ZwQueryDirectoryFile
+                         539 RtlQueryEnvironmentVariable_U
+                         56C RtlReAllocateHeap
+                         642 RtlVerifyVersionInfo
+                         431 RtlGetFullPathName_UEx
+                         98D wcscat_s
+                         991 wcscpy_s
+                         59E RtlSecondsSince1970ToTime
+                         43E RtlGetNativeSystemInformation
+                         768 ZwCreateKey
+                         482 RtlInitUnicodeString
+                         678 RtlpEnsureBufferSize
+                         82B ZwQueryInformationProcess
+                         69E RtlxAnsiStringToUnicodeSize
+                         77A ZwCreateSection
+                         62B RtlUpcaseUnicodeString
+                         3A8 RtlDosPathNameToNtPathName_U_WithStatus
+                         62A RtlUpcaseUnicodeChar
+                         5FB RtlTimeToTimeFields
+                         762 ZwCreateFile
+                         513 RtlNtPathNameToDosPathName
+                         984 toupper
+                         2E9 RtlAppendUnicodeStringToString
+                         411 RtlGUIDFromString
+                         8D5 ZwUnmapViewOfSection
+                         848 ZwQuerySystemInformation
+                         46D RtlImageDirectoryEntryToData
+                         2E5 RtlAnsiStringToUnicodeString
+                         8E9 __C_specific_handler
+                         3D7 RtlExpandEnvironmentStrings_U
+                         2EA RtlAppendUnicodeToString
+                         5E8 RtlStringFromGUID
+                         749 ZwClose
+                         101 NtClose
+                          78 LdrGetDllHandle
+                         99D wcsstr
+                         927 _wcsicmp
+                          3B EtwEventRegister
+                         95E memmove
+                         643 RtlVirtualUnwind
+                         4FF RtlLookupFunctionEntry
+                         2FF RtlCaptureContext
+                         99B wcsrchr
+                          3E EtwEventWrite
+                         924 _vsnwprintf
+                         407 RtlFreeHeap
+                         92A _wcsnicmp
+                          3D EtwEventUnregister
+                         251 NtSetInformationKey
+                          39 EtwEventEnabled
+                         2DF RtlAllocateHeap
+                         3CB RtlEqualString
+                         506 RtlMultiByteToUnicodeN
+                         96C strchr
+                         40E RtlFreeUnicodeString
+                         3B1 RtlDuplicateUnicodeString
+                         401 RtlFormatCurrentUserKeyPath
+                         3A7 RtlDosPathNameToNtPathName_U
+                         483 RtlInitUnicodeStringEx
+                         95B memcmp
+                         95C memcpy
+                         960 memset
+
+    api-ms-win-core-registry-l1-1-0.dll
+             180051018 Import Address Table
+             18006EC98 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           3 RegCreateKeyExW
+                          1E RegOpenKeyExW
+                           0 RegCloseKey
+                          2E RegSetValueExW
+
+    api-ms-win-core-appcompat-l1-1-1.dll
+             180050E20 Import Address Table
+             18006EAA0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           5 BaseFreeAppCompatDataForProcess
+                           8 BaseReadAppCompatDataForProcess
+
+    api-ms-win-core-appcompat-l1-1-0.dll
+             180050E08 Import Address Table
+             18006EA88 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           7 BaseIsAppcompatInfrastructureDisabled
+                           4 BaseFlushAppcompatCache
+
+    api-ms-win-core-handle-l1-1-0.dll
+             180050EE8 Import Address Table
+             18006EB68 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 CloseHandle
+
+    api-ms-win-core-file-l1-1-0.dll
+             180050E78 Import Address Table
+             18006EAF8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           D FindClose
+                          15 FindFirstFileW
+                          1B FindNextFileW
+                           7 CreateFileW
+                          5E WriteFile
+                          2D GetFileAttributesW
+                          34 GetFinalPathNameByHandleW
+                          3A GetLongPathNameW
+                          58 SetFilePointer
+                          29 GetDriveTypeW
+                           A DeleteFileW
+
+    api-ms-win-core-processthreads-l1-1-1.dll
+             180050FF8 Import Address Table
+             18006EC78 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          33 OpenProcess
+
+    api-ms-win-core-processthreads-l1-1-0.dll
+             180050FB8 Import Address Table
+             18006EC38 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           C GetCurrentProcess
+                           3 CreateProcessW
+                           D GetCurrentProcessId
+                          20 GetProcessTimes
+                          11 GetCurrentThreadId
+                          55 TerminateProcess
+                          37 ProcessIdToSessionId
+
+    api-ms-win-core-errorhandling-l1-1-0.dll
+             180050E50 Import Address Table
+             18006EAD0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           5 GetLastError
+                           D SetLastError
+                           F SetUnhandledExceptionFilter
+                          11 UnhandledExceptionFilter
+
+    api-ms-win-core-sysinfo-l1-1-0.dll
+             180051080 Import Address Table
+             18006ED00 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1A GetTickCount
+                          16 GetSystemTimeAsFileTime
+                          19 GetSystemWindowsDirectoryW
+                          1B GetTickCount64
+                           F GetSystemDirectoryW
+
+    api-ms-win-core-profile-l1-1-0.dll
+             180051008 Import Address Table
+             18006EC88 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 QueryPerformanceCounter
+
+    api-ms-win-eventing-provider-l1-1-0.dll
+             1800510B0 Import Address Table
+             18006ED30 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           9 EventWriteTransfer
+                           4 EventSetInformation
+                           5 EventUnregister
+                           3 EventRegister
+
+    KERNEL32.dll
+             180050DC8 Import Address Table
+             18006EA48 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         4DF ResolveDelayLoadedAPI
+                         430 PackageIdFromFullName
+                         116 DelayLoadFailureHook
+                         45A QueryFullProcessImageNameW
+                         2B0 GetPackageFullName
+
+    api-ms-win-core-file-l1-2-4.dll
+             180050ED8 Import Address Table
+             18006EB58 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          3F GetTempPath2W
+
+    api-ms-win-core-synch-l1-1-0.dll
+             180051040 Import Address Table
+             18006ECC0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           F DeleteCriticalSection
+                          20 OpenMutexW
+                          18 InitializeCriticalSection
+                          11 EnterCriticalSection
+                          1D LeaveCriticalSection
+
+    api-ms-win-core-synch-l1-2-0.dll
+             180051070 Import Address Table
+             18006ECF0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          2D Sleep
+
+    api-ms-win-core-libraryloader-l1-2-0.dll
+             180050EF8 Import Address Table
+             18006EB78 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1E LockResource
+                          16 GetProcAddress
+                          11 GetModuleFileNameW
+                          21 SizeofResource
+                           1 DisableThreadLibraryCalls
+                          1B LoadResource
+                           D FreeLibrary
+                          14 GetModuleHandleExW
+                          19 LoadLibraryExW
+                          15 GetModuleHandleW
+                          13 GetModuleHandleExA
+
+    api-ms-win-core-libraryloader-l1-2-1.dll
+             180050F58 Import Address Table
+             18006EBD8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           B FindResourceW
+
+    api-ms-win-core-processenvironment-l1-1-0.dll
+             180050F90 Import Address Table
+             18006EC10 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           1 ExpandEnvironmentStringsW
+                           9 GetEnvironmentStringsW
+                           3 FreeEnvironmentStringsW
+                           7 GetCurrentDirectoryW
+
+    api-ms-win-core-localization-obsolete-l1-2-0.dll
+             180050F80 Import Address Table
+             18006EC00 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           8 GetUserDefaultUILanguage
+
+    api-ms-win-core-localization-l1-2-0.dll
+             180050F68 Import Address Table
+             18006EBE8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          43 VerLanguageNameW
+                          2A IsDBCSLeadByte
+
+    api-ms-win-core-debug-l1-1-0.dll
+             180050E38 Import Address Table
+             18006EAB8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           6 OutputDebugStringA
+                           4 DebugBreak
+
+    api-ms-win-core-apiquery-l1-1-0.dll
+             180050DF8 Import Address Table
+             18006EA78 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 ApiSetQueryApiSetPresence
+
+  Section contains the following delay load imports:
+
+    ext-ms-win32-subsystem-query-l1-1-0.dll
+              00000001 Characteristics
+      0000000180072F18 Address of HMODULE
+      0000000180078000 Import Address Table
+      000000018006CD90 Import Name Table
+      000000018006CDC0 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018000F924     0 QueryWin32SubsystemHost
+
+  Summary
+
+        3000 .data
+        1000 .didat
+        4000 .pdata
+       22000 .rdata
+        1000 .reloc
+       17000 .rsrc
+       4E000 .text

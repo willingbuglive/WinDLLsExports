@@ -1,0 +1,848 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\resutils.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    ntdll.dll
+    api-ms-win-core-string-l1-1-0.dll
+    api-ms-win-core-errorhandling-l1-1-0.dll
+    api-ms-win-core-heap-l2-1-0.dll
+    api-ms-win-core-handle-l1-1-0.dll
+    api-ms-win-core-registry-l1-1-0.dll
+    api-ms-win-core-synch-l1-1-0.dll
+    api-ms-win-core-synch-l1-2-0.dll
+    api-ms-win-core-processthreads-l1-1-1.dll
+    api-ms-win-core-processthreads-l1-1-0.dll
+    api-ms-win-core-processenvironment-l1-1-0.dll
+    api-ms-win-core-sysinfo-l1-1-0.dll
+    api-ms-win-eventing-provider-l1-1-0.dll
+    api-ms-win-core-debug-l1-1-0.dll
+    api-ms-win-core-synch-l1-2-1.dll
+    api-ms-win-core-file-l1-1-0.dll
+    api-ms-win-core-io-l1-1-0.dll
+    api-ms-win-core-file-l1-2-0.dll
+    api-ms-win-eventing-classicprovider-l1-1-0.dll
+    api-ms-win-core-libraryloader-l1-2-0.dll
+    api-ms-win-core-console-l1-1-0.dll
+    api-ms-win-core-heap-l1-1-0.dll
+    api-ms-win-core-fibers-l1-1-0.dll
+    api-ms-win-core-localization-l1-2-0.dll
+    api-ms-win-core-profile-l1-1-0.dll
+    api-ms-win-core-interlocked-l1-1-0.dll
+    api-ms-win-core-util-l1-1-0.dll
+    api-ms-win-core-libraryloader-l1-2-1.dll
+    api-ms-win-security-base-l1-1-0.dll
+    api-ms-win-core-kernel32-legacy-l1-1-1.dll
+    api-ms-win-core-string-obsolete-l1-1-0.dll
+    KERNELBASE.dll
+    api-ms-win-core-threadpool-l1-2-0.dll
+    api-ms-win-core-delayload-l1-1-0.dll
+
+  Image has the following delay load dependencies:
+
+    RPCRT4.dll
+    api-ms-win-service-management-l1-1-0.dll
+    api-ms-win-service-winsvc-l1-1-0.dll
+    USERENV.dll
+    api-ms-win-service-management-l2-1-0.dll
+    VSSAPI.DLL
+    CLUSAPI.dll
+    bcrypt.dll
+    api-ms-win-core-com-l1-1-0.dll
+    CRYPTSP.dll
+
+  Section contains the following exports for RESUTILS.dll
+
+    00000000 characteristics
+    C2F41D08 time date stamp
+        0.00 version
+           1 ordinal base
+         146 number of functions
+         146 number of names
+
+    ordinal hint RVA      name
+
+          2    0 000330B0 CloseClusterCryptProvider
+          3    1 00029FD0 ClusAddClusterHealthFault
+          4    2 0002AAE0 ClusGetClusterHealthFaults
+          5    3 0002ABB0 ClusRemoveClusterHealthFault
+          6    4 0002B7C0 ClusWorkerCheckTerminate
+          7    5 0002B7D0 ClusWorkerCreate
+          1    6 00028E90 ClusWorkerStart
+          8    7 0002B960 ClusWorkerTerminate
+          9    8 0002BA70 ClusWorkerTerminateEx
+         10    9 0002BA80 ClusWorkersTerminate
+         11    A 00025340 ClusterClearBackupStateForSharedVolume
+         12    B 00033120 ClusterDecrypt
+         13    C 00033430 ClusterEncrypt
+         14    D 0004E570 ClusterEnumTasks
+         15    E 0004AAC0 ClusterFileShareCreate
+         16    F 0004C5E0 ClusterFileShareDelete
+         17   10 0004C8B0 ClusterFileShareUpdate
+         18   11 0004F100 ClusterFreeTaskInfo
+         19   12 0004F1D0 ClusterFreeTaskList
+         20   13 0004F220 ClusterGetTaskNode
+         21   14 00025360 ClusterGetVolumeNameForVolumeMountPoint
+         22   15 00025470 ClusterGetVolumePathName
+         23   16 0004CE40 ClusterIsClusterDisk
+         24   17 00025490 ClusterIsPathOnSharedVolume
+         25   18 000254A0 ClusterPrepareSharedVolumeForBackup
+         26   19 00032430 ClusterSharedVolumeCheckSnapshotPresence
+         27   1A 00032500 ClusterSharedVolumeCreateSnapshot
+         28   1B 00032800 ClusterSharedVolumeReleaseSnapshot
+         29   1C 0004F370 ClusterTaskChangeFromXML
+         30   1D 0004F770 ClusterTaskChangeFromXMLFile
+         31   1E 0004F910 ClusterTaskChange_TS_V1
+         32   1F 0004FD30 ClusterTaskCreateFromXML
+         33   20 000503A0 ClusterTaskCreateFromXMLFile
+         34   21 00050570 ClusterTaskCreate_TS_V1
+         35   22 00050C90 ClusterTaskDelete
+         36   23 00050F50 ClusterTaskDelete_TS_V1
+         37   24 00051220 ClusterTaskExists_TS_V1
+         38   25 00051600 ClusterTaskQuery
+         39   26 000553F0 CreateClusterStorageSpacesClustering
+         40   27 000554A0 CreateClusterStorageSpacesResourceLocator
+         41   28 00055630 CreateClusterStorageSpacesSubProvider
+         42   29 00033640 FreeClusterCrypt
+         43   2A 0002BE10 FreeClusterHealthFault
+         44   2B 0002BE80 FreeClusterHealthFaultArray
+         45   2C 0002BEF0 InitializeClusterHealthFault
+         46   2D 0002BF20 InitializeClusterHealthFaultArray
+         47   2E 000336A0 OpenClusterCryptProvider
+         48   2F 000338D0 OpenClusterCryptProviderEx
+         49   30 000226C0 ResUtilAddUnknownProperties
+         50   31 0002BF40 ResUtilCreateDirectoryTree
+         51   32 0002BF50 ResUtilDupGroup
+         52   33 00022830 ResUtilDupParameterBlock
+         53   34 0002C080 ResUtilDupResource
+         54   35 0002C1B0 ResUtilDupString
+         55   36 0002C1C0 ResUtilEnumGroups
+         56   37 0002C1E0 ResUtilEnumGroupsEx
+         57   38 00022840 ResUtilEnumPrivateProperties
+         58   39 00022870 ResUtilEnumProperties
+         59   3A 00022A00 ResUtilEnumResources
+         60   3B 00022D00 ResUtilEnumResourcesEx
+         61   3C 00022D30 ResUtilEnumResourcesEx2
+         62   3D 0002C210 ResUtilExpandEnvironmentStrings
+         63   3E 000232B0 ResUtilFindBinaryProperty
+         64   3F 0002C220 ResUtilFindDependentDiskResourceDriveLetter
+         65   40 00023420 ResUtilFindDwordProperty
+         66   41 00023550 ResUtilFindExpandSzProperty
+         67   42 00023570 ResUtilFindExpandedSzProperty
+         68   43 00023590 ResUtilFindFileTimeProperty
+         69   44 000236C0 ResUtilFindLongProperty
+         70   45 000237F0 ResUtilFindMultiSzProperty
+         71   46 00023550 ResUtilFindSzProperty
+         72   47 00023970 ResUtilFindULargeIntegerProperty
+         73   48 0002C630 ResUtilFreeEnvironment
+         74   49 00023AA0 ResUtilFreeParameterBlock
+         75   4A 00023AB0 ResUtilGetAllProperties
+         76   4B 0002C660 ResUtilGetBinaryProperty
+         77   4C 0002C710 ResUtilGetBinaryValue
+         78   4D 0002C7F0 ResUtilGetClusterGroupType
+         79   4E 0002C8F0 ResUtilGetClusterId
+         80   4F 000250B0 ResUtilGetClusterRoleState
+         81   50 0002CA30 ResUtilGetCoreClusterResources
+         82   51 0002CA50 ResUtilGetCoreClusterResourcesEx
+         83   52 0002CA80 ResUtilGetCoreGroup
+         84   53 0002CB90 ResUtilGetDwordProperty
+         85   54 0002CBF0 ResUtilGetDwordValue
+         86   55 0002CC70 ResUtilGetEnvironmentWithNetName
+         87   56 0002CDC0 ResUtilGetFileTimeProperty
+         88   57 0002CEB0 ResUtilGetLongProperty
+         89   58 0002CF10 ResUtilGetMultiSzProperty
+         90   59 00023AF0 ResUtilGetPrivateProperties
+         91   5A 00023B20 ResUtilGetProperties
+         92   5B 00023BA0 ResUtilGetPropertiesToParameterBlock
+         93   5C 00023BD0 ResUtilGetProperty
+         94   5D 00023C00 ResUtilGetPropertyFormats
+         95   5E 00023D80 ResUtilGetPropertySize
+         96   5F 0002CFD0 ResUtilGetQwordValue
+         97   60 00023DB0 ResUtilGetResourceDependency
+         98   61 00023DD0 ResUtilGetResourceDependencyByClass
+         99   62 00023E00 ResUtilGetResourceDependencyByClassEx
+        100   63 00023E30 ResUtilGetResourceDependencyByName
+        101   64 00023E60 ResUtilGetResourceDependencyByNameAndClass
+        102   65 000242C0 ResUtilGetResourceDependencyByNameEx
+        103   66 000242F0 ResUtilGetResourceDependencyEx
+        104   67 0002D050 ResUtilGetResourceDependentIPAddressProps
+        105   68 0002D6C0 ResUtilGetResourceName
+        106   69 000243A0 ResUtilGetResourceNameDependency
+        107   6A 000243C0 ResUtilGetResourceNameDependencyEx
+        108   6B 0002D7F0 ResUtilGetSzProperty
+        109   6C 0002D810 ResUtilGetSzValue
+        110   6D 000244B0 ResUtilGroupsEqual
+        111   6E 0002D910 ResUtilIsPathValid
+        112   6F 00024620 ResUtilIsResourceClassEqual
+        113   70 0002D9F0 ResUtilLeftPaxosIsLessThanRight
+        114   71 0002DA40 ResUtilNodeEnum
+        115   72 0002DD20 ResUtilPaxosComparer
+        116   73 00024690 ResUtilPropertyListFromParameterBlock
+        117   74 0002DD60 ResUtilRemoveResourceServiceEnvironment
+        118   75 0002DEC0 ResUtilResourceDepEnum
+        119   76 000246A0 ResUtilResourceTypesEqual
+        120   77 000247E0 ResUtilResourcesEqual
+        121   78 0002DEE0 ResUtilSetBinaryValue
+        122   79 0002DFD0 ResUtilSetDwordValue
+        123   7A 0002E020 ResUtilSetExpandSzValue
+        124   7B 0002E140 ResUtilSetMultiSzValue
+        125   7C 000249F0 ResUtilSetPrivatePropertyList
+        126   7D 00024A90 ResUtilSetPropertyParameterBlock
+        127   7E 00024B60 ResUtilSetPropertyParameterBlockEx
+        128   7F 00024C30 ResUtilSetPropertyTable
+        129   80 00024D10 ResUtilSetPropertyTableEx
+        130   81 0002E230 ResUtilSetQwordValue
+        131   82 0002E280 ResUtilSetResourceServiceEnvironment
+        132   83 0002E4D0 ResUtilSetResourceServiceStartParameters
+        133   84 0002E500 ResUtilSetResourceServiceStartParametersEx
+        134   85 0002E830 ResUtilSetSzValue
+        135   86 00024DF0 ResUtilSetUnknownProperties
+        136   87 0002E960 ResUtilSetValueEx
+        137   88 0002EA10 ResUtilStartResourceService
+        138   89 0002EB60 ResUtilStopResourceService
+        139   8A 0002ECA0 ResUtilStopService
+        140   8B 0002ED80 ResUtilTerminateServiceProcessFromResDll
+        141   8C 00024E90 ResUtilVerifyPrivatePropertyList
+        142   8D 00024EC0 ResUtilVerifyPropertyTable
+        143   8E 0002F130 ResUtilVerifyResourceService
+        144   8F 0002F210 ResUtilVerifyService
+        145   90 00034540 ResUtilVerifyShutdownSafe
+        146   91 0002F280 ResUtilsDeleteKeyTree
+
+  Section contains the following imports:
+
+    ntdll.dll
+             17F2B8A00 Import Address Table
+             17F2D3A60 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         157 NtDuplicateToken
+                         2E4 RtlAnsiStringToUnicodeString
+                         474 RtlInitAnsiString
+                         60F RtlUnicodeStringToAnsiString
+                         255 NtSetInformationThread
+                         101 NtClose
+                         2D9 RtlAdjustPrivilege
+                         585 RtlRemoveVectoredExceptionHandler
+                         201 NtQuerySystemInformation
+                         526 RtlPcToFileHeader
+                         628 RtlUnwindEx
+                         642 RtlVirtualUnwind
+                         4FE RtlLookupFunctionEntry
+                          39 EtwEventEnabled
+                          3E EtwEventWrite
+                          3B EtwEventRegister
+                         2FE RtlCaptureContext
+                         513 RtlNtStatusToDosError
+                         1B4 NtOpenProcessToken
+                         6E6 VerSetConditionMask
+                         394 RtlDestroyEnvironment
+                         5B3 RtlSetEnvironmentVariable
+                         481 RtlInitUnicodeString
+                         34B RtlCreateEnvironment
+
+    api-ms-win-core-string-l1-1-0.dll
+             17F2B87E0 Import Address Table
+             17F2D3840 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           5 GetStringTypeW
+                           6 MultiByteToWideChar
+                           7 WideCharToMultiByte
+                           2 CompareStringW
+
+    api-ms-win-core-errorhandling-l1-1-0.dll
+             17F2B8488 Import Address Table
+             17F2D34E8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          11 UnhandledExceptionFilter
+                           F SetUnhandledExceptionFilter
+                           7 RaiseException
+                           D SetLastError
+                           5 GetLastError
+
+    api-ms-win-core-heap-l2-1-0.dll
+             17F2B85D8 Import Address Table
+             17F2D3638 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           2 LocalAlloc
+                           3 LocalFree
+
+    api-ms-win-core-handle-l1-1-0.dll
+             17F2B8590 Import Address Table
+             17F2D35F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 CloseHandle
+                           2 DuplicateHandle
+
+    api-ms-win-core-registry-l1-1-0.dll
+             17F2B87B8 Import Address Table
+             17F2D3818 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          2E RegSetValueExW
+                          1E RegOpenKeyExW
+                           0 RegCloseKey
+                           B RegDeleteValueW
+
+    api-ms-win-core-synch-l1-1-0.dll
+             17F2B8818 Import Address Table
+             17F2D3878 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1A InitializeCriticalSectionEx
+                           9 CreateMutexExW
+                          18 InitializeCriticalSection
+                          27 ResetEvent
+                          29 SetEvent
+                          25 ReleaseSRWLockShared
+                           B CreateSemaphoreExW
+                          26 ReleaseSemaphore
+                           F DeleteCriticalSection
+                           6 CreateEventW
+                          24 ReleaseSRWLockExclusive
+                          11 EnterCriticalSection
+                          1D LeaveCriticalSection
+                          36 WaitForSingleObject
+                           0 AcquireSRWLockExclusive
+                          37 WaitForSingleObjectEx
+                          21 OpenSemaphoreW
+                           1 AcquireSRWLockShared
+                          19 InitializeCriticalSectionAndSpinCount
+                          23 ReleaseMutex
+
+    api-ms-win-core-synch-l1-2-0.dll
+             17F2B88C0 Import Address Table
+             17F2D3920 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          2D Sleep
+
+    api-ms-win-core-processthreads-l1-1-1.dll
+             17F2B8790 Import Address Table
+             17F2D37F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          33 OpenProcess
+                          32 IsProcessorFeaturePresent
+
+    api-ms-win-core-processthreads-l1-1-0.dll
+             17F2B8710 Import Address Table
+             17F2D3770 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          59 TlsGetValue
+                          58 TlsFree
+                          55 TerminateProcess
+                           8 ExitProcess
+                          36 OpenThreadToken
+                          57 TlsAlloc
+                          10 GetCurrentThread
+                          5A TlsSetValue
+                          11 GetCurrentThreadId
+                           D GetCurrentProcessId
+                          34 OpenProcessToken
+                           C GetCurrentProcess
+                           6 CreateThread
+                          3C ResumeThread
+                          22 GetStartupInfoW
+
+    api-ms-win-core-processenvironment-l1-1-0.dll
+             17F2B86D0 Import Address Table
+             17F2D3730 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           9 GetEnvironmentStringsW
+                           5 GetCommandLineW
+                           3 FreeEnvironmentStringsW
+                           1 ExpandEnvironmentStringsW
+                           C GetStdHandle
+                          16 SetStdHandle
+                           4 GetCommandLineA
+
+    api-ms-win-core-sysinfo-l1-1-0.dll
+             17F2B88E0 Import Address Table
+             17F2D3940 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1B GetTickCount64
+                           3 GetComputerNameExW
+                          20 GetWindowsDirectoryW
+                          1A GetTickCount
+                          16 GetSystemTimeAsFileTime
+
+    api-ms-win-eventing-provider-l1-1-0.dll
+             17F2B89C0 Import Address Table
+             17F2D3A20 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           5 EventUnregister
+                           9 EventWriteTransfer
+                           0 EventActivityIdControl
+                           3 EventRegister
+
+    api-ms-win-core-debug-l1-1-0.dll
+             17F2B8450 Import Address Table
+             17F2D34B0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           7 OutputDebugStringW
+                           4 DebugBreak
+                           5 IsDebuggerPresent
+                           6 OutputDebugStringA
+
+    api-ms-win-core-synch-l1-2-1.dll
+             17F2B88D0 Import Address Table
+             17F2D3930 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          34 WaitForMultipleObjects
+
+    api-ms-win-core-file-l1-1-0.dll
+             17F2B84E0 Import Address Table
+             17F2D3540 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           4 CreateDirectoryW
+                          2D GetFileAttributesW
+                          59 SetFilePointerEx
+                           2 CompareFileTime
+                          5E WriteFile
+                          30 GetFileSizeEx
+                          13 FindFirstFileExW
+                          1B FindNextFileW
+                          4C ReadFile
+                           7 CreateFileW
+                          17 FindFirstVolumeW
+                          1D FindNextVolumeW
+                          58 SetFilePointer
+                          1E FindVolumeClose
+                          32 GetFileType
+                          46 GetVolumePathNameW
+                          1F FlushFileBuffers
+                           D FindClose
+
+    api-ms-win-core-io-l1-1-0.dll
+             17F2B8618 Import Address Table
+             17F2D3678 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           4 DeviceIoControl
+
+    api-ms-win-core-file-l1-2-0.dll
+             17F2B8578 Import Address Table
+             17F2D35D8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          47 GetVolumePathNamesForVolumeNameW
+                          45 GetVolumeNameForVolumeMountPointW
+
+    api-ms-win-eventing-classicprovider-l1-1-0.dll
+             17F2B8988 Import Address Table
+             17F2D39E8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           7 UnregisterTraceGuids
+                           5 TraceMessage
+                           2 GetTraceLoggerHandle
+                           3 RegisterTraceGuidsW
+                           0 GetTraceEnableFlags
+                           1 GetTraceEnableLevel
+
+    api-ms-win-core-libraryloader-l1-2-0.dll
+             17F2B8638 Import Address Table
+             17F2D3698 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          14 GetModuleHandleExW
+                          10 GetModuleFileNameA
+                          1D LoadStringW
+                           1 DisableThreadLibraryCalls
+                          11 GetModuleFileNameW
+                          15 GetModuleHandleW
+                           D FreeLibrary
+                          16 GetProcAddress
+                          19 LoadLibraryExW
+
+    api-ms-win-core-console-l1-1-0.dll
+             17F2B8430 Import Address Table
+             17F2D3490 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           6 GetConsoleMode
+                           7 GetConsoleOutputCP
+                          13 WriteConsoleW
+
+    api-ms-win-core-heap-l1-1-0.dll
+             17F2B85A8 Import Address Table
+             17F2D3608 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 GetProcessHeap
+                           6 HeapFree
+                           B HeapSize
+                           9 HeapReAlloc
+                           2 HeapAlloc
+
+    api-ms-win-core-fibers-l1-1-0.dll
+             17F2B84B8 Import Address Table
+             17F2D3518 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           1 FlsFree
+                           3 FlsSetValue
+                           2 FlsGetValue
+                           0 FlsAlloc
+
+    api-ms-win-core-localization-l1-2-0.dll
+             17F2B8698 Import Address Table
+             17F2D36F8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          18 GetOEMCP
+                          35 LCMapStringW
+                          2D IsValidCodePage
+                           A GetACP
+                           B GetCPInfo
+                           9 FormatMessageW
+
+    api-ms-win-core-profile-l1-1-0.dll
+             17F2B87A8 Import Address Table
+             17F2D3808 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 QueryPerformanceCounter
+
+    api-ms-win-core-interlocked-l1-1-0.dll
+             17F2B85F0 Import Address Table
+             17F2D3650 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 InitializeSListHead
+                           2 InterlockedPopEntrySList
+                           3 InterlockedPushEntrySList
+                           1 InterlockedFlushSList
+
+    api-ms-win-core-util-l1-1-0.dll
+             17F2B8978 Import Address Table
+             17F2D39D8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           4 EncodePointer
+
+    api-ms-win-core-libraryloader-l1-2-1.dll
+             17F2B8688 Import Address Table
+             17F2D36E8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1A LoadLibraryW
+
+    api-ms-win-security-base-l1-1-0.dll
+             17F2B89E8 Import Address Table
+             17F2D3A48 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          45 ImpersonateLoggedOnUser
+                          59 RevertToSelf
+
+    api-ms-win-core-kernel32-legacy-l1-1-1.dll
+             17F2B8628 Import Address Table
+             17F2D3688 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          63 VerifyVersionInfoW
+
+    api-ms-win-core-string-obsolete-l1-1-0.dll
+             17F2B8808 Import Address Table
+             17F2D3868 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           5 lstrcmpiW
+
+    KERNELBASE.dll
+             17F2B8420 Import Address Table
+             17F2D3480 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         2F4 ResolveDelayLoadedAPI
+
+    api-ms-win-core-threadpool-l1-2-0.dll
+             17F2B8910 Import Address Table
+             17F2D3970 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           8 CloseThreadpoolWork
+                          18 SetThreadpoolThreadMaximum
+                           2 CloseThreadpool
+                           9 CreateThreadpool
+                          1F SubmitThreadpoolWork
+                          24 WaitForThreadpoolWorkCallbacks
+                           6 CloseThreadpoolTimer
+                           E CreateThreadpoolWork
+                          19 SetThreadpoolThreadMinimum
+                           C CreateThreadpoolTimer
+                          22 WaitForThreadpoolTimerCallbacks
+                          1A SetThreadpoolTimer
+
+    api-ms-win-core-delayload-l1-1-0.dll
+             17F2B8478 Import Address Table
+             17F2D34D8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 DelayLoadFailureHook
+
+  Section contains the following delay load imports:
+
+    RPCRT4.dll
+              00000001 Characteristics
+      000000017F2D9270 Address of HMODULE
+      000000017F2DF270 Import Address Table
+      000000017F2D0E98 Import Name Table
+      000000017F2D1928 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000017F272338   223 UuidFromStringW
+                                    000000017F272326   227 UuidToStringW
+                                    000000017F272314   215 RpcStringFreeW
+                                    000000017F25D1AA   21E UuidCreate
+
+    api-ms-win-service-management-l1-1-0.dll
+              00000001 Characteristics
+      000000017F2D9278 Address of HMODULE
+      000000017F2DF2D0 Import Address Table
+      000000017F2D0EF8 Import Name Table
+      000000017F2D1938 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000017F25D235     0 CloseServiceHandle
+                                    000000017F25D2E4     6 StartServiceW
+                                    000000017F25D2C0     4 OpenSCManagerW
+                                    000000017F25D2D2     5 OpenServiceW
+
+    api-ms-win-service-winsvc-l1-1-0.dll
+              00000001 Characteristics
+      000000017F2D9280 Address of HMODULE
+      000000017F2DF318 Import Address Table
+      000000017F2D0F40 Import Name Table
+      000000017F2D1960 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000017F25D381     2 ControlService
+                                    000000017F25D2F6     A QueryServiceStatus
+
+    USERENV.dll
+              00000001 Characteristics
+      000000017F2D9288 Address of HMODULE
+      000000017F2DF298 Import Address Table
+      000000017F2D0EC0 Import Name Table
+      000000017F2D1978 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000017F25D393     3 CreateEnvironmentBlock
+
+    api-ms-win-service-management-l2-1-0.dll
+              00000001 Characteristics
+      000000017F2D9290 Address of HMODULE
+      000000017F2DF2F8 Import Address Table
+      000000017F2D0F20 Import Name Table
+      000000017F2D1988 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000017F25D41E     1 ChangeServiceConfigW
+                                    000000017F25D4A9     3 QueryServiceConfig2W
+                                    000000017F25D4BB     0 ChangeServiceConfig2W
+
+    VSSAPI.DLL
+              00000001 Characteristics
+      000000017F2D9298 Address of HMODULE
+      000000017F2DF2A8 Import Address Table
+      000000017F2D0ED0 Import Name Table
+      000000017F2D19A8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000017F25D4CD    43 CreateVssBackupComponentsInternal
+                                    000000017F25D558    53 VssFreeSnapshotPropertiesInternal
+
+    CLUSAPI.dll
+              00000001 Characteristics
+      000000017F2D92A0 Address of HMODULE
+      000000017F2DF000 Import Address Table
+      000000017F2D0C28 Import Name Table
+      000000017F2D19C0 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000017F25D9CA    86 ClusterRegReadBatchAddCommand
+                                    000000017F27255C    E8 GetClusterResourceState
+                                    000000017F27256E    4B ClusterGroupOpenEnum
+                                    000000017F272580    47 ClusterGroupEnum
+                                    000000017F272592     5 AddClusterResourceDependency
+                                    000000017F2725A4   125 SetClusterResourceDependencyExpression
+                                    000000017F272696    E5 GetClusterResourceDependencyExpression
+                                    000000017F272684    E6 GetClusterResourceKey
+                                    000000017F272672    EC GetNodeClusterState
+                                    000000017F272660     9 AddResourceToClusterSharedVolumes
+                                    000000017F27264E    9C ClusterResourceTypeControl
+                                    000000017F27263C    94 ClusterResourceControlAsUser
+                                    000000017F27262A    38 ClusterFreeMrrResponse
+                                    000000017F272618    A2 ClusterSendReceiveMrrAsUser
+                                    000000017F272606    B5 CreateClusterGroupEx
+                                    000000017F2725F4    44 ClusterGroupCloseEnum
+                                    000000017F2725E2    FB OnlineClusterResource
+                                    000000017F2725D0    C0 DeleteClusterResource
+                                    000000017F2725B6    BB CreateClusterResource
+                                    000000017F25D56A    75 ClusterRegCreateBatch
+                                    000000017F25D9EE    74 ClusterRegCloseReadBatchReply
+                                    000000017F25D5F5    17 CloseCluster
+                                    000000017F25D607    7C ClusterRegDeleteValue
+                                    000000017F25D62C   10B OpenClusterResourceEx
+                                    000000017F25D63E   10A OpenClusterResource
+                                    000000017F25D650    99 ClusterResourceOpenEnum
+                                    000000017F25D662    93 ClusterResourceControl
+                                    000000017F25D674    46 ClusterGroupControl
+                                    000000017F25D686    1E CloseClusterResource
+                                    000000017F25D698    91 ClusterResourceCloseEnum
+                                    000000017F25D6AA    95 ClusterResourceEnum
+                                    000000017F25D6BC    69 ClusterOpenEnum
+                                    000000017F25D6CE    35 ClusterEnum
+                                    000000017F25D6E0    85 ClusterRegQueryValue
+                                    000000017F25D70C    89 ClusterRegSetValue
+                                    000000017F25D72C    77 ClusterRegCreateKey
+                                    000000017F25D74C    82 ClusterRegOpenKey
+                                    000000017F25D76C    7F ClusterRegEnumValue
+                                    000000017F25D78C    6E ClusterRegCloseBatch
+                                    000000017F25D79E    2C ClusterCloseEnum
+                                    000000017F25D7C0    72 ClusterRegCloseReadBatch
+                                    000000017F25D7D2    A0 ClusterResourceTypeOpenEnum
+                                    000000017F25D7E4    9B ClusterResourceTypeCloseEnum
+                                    000000017F25D7F6    9E ClusterResourceTypeEnum
+                                    000000017F25D808    71 ClusterRegCloseKey
+                                    000000017F25D82C    FE OpenClusterEx
+                                    000000017F25D83E    A7 ClusterSharedVolumeClearBackupState
+                                    000000017F25D850    EA GetClusterSharedVolumeNameForFile
+                                    000000017F25D862    1C CloseClusterNode
+                                    000000017F25D874    18 CloseClusterGroup
+                                    000000017F25D886    6B ClusterRegBatchAddCommand
+                                    000000017F25D898    6F ClusterRegCloseBatchEx
+                                    000000017F25D8AA    E7 GetClusterResourceNetworkName
+                                    000000017F25D8BC    2E ClusterControl
+                                    000000017F25D8CE    D4 GetClusterFromResource
+                                    000000017F25D8E0    E4 GetClusterQuorumResource
+                                    000000017F25D8F2    7E ClusterRegEnumKey
+                                    000000017F25D904    7A ClusterRegDeleteKey
+                                    000000017F25D916    D5 GetClusterGroupKey
+                                    000000017F25D928    D0 GetClusterFromGroup
+                                    000000017F25D93A   100 OpenClusterGroup
+                                    000000017F25D94C    D8 GetClusterKey
+                                    000000017F25D95E    3D ClusterGetEnumCount
+                                    000000017F25D970   107 OpenClusterNode
+                                    000000017F25D982    E1 GetClusterNodeState
+                                    000000017F25D994    97 ClusterResourceGetEnumCount
+                                    000000017F25D9A6    FD OpenCluster
+                                    000000017F25D9B8    79 ClusterRegCreateReadBatch
+                                    000000017F25D9DC    87 ClusterRegReadBatchReplyNextCommand
+
+    bcrypt.dll
+              00000001 Characteristics
+      000000017F2D92A8 Address of HMODULE
+      000000017F2DF330 Import Address Table
+      000000017F2D0F58 Import Name Table
+      000000017F2D1B60 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000017F25DA00    1D BCryptGenRandom
+                                    000000017F272453     E BCryptDestroyKey
+                                    000000017F272441    19 BCryptExportKey
+                                    000000017F2723D5    27 BCryptOpenAlgorithmProvider
+                                    000000017F2723E7     2 BCryptCloseAlgorithmProvider
+                                    000000017F2723F9    21 BCryptGetProperty
+                                    000000017F27241D    12 BCryptEncrypt
+                                    000000017F27240B    1F BCryptGenerateSymmetricKey
+                                    000000017F27242F     8 BCryptDecrypt
+
+    api-ms-win-core-com-l1-1-0.dll
+              00000001 Characteristics
+      000000017F2D98B8 Address of HMODULE
+      000000017F2DF2C0 Import Address Table
+      000000017F2D0EE8 Import Name Table
+      000000017F2D1B88 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000017F2723C3    54 StringFromGUID2
+
+    CRYPTSP.dll
+              00000001 Characteristics
+      000000017F2D98C0 Address of HMODULE
+      000000017F2DF230 Import Address Table
+      000000017F2D0E58 Import Name Table
+      000000017F2D1BD8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000017F272465    1C CryptReleaseContext
+                                    000000017F2724F0     5 CryptDecrypt
+                                    000000017F272502     B CryptEncrypt
+                                    000000017F272514     2 CryptAcquireContextW
+                                    000000017F272526    18 CryptGetUserKey
+                                    000000017F272538     8 CryptDestroyKey
+                                    000000017F27254A    10 CryptExportKey
+
+  Summary
+
+        5000 .data
+        1000 .didat
+        5000 .pdata
+       20000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       64000 .text

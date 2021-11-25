@@ -1,0 +1,360 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\ApproveChildRequest.exe
+
+File Type: EXECUTABLE IMAGE
+
+  Image has the following dependencies:
+
+    ADVAPI32.dll
+    KERNEL32.dll
+    msvcp_win.dll
+    api-ms-win-crt-runtime-l1-1-0.dll
+    api-ms-win-crt-private-l1-1-0.dll
+    api-ms-win-crt-string-l1-1-0.dll
+    OLEAUT32.dll
+    api-ms-win-core-rtlsupport-l1-1-0.dll
+    api-ms-win-core-errorhandling-l1-1-0.dll
+    api-ms-win-core-processthreads-l1-1-0.dll
+    api-ms-win-core-processthreads-l1-1-1.dll
+    api-ms-win-core-profile-l1-1-0.dll
+    api-ms-win-core-sysinfo-l1-1-0.dll
+    api-ms-win-core-interlocked-l1-1-0.dll
+    api-ms-win-eventing-provider-l1-1-0.dll
+    api-ms-win-shcore-obsolete-l1-1-0.dll
+    ole32.dll
+    api-ms-win-core-winrt-l1-1-0.dll
+    USER32.dll
+    api-ms-win-core-com-l1-1-0.dll
+    ntdll.dll
+    api-ms-win-crt-math-l1-1-0.dll
+
+  Section contains the following imports:
+
+    ADVAPI32.dll
+             14001BAB8 Import Address Table
+             140022618 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         335 UnregisterTraceGuids
+                         2B5 RegisterTraceGuidsW
+                         172 GetTraceEnableLevel
+                         171 GetTraceEnableFlags
+                         173 GetTraceLoggerHandle
+                         328 TraceMessage
+                         129 EventWriteTransfer
+                         11E EventActivityIdControl
+
+    KERNEL32.dll
+             14001BB00 Import Address Table
+             140022660 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         224 GetCurrentThreadId
+                         4B5 ReleaseMutex
+                         1AF FormatMessageW
+                         269 GetLastError
+                         4B7 ReleaseSRWLockExclusive
+                         41D OutputDebugStringW
+                          92 CloseThreadpoolTimer
+                           0 AcquireSRWLockExclusive
+                         5E9 WaitForSingleObjectEx
+                         415 OpenSemaphoreW
+                          88 CloseHandle
+                         576 SetThreadpoolTimer
+                         4B8 ReleaseSRWLockShared
+                          F8 CreateThreadpoolTimer
+                         358 HeapSetInformation
+                         350 HeapAlloc
+                         244 GetErrorMode
+                         2B7 GetProcAddress
+                          DB CreateMutexExW
+                         3D5 LocalFree
+                           1 AcquireSRWLockShared
+                         113 DeleteCriticalSection
+                         220 GetCurrentProcessId
+                         2BD GetProcessHeap
+                         280 GetModuleHandleW
+                         109 DebugBreak
+                         384 IsDebuggerPresent
+                         5EB WaitForThreadpoolTimerCallbacks
+                         58F SleepConditionVariableSRW
+                         5F0 WakeAllConditionVariable
+                         369 InitializeCriticalSection
+                         36F InitializeSRWLock
+                         5B0 TlsGetValue
+                         5AE TlsAlloc
+                         5AF TlsFree
+                         5B1 TlsSetValue
+                          A3 ConvertFiberToThread
+                         58D Sleep
+                         45B QueueUserAPC
+                         418 OpenThread
+                         310 GetTickCount
+                         363 InitOnceComplete
+                         362 InitOnceBeginInitialize
+                         36B InitializeCriticalSectionEx
+                         524 SetErrorMode
+                         3C3 LeaveCriticalSection
+                         27F GetModuleHandleExW
+                         4B9 ReleaseSemaphore
+                         137 EnterCriticalSection
+                         540 SetLastError
+                         354 HeapFree
+                          ED CreateSemaphoreExW
+                         27B GetModuleFileNameA
+                         5E8 WaitForSingleObject
+                          8E CloseThreadpool
+                         405 OpenEventW
+                          C0 CreateEventExW
+
+    msvcp_win.dll
+             14001BF90 Import Address Table
+             140022AF0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         28E ?_Xlength_error@std@@YAXPEBD@Z
+                         28C ?_Xbad_function_call@std@@YAXXZ
+                         28B ?_Xbad_alloc@std@@YAXXZ
+                          75 ??0facet@locale@std@@IEAA@_K@Z
+                          AB ??1facet@locale@std@@MEAA@XZ
+                         5C9 _Wcsxfrm
+                         5C8 _Wcscoll
+                         1F2 ?_Incref@facet@locale@std@@UEAAXXZ
+                         1B7 ?_Getcat@?$ctype@G@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+                         411 ?is@?$ctype@G@std@@QEBA_NFG@Z
+                         19E ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+                          A4 ??1_Locinfo@std@@QEAA@XZ
+                          A5 ??1_Lockit@std@@QEAA@XZ
+                          6C ??0_Locinfo@std@@QEAA@PEBD@Z
+                          6D ??0_Lockit@std@@QEAA@H@Z
+                         1D5 ?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+                         3D0 ?id@?$ctype@G@std@@2V0locale@2@A
+                         131 ??Bid@locale@std@@QEAA_KXZ
+                         20F ?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+                         3CD ?id@?$collate@G@std@@2V0locale@2@A
+                         1C6 ?_Getcoll@_Locinfo@std@@QEBA?AU_Collvec@@XZ
+                         291 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
+                         511 ?tolower@?$ctype@G@std@@QEBAGG@Z
+                         512 ?tolower@?$ctype@G@std@@QEBAPEBGPEAGPEBG@Z
+
+    api-ms-win-crt-runtime-l1-1-0.dll
+             14001BF28 Import Address Table
+             140022A88 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          37 _initterm_e
+                          15 _c_exit
+                          3D _register_thread_local_exe_atexit_callback
+                          36 _initterm
+
+    api-ms-win-crt-private-l1-1-0.dll
+             14001BDD0 Import Address Table
+             140022930 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          A7 _o__crt_atexit
+                          C0 _o__errno
+                          C7 _o__exit
+                         119 _o__get_wide_winmain_command_line
+                         13D _o__initialize_onexit_table
+                         13E _o__initialize_wide_environment
+                         13F _o__invalid_parameter_noinfo
+                         140 _o__invalid_parameter_noinfo_noreturn
+                         185 _o__itoa_s
+                         243 _o__purecall
+                         251 _o__register_onexit_function
+                         25A _o__seh_filter_exe
+                         25C _o__set_app_type
+                         25F _o__set_fmode
+                         262 _o__set_new_mode
+                         36D _o_exit
+                         38C _o_free
+                         3AC _o_iswascii
+                         3D7 _o_malloc
+                         3FE _o_realloc
+                         435 _o_terminate
+                         43D _o_towlower
+                         446 _o_wcscpy_s
+                           C __C_specific_handler
+                           1 _CxxThrowException
+                         466 strchr
+                          A1 _o__configure_wide_argv
+                          9F _o__configthreadlocale
+                          93 _o__cexit
+                          91 _o__callnewh
+                          70 _o___stdio_common_vswprintf
+                          6A _o___stdio_common_vsnprintf_s
+                          61 _o___std_type_info_name
+                          5F _o___std_exception_destroy
+                          5E _o___std_exception_copy
+                          53 _o___p__commode
+                          2A __std_terminate
+                          13 __CxxFrameHandler4
+                          12 __CxxFrameHandler3
+                         461 memcmp
+                         462 memcpy
+                         463 memmove
+
+    api-ms-win-crt-string-l1-1-0.dll
+             14001BF50 Import Address Table
+             140022AB0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          83 memset
+
+    OLEAUT32.dll
+             14001BCD0 Import Address Table
+             140022830 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                             Ordinal     2
+                             Ordinal     6
+                             Ordinal     9
+
+    api-ms-win-core-rtlsupport-l1-1-0.dll
+             14001BD78 Import Address Table
+             1400228D8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           2 RtlCaptureContext
+                           A RtlLookupFunctionEntry
+                          10 RtlVirtualUnwind
+
+    api-ms-win-core-errorhandling-l1-1-0.dll
+             14001BD10 Import Address Table
+             140022870 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          11 UnhandledExceptionFilter
+                           F SetUnhandledExceptionFilter
+
+    api-ms-win-core-processthreads-l1-1-0.dll
+             14001BD38 Import Address Table
+             140022898 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          20 GetStartupInfoW
+                           C GetCurrentProcess
+                          4E TerminateProcess
+
+    api-ms-win-core-processthreads-l1-1-1.dll
+             14001BD58 Import Address Table
+             1400228B8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          2F IsProcessorFeaturePresent
+
+    api-ms-win-core-profile-l1-1-0.dll
+             14001BD68 Import Address Table
+             1400228C8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 QueryPerformanceCounter
+
+    api-ms-win-core-sysinfo-l1-1-0.dll
+             14001BD98 Import Address Table
+             1400228F8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          16 GetSystemTimeAsFileTime
+
+    api-ms-win-core-interlocked-l1-1-0.dll
+             14001BD28 Import Address Table
+             140022888 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 InitializeSListHead
+
+    api-ms-win-eventing-provider-l1-1-0.dll
+             14001BF60 Import Address Table
+             140022AC0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           3 EventRegister
+                           4 EventSetInformation
+                           5 EventUnregister
+
+    api-ms-win-shcore-obsolete-l1-1-0.dll
+             14001BF80 Import Address Table
+             140022AE0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 CommandLineToArgvW
+
+    ole32.dll
+             14001C068 Import Address Table
+             140022BC8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          90 CoUninitialize
+                          61 CoInitializeEx
+
+    api-ms-win-core-winrt-l1-1-0.dll
+             14001BDA8 Import Address Table
+             140022908 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           7 RoUninitialize
+                           3 RoInitialize
+
+    USER32.dll
+             14001BCF0 Import Address Table
+             140022850 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         2B2 PostThreadMessageW
+
+    api-ms-win-core-com-l1-1-0.dll
+             14001BD00 Import Address Table
+             140022860 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           9 CoCreateInstance
+
+    ntdll.dll
+             14001C058 Import Address Table
+             140022BB8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          54 EtwTraceMessage
+
+    api-ms-win-crt-math-l1-1-0.dll
+             14001BDC0 Import Address Table
+             140022920 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          7D ceilf
+
+  Summary
+
+        4000 .data
+        2000 .pdata
+        9000 .rdata
+        1000 .reloc
+       18000 .rsrc
+       1A000 .text

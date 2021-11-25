@@ -1,0 +1,217 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\KeyboardFilterCore.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    msvcrt.dll
+    ntdll.dll
+    ADVAPI32.dll
+    KERNEL32.dll
+    USER32.dll
+    RPCRT4.dll
+
+  Section contains the following exports for KeyboardFilterCore.DLL
+
+    00000000 characteristics
+    D15C96FC time date stamp
+        0.00 version
+           1 ordinal base
+           1 number of functions
+           1 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00008ED0 HookMain
+
+  Section contains the following imports:
+
+    msvcrt.dll
+             18000F170 Import Address Table
+             180011F78 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         369 _vsnwprintf
+                         493 memcpy_s
+                         495 memmove_s
+                         29E _purecall
+                         38A _wcsicmp
+                         486 malloc
+                         44C free
+                         46F iswalpha
+                          BF _callnewh
+                          57 __C_specific_handler
+                          55 _XcptFilter
+                          AE _amsg_exit
+                         17D _initterm
+                         1E6 _lock
+                         341 _unlock
+                          7B __dllonexit
+                         290 _onexit
+                         496 memset
+                         491 memcmp
+                         51B wcstoul
+                         502 wcscmp
+
+    ntdll.dll
+             18000F220 Import Address Table
+             180012028 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         2F3 RtlCaptureContext
+                         4E9 RtlLookupFunctionEntry
+                         628 RtlVirtualUnwind
+
+    ADVAPI32.dll
+             18000EDD8 Import Address Table
+             180011BE0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         288 RegNotifyChangeKeyValue
+                         273 RegDeleteValueW
+                         27D RegEnumValueW
+                         28C RegOpenKeyExW
+                         25B RegCloseKey
+                         2A9 RegSetValueExW
+                         264 RegCreateKeyExW
+                         129 EventWriteTransfer
+                         122 EventSetInformation
+                         121 EventRegister
+                         123 EventUnregister
+                         335 UnregisterTraceGuids
+                         2B5 RegisterTraceGuidsW
+                         171 GetTraceEnableFlags
+                         172 GetTraceEnableLevel
+                         173 GetTraceLoggerHandle
+                         281 RegGetValueW
+                         328 TraceMessage
+
+    KERNEL32.dll
+             18000EE70 Import Address Table
+             180011C78 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         363 InitOnceBeginInitialize
+                         364 InitOnceComplete
+                          C2 CreateEventW
+                          F5 CreateThread
+                          DC CreateMutexExW
+                         3C4 LeaveCriticalSection
+                          EE CreateSemaphoreExW
+                         468 RaiseException
+                         365 InitOnceExecuteOnce
+                         28E GetNativeSystemInfo
+                         398 IsWow64Process
+                         220 GetCurrentProcess
+                         58F Sleep
+                         5C0 UnhandledExceptionFilter
+                         57F SetUnhandledExceptionFilter
+                         59E TerminateProcess
+                         452 QueryPerformanceCounter
+                         2F3 GetSystemTimeAsFileTime
+                         311 GetTickCount
+                         5E8 WaitForMultipleObjects
+                         5EA WaitForSingleObject
+                         26A GetLastError
+                         1B0 FormatMessageW
+                         225 GetCurrentThreadId
+                         351 HeapAlloc
+                         2BE GetProcessHeap
+                         355 HeapFree
+                         280 GetModuleHandleExW
+                         27C GetModuleFileNameA
+                         10A DebugBreak
+                         281 GetModuleHandleW
+                         2B8 GetProcAddress
+                         385 IsDebuggerPresent
+                         41E OutputDebugStringW
+                           0 AcquireSRWLockExclusive
+                         4B8 ReleaseSRWLockExclusive
+                           1 AcquireSRWLockShared
+                         4B9 ReleaseSRWLockShared
+                         541 SetLastError
+                         526 SetEvent
+                         4CC ResetEvent
+                          89 CloseHandle
+                         4BA ReleaseSemaphore
+                         4B6 ReleaseMutex
+                         578 SetThreadpoolTimer
+                         5ED WaitForThreadpoolTimerCallbacks
+                          93 CloseThreadpoolTimer
+                         5EB WaitForSingleObjectEx
+                         138 EnterCriticalSection
+                         36C InitializeCriticalSectionEx
+                         114 DeleteCriticalSection
+                         406 OpenEventW
+                         416 OpenSemaphoreW
+                          F9 CreateThreadpoolTimer
+                         556 SetProcessShutdownParameters
+                         3F6 MultiByteToWideChar
+                         434 ProcessIdToSessionId
+                         221 GetCurrentProcessId
+
+    USER32.dll
+             18000F0A8 Import Address Table
+             180011EB0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         27D MapVirtualKeyExW
+                         131 GetClassNameW
+                         1F8 GetWindowThreadProcessId
+                         159 GetGUIThreadInfo
+                         3D6 VkKeyScanExW
+                          1F CallNextHookEx
+                          A7 DefWindowProcW
+                         2B0 PostQuitMessage
+                          B5 DestroyWindow
+                         2AF PostMessageW
+                         39D SystemParametersInfoW
+                         36F SetWinEventHook
+                         3B0 UnhookWinEvent
+                         2A1 OpenInputDesktop
+                         1D8 GetUserObjectInformationW
+                          50 CloseDesktop
+                         3B2 UnhookWindowsHookEx
+                         169 GetKeyboardLayout
+                         385 SetWindowsHookExW
+                         2DF RegisterClassW
+                          76 CreateWindowExW
+                         189 GetMessageW
+                         3AD TranslateMessage
+                          BD DispatchMessageW
+
+    RPCRT4.dll
+             18000F048 Import Address Table
+             180011E50 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          A4 NdrClientCall3
+                         214 RpcStringFreeW
+                         176 RpcBindingFromStringBindingW
+                         210 RpcStringBindingComposeW
+                         1E4 RpcServerUnregisterIf
+                         1DB RpcServerListen
+                         1EF RpcServerUseProtseqEpW
+                         1E1 RpcServerRegisterIfEx
+                         132 NdrServerCallAll
+                         131 NdrServerCall2
+                         174 RpcBindingFree
+
+  Summary
+
+        1000 .data
+        1000 .pdata
+        5000 .rdata
+        1000 .reloc
+        1000 .rsrc
+        D000 .text

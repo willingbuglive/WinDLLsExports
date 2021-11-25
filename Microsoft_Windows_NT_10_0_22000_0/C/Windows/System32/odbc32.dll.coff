@@ -1,0 +1,498 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\odbc32.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    msvcrt.dll
+    api-ms-win-core-synch-l1-1-0.dll
+    CRYPT32.dll
+    ntdll.dll
+    KERNEL32.dll
+    ADVAPI32.dll
+    USER32.dll
+
+  Image has the following delay load dependencies:
+
+    COMCTL32.dll
+    bcrypt.dll
+    SHELL32.dll
+    COMDLG32.dll
+
+  Section contains the following exports for ODBC32.dll
+
+    00000000 characteristics
+    74D8B52C time date stamp
+        0.00 version
+           1 ordinal base
+         301 number of functions
+         176 number of names
+
+    ordinal hint RVA      name
+
+         79    0 0005B430 CloseODBCPerfData
+         80    1 0005B4A0 CollectODBCPerfData
+         81    2 0002C0C0 CursorLibLockDbc
+         82    3 0002C110 CursorLibLockDesc
+         83    4 0002C160 CursorLibLockStmt
+         85    5 0004DE40 CursorLibTransact
+         87    6 00058DD0 DllBidEntryPoint
+         88    7 00058F30 GetODBCSharedData
+         89    8 000467E0 LockHandle
+         84    9 000592C0 ODBCGetTryWaitValue
+         90    A 00033A80 ODBCInternalConnectW
+        301    B 00068F50 ODBCQualifyFileDSNW
+         86    C 000592D0 ODBCSetTryWaitValue
+         91    D 0005C520 OpenODBCPerfData
+         92    E 0003FF90 PostComponentError
+         93    F 000402D0 PostODBCComponentError
+         94   10 00040340 PostODBCError
+          1   11 00006AA0 SQLAllocConnect
+          2   12 0000A050 SQLAllocEnv
+         24   13 00007060 SQLAllocHandle
+         77   14 00043360 SQLAllocHandleStd
+          3   15 0006E8D0 SQLAllocStmt
+          4   16 00030C60 SQLBindCol
+         25   17 0004B3C0 SQLBindParam
+         72   18 0004B5B0 SQLBindParameter
+         55   19 00069140 SQLBrowseConnect
+        255   1A 00069140 SQLBrowseConnectA
+        155   1B 00033B70 SQLBrowseConnectW
+         78   1C 0002FE00 SQLBulkOperations
+          5   1D 00043F80 SQLCancel
+         95   1E 00044450 SQLCancelHandle
+         26   1F 00038800 SQLCloseCursor
+         27   20 0002C260 SQLColAttribute
+        227   21 0002C260 SQLColAttributeA
+        127   22 0002CC50 SQLColAttributeW
+          6   23 0002CF30 SQLColAttributes
+        206   24 0002CF30 SQLColAttributesA
+        106   25 0002D8A0 SQLColAttributesW
+         56   26 0005CAE0 SQLColumnPrivileges
+        256   27 0005CAE0 SQLColumnPrivilegesA
+        156   28 0005D440 SQLColumnPrivilegesW
+         40   29 0005D720 SQLColumns
+        240   2A 0005D720 SQLColumnsA
+        140   2B 0005E080 SQLColumnsW
+         96   2C 0002B5C0 SQLCompleteAsync
+          7   2D 00069A10 SQLConnect
+        207   2E 00069A10 SQLConnectA
+        107   2F 00034AB0 SQLConnectW
+         28   30 0003B2D0 SQLCopyDesc
+         57   31 0006A020 SQLDataSources
+        257   32 0006A020 SQLDataSourcesA
+        157   33 0005E360 SQLDataSourcesW
+          8   34 0002DAA0 SQLDescribeCol
+        208   35 0002DAA0 SQLDescribeColA
+        108   36 0002E3C0 SQLDescribeColW
+         58   37 0004B7E0 SQLDescribeParam
+          9   38 0000CD60 SQLDisconnect
+         41   39 000039C0 SQLDriverConnect
+        241   3A 000039C0 SQLDriverConnectA
+        141   3B 00003F80 SQLDriverConnectW
+         71   3C 0006A5C0 SQLDrivers
+        271   3D 0006A5C0 SQLDriversA
+        171   3E 0005F900 SQLDriversW
+         29   3F 0004F240 SQLEndTran
+         10   40 00040590 SQLError
+        210   41 00040590 SQLErrorA
+        110   42 000408C0 SQLErrorW
+         11   43 000446E0 SQLExecDirect
+        211   44 000446E0 SQLExecDirectA
+        111   45 00044DF0 SQLExecDirectW
+         12   46 00044FE0 SQLExecute
+         59   47 00055D10 SQLExtendedFetch
+         13   48 00056310 SQLFetch
+         30   49 000568A0 SQLFetchScroll
+         60   4A 00060A50 SQLForeignKeys
+        260   4B 00060A50 SQLForeignKeysA
+        160   4C 00061700 SQLForeignKeysW
+         14   4D 00006B60 SQLFreeConnect
+         15   4E 000435D0 SQLFreeEnv
+         31   4F 0000AED0 SQLFreeHandle
+         16   50 0006EA90 SQLFreeStmt
+         32   51 0006AAE0 SQLGetConnectAttr
+        232   52 0006AAE0 SQLGetConnectAttrA
+        132   53 000476C0 SQLGetConnectAttrW
+         42   54 0006AE80 SQLGetConnectOption
+        242   55 0006AE80 SQLGetConnectOptionA
+        142   56 00047920 SQLGetConnectOptionW
+         17   57 0006B160 SQLGetCursorName
+        217   58 0006B160 SQLGetCursorNameA
+        117   59 00038B60 SQLGetCursorNameW
+         43   5A 00056E40 SQLGetData
+         33   5B 0003BB40 SQLGetDescField
+        233   5C 0003BB40 SQLGetDescFieldA
+        133   5D 0003C280 SQLGetDescFieldW
+         34   5E 0003C4F0 SQLGetDescRec
+        234   5F 0003C4F0 SQLGetDescRecA
+        134   60 0003CD30 SQLGetDescRecW
+         35   61 0006B500 SQLGetDiagField
+        235   62 0006B500 SQLGetDiagFieldA
+        135   63 00040BF0 SQLGetDiagFieldW
+         36   64 0006B800 SQLGetDiagRec
+        236   65 0006B800 SQLGetDiagRecA
+        136   66 0000C490 SQLGetDiagRecW
+         37   67 0000ACD0 SQLGetEnvAttr
+         44   68 000586C0 SQLGetFunctions
+         45   69 0006BB40 SQLGetInfo
+        245   6A 0006BB40 SQLGetInfoA
+        145   6B 0000A610 SQLGetInfoW
+         38   6C 00047B50 SQLGetStmtAttr
+        238   6D 00047B50 SQLGetStmtAttrA
+        138   6E 00047E10 SQLGetStmtAttrW
+         46   6F 00048020 SQLGetStmtOption
+         47   70 00061AA0 SQLGetTypeInfo
+        247   71 00061AA0 SQLGetTypeInfoA
+        147   72 00062010 SQLGetTypeInfoW
+         61   73 00057600 SQLMoreResults
+         62   74 0006BF60 SQLNativeSql
+        262   75 0006BF60 SQLNativeSqlA
+        162   76 00038F70 SQLNativeSqlW
+         63   77 0004BCB0 SQLNumParams
+         18   78 00031160 SQLNumResultCols
+         48   79 0004C090 SQLParamData
+         64   7A 0004C530 SQLParamOptions
+         19   7B 00045530 SQLPrepare
+        219   7C 00045530 SQLPrepareA
+        119   7D 00045B40 SQLPrepareW
+         65   7E 00062110 SQLPrimaryKeys
+        265   7F 00062110 SQLPrimaryKeysA
+        165   80 000628F0 SQLPrimaryKeysW
+         66   81 00062B70 SQLProcedureColumns
+        266   82 00062B70 SQLProcedureColumnsA
+        166   83 000634D0 SQLProcedureColumnsW
+         67   84 000637B0 SQLProcedures
+        267   85 000637B0 SQLProceduresA
+        167   86 00063FA0 SQLProceduresW
+         49   87 0004CB60 SQLPutData
+         20   88 0002E720 SQLRowCount
+         39   89 0006C3C0 SQLSetConnectAttr
+        239   8A 0006C3C0 SQLSetConnectAttrA
+        139   8B 000069B0 SQLSetConnectAttrW
+         50   8C 0006C800 SQLSetConnectOption
+        250   8D 0006C800 SQLSetConnectOptionA
+        150   8E 00048170 SQLSetConnectOptionW
+         21   8F 0006CA80 SQLSetCursorName
+        221   90 0006CA80 SQLSetCursorNameA
+        121   91 00039450 SQLSetCursorNameW
+         73   92 0003D0B0 SQLSetDescField
+        273   93 0003D0B0 SQLSetDescFieldA
+        173   94 0003D8A0 SQLSetDescFieldW
+         74   95 0003DA40 SQLSetDescRec
+         75   96 00009DB0 SQLSetEnvAttr
+         22   97 0004D110 SQLSetParam
+         68   98 000303C0 SQLSetPos
+         69   99 00039870 SQLSetScrollOptions
+         76   9A 00048300 SQLSetStmtAttr
+        276   9B 00048300 SQLSetStmtAttrA
+        176   9C 00048500 SQLSetStmtAttrW
+         51   9D 00048660 SQLSetStmtOption
+         52   9E 00064220 SQLSpecialColumns
+        252   9F 00064220 SQLSpecialColumnsA
+        152   A0 00064BE0 SQLSpecialColumnsW
+         53   A1 00064EE0 SQLStatistics
+        253   A2 00064EE0 SQLStatisticsA
+        153   A3 000657F0 SQLStatisticsW
+         70   A4 00065AD0 SQLTablePrivileges
+        270   A5 00065AD0 SQLTablePrivilegesA
+        170   A6 000662C0 SQLTablePrivilegesW
+         54   A7 00066540 SQLTables
+        254   A8 00066540 SQLTablesA
+        154   A9 00066E70 SQLTablesW
+         23   AA 0004F4C0 SQLTransact
+         97   AB 00041C00 SearchStatusCode
+         98   AC 00042260 VFreeErrors
+         99   AD 0000BC30 VRetrieveDriverErrorsRowCol
+        100   AE 00042330 ValidateErrorQueue
+        101   AF 000ACAE0 g_hHeapMalloc
+
+  Section contains the following imports:
+
+    msvcrt.dll
+             180077548 Import Address Table
+             1800AABF0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          AD _aligned_free
+                         51D wcsrchr
+                         2E3 _snwprintf_s
+                         493 malloc
+                         459 free
+                         10E _errno
+                         526 wcstombs
+                         388 _waccess
+                         376 _vsnwprintf
+                         404 _wstat
+                         3A1 _wcsnicmp
+                         397 _wcsicmp
+                         49F memcpy
+                         370 _vsnprintf
+                         3E0 _wmakepath_s
+                          5E __C_specific_handler
+                          AF _aligned_malloc
+                         1FF _ltow_s
+                         347 _ultow_s
+                         51A wcsncpy_s
+                         521 wcsstr
+                         4F9 towupper
+                         2AA _purecall
+                         416 _wtol
+                          5A _XcptFilter
+                          B7 _amsg_exit
+                         189 _initterm
+                         432 calloc
+                         49E memcmp
+                         528 wcstoul
+                         403 _wsplitpath_s
+                         4A3 memset
+
+    api-ms-win-core-synch-l1-1-0.dll
+             1800774C0 Import Address Table
+             1800AAB68 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          1F SetCriticalSectionSpinCount
+                          26 TryEnterCriticalSection
+                          1A ReleaseMutex
+                           7 CreateMutexA
+                          13 LeaveCriticalSection
+                           E EnterCriticalSection
+                           D DeleteCriticalSection
+                           F InitializeCriticalSection
+                          28 WaitForSingleObject
+                           6 CreateEventW
+                          12 InitializeSRWLock
+                          1B ReleaseSRWLockExclusive
+                           0 AcquireSRWLockExclusive
+                           1 AcquireSRWLockShared
+                          1C ReleaseSRWLockShared
+                          20 SetEvent
+
+    CRYPT32.dll
+             1800771C8 Import Address Table
+             1800AA870 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          E2 CryptUnprotectMemory
+                          C4 CryptProtectMemory
+
+    ntdll.dll
+             180077650 Import Address Table
+             1800AACF8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         2FE RtlCaptureContext
+                         6FE WinSqmSetDWORD
+                         4FE RtlLookupFunctionEntry
+                         642 RtlVirtualUnwind
+
+    KERNEL32.dll
+             1800771E0 Import Address Table
+             1800AA888 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         323 GetTickCount
+                         301 GetSystemTimeAsFileTime
+                         464 QueryPerformanceCounter
+                         5B6 TerminateProcess
+                         597 SetUnhandledExceptionFilter
+                         5D8 UnhandledExceptionFilter
+                         387 InterlockedPushEntrySList
+                         47B RaiseException
+                         36A HeapReAlloc
+                         5A8 SleepConditionVariableCS
+                         28C GetModuleHandleW
+                         5A7 Sleep
+                         363 HeapAlloc
+                         367 HeapFree
+                         5DB UnmapViewOfFile
+                         41C OpenFileMappingW
+                         41F OpenMutexA
+                         3DB LoadLibraryExA
+                         173 ExpandEnvironmentStringsA
+                         1BE FreeLibraryAndExitThread
+                         3F7 MapViewOfFile
+                         118 DelayLoadFailureHook
+                          D0 CreateFileMappingW
+                         2CB GetProcessHeap
+                         430 OutputDebugStringW
+                         3DC LoadLibraryExW
+                         2C4 GetProcAddress
+                         1BD FreeLibrary
+                         643 WritePrivateProfileStringW
+                         2C1 GetPrivateProfileStringW
+                         120 DeleteFileW
+                          C2 CreateDirectoryW
+                         192 FindFirstFileW
+                         19E FindNextFileW
+                         288 GetModuleFileNameW
+                         60B WakeConditionVariable
+                         187 FindClose
+                         22F GetCurrentThreadId
+                         2F8 GetSystemDirectoryW
+                         408 MultiByteToWideChar
+                         274 GetLastError
+                         629 WideCharToMultiByte
+                         5AE SubmitThreadpoolWork
+                         101 CreateThreadpoolWork
+                         386 InterlockedPopEntrySList
+                         57E SetThreadErrorMode
+                         22E GetCurrentThread
+                         22A GetCurrentProcess
+                          8E CloseHandle
+                         1B9 FormatMessageW
+                         5B1 SwitchToThread
+                         379 InitializeConditionVariable
+                          9A CloseThreadpoolWork
+                         381 InitializeSListHead
+                         12C DisableThreadLibraryCalls
+                         2FB GetSystemInfo
+                         310 GetTempPathW
+                         600 WaitForMultipleObjects
+                         243 GetDriveTypeW
+                          FB CreateThread
+                         557 SetLastError
+                         5F9 VirtualQuery
+                         22B GetCurrentProcessId
+                         26D GetFullPathNameW
+                         4FE SearchPathW
+
+    ADVAPI32.dll
+             180077100 Import Address Table
+             1800AA7A8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         296 RegOpenKeyExW
+                         287 RegEnumValueW
+                         2A2 RegQueryValueExA
+                         11A EqualSid
+                          85 CopySid
+                         19E IsValidSid
+                         28A RegGetValueA
+                         295 RegOpenKeyExA
+                         2F2 SetSecurityDescriptorDacl
+                         18F InitializeSecurityDescriptor
+                          10 AddAccessAllowedAce
+                         18E InitializeAcl
+                         14B GetLengthSid
+                         134 FreeSid
+                          20 AllocateAndInitializeSid
+                         33F UnregisterTraceGuids
+                         2BF RegisterTraceGuidsW
+                         2A3 RegQueryValueExW
+                         292 RegNotifyChangeKeyValue
+                         170 GetTokenInformation
+                         21F OpenProcessToken
+                         224 OpenThreadToken
+                         265 RegCloseKey
+                         28B RegGetValueW
+
+    USER32.dll
+             1800773F0 Import Address Table
+             1800AAA98 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         133 GetClientRect
+                         258 LoadCursorW
+                         188 GetMessagePos
+                         337 SetFocus
+                         253 LoadBitmapA
+                         247 IsWindow
+                         1F8 GetWindowTextW
+                          EF EnableWindow
+                         313 SendMessageA
+                         37A SetWindowLongPtrA
+                         1E8 GetWindowLongPtrA
+                         1E9 GetWindowLongPtrW
+                         255 LoadCursorA
+                         328 SetCursor
+                         14D GetDlgItem
+                         28A MessageBoxW
+                         1F1 GetWindowRect
+                         318 SendMessageW
+                         1C8 GetSystemMetrics
+                         267 LoadStringW
+                         290 MoveWindow
+                         146 GetDesktopWindow
+                         191 GetParent
+                         309 ScreenToClient
+                          49 ChildWindowFromPoint
+
+  Section contains the following delay load imports:
+
+    COMCTL32.dll
+              00000001 Characteristics
+      00000001800AC980 Address of HMODULE
+      00000001800B2000 Import Address Table
+      00000001800A90D8 Import Name Table
+      00000001800A92A0 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018000E3C6    86 PropertySheetW
+
+    bcrypt.dll
+              00000001 Characteristics
+      00000001800AC988 Address of HMODULE
+      00000001800B2050 Import Address Table
+      00000001800A9128 Import Name Table
+      00000001800A92B0 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018000E512     D BCryptDestroyHash
+                                    000000018000E500    1B BCryptFinishHash
+                                    000000018000E4EE    21 BCryptGetProperty
+                                    000000018000E4DC     2 BCryptCloseAlgorithmProvider
+                                    000000018000E524    23 BCryptHashData
+                                    000000018000E451    27 BCryptOpenAlgorithmProvider
+                                    000000018000E536     6 BCryptCreateHash
+
+    SHELL32.dll
+              00000001 Characteristics
+      00000001800AC990 Address of HMODULE
+      00000001800B2020 Import Address Table
+      00000001800A90F8 Import Name Table
+      00000001800A92F0 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018000E5E5   16C SHGetSpecialFolderLocation
+                                    000000018000E5D3   15C SHGetMalloc
+                                    000000018000E609   16E SHGetSpecialFolderPathW
+                                    000000018000E5F7   149 SHGetFileInfoA
+                                    000000018000E548   143 SHGetDesktopFolder
+
+    COMDLG32.dll
+              00000001 Characteristics
+      00000001800AC998 Address of HMODULE
+      00000001800B2010 Import Address Table
+      00000001800A90E8 Import Name Table
+      00000001800A9320 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018000E64B     E GetSaveFileNameW
+
+  Summary
+
+        3000 .data
+        1000 .didat
+        3000 .pdata
+       36000 .rdata
+        2000 .reloc
+        1000 .rsrc
+        4000 .sdbid
+       75000 .text

@@ -1,0 +1,2084 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\advapi32.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    msvcrt.dll
+    ntdll.dll
+    api-ms-win-eventing-controller-l1-1-0.dll
+    api-ms-win-eventing-consumer-l1-1-0.dll
+    api-ms-win-eventing-consumer-l1-1-1.dll
+    KERNELBASE.dll
+    SECHOST.dll
+    api-ms-win-service-core-l1-1-0.dll
+    api-ms-win-service-core-l1-1-1.dll
+    api-ms-win-service-core-l1-1-2.dll
+    api-ms-win-service-management-l1-1-0.dll
+    api-ms-win-service-management-l2-1-0.dll
+    api-ms-win-service-private-l1-1-4.dll
+    api-ms-win-service-private-l1-1-2.dll
+    api-ms-win-service-private-l1-1-3.dll
+    api-ms-win-service-private-l1-1-0.dll
+    api-ms-win-service-winsvc-l1-1-0.dll
+    api-ms-win-core-namedpipe-l1-1-0.dll
+    api-ms-win-core-processthreads-l1-1-0.dll
+    api-ms-win-core-processthreads-l1-1-1.dll
+    api-ms-win-security-base-l1-1-0.dll
+    api-ms-win-security-base-private-l1-1-0.dll
+    api-ms-win-core-registry-l1-1-0.dll
+    api-ms-win-core-registry-l1-1-1.dll
+    api-ms-win-core-registry-l1-1-2.dll
+    api-ms-win-core-sysinfo-l1-1-0.dll
+    KERNEL32.dll
+    RPCRT4.dll
+    api-ms-win-core-timezone-l1-1-0.dll
+    api-ms-win-security-audit-l1-1-1.dll
+    api-ms-win-security-audit-l1-1-0.dll
+    api-ms-win-core-apiquery-l1-1-0.dll
+    api-ms-win-eventing-provider-l1-1-0.dll
+    api-ms-win-core-pcw-l1-1-0.dll
+
+  Image has the following delay load dependencies:
+
+    CRYPTSP.dll
+    WINTRUST.dll
+    CRYPTBASE.dll
+    SspiCli.dll
+    USER32.dll
+    CRYPT32.dll
+    bcrypt.dll
+    api-ms-win-security-lsalookup-l1-1-0.dll
+    api-ms-win-security-credentials-l1-1-0.dll
+    api-ms-win-security-credentials-l2-1-0.dll
+    api-ms-win-security-provider-l1-1-0.dll
+    api-ms-win-devices-config-l1-1-1.dll
+    ext-ms-win32-subsystem-query-l1-1-0.dll
+
+  Section contains the following exports for ADVAPI32.dll
+
+    00000000 characteristics
+    C7A4154F time date stamp
+        0.00 version
+        1000 ordinal base
+         868 number of functions
+         867 number of names
+
+    ordinal hint RVA      name
+
+       1002    0          A_SHAFinal (forwarded to NTDLL.A_SHAFinal)
+       1003    1          A_SHAInit (forwarded to NTDLL.A_SHAInit)
+       1004    2          A_SHAUpdate (forwarded to NTDLL.A_SHAUpdate)
+       1005    3 000423B0 AbortSystemShutdownA
+       1006    4 00042450 AbortSystemShutdownW
+       1007    5 00008EB0 AccessCheck
+       1008    6 00046250 AccessCheckAndAuditAlarmA
+       1009    7 0002CF30 AccessCheckAndAuditAlarmW
+       1010    8 0002D270 AccessCheckByType
+       1011    9 00046410 AccessCheckByTypeAndAuditAlarmA
+       1012    A 0002CFB0 AccessCheckByTypeAndAuditAlarmW
+       1013    B 0002D1F0 AccessCheckByTypeResultList
+       1014    C 000465F0 AccessCheckByTypeResultListAndAuditAlarmA
+       1015    D 000467D0 AccessCheckByTypeResultListAndAuditAlarmByHandleA
+       1016    E 0002D070 AccessCheckByTypeResultListAndAuditAlarmByHandleW
+       1017    F 0002D130 AccessCheckByTypeResultListAndAuditAlarmW
+       1018   10 00008030 AddAccessAllowedAce
+       1019   11 00008AD0 AddAccessAllowedAceEx
+       1020   12 0002D2F0 AddAccessAllowedObjectAce
+       1021   13 0002D330 AddAccessDeniedAce
+       1022   14 0002D310 AddAccessDeniedAceEx
+       1023   15 0002D350 AddAccessDeniedObjectAce
+       1024   16 000089C0 AddAce
+       1025   17 0002D390 AddAuditAccessAce
+       1026   18 0002D370 AddAuditAccessAceEx
+       1027   19 0002D3B0 AddAuditAccessObjectAce
+       1028   1A 0004A580 AddConditionalAce
+       1029   1B          AddMandatoryAce (forwarded to KERNELBASE.AddMandatoryAce)
+       1030   1C 0002BFC0 AddUsersToEncryptedFile
+       1031   1D 0002C040 AddUsersToEncryptedFileEx
+       1032   1E 0002D3D0 AdjustTokenGroups
+       1033   1F 00008A20 AdjustTokenPrivileges
+       1034   20 00006A80 AllocateAndInitializeSid
+       1035   21 0002D3F0 AllocateLocallyUniqueId
+       1036   22 0002D410 AreAllAccessesGranted
+       1037   23 0002D430 AreAnyAccessesGranted
+       1038   24 0002D450 AuditComputeEffectivePolicyBySid
+       1039   25 0002F7B0 AuditComputeEffectivePolicyByToken
+       1040   26 0002D470 AuditEnumerateCategories
+       1041   27 0002D490 AuditEnumeratePerUserPolicy
+       1042   28 0002D4B0 AuditEnumerateSubCategories
+       1043   29 0001AA20 AuditFree
+       1044   2A 0002F910 AuditLookupCategoryGuidFromCategoryId
+       1045   2B 0002F950 AuditLookupCategoryIdFromCategoryGuid
+       1046   2C 0002F9C0 AuditLookupCategoryNameA
+       1047   2D 0002D4D0 AuditLookupCategoryNameW
+       1048   2E 0002FA70 AuditLookupSubCategoryNameA
+       1049   2F 0002D4F0 AuditLookupSubCategoryNameW
+       1050   30 0002FB20 AuditQueryGlobalSaclA
+       1051   31 0002D510 AuditQueryGlobalSaclW
+       1052   32 0001AA60 AuditQueryPerUserPolicy
+       1053   33 0002D530 AuditQuerySecurity
+       1054   34 0001AA00 AuditQuerySystemPolicy
+       1055   35 0002FBE0 AuditSetGlobalSaclA
+       1056   36 0002D550 AuditSetGlobalSaclW
+       1057   37 0002D570 AuditSetPerUserPolicy
+       1058   38 0002D590 AuditSetSecurity
+       1059   39 0002D5B0 AuditSetSystemPolicy
+       1060   3A 000503D0 BackupEventLogA
+       1061   3B 00050470 BackupEventLogW
+       1062   3C 000429D0 BaseRegCloseKey
+       1063   3D 00042A00 BaseRegCreateKey
+       1064   3E 00042A70 BaseRegDeleteKeyEx
+       1065   3F 00042AB0 BaseRegDeleteValue
+       1066   40 00042AF0 BaseRegFlushKey
+       1067   41 00042B20 BaseRegGetVersion
+       1068   42 00042B60 BaseRegLoadKey
+       1069   43 00042BA0 BaseRegOpenKey
+       1070   44 00042BF0 BaseRegRestoreKey
+       1071   45 00042C30 BaseRegSaveKeyEx
+       1072   46 00042C70 BaseRegSetKeySecurity
+       1073   47 00042CB0 BaseRegSetValue
+       1074   48 00042D00 BaseRegUnLoadKey
+       1075   49 0003C830 BuildExplicitAccessWithNameA
+       1076   4A 00008CC0 BuildExplicitAccessWithNameW
+       1077   4B 0003C860 BuildImpersonateExplicitAccessWithNameA
+       1078   4C 0003C8A0 BuildImpersonateExplicitAccessWithNameW
+       1079   4D 0003D8F0 BuildImpersonateTrusteeA
+       1080   4E 0003D910 BuildImpersonateTrusteeW
+       1081   4F 0003C8E0 BuildSecurityDescriptorA
+       1082   50 00007670 BuildSecurityDescriptorW
+       1083   51 0003D930 BuildTrusteeWithNameA
+       1084   52 0003D950 BuildTrusteeWithNameW
+       1085   53 0003D970 BuildTrusteeWithObjectsAndNameA
+       1086   54 0003D9D0 BuildTrusteeWithObjectsAndNameW
+       1087   55 0003DA30 BuildTrusteeWithObjectsAndSidA
+       1088   56 0003DAC0 BuildTrusteeWithObjectsAndSidW
+       1089   57 0003DB50 BuildTrusteeWithSidA
+       1090   58 0001AA80 BuildTrusteeWithSidW
+       1091   59 0003E2C0 CancelOverlappedAccess
+       1092   5A 0002D5D0 ChangeServiceConfig2A
+       1093   5B 0001BF30 ChangeServiceConfig2W
+       1094   5C 0002D5F0 ChangeServiceConfigA
+       1095   5D 0001BDB0 ChangeServiceConfigW
+       1096   5E 0001A470 CheckForHiberboot
+       1097   5F 000081F0 CheckTokenMembership
+       1098   60 00050700 ClearEventLogA
+       1099   61 000507A0 ClearEventLogW
+       1100   62 000067F0 CloseCodeAuthzLevel
+       1101   63 0002C0E0 CloseEncryptedFileRaw
+       1102   64 00004DD0 CloseEventLog
+       1103   65 00008B20 CloseServiceHandle
+       1104   66 000611C0 CloseThreadWaitChainSession
+       1105   67 00008F90 CloseTrace
+       1106   68 00004060 CommandLineFromMsiDescriptor
+       1107   69 0000AAC0 ComputeAccessTokenFromCodeAuthzLevel
+       1108   6A 0001E880 ControlService
+       1109   6B 0002D670 ControlServiceExA
+       1110   6C 0002D690 ControlServiceExW
+       1111   6D 0001C7D0 ControlTraceA
+       1112   6E 000090B0 ControlTraceW
+       1113   6F 0003E340 ConvertAccessToSecurityDescriptorA
+       1114   70 0003E4D0 ConvertAccessToSecurityDescriptorW
+       1115   71 0004AE30 ConvertSDToStringSDDomainW
+       1116   72 0004AEC0 ConvertSDToStringSDRootDomainA
+       1117   73 0004B040 ConvertSDToStringSDRootDomainW
+       1118   74 0003E570 ConvertSecurityDescriptorToAccessA
+       1119   75 0003E5C0 ConvertSecurityDescriptorToAccessNamedA
+       1120   76 0003E610 ConvertSecurityDescriptorToAccessNamedW
+       1121   77 0003E660 ConvertSecurityDescriptorToAccessW
+       1122   78 0004B0C0 ConvertSecurityDescriptorToStringSecurityDescriptorA
+       1123   79 0001AAE0 ConvertSecurityDescriptorToStringSecurityDescriptorW
+       1124   7A 00004980 ConvertSidToStringSidA
+       1125   7B 00005FE0 ConvertSidToStringSidW
+       1126   7C 0004B230 ConvertStringSDToSDDomainA
+       1127   7D 0004B370 ConvertStringSDToSDDomainW
+       1128   7E 0004B440 ConvertStringSDToSDRootDomainA
+       1129   7F 0004B520 ConvertStringSDToSDRootDomainW
+       1130   80 0004B5A0 ConvertStringSecurityDescriptorToSecurityDescriptorA
+       1131   81 0000D820 ConvertStringSecurityDescriptorToSecurityDescriptorW
+       1132   82 0004B670 ConvertStringSidToSidA
+       1133   83 0000EE70 ConvertStringSidToSidW
+       1134   84 0002D6B0 ConvertToAutoInheritPrivateObjectSecurity
+       1135   85 000072C0 CopySid
+       1136   86 00035AD0 CreateCodeAuthzLevel
+       1137   87 0001E8A0 CreatePrivateObjectSecurity
+       1138   88 0002D6D0 CreatePrivateObjectSecurityEx
+       1139   89 0002D6F0 CreatePrivateObjectSecurityWithMultipleInheritance
+       1140   8A 0002D710 CreateProcessAsUserA
+       1141   8B 00008C40 CreateProcessAsUserW
+       1142   8C 00049A40 CreateProcessWithLogonW
+       1143   8D 00049AC0 CreateProcessWithTokenW
+       1144   8E 000048C0 CreateRestrictedToken
+       1145   8F 0002D790 CreateServiceA
+       1146   90 0001C970 CreateServiceEx
+       1147   91 0002D820 CreateServiceW
+       1148   92          CreateTraceInstanceId (forwarded to ntdll.EtwCreateTraceInstanceId)
+       1149   93 00008F00 CreateWellKnownSid
+       1150   94 0002D8B0 CredBackupCredentials
+       1151   95 0002D8D0 CredDeleteA
+       1152   96 0002D8F0 CredDeleteW
+       1153   97 0002D910 CredEncryptAndMarshalBinaryBlob
+       1154   98 0002D930 CredEnumerateA
+       1155   99 0002D950 CredEnumerateW
+       1156   9A 0002D970 CredFindBestCredentialA
+       1157   9B 0002D990 CredFindBestCredentialW
+       1158   9C 0002D9B0 CredFree
+       1159   9D 0002D9D0 CredGetSessionTypes
+       1160   9E 0002D9F0 CredGetTargetInfoA
+       1161   9F 0002DA10 CredGetTargetInfoW
+       1162   A0 0002FF90 CredIsMarshaledCredentialA
+       1163   A1 0002DA30 CredIsMarshaledCredentialW
+       1164   A2 0002DA50 CredIsProtectedA
+       1165   A3 0002DA70 CredIsProtectedW
+       1166   A4 0002DA90 CredMarshalCredentialA
+       1167   A5 0002DAB0 CredMarshalCredentialW
+       1168   A6 0002DAF0 CredProfileLoaded
+       1169   A7 0002DAD0 CredProfileLoadedEx
+       1170   A8 0002DB10 CredProfileUnloaded
+       1171   A9 0002DB30 CredProtectA
+       1172   AA 0002DB50 CredProtectW
+       1173   AB 0002DB70 CredReadA
+       1174   AC 0002DB90 CredReadByTokenHandle
+       1175   AD 0002DBB0 CredReadDomainCredentialsA
+       1176   AE 0002DBD0 CredReadDomainCredentialsW
+       1177   AF 0002DBF0 CredReadW
+       1178   B0 0002FFE0 CredRenameA
+       1179   B1 00030010 CredRenameW
+       1180   B2 0002DC10 CredRestoreCredentials
+       1181   B3 0002DC30 CredUnmarshalCredentialA
+       1182   B4 0002DC50 CredUnmarshalCredentialW
+       1183   B5 0002DC70 CredUnprotectA
+       1184   B6 0002DC90 CredUnprotectW
+       1185   B7 0002DCB0 CredWriteA
+       1186   B8 0002DCD0 CredWriteDomainCredentialsA
+       1187   B9 0002DCF0 CredWriteDomainCredentialsW
+       1188   BA 0002DD10 CredWriteW
+       1189   BB 0002DD30 CredpConvertCredential
+       1190   BC 0002DD50 CredpConvertOneCredentialSize
+       1191   BD 0002DD70 CredpConvertTargetInfo
+       1192   BE 0002DD90 CredpDecodeCredential
+       1193   BF 0002DDB0 CredpEncodeCredential
+       1194   C0 0002DDD0 CredpEncodeSecret
+       1195   C1 000089A0 CryptAcquireContextA
+       1196   C2 000082E0 CryptAcquireContextW
+       1197   C3 0002DDF0 CryptContextAddRef
+       1198   C4 00007210 CryptCreateHash
+       1199   C5 0002DE10 CryptDecrypt
+       1200   C6 0002DE30 CryptDeriveKey
+       1201   C7 00008190 CryptDestroyHash
+       1202   C8 000082C0 CryptDestroyKey
+       1203   C9 0002DE50 CryptDuplicateHash
+       1204   CA 0001E8C0 CryptDuplicateKey
+       1205   CB 0002DE70 CryptEncrypt
+       1206   CC 0002DE90 CryptEnumProviderTypesA
+       1207   CD 0002DEB0 CryptEnumProviderTypesW
+       1208   CE 0002DED0 CryptEnumProvidersA
+       1209   CF 0002DEF0 CryptEnumProvidersW
+       1210   D0 00007250 CryptExportKey
+       1211   D1 0002DF10 CryptGenKey
+       1212   D2 00008BA0 CryptGenRandom
+       1213   D3 0002DF30 CryptGetDefaultProviderA
+       1214   D4 00008280 CryptGetDefaultProviderW
+       1215   D5 00007020 CryptGetHashParam
+       1216   D6 0002DF50 CryptGetKeyParam
+       1217   D7 0001E8E0 CryptGetProvParam
+       1218   D8 0002DF70 CryptGetUserKey
+       1219   D9 000081D0 CryptHashData
+       1220   DA 0002DF90 CryptHashSessionKey
+       1221   DB 00007230 CryptImportKey
+       1222   DC 00008AB0 CryptReleaseContext
+       1223   DD 0002DFB0 CryptSetHashParam
+       1224   DE 0002DFD0 CryptSetKeyParam
+       1225   DF 0002DFF0 CryptSetProvParam
+       1226   E0 0002E010 CryptSetProviderA
+       1227   E1 0002E030 CryptSetProviderExA
+       1228   E2 0002E050 CryptSetProviderExW
+       1229   E3 0002E070 CryptSetProviderW
+       1230   E4 0002E090 CryptSignHashA
+       1231   E5 0001E900 CryptSignHashW
+       1232   E6 0002E0B0 CryptVerifySignatureA
+       1233   E7 00009030 CryptVerifySignatureW
+       1234   E8          CveEventWrite (forwarded to KERNELBASE.CveEventWrite)
+       1235   E9 0002C110 DecryptFileA
+       1236   EA 0002C1E0 DecryptFileW
+       1237   EB 00008360 DeleteAce
+       1238   EC 0002E0D0 DeleteService
+       1239   ED 00004E90 DeregisterEventSource
+       1240   EE 0002E0F0 DestroyPrivateObjectSecurity
+       1241   EF 0002C270 DuplicateEncryptionInfoFile
+       1242   F0 00008A00 DuplicateToken
+       1243   F1 00007170 DuplicateTokenEx
+       1244   F2 00050E90 ElfBackupEventLogFileA
+       1245   F3 00050F70 ElfBackupEventLogFileW
+       1246   F4 00051050 ElfChangeNotify
+       1247   F5 00051140 ElfClearEventLogFileA
+       1248   F6 00051210 ElfClearEventLogFileW
+       1249   F7 00004E00 ElfCloseEventLog
+       1250   F8 00004EC0 ElfDeregisterEventSource
+       1251   F9 000512D0 ElfFlushEventLog
+       1252   FA 000512E0 ElfNumberOfRecords
+       1253   FB 000513B0 ElfOldestRecord
+       1254   FC 00051480 ElfOpenBackupEventLogA
+       1255   FD 000515F0 ElfOpenBackupEventLogW
+       1256   FE 00051760 ElfOpenEventLogA
+       1257   FF 00005B20 ElfOpenEventLogW
+       1258  100 0001EE40 ElfReadEventLogA
+       1259  101 00051980 ElfReadEventLogW
+       1260  102 00002C40 ElfRegisterEventSourceA
+       1261  103 00004FD0 ElfRegisterEventSourceW
+       1262  104 00051D40 ElfReportEventA
+       1263  105 000521A0 ElfReportEventAndSourceW
+       1264  106 000053E0 ElfReportEventW
+       1265  107 00007480 EnableTrace
+       1266  108 00042040 EnableTraceEx
+       1267  109 00008210 EnableTraceEx2
+       1268  10A 0002C320 EncryptFileA
+       1269  10B 0002C3E0 EncryptFileW
+       1270  10C 0002C470 EncryptedFileKeyInfo
+       1271  10D 0002C500 EncryptionDisable
+       1272  10E 00045520 EnumDependentServicesA
+       1273  10F 0002E110 EnumDependentServicesW
+       1274  110 0002E130 EnumDynamicTimeZoneInformation
+       1275  111 000456E0 EnumServiceGroupW
+       1276  112 000459B0 EnumServicesStatusA
+       1277  113 00009490 EnumServicesStatusExA
+       1278  114 00003FF0 EnumServicesStatusExW
+       1279  115 00045C00 EnumServicesStatusW
+       1280  116 00006200 EnumerateTraceGuids
+       1281  117 0001AA40 EnumerateTraceGuidsEx
+       1282  118 0002E150 EqualDomainSid
+       1283  119 0002E170 EqualPrefixSid
+       1284  11A 00008B40 EqualSid
+       1285  11B 0002E190 EventAccessControl
+       1286  11C 0002E1B0 EventAccessQuery
+       1287  11D 0002E1D0 EventAccessRemove
+       1288  11E          EventActivityIdControl (forwarded to ntdll.EtwEventActivityIdControl)
+       1289  11F          EventEnabled (forwarded to ntdll.EtwEventEnabled)
+       1290  120          EventProviderEnabled (forwarded to ntdll.EtwEventProviderEnabled)
+       1291  121          EventRegister (forwarded to ntdll.EtwEventRegister)
+       1292  122          EventSetInformation (forwarded to ntdll.EtwEventSetInformation)
+       1293  123          EventUnregister (forwarded to ntdll.EtwEventUnregister)
+       1294  124          EventWrite (forwarded to ntdll.EtwEventWrite)
+       1295  125          EventWriteEndScenario (forwarded to ntdll.EtwEventWriteEndScenario)
+       1296  126          EventWriteEx (forwarded to ntdll.EtwEventWriteEx)
+       1297  127          EventWriteStartScenario (forwarded to ntdll.EtwEventWriteStartScenario)
+       1298  128          EventWriteString (forwarded to ntdll.EtwEventWriteString)
+       1299  129          EventWriteTransfer (forwarded to ntdll.EtwEventWriteTransfer)
+       1300  12A 0002C560 FileEncryptionStatusA
+       1301  12B 0002C630 FileEncryptionStatusW
+       1302  12C 0002E1F0 FindFirstFreeAce
+       1303  12D 0002C690 FlushEfsCache
+       1304  12E 00042120 FlushTraceA
+       1305  12F 0001E9E0 FlushTraceW
+       1306  130 0002C770 FreeEncryptedFileKeyInfo
+       1307  131 0002C7B0 FreeEncryptedFileMetadata
+       1308  132 0002C7C0 FreeEncryptionCertificateHashList
+       1309  133 0003CA70 FreeInheritedFromArray
+       1310  134 000081B0 FreeSid
+       1311  135 0003E6B0 GetAccessPermissionsForObjectA
+       1312  136 0003EA10 GetAccessPermissionsForObjectW
+       1313  137 000089E0 GetAce
+       1314  138 00008C00 GetAclInformation
+       1315  139 0003CAD0 GetAuditedPermissionsFromAclA
+       1316  13A 0003CB50 GetAuditedPermissionsFromAclW
+       1317  13B 0002BD50 GetCurrentHwProfileA
+       1318  13C 000085D0 GetCurrentHwProfileW
+       1319  13D 0002E210 GetDynamicTimeZoneInformationEffectiveYears
+       1320  13E 0003CC00 GetEffectiveRightsFromAclA
+       1321  13F 0003CC80 GetEffectiveRightsFromAclW
+       1322  140 0002C800 GetEncryptedFileMetadata
+       1323  141 00004CD0 GetEventLogInformation
+       1324  142 0003CD30 GetExplicitEntriesFromAclA
+       1325  143 0002E230 GetExplicitEntriesFromAclW
+       1326  144 000469C0 GetFileSecurityA
+       1327  145 00008FB0 GetFileSecurityW
+       1328  146 00036430 GetInformationCodeAuthzLevelW
+       1329  147 0000CBD0 GetInformationCodeAuthzPolicyW
+       1330  148 0003CD50 GetInheritanceSourceA
+       1331  149 0003CD60 GetInheritanceSourceW
+       1332  14A 00009090 GetKernelObjectSecurity
+       1333  14B 000071F0 GetLengthSid
+       1334  14C 00033F00 GetLocalManagedApplicationData
+       1335  14D 00034170 GetLocalManagedApplications
+       1336  14E 00034490 GetManagedApplicationCategories
+       1337  14F 00034500 GetManagedApplications
+       1338  150 0003DB70 GetMultipleTrusteeA
+       1339  151 0003DB90 GetMultipleTrusteeOperationA
+       1340  152 0003DBB0 GetMultipleTrusteeOperationW
+       1341  153 0003DBD0 GetMultipleTrusteeW
+       1342  154 0003CE30 GetNamedSecurityInfoA
+       1343  155 0003EB50 GetNamedSecurityInfoExA
+       1344  156 0003EE00 GetNamedSecurityInfoExW
+       1345  157 00008A40 GetNamedSecurityInfoW
+       1346  158 0001EBE0 GetNumberOfEventLogRecords
+       1347  159 00050870 GetOldestEventLogRecord
+       1348  15A 0003F140 GetOverlappedAccessResults
+       1349  15B 0002E250 GetPrivateObjectSecurity
+       1350  15C 0002E270 GetSecurityDescriptorControl
+       1351  15D 000083A0 GetSecurityDescriptorDacl
+       1352  15E 0002E290 GetSecurityDescriptorGroup
+       1353  15F 0002E2B0 GetSecurityDescriptorLength
+       1354  160 0001AAA0 GetSecurityDescriptorOwner
+       1355  161 0002E2D0 GetSecurityDescriptorRMControl
+       1356  162 00004C20 GetSecurityDescriptorSacl
+       1357  163 00007600 GetSecurityInfo
+       1358  164 0003F280 GetSecurityInfoExA
+       1359  165 0003F500 GetSecurityInfoExW
+       1360  166 00045C50 GetServiceDisplayNameA
+       1361  167 0002E2F0 GetServiceDisplayNameW
+       1362  168 00045D00 GetServiceKeyNameA
+       1363  169 0001E920 GetServiceKeyNameW
+       1364  16A 0002E310 GetSidIdentifierAuthority
+       1365  16B 0001E940 GetSidLengthRequired
+       1366  16C 00007300 GetSidSubAuthority
+       1367  16D 00007320 GetSidSubAuthorityCount
+       1368  16E 0004A8A0 GetStringConditionFromBinary
+       1369  16F 00061250 GetThreadWaitChain
+       1370  170 000068B0 GetTokenInformation
+       1371  171          GetTraceEnableFlags (forwarded to ntdll.EtwGetTraceEnableFlags)
+       1372  172          GetTraceEnableLevel (forwarded to ntdll.EtwGetTraceEnableLevel)
+       1373  173          GetTraceLoggerHandle (forwarded to ntdll.EtwGetTraceLoggerHandle)
+       1374  174 0003DBF0 GetTrusteeFormA
+       1375  175 0003DC10 GetTrusteeFormW
+       1376  176 0003DC30 GetTrusteeNameA
+       1377  177 0003DC40 GetTrusteeNameW
+       1378  178 0003DC50 GetTrusteeTypeA
+       1379  179 0003DC70 GetTrusteeTypeW
+       1380  17A 0001EAD0 GetUserNameA
+       1381  17B 00007270 GetUserNameW
+       1382  17C 0002E330 GetWindowsAccountDomainSid
+       1383  17D          I_QueryTagInformation (forwarded to api-ms-win-service-private-l1-1-0.I_QueryTagInformation)
+       1001  17E 000454F0 I_ScGetCurrentGroupStateW
+       1384  17F          I_ScIsSecurityProcess (forwarded to api-ms-win-service-private-l1-1-0.I_ScIsSecurityProcess)
+       1385  180          I_ScPnPGetServiceName (forwarded to api-ms-win-service-private-l1-1-0.I_ScPnPGetServiceName)
+       1386  181          I_ScQueryServiceConfig (forwarded to api-ms-win-service-private-l1-1-0.I_ScQueryServiceConfig)
+       1387  182          I_ScRegisterPreshutdownRestart (forwarded to api-ms-win-service-private-l1-1-1.I_ScRegisterPreshutdownRestart)
+       1388  183 0001C980 I_ScReparseServiceDatabase
+       1389  184          I_ScSendPnPMessage (forwarded to api-ms-win-service-private-l1-1-0.I_ScSendPnPMessage)
+       1390  185          I_ScSendTSMessage (forwarded to api-ms-win-service-private-l1-1-0.I_ScSendTSMessage)
+       1391  186 0002E350 I_ScSetServiceBitsA
+       1392  187 0002E370 I_ScSetServiceBitsW
+       1393  188          I_ScValidatePnPService (forwarded to api-ms-win-service-private-l1-1-0.I_ScValidatePnPService)
+       1394  189 000105E0 IdentifyCodeAuthzLevelW
+       1395  18A 0002E390 ImpersonateAnonymousToken
+       1396  18B 00009250 ImpersonateLoggedOnUser
+       1397  18C 0001E960 ImpersonateNamedPipeClient
+       1398  18D 00009190 ImpersonateSelf
+       1399  18E 000082A0 InitializeAcl
+       1400  18F 00008250 InitializeSecurityDescriptor
+       1401  190 00004BD0 InitializeSid
+       1402  191 000424D0 InitiateShutdownA
+       1403  192 00019B60 InitiateShutdownW
+       1404  193 00042610 InitiateSystemShutdownA
+       1405  194 00042760 InitiateSystemShutdownExA
+       1406  195 00044CB0 InitiateSystemShutdownExW
+       1407  196 000428B0 InitiateSystemShutdownW
+       1408  197 00034510 InstallApplication
+       1409  198 00006B10 IsTextUnicode
+       1410  199 0002E3B0 IsTokenRestricted
+       1411  19A 00036150 IsTokenUntrusted
+       1412  19B 0002E3D0 IsValidAcl
+       1413  19C          IsValidRelativeSecurityDescriptor (forwarded to KERNELBASE.IsValidRelativeSecurityDescriptor)
+       1414  19D 0002E3F0 IsValidSecurityDescriptor
+       1415  19E 00007530 IsValidSid
+       1416  19F 0001BF10 IsWellKnownSid
+       1417  1A0 00045DB0 LockServiceDatabase
+       1418  1A1 00049FF0 LogonUserA
+       1419  1A2 0004A2D0 LogonUserExA
+       1420  1A3 0002E410 LogonUserExExW
+       1421  1A4 0004A340 LogonUserExW
+       1422  1A5 0004A3B0 LogonUserW
+       1423  1A6 00046AA0 LookupAccountNameA
+       1424  1A7 00007390 LookupAccountNameW
+       1425  1A8 00047000 LookupAccountSidA
+       1426  1A9 00006F50 LookupAccountSidW
+       1427  1AA 000476D0 LookupPrivilegeDisplayNameA
+       1428  1AB 000478E0 LookupPrivilegeDisplayNameW
+       1429  1AC 00047A90 LookupPrivilegeNameA
+       1430  1AD 00047C50 LookupPrivilegeNameW
+       1431  1AE 0001A8A0 LookupPrivilegeValueA
+       1432  1AF 0000F670 LookupPrivilegeValueW
+       1433  1B0 0003CEE0 LookupSecurityDescriptorPartsA
+       1434  1B1 0003D1E0 LookupSecurityDescriptorPartsW
+       1435  1B2 0002E490 LsaAddAccountRights
+       1436  1B3 00030040 LsaAddPrivilegesToAccount
+       1437  1B4 000300D0 LsaClearAuditLog
+       1438  1B5 00009110 LsaClose
+       1439  1B6 00030160 LsaConfigureAutoLogonCredentials
+       1440  1B7 000301E0 LsaCreateAccount
+       1441  1B8 0002E4A0 LsaCreateSecret
+       1442  1B9 000302F0 LsaCreateTrustedDomain
+       1443  1BA 00032360 LsaCreateTrustedDomainEx
+       1444  1BB 0002E4B0 LsaDelete
+       1445  1BC 000324C0 LsaDeleteTrustedDomain
+       1446  1BD 00030400 LsaDisablePasswordLessCurrentUser
+       1447  1BE 00030480 LsaDisableUserArso
+       1448  1BF 00030500 LsaEnablePasswordLessCurrentUser
+       1449  1C0 00030580 LsaEnableUserArso
+       1450  1C1 0002E4C0 LsaEnumerateAccountRights
+       1451  1C2 00030600 LsaEnumerateAccounts
+       1452  1C3 0002E4D0 LsaEnumerateAccountsWithUserRight
+       1453  1C4 000306E0 LsaEnumeratePrivileges
+       1454  1C5 000307C0 LsaEnumeratePrivilegesOfAccount
+       1455  1C6 00030850 LsaEnumerateTrustedDomains
+       1456  1C7 00032550 LsaEnumerateTrustedDomainsEx
+       1457  1C8 00009050 LsaFreeMemory
+       1458  1C9 00030940 LsaGetAppliedCAPIDs
+       1459  1CA 000332F0 LsaGetDeviceRegistrationInfo
+       1460  1CB 00030AC0 LsaGetQuotasForAccount
+       1461  1CC 00030B50 LsaGetRemoteUserName
+       1462  1CD 00030D50 LsaGetSystemAccessAccount
+       1463  1CE 0000D5C0 LsaGetUserName
+       1464  1CF 0002E4E0 LsaICLookupNames
+       1465  1D0 0002E540 LsaICLookupNamesWithCreds
+       1466  1D1 0002E5C0 LsaICLookupSids
+       1467  1D2 0002E5D0 LsaICLookupSidsWithCreds
+       1468  1D3 00030DE0 LsaIsUserArsoAllowed
+       1469  1D4 00030E70 LsaIsUserArsoEnabled
+       1470  1D5 00030F00 LsaLookupNames
+       1471  1D6 0002E650 LsaLookupNames2
+       1472  1D7 00031090 LsaLookupPrivilegeDisplayName
+       1473  1D8 000313A0 LsaLookupPrivilegeName
+       1474  1D9 0000F7A0 LsaLookupPrivilegeValue
+       1475  1DA 0002E670 LsaLookupSids
+       1476  1DB 0002E660 LsaLookupSids2
+       1477  1DC 00032640 LsaManageSidNameMapping
+       1478  1DD 000069C0 LsaNtStatusToWinError
+       1479  1DE 00031470 LsaOpenAccount
+       1480  1DF 00009120 LsaOpenPolicy
+       1481  1E0 00031580 LsaOpenPolicySce
+       1482  1E1 0002E6A0 LsaOpenSecret
+       1483  1E2 00031690 LsaOpenTrustedDomain
+       1484  1E3 000327A0 LsaOpenTrustedDomainByName
+       1485  1E4 000317A0 LsaProfileDeleted
+       1486  1E5 00031820 LsaQueryCAPs
+       1487  1E6 000328B0 LsaQueryDomainInformationPolicy
+       1488  1E7 00032960 LsaQueryForestTrustInformation
+       1489  1E8 000319A0 LsaQueryInfoTrustedDomain
+       1490  1E9 0000B970 LsaQueryInformationPolicy
+       1491  1EA 0002E6B0 LsaQuerySecret
+       1492  1EB 00031A80 LsaQuerySecurityObject
+       1493  1EC 00032A00 LsaQueryTrustedDomainInfo
+       1494  1ED 00032AF0 LsaQueryTrustedDomainInfoByName
+       1495  1EE 0002E6C0 LsaRemoveAccountRights
+       1496  1EF 00031B50 LsaRemovePrivilegesFromAccount
+       1497  1F0 0002E6D0 LsaRetrievePrivateData
+       1498  1F1 00031BF0 LsaSetCAPs
+       1499  1F2 00032BA0 LsaSetDomainInformationPolicy
+       1500  1F3 00032C50 LsaSetForestTrustInformation
+       1501  1F4 0002E6E0 LsaSetInformationPolicy
+       1502  1F5 00031D40 LsaSetInformationTrustedDomain
+       1503  1F6 00031FA0 LsaSetQuotasForAccount
+       1504  1F7 0002E6F0 LsaSetSecret
+       1505  1F8 00032030 LsaSetSecurityObject
+       1506  1F9 00032190 LsaSetSystemAccessAccount
+       1507  1FA 00032D10 LsaSetTrustedDomainInfoByName
+       1508  1FB 00032F90 LsaSetTrustedDomainInformation
+       1509  1FC 0002E770 LsaStorePrivateData
+       1510  1FD 00032220 LsaValidateProcUniqueLuid
+       1511  1FE          MD4Final (forwarded to NTDLL.MD4Final)
+       1512  1FF          MD4Init (forwarded to NTDLL.MD4Init)
+       1513  200          MD4Update (forwarded to NTDLL.MD4Update)
+       1514  201          MD5Final (forwarded to NTDLL.MD5Final)
+       1515  202          MD5Init (forwarded to NTDLL.MD5Init)
+       1516  203          MD5Update (forwarded to NTDLL.MD5Update)
+       1517  204 00008CF0 MIDL_user_free_Ext
+       1518  205 0002EEF0 MSChapSrvChangePassword
+       1519  206 0002F220 MSChapSrvChangePassword2
+       1520  207 0001BD30 MakeAbsoluteSD
+       1521  208 0002E780 MakeAbsoluteSD2
+       1522  209 0002E7A0 MakeSelfRelativeSD
+       1523  20A 0002E7C0 MapGenericMask
+       1524  20B 0001A840 NotifyBootConfigStatus
+       1525  20C 00050900 NotifyChangeEventLog
+       1526  20D 0001C960 NotifyServiceStatusChange
+       1527  20E 0002E7E0 NotifyServiceStatusChangeA
+       1528  20F 0001BEF0 NotifyServiceStatusChangeW
+       1529  210 0004A400 NpGetUserName
+       1530  211 00047DD0 ObjectCloseAuditAlarmA
+       1531  212 0002E800 ObjectCloseAuditAlarmW
+       1532  213 00047E80 ObjectDeleteAuditAlarmA
+       1533  214 0002E820 ObjectDeleteAuditAlarmW
+       1534  215 00047F30 ObjectOpenAuditAlarmA
+       1535  216 0002E840 ObjectOpenAuditAlarmW
+       1536  217 000480F0 ObjectPrivilegeAuditAlarmA
+       1537  218 0002E8C0 ObjectPrivilegeAuditAlarmW
+       1538  219 00050940 OpenBackupEventLogA
+       1539  21A 00050A60 OpenBackupEventLogW
+       1540  21B 0002C950 OpenEncryptedFileRawA
+       1541  21C 0002CA10 OpenEncryptedFileRawW
+       1542  21D 0001EC30 OpenEventLogA
+       1543  21E 00004C60 OpenEventLogW
+       1544  21F 00006D70 OpenProcessToken
+       1545  220 00009230 OpenSCManagerA
+       1546  221 00008B80 OpenSCManagerW
+       1547  222 0002E8E0 OpenServiceA
+       1548  223 00008E50 OpenServiceW
+       1549  224 00006D90 OpenThreadToken
+       1550  225 00061440 OpenThreadWaitChainSession
+       1551  226 000422C0 OpenTraceA
+       1552  227 00008F70 OpenTraceW
+       1553  228 00004650 OperationEnd
+       1554  229 00004720 OperationStart
+       1555  22A 00001010 PerfAddCounters
+       1556  22B 0001EA10 PerfCloseQueryHandle
+       1557  22C          PerfCreateInstance (forwarded to api-ms-win-core-perfcounters-l1-2-0.PerfCreateInstance)
+       1558  22D          PerfDecrementULongCounterValue (forwarded to api-ms-win-core-perfcounters-l1-2-0.PerfDecrementULongCounterValue)
+       1559  22E          PerfDecrementULongLongCounterValue (forwarded to api-ms-win-core-perfcounters-l1-2-0.PerfDecrementULongLongCounterValue)
+       1560  22F 00042D80 PerfDeleteCounters
+       1561  230          PerfDeleteInstance (forwarded to api-ms-win-core-perfcounters-l1-2-0.PerfDeleteInstance)
+       1562  231 00002F80 PerfEnumerateCounterSet
+       1563  232 00003180 PerfEnumerateCounterSetInstances
+       1564  233          PerfIncrementULongCounterValue (forwarded to api-ms-win-core-perfcounters-l1-2-0.PerfIncrementULongCounterValue)
+       1565  234          PerfIncrementULongLongCounterValue (forwarded to api-ms-win-core-perfcounters-l1-2-0.PerfIncrementULongLongCounterValue)
+       1566  235 00002DB0 PerfOpenQueryHandle
+       1567  236 000017A0 PerfQueryCounterData
+       1568  237 000010E0 PerfQueryCounterInfo
+       1569  238 00003540 PerfQueryCounterSetRegistrationInfo
+       1570  239          PerfQueryInstance (forwarded to api-ms-win-core-perfcounters-l1-2-0.PerfQueryInstance)
+       1571  23A 00018340 PerfRegCloseKey
+       1572  23B 00052480 PerfRegEnumKey
+       1573  23C 000524E0 PerfRegEnumValue
+       1574  23D 00019430 PerfRegQueryInfoKey
+       1575  23E 000179A0 PerfRegQueryValue
+       1576  23F 00052680 PerfRegSetValue
+       1577  240          PerfSetCounterRefValue (forwarded to api-ms-win-core-perfcounters-l1-2-0.PerfSetCounterRefValue)
+       1578  241          PerfSetCounterSetInfo (forwarded to api-ms-win-core-perfcounters-l1-2-0.PerfSetCounterSetInfo)
+       1579  242          PerfSetULongCounterValue (forwarded to api-ms-win-core-perfcounters-l1-2-0.PerfSetULongCounterValue)
+       1580  243          PerfSetULongLongCounterValue (forwarded to api-ms-win-core-perfcounters-l1-2-0.PerfSetULongLongCounterValue)
+       1581  244          PerfStartProvider (forwarded to api-ms-win-core-perfcounters-l1-2-0.PerfStartProvider)
+       1582  245          PerfStartProviderEx (forwarded to api-ms-win-core-perfcounters-l1-2-0.PerfStartProviderEx)
+       1583  246          PerfStopProvider (forwarded to api-ms-win-core-perfcounters-l1-2-0.PerfStopProvider)
+       1584  247 0001E980 PrivilegeCheck
+       1585  248 000481C0 PrivilegedServiceAuditAlarmA
+       1586  249 0002E900 PrivilegedServiceAuditAlarmW
+       1587  24A 0002F680 ProcessIdleTasks
+       1588  24B 0002F710 ProcessIdleTasksW
+       1589  24C 00008FF0 ProcessTrace
+       1590  24D 0001C7E0 QueryAllTracesA
+       1591  24E 000091B0 QueryAllTracesW
+       1592  24F 0001C990 QueryLocalUserServiceName
+       1593  250 0002CA90 QueryRecoveryAgentsOnEncryptedFile
+       1594  251 0002E920 QuerySecurityAccessMask
+       1595  252 0002E940 QueryServiceConfig2A
+       1596  253 0001BE90 QueryServiceConfig2W
+       1597  254 0002E960 QueryServiceConfigA
+       1598  255 00009070 QueryServiceConfigW
+       1599  256 0002E980 QueryServiceDynamicInformation
+       1600  257 00045E50 QueryServiceLockStatusA
+       1601  258 00045FE0 QueryServiceLockStatusW
+       1602  259 0002E9A0 QueryServiceObjectSecurity
+       1603  25A 00009170 QueryServiceStatus
+       1604  25B 00008BE0 QueryServiceStatusEx
+       1605  25C 00042140 QueryTraceA
+       1606  25D 0002E9C0 QueryTraceProcessingHandle
+       1607  25E 0001EA00 QueryTraceW
+       1608  25F 0001C9A0 QueryUserServiceName
+       1609  260 0001C9B0 QueryUserServiceNameForContext
+       1610  261 0002CB10 QueryUsersOnEncryptedFile
+       1611  262 0002CB90 ReadEncryptedFileRaw
+       1612  263 00050B50 ReadEventLogA
+       1613  264 0001ECC0 ReadEventLogW
+       1614  265 00006AF0 RegCloseKey
+       1615  266 000432D0 RegConnectRegistryA
+       1616  267 000432F0 RegConnectRegistryExA
+       1617  268 00043390 RegConnectRegistryExW
+       1618  269 00044E00 RegConnectRegistryW
+       1619  26A 000436A0 RegCopyTreeA
+       1620  26B 0002E9E0 RegCopyTreeW
+       1621  26C 00043720 RegCreateKeyA
+       1622  26D 00004850 RegCreateKeyExA
+       1623  26E 00007650 RegCreateKeyExW
+       1624  26F 000437B0 RegCreateKeyTransactedA
+       1625  270 00006970 RegCreateKeyTransactedW
+       1626  271 00008300 RegCreateKeyW
+       1627  272 000047F0 RegDeleteKeyA
+       1628  273 0002EA00 RegDeleteKeyExA
+       1629  274 0001E9A0 RegDeleteKeyExW
+       1630  275 000439A0 RegDeleteKeyTransactedA
+       1631  276 00003760 RegDeleteKeyTransactedW
+       1632  277 0002EA20 RegDeleteKeyValueA
+       1633  278 0001BE50 RegDeleteKeyValueW
+       1634  279 000070B0 RegDeleteKeyW
+       1635  27A 0002EA40 RegDeleteTreeA
+       1636  27B 0001BED0 RegDeleteTreeW
+       1637  27C 00004C40 RegDeleteValueA
+       1638  27D 00008DC0 RegDeleteValueW
+       1639  27E 00008E70 RegDisablePredefinedCache
+       1640  27F 0002EA60 RegDisablePredefinedCacheEx
+       1641  280 0002F580 RegDisableReflectionKey
+       1642  281 0002F580 RegEnableReflectionKey
+       1643  282 00008DE0 RegEnumKeyA
+       1644  283 00004870 RegEnumKeyExA
+       1645  284 00006740 RegEnumKeyExW
+       1646  285 00006AA0 RegEnumKeyW
+       1647  286 0002EA80 RegEnumValueA
+       1648  287 00006D20 RegEnumValueW
+       1649  288 000090F0 RegFlushKey
+       1650  289 00008E30 RegGetKeySecurity
+       1651  28A 0002EAD0 RegGetValueA
+       1652  28B 00008BC0 RegGetValueW
+       1653  28C 0002EAF0 RegLoadAppKeyA
+       1654  28D 0002EB10 RegLoadAppKeyW
+       1655  28E 0002EB30 RegLoadKeyA
+       1656  28F 0002EB50 RegLoadKeyW
+       1657  290 0002EB70 RegLoadMUIStringA
+       1658  291 0002EB90 RegLoadMUIStringW
+       1659  292 00008380 RegNotifyChangeKeyValue
+       1660  293 000090D0 RegOpenCurrentUser
+       1661  294 00008F20 RegOpenKeyA
+       1662  295 000072A0 RegOpenKeyExA
+       1663  296 000067D0 RegOpenKeyExW
+       1664  297 00043850 RegOpenKeyTransactedA
+       1665  298 00006B40 RegOpenKeyTransactedW
+       1666  299 00007040 RegOpenKeyW
+       1667  29A 0002EBB0 RegOpenUserClassesRoot
+       1668  29B 00043890 RegOverridePredefKey
+       1669  29C 00004AD0 RegQueryInfoKeyA
+       1670  29D 000068D0 RegQueryInfoKeyW
+       1671  29E 0002EBD0 RegQueryMultipleValuesA
+       1672  29F 0002EBF0 RegQueryMultipleValuesW
+       1673  2A0 0002F590 RegQueryReflectionKey
+       1674  2A1 00043DB0 RegQueryValueA
+       1675  2A2 000072E0 RegQueryValueExA
+       1676  2A3 00006720 RegQueryValueExW
+       1677  2A4 00006E00 RegQueryValueW
+       1678  2A5 00043900 RegRenameKey
+       1679  2A6 000440D0 RegReplaceKeyA
+       1680  2A7 00044E20 RegReplaceKeyW
+       1681  2A8 0002EC10 RegRestoreKeyA
+       1682  2A9 0002EC30 RegRestoreKeyW
+       1683  2AA 00044340 RegSaveKeyA
+       1684  2AB 0002EC50 RegSaveKeyExA
+       1685  2AC 0002EC70 RegSaveKeyExW
+       1686  2AD 00044520 RegSaveKeyW
+       1687  2AE 0002EC90 RegSetKeySecurity
+       1688  2AF 0002ECB0 RegSetKeyValueA
+       1689  2B0 0001E9C0 RegSetKeyValueW
+       1690  2B1 000446D0 RegSetValueA
+       1691  2B2 00004960 RegSetValueExA
+       1692  2B3 00008010 RegSetValueExW
+       1693  2B4 00044840 RegSetValueW
+       1694  2B5 0002ECD0 RegUnLoadKeyA
+       1695  2B6 0002ECF0 RegUnLoadKeyW
+       1696  2B7 00002BD0 RegisterEventSourceA
+       1697  2B8 00004F50 RegisterEventSourceW
+       1698  2B9 00008050 RegisterIdleTask
+       1699  2BA 0002ED10 RegisterServiceCtrlHandlerA
+       1700  2BB 0002ED30 RegisterServiceCtrlHandlerExA
+       1701  2BC 0001BE70 RegisterServiceCtrlHandlerExW
+       1702  2BD 00009210 RegisterServiceCtrlHandlerW
+       1703  2BE          RegisterTraceGuidsA (forwarded to ntdll.EtwRegisterTraceGuidsA)
+       1704  2BF          RegisterTraceGuidsW (forwarded to ntdll.EtwRegisterTraceGuidsW)
+       1705  2C0 00061560 RegisterWaitChainCOMCallback
+       1706  2C1 000439F0 RemoteRegEnumKeyWrapper
+       1707  2C2 00043B60 RemoteRegEnumValueWrapper
+       1708  2C3 00043C90 RemoteRegQueryInfoKeyWrapper
+       1709  2C4 000449C0 RemoteRegQueryMultipleValues2Wrapper
+       1710  2C5 00044B40 RemoteRegQueryMultipleValuesWrapper
+       1711  2C6 00044030 RemoteRegQueryValueWrapper
+       1712  2C7          RemoveTraceCallback (forwarded to sechost.RemoveTraceCallback)
+       1713  2C8 0002CBC0 RemoveUsersFromEncryptedFile
+       1714  2C9 00050BF0 ReportEventA
+       1715  2CA 00005170 ReportEventW
+       1716  2CB 00007000 RevertToSelf
+       1717  2CC 00042D40 SafeBaseRegGetKeySecurity
+       1718  2CD 000067F0 SaferCloseLevel
+       1719  2CE 0000AAC0 SaferComputeTokenFromLevel
+       1720  2CF 00035AD0 SaferCreateLevel
+       1721  2D0 00036430 SaferGetLevelInformation
+       1722  2D1 0000CBD0 SaferGetPolicyInformation
+       1723  2D2 000105E0 SaferIdentifyLevel
+       1724  2D3 00038090 SaferRecordEventLogEntry
+       1725  2D4 00038790 SaferSetLevelInformation
+       1726  2D5 00036F80 SaferSetPolicyInformation
+       1727  2D6 00039AF0 SaferiChangeRegistryScope
+       1728  2D7 0000A100 SaferiCompareTokenLevels
+       1729  2D8 00037640 SaferiIsDllAllowed
+       1730  2D9 0003A2B0 SaferiIsExecutableFileType
+       1731  2DA 00039B30 SaferiPopulateDefaultsInRegistry
+       1732  2DB 00038090 SaferiRecordEventLogEntry
+       1733  2DC 00007550 SaferiSearchMatchingHashRules
+       1734  2DD 0002ED50 SetAclInformation
+       1735  2DE 0002CC40 SetEncryptedFileMetadata
+       1736  2DF 0003F840 SetEntriesInAccessListA
+       1737  2E0 0003F890 SetEntriesInAccessListW
+       1738  2E1 0003D490 SetEntriesInAclA
+       1739  2E2 00008C20 SetEntriesInAclW
+       1740  2E3 0003F8E0 SetEntriesInAuditListA
+       1741  2E4 0003F920 SetEntriesInAuditListW
+       1742  2E5 000482D0 SetFileSecurityA
+       1743  2E6 0001BEB0 SetFileSecurityW
+       1744  2E7 00038790 SetInformationCodeAuthzLevelW
+       1745  2E8 00036F80 SetInformationCodeAuthzPolicyW
+       1746  2E9 000091D0 SetKernelObjectSecurity
+       1747  2EA 0003D710 SetNamedSecurityInfoA
+       1748  2EB 0003F960 SetNamedSecurityInfoExA
+       1749  2EC 0003FDF0 SetNamedSecurityInfoExW
+       1750  2ED 0001BE30 SetNamedSecurityInfoW
+       1751  2EE 0002ED90 SetPrivateObjectSecurity
+       1752  2EF 0002ED70 SetPrivateObjectSecurityEx
+       1753  2F0 0002EDB0 SetSecurityAccessMask
+       1754  2F1 0002EDD0 SetSecurityDescriptorControl
+       1755  2F2 00008230 SetSecurityDescriptorDacl
+       1756  2F3 00009010 SetSecurityDescriptorGroup
+       1757  2F4 00008B60 SetSecurityDescriptorOwner
+       1758  2F5 0002EDF0 SetSecurityDescriptorRMControl
+       1759  2F6 0002EE10 SetSecurityDescriptorSacl
+       1760  2F7 00008A90 SetSecurityInfo
+       1761  2F8 00040100 SetSecurityInfoExA
+       1762  2F9 00040550 SetSecurityInfoExW
+       1763  2FA 00046170 SetServiceBits
+       1764  2FB 0002EE30 SetServiceObjectSecurity
+       1765  2FC 00008FD0 SetServiceStatus
+       1766  2FD 00007510 SetThreadToken
+       1767  2FE 00004AB0 SetTokenInformation
+       1768  2FF          SetTraceCallback (forwarded to sechost.SetTraceCallback)
+       1769  300 0002CC50 SetUserFileEncryptionKey
+       1770  301 0002CCC0 SetUserFileEncryptionKeyEx
+       1771  302 0002EE50 StartServiceA
+       1772  303 0002EE70 StartServiceCtrlDispatcherA
+       1773  304 00009130 StartServiceCtrlDispatcherW
+       1774  305 000091F0 StartServiceW
+       1775  306 0001C7F0 StartTraceA
+       1776  307 00009150 StartTraceW
+       1777  308 00042160 StopTraceA
+       1778  309 0002EE90 StopTraceW
+       1779  30A          SystemFunction001 (forwarded to CRYPTBASE.SystemFunction001)
+       1780  30B          SystemFunction002 (forwarded to CRYPTBASE.SystemFunction002)
+       1781  30C          SystemFunction003 (forwarded to CRYPTBASE.SystemFunction003)
+       1782  30D          SystemFunction004 (forwarded to CRYPTBASE.SystemFunction004)
+       1783  30E          SystemFunction005 (forwarded to CRYPTBASE.SystemFunction005)
+       1784  30F          SystemFunction006 (forwarded to CRYPTSP.SystemFunction006)
+       1785  310          SystemFunction007 (forwarded to CRYPTSP.SystemFunction007)
+       1786  311          SystemFunction008 (forwarded to CRYPTSP.SystemFunction008)
+       1787  312          SystemFunction009 (forwarded to CRYPTSP.SystemFunction009)
+       1788  313          SystemFunction010 (forwarded to CRYPTSP.SystemFunction010)
+       1789  314          SystemFunction011 (forwarded to CRYPTSP.SystemFunction011)
+       1790  315          SystemFunction012 (forwarded to CRYPTSP.SystemFunction012)
+       1791  316          SystemFunction013 (forwarded to CRYPTSP.SystemFunction013)
+       1792  317          SystemFunction014 (forwarded to CRYPTSP.SystemFunction014)
+       1793  318          SystemFunction015 (forwarded to CRYPTSP.SystemFunction015)
+       1794  319          SystemFunction016 (forwarded to CRYPTSP.SystemFunction016)
+       1795  31A 0002F740 SystemFunction017
+       1796  31B          SystemFunction018 (forwarded to CRYPTSP.SystemFunction018)
+       1797  31C 0002F7A0 SystemFunction019
+       1798  31D          SystemFunction020 (forwarded to CRYPTSP.SystemFunction020)
+       1799  31E          SystemFunction021 (forwarded to CRYPTSP.SystemFunction021)
+       1800  31F          SystemFunction022 (forwarded to CRYPTSP.SystemFunction022)
+       1801  320          SystemFunction023 (forwarded to CRYPTSP.SystemFunction023)
+       1802  321          SystemFunction024 (forwarded to CRYPTSP.SystemFunction024)
+       1803  322          SystemFunction025 (forwarded to CRYPTSP.SystemFunction025)
+       1804  323          SystemFunction026 (forwarded to CRYPTSP.SystemFunction026)
+       1805  324          SystemFunction027 (forwarded to CRYPTSP.SystemFunction027)
+       1806  325          SystemFunction028 (forwarded to CRYPTBASE.SystemFunction028)
+       1807  326          SystemFunction029 (forwarded to CRYPTBASE.SystemFunction029)
+       1808  327          SystemFunction030 (forwarded to CRYPTSP.SystemFunction030)
+       1809  328          SystemFunction031 (forwarded to CRYPTSP.SystemFunction031)
+       1810  329          SystemFunction032 (forwarded to CRYPTSP.SystemFunction032)
+       1811  32A          SystemFunction033 (forwarded to CRYPTSP.SystemFunction033)
+       1812  32B          SystemFunction034 (forwarded to CRYPTBASE.SystemFunction034)
+       1813  32C          SystemFunction035 (forwarded to CRYPTSP.CheckSignatureInFile)
+       1814  32D          SystemFunction036 (forwarded to CRYPTBASE.SystemFunction036)
+       1815  32E          SystemFunction040 (forwarded to CRYPTBASE.SystemFunction040)
+       1816  32F          SystemFunction041 (forwarded to CRYPTBASE.SystemFunction041)
+       1817  330          TraceEvent (forwarded to ntdll.EtwLogTraceEvent)
+       1818  331          TraceEventInstance (forwarded to ntdll.EtwTraceEventInstance)
+       1819  332          TraceMessage (forwarded to ntdll.EtwTraceMessage)
+       1820  333          TraceMessageVa (forwarded to ntdll.EtwTraceMessageVa)
+       1821  334          TraceQueryInformation (forwarded to api-ms-win-eventing-controller-l1-1-0.TraceQueryInformation)
+       1822  335 0002EEB0 TraceSetInformation
+       1823  336 0003D7B0 TreeResetNamedSecurityInfoA
+       1824  337 0001BC10 TreeResetNamedSecurityInfoW
+       1825  338 0003D7C0 TreeSetNamedSecurityInfoA
+       1826  339 0003D7D0 TreeSetNamedSecurityInfoW
+       1827  33A 00040870 TrusteeAccessToObjectA
+       1828  33B 00040AE0 TrusteeAccessToObjectW
+       1829  33C 00034520 UninstallApplication
+       1830  33D 000461C0 UnlockServiceDatabase
+       1831  33E 0002F720 UnregisterIdleTask
+       1832  33F          UnregisterTraceGuids (forwarded to ntdll.EtwUnregisterTraceGuids)
+       1833  340 00042180 UpdateTraceA
+       1834  341 000421A0 UpdateTraceW
+       1835  342 0002CDC0 UsePinForEncryptedFilesA
+       1836  343 0002CE60 UsePinForEncryptedFilesW
+       1837  344 0002EED0 WaitServiceState
+       1838  345 00058630 WmiCloseBlock
+       1839  346 000586B0 WmiDevInstToInstanceNameA
+       1840  347 000587A0 WmiDevInstToInstanceNameW
+       1841  348 00058890 WmiEnumerateGuids
+       1842  349 00058A60 WmiExecuteMethodA
+       1843  34A 00058B60 WmiExecuteMethodW
+       1844  34B 00058EE0 WmiFileHandleToInstanceNameA
+       1845  34C 00059150 WmiFileHandleToInstanceNameW
+       1846  34D 00059360 WmiFreeBuffer
+       1847  34E 0005AD50 WmiMofEnumerateResourcesA
+       1848  34F 0005AF90 WmiMofEnumerateResourcesW
+       1849  350 000593B0 WmiNotificationRegistrationA
+       1850  351 00059440 WmiNotificationRegistrationW
+       1851  352 000594D0 WmiOpenBlock
+       1852  353 000595D0 WmiQueryAllDataA
+       1853  354 00059650 WmiQueryAllDataMultipleA
+       1854  355 000596E0 WmiQueryAllDataMultipleW
+       1855  356 00059910 WmiQueryAllDataW
+       1856  357 00059B90 WmiQueryGuidInformation
+       1857  358 00059C50 WmiQuerySingleInstanceA
+       1858  359 00059D40 WmiQuerySingleInstanceMultipleA
+       1859  35A 00059EF0 WmiQuerySingleInstanceMultipleW
+       1860  35B 0005A150 WmiQuerySingleInstanceW
+       1861  35C 0005A3E0 WmiReceiveNotificationsA
+       1862  35D 0005A460 WmiReceiveNotificationsW
+       1863  35E 0005A4E0 WmiSetSingleInstanceA
+       1864  35F 0005A5C0 WmiSetSingleInstanceW
+       1865  360 0005A7A0 WmiSetSingleItemA
+       1866  361 0005A880 WmiSetSingleItemW
+       1867  362 0002CF00 WriteEncryptedFileRaw
+       1000      000377C0 [NONAME]
+
+  Section contains the following imports:
+
+    msvcrt.dll
+             180078328 Import Address Table
+             180099618 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         512 wcscpy_s
+                         50D wcscat_s
+                         4E9 swprintf_s
+                         397 _wcsicmp
+                         3A1 _wcsnicmp
+                         4F6 tolower
+                         4E1 strstr
+                         4CE strchr
+                         347 _ultow_s
+                         47F iswctype
+                         528 wcstoul
+                         3B0 _wcstoui64
+                         521 wcsstr
+                         346 _ultow
+                         524 wcstok_s
+                         10E _errno
+                         343 _ui64tow_s
+                         188 _i64tow_s
+                         306 _stricmp
+                         51B wcsnlen
+                         2B4 _resetstkoflw
+                         47C iswalpha
+                         518 wcsncmp
+                         370 _vsnprintf
+                          62 __CxxFrameHandler3
+                         3AB _wcstoi64
+                         49E memcmp
+                         49F memcpy
+                         4A1 memmove
+                         376 _vsnwprintf
+                         51D wcsrchr
+                         50E wcschr
+                         4EB swscanf_s
+                          5E __C_specific_handler
+                         51A wcsncpy_s
+                         4A3 memset
+
+    ntdll.dll
+             180078450 Import Address Table
+             180099740 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         4DC RtlIsValidIndexHandle
+                         405 RtlFreeHandle
+                         1AA NtOpenKey
+                         206 NtQueryValueKey
+                         101 NtClose
+                         1BD NtOpenThreadToken
+                         1B4 NtOpenProcessToken
+                         3C9 RtlEqualSid
+                         4E7 RtlLengthSid
+                         2BE RtlAddAccessAllowedAceEx
+                         256 NtSetInformationToken
+                         358 RtlCreateSecurityDescriptor
+                         5BE RtlSetOwnerSecurityDescriptor
+                         157 NtDuplicateToken
+                         10A NtCompareTokens
+                         2DB RtlAllocateAndInitializeSid
+                         40A RtlFreeSid
+                         4C8 RtlIsGenericTableEmpty
+                         3C3 RtlEnumerateGenericTableWithoutSplaying
+                         342 RtlCopyUnicodeString
+                         3B0 RtlDuplicateUnicodeString
+                         3D6 RtlExpandEnvironmentStrings_U
+                         1A7 NtOpenFile
+                         360 RtlCreateUnicodeString
+                         1E4 NtQueryInformationProcess
+                         436 RtlGetLastNtStatus
+                         1EF NtQueryKey
+                         63C RtlValidSid
+                          8A LdrLoadDll
+                         46D RtlImageNtHeader
+                          AE LdrUnloadDll
+                         151 NtDeviceIoControlFile
+                         201 NtQuerySystemInformation
+                          3B EtwEventRegister
+                          3E EtwEventWrite
+                         120 NtCreateKey
+                         26E NtSetValueKey
+                         37F RtlDeleteElementGenericTable
+                         2E9 RtlAppendUnicodeToString
+                         14B NtDeleteKey
+                         499 RtlInsertElementGenericTable
+                         33F RtlCopySid
+                         491 RtlInitializeHandleTable
+                         395 RtlDestroyHandleTable
+                          3D EtwEventUnregister
+                         15B NtEnumerateKey
+                         4A1 RtlIntegerToUnicodeString
+                         5E7 RtlStringFromGUID
+                         2E8 RtlAppendUnicodeStringToString
+                         400 RtlFormatCurrentUserKeyPath
+                         48F RtlInitializeGenericTable
+                         552 RtlQueryRegistryValuesEx
+                         4F8 RtlLookupElementGenericTable
+                         516 RtlNumberGenericTableElements
+                         410 RtlGUIDFromString
+                         629 RtlUpcaseUnicodeChar
+                         208 NtQueryVolumeInformationFile
+                         1BB NtOpenSymbolicLinkObject
+                         1FE NtQuerySymbolicLinkObject
+                         52A RtlPrefixUnicodeString
+                         39C RtlDetermineDosPathNameType_U
+                         1E1 NtQueryInformationFile
+                         42F RtlGetFullPathName_U
+                         616 RtlUnicodeToMultiByteN
+                         514 RtlNtStatusToDosErrorNoTeb
+                         617 RtlUnicodeToMultiByteSize
+                         2E2 RtlAnsiCharToUnicodeChar
+                         505 RtlMultiByteToUnicodeN
+                         283 NtTraceControl
+                         5BB RtlSetLastWin32Error
+                         475 RtlInitAnsiStringEx
+                         482 RtlInitUnicodeStringEx
+                         361 RtlCreateUnicodeStringFromAsciiz
+                         222 NtRenameKey
+                         544 RtlQueryPackageIdentity
+                         520 RtlOemStringToUnicodeString
+                         4D8 RtlIsTextUnicode
+                         255 NtSetInformationThread
+                         2C4 RtlAddAce
+                         638 RtlValidAcl
+                         5C6 RtlSetSaclSecurityDescriptor
+                         497 RtlInitializeSid
+                         41B RtlGetControlSecurityDescriptor
+                         2CA RtlAddAuditAccessObjectAce
+                         5AF RtlSetDaclSecurityDescriptor
+                         44C RtlGetSaclSecurityDescriptor
+                         412 RtlGetAce
+                         2C9 RtlAddAuditAccessAceEx
+                         69D RtlxAnsiStringToUnicodeSize
+                         445 RtlGetOwnerSecurityDescriptor
+                         433 RtlGetGroupSecurityDescriptor
+                         2B2 RtlAbsoluteToSelfRelativeSD
+                         2C1 RtlAddAccessDeniedAceEx
+                         2DD RtlAllocateHandle
+                         2C2 RtlAddAccessDeniedObjectAce
+                         3F7 RtlFirstFreeAce
+                         5B6 RtlSetGroupSecurityDescriptor
+                         424 RtlGetDaclSecurityDescriptor
+                         3A6 RtlDosPathNameToNtPathName_U
+                          45 EtwEventWriteTransfer
+                          3C EtwEventSetInformation
+                         471 RtlImpersonateSelf
+                         2D9 RtlAdjustPrivilege
+                         341 RtlCopyString
+                         203 NtQuerySystemTime
+                         5F8 RtlTimeToSecondsSince1970
+                          54 EtwTraceMessage
+                          48 EtwGetTraceLoggerHandle
+                          47 EtwGetTraceEnableLevel
+                          46 EtwGetTraceEnableFlags
+                          4F EtwRegisterTraceGuidsW
+                          56 EtwUnregisterTraceGuids
+                         297 NtWaitForSingleObject
+                         463 RtlGetVersion
+                         1E6 NtQueryInformationThread
+                         1FB NtQuerySecurityObject
+                         59B RtlRunOnceExecuteOnce
+                         599 RtlRunOnceBeginInitialize
+                         39F RtlDllShutdownInProgress
+                         59C RtlRunOnceInitialize
+                         1F6 NtQueryPerformanceCounter
+                         37D RtlDeleteBoundaryDescriptor
+                         125 NtCreateMutant
+                         1B2 NtOpenPrivateNamespace
+                         12A NtCreatePrivateNamespace
+                         2D4 RtlAddSIDToBoundaryDescriptor
+                         34A RtlCreateBoundaryDescriptor
+                         295 NtWaitForMultipleObjects
+                         345 RtlCreateAcl
+                         63A RtlValidRelativeSecurityDescriptor
+                         11A NtCreateFile
+                         29C NtWriteFile
+                         210 NtReadFile
+                         645 RtlWaitOnAddress
+                         646 RtlWakeAddressAll
+                         546 RtlQueryPerformanceCounter
+                         2B8 RtlAcquireSRWLockExclusive
+                         49A RtlInsertElementGenericTableAvl
+                         57D RtlReleaseSRWLockExclusive
+                         2B9 RtlAcquireSRWLockShared
+                         4F9 RtlLookupElementGenericTableAvl
+                         57E RtlReleaseSRWLockShared
+                         3C1 RtlEnumerateGenericTableAvl
+                         380 RtlDeleteElementGenericTableAvl
+                         490 RtlInitializeGenericTableAvl
+                         648 RtlWakeAddressSingle
+                         3A8 RtlDosPathNameToRelativeNtPathName_U
+                         57B RtlReleaseRelativeName
+                         496 RtlInitializeSRWLock
+                         3CB RtlEqualUnicodeString
+                         39A RtlDestroyQueryDebugBuffer
+                         54A RtlQueryProcessDebugInformation
+                          ED NtAlpcQueryInformation
+                         356 RtlCreateQueryDebugBuffer
+                         1F3 NtQueryObject
+                         1F2 NtQueryMutant
+                         47C RtlInitString
+                         2BD RtlAddAccessAllowedAce
+                         523 RtlOpenCurrentUser
+                         224 NtReplaceKey
+                         237 NtSaveKey
+                         239 NtSaveMergedKeys
+                         4E6 RtlLengthSecurityDescriptor
+                         63B RtlValidSecurityDescriptor
+                         442 RtlGetNtProductType
+                         332 RtlConvertSidToUnicodeString
+                         5EA RtlSubAuthorityCountSid
+                         5EB RtlSubAuthoritySid
+                         45A RtlGetThreadPreferredUILanguages
+                         500 RtlMakeSelfRelativeSD
+                         406 RtlFreeHeap
+                         69F RtlxUnicodeStringToAnsiSize
+                         1E7 NtQueryInformationToken
+                         40D RtlFreeUnicodeString
+                         2DE RtlAllocateHeap
+                         2BF RtlAddAccessAllowedObjectAce
+                         642 RtlVirtualUnwind
+                         4FE RtlLookupFunctionEntry
+                         2FE RtlCaptureContext
+                         48A RtlInitializeCriticalSection
+                         37E RtlDeleteCriticalSection
+                         265 NtSetSystemInformation
+                         4E4 RtlLeaveCriticalSection
+                         3BC RtlEnterCriticalSection
+                          22 DbgPrint
+                         513 RtlNtStatusToDosError
+                         474 RtlInitAnsiString
+                         60F RtlUnicodeStringToAnsiString
+                         422 RtlGetCurrentTransaction
+                         481 RtlInitUnicodeString
+                         1AB NtOpenKeyEx
+                         250 NtSetInformationKey
+                          80 LdrGetProcedureAddress
+                          78 LdrGetDllHandle
+                         2E4 RtlAnsiStringToUnicodeString
+                         404 RtlFreeAnsiString
+                         611 RtlUnicodeStringToInteger
+
+    api-ms-win-eventing-controller-l1-1-0.dll
+             180077D40 Import Address Table
+             180099030 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           8 StopTraceW
+                           2 EnumerateTraceGuidsEx
+                           0 ControlTraceW
+                           A TraceSetInformation
+                           5 EventAccessRemove
+                           4 EventAccessQuery
+                           7 StartTraceW
+                           1 EnableTraceEx2
+                           6 QueryAllTracesW
+                           3 EventAccessControl
+
+    api-ms-win-eventing-consumer-l1-1-0.dll
+             180077D10 Import Address Table
+             180099000 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 CloseTrace
+                           2 ProcessTrace
+                           1 OpenTraceW
+
+    api-ms-win-eventing-consumer-l1-1-1.dll
+             180077D30 Import Address Table
+             180099020 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           3 QueryTraceProcessingHandle
+
+    KERNELBASE.dll
+             180077890 Import Address Table
+             180098B80 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         188 lstrcmpiW
+                         130 RegKrnGetHKEY_ClassesRootAddress
+                         12F RegKrnGetClassesEnumTableAddressInternal
+                         131 RegKrnGetTermsrvRegistryExtensionFlags
+                         18C lstrlenW
+                          EC LocalAlloc
+                          EE LocalReAlloc
+                          3C CreateProcessAsUserW
+                          3B CreateProcessAsUserA
+                          C5 GetSystemDefaultUILanguage
+                         12C RegDeleteKeyExInternalW
+                         12A RegCreateKeyExInternalW
+                         136 RegOpenKeyExInternalW
+                          2B CLOSE_LOCAL_HANDLE_INTERNAL
+                          F0 MapPredefinedHandleInternal
+                         12B RegDeleteKeyExInternalA
+                         13B RemapPredefinedHandleInternal
+                         129 RegCreateKeyExInternalA
+                          4A DisablePredefinedHandleTableInternal
+                         135 RegOpenKeyExInternalA
+                          B8 GetStagedPackagePathByFullName
+                          CE GetUserDefaultUILanguage
+                         186 lstrcmpW
+                         152 Sleep
+                         10E PackageIdFromFullName
+
+    SECHOST.dll
+             180077A08 Import Address Table
+             180098CF8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          C0 QueryAllTracesA
+                          1C ControlTraceA
+                          E0 StartTraceA
+
+    api-ms-win-service-core-l1-1-0.dll
+             180078150 Import Address Table
+             180099440 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           B StartServiceCtrlDispatcherW
+                           A SetServiceStatus
+                           9 RegisterServiceCtrlHandlerExW
+
+    api-ms-win-service-core-l1-1-1.dll
+             180078170 Import Address Table
+             180099460 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           8 QueryServiceDynamicInformation
+                           1 EnumServicesStatusExW
+                           0 EnumDependentServicesW
+
+    api-ms-win-service-core-l1-1-2.dll
+             180078190 Import Address Table
+             180099480 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           4 GetServiceKeyNameW
+                           3 GetServiceDisplayNameW
+
+    api-ms-win-service-management-l1-1-0.dll
+             1800781A8 Import Address Table
+             180099498 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           2 CreateServiceW
+                           5 OpenServiceW
+                           6 StartServiceW
+                           1 ControlServiceExW
+                           3 DeleteService
+                           4 OpenSCManagerW
+                           0 CloseServiceHandle
+
+    api-ms-win-service-management-l2-1-0.dll
+             1800781E8 Import Address Table
+             1800994D8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           4 QueryServiceConfigW
+                           7 SetServiceObjectSecurity
+                           0 ChangeServiceConfig2W
+                           2 NotifyServiceStatusChangeW
+                           5 QueryServiceObjectSecurity
+                           3 QueryServiceConfig2W
+                           1 ChangeServiceConfigW
+                           6 QueryServiceStatusEx
+
+    api-ms-win-service-private-l1-1-4.dll
+             180078290 Import Address Table
+             180099580 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 CreateServiceEx
+
+    api-ms-win-service-private-l1-1-2.dll
+             180078260 Import Address Table
+             180099550 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          13 QueryLocalUserServiceName
+                          14 QueryUserServiceName
+                           A I_ScReparseServiceDatabase
+
+    api-ms-win-service-private-l1-1-3.dll
+             180078280 Import Address Table
+             180099570 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          15 QueryUserServiceNameForContext
+
+    api-ms-win-service-private-l1-1-0.dll
+             180078230 Import Address Table
+             180099520 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          10 I_ScSetServiceBitsW
+                           F I_ScSetServiceBitsA
+                          18 WaitServiceState
+                           B I_ScRpcBindA
+                           C I_ScRpcBindW
+
+    api-ms-win-service-winsvc-l1-1-0.dll
+             1800782A0 Import Address Table
+             180099590 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           3 ControlServiceExA
+                           D RegisterServiceCtrlHandlerW
+                           1 ChangeServiceConfigA
+                           C RegisterServiceCtrlHandlerExA
+                           E StartServiceA
+                           9 QueryServiceConfigA
+                           5 NotifyServiceStatusChangeA
+                           A QueryServiceStatus
+                           F StartServiceCtrlDispatcherA
+                           7 OpenServiceA
+                           4 CreateServiceA
+                           8 QueryServiceConfig2A
+                           0 ChangeServiceConfig2A
+                           B RegisterServiceCtrlHandlerA
+                           2 ControlService
+                           6 OpenSCManagerA
+
+    api-ms-win-core-namedpipe-l1-1-0.dll
+             180077A38 Import Address Table
+             180098D28 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           8 ImpersonateNamedPipeClient
+
+    api-ms-win-core-processthreads-l1-1-0.dll
+             180077A98 Import Address Table
+             180098D88 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          35 OpenThread
+                          36 OpenThreadToken
+                          1A GetProcessId
+                           6 CreateThread
+                          16 GetPriorityClass
+                          10 GetCurrentThread
+                          11 GetCurrentThreadId
+                           D GetCurrentProcessId
+                          55 TerminateProcess
+                           C GetCurrentProcess
+                          52 SetThreadToken
+                          34 OpenProcessToken
+
+    api-ms-win-core-processthreads-l1-1-1.dll
+             180077B00 Import Address Table
+             180098DF0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          33 OpenProcess
+
+    api-ms-win-security-base-l1-1-0.dll
+             180077E48 Import Address Table
+             180099138 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           5 AccessCheckByTypeResultListAndAuditAlarmByHandleW
+                          53 ObjectDeleteAuditAlarmW
+                          41 GetSidSubAuthorityCount
+                          67 SetTokenInformation
+                          19 AreAnyAccessesGranted
+                          65 SetSecurityDescriptorRMControl
+                          2C EqualSid
+                          2F GetAce
+                          3C GetSecurityDescriptorRMControl
+                          64 SetSecurityDescriptorOwner
+                          4A IsTokenRestricted
+                          25 DeleteAce
+                          57 PrivilegedServiceAuditAlarmW
+                          49 InitializeSid
+                          3B GetSecurityDescriptorOwner
+                          44 ImpersonateAnonymousToken
+                          46 ImpersonateSelf
+                          2A EqualDomainSid
+                          66 SetSecurityDescriptorSacl
+                          4D IsValidSid
+                           D AddAce
+                           E AddAuditAccessAce
+                           6 AccessCheckByTypeResultListAndAuditAlarmW
+                          5A SetAclInformation
+                          4C IsValidSecurityDescriptor
+                           A AddAccessDeniedAce
+                          22 CreateRestrictedToken
+                          2E FreeSid
+                          2B EqualPrefixSid
+                          33 GetFileSecurityW
+                          39 GetSecurityDescriptorGroup
+                          1B CheckTokenMembership
+                          48 InitializeSecurityDescriptor
+                          47 InitializeAcl
+                          28 DuplicateToken
+                          5F SetPrivateObjectSecurityEx
+                           9 AddAccessAllowedObjectAce
+                          34 GetKernelObjectSecurity
+                          51 MapGenericMask
+                          5D SetKernelObjectSecurity
+                           8 AddAccessAllowedAceEx
+                          35 GetLengthSid
+                          61 SetSecurityDescriptorControl
+                          29 DuplicateTokenEx
+                          4B IsValidAcl
+                          3A GetSecurityDescriptorLength
+                           7 AddAccessAllowedAce
+                           C AddAccessDeniedObjectAce
+                          50 MakeSelfRelativeSD
+                           2 AccessCheckByType
+                           F AddAuditAccessAceEx
+                          4F MakeAbsoluteSD
+                          63 SetSecurityDescriptorGroup
+                          3E GetSidIdentifierAuthority
+                          42 GetTokenInformation
+                           4 AccessCheckByTypeResultList
+                          56 PrivilegeCheck
+                          52 ObjectCloseAuditAlarmW
+                           0 AccessCheck
+                          40 GetSidSubAuthority
+                          16 AllocateAndInitializeSid
+                          4E IsWellKnownSid
+                          55 ObjectPrivilegeAuditAlarmW
+                          1E CopySid
+                          27 DestroyPrivateObjectSecurity
+                          15 AdjustTokenPrivileges
+                          37 GetSecurityDescriptorControl
+                          60 SetSecurityAccessMask
+                           B AddAccessDeniedAceEx
+                          1F CreatePrivateObjectSecurity
+                          23 CreateWellKnownSid
+                          36 GetPrivateObjectSecurity
+                          18 AreAllAccessesGranted
+                          21 CreatePrivateObjectSecurityWithMultipleInheritance
+                          3F GetSidLengthRequired
+                          1D ConvertToAutoInheritPrivateObjectSecurity
+                           1 AccessCheckAndAuditAlarmW
+                          14 AdjustTokenGroups
+                          20 CreatePrivateObjectSecurityEx
+                          30 GetAclInformation
+                          5C SetFileSecurityW
+                          10 AddAuditAccessObjectAce
+                          17 AllocateLocallyUniqueId
+                          38 GetSecurityDescriptorDacl
+                          59 RevertToSelf
+                          58 QuerySecurityAccessMask
+                          5E SetPrivateObjectSecurity
+                          43 GetWindowsAccountDomainSid
+                          54 ObjectOpenAuditAlarmW
+                          3D GetSecurityDescriptorSacl
+                          2D FindFirstFreeAce
+                           3 AccessCheckByTypeAndAuditAlarmW
+                          62 SetSecurityDescriptorDacl
+                          45 ImpersonateLoggedOnUser
+
+    api-ms-win-security-base-private-l1-1-0.dll
+             180078140 Import Address Table
+             180099430 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           2 MakeAbsoluteSD2
+
+    api-ms-win-core-registry-l1-1-0.dll
+             180077B10 Import Address Table
+             180098E00 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           8 RegDeleteTreeA
+                           C RegDisablePredefinedCacheEx
+                          1B RegNotifyChangeKeyValue
+                          12 RegGetKeySecurity
+                          16 RegLoadAppKeyW
+                           5 RegDeleteKeyExW
+                          1C RegOpenCurrentUser
+                          21 RegQueryInfoKeyW
+                          13 RegGetValueA
+                          28 RegSaveKeyExA
+                          19 RegLoadMUIStringA
+                          24 RegQueryValueExA
+                           2 RegCreateKeyExA
+                          11 RegFlushKey
+                           3 RegCreateKeyExW
+                          2F RegUnLoadKeyA
+                          1F RegOpenUserClassesRoot
+                           4 RegDeleteKeyExA
+                           E RegEnumKeyExW
+                          2A RegSetKeySecurity
+                          29 RegSaveKeyExW
+                           9 RegDeleteTreeW
+                          1A RegLoadMUIStringW
+                          2E RegSetValueExW
+                          15 RegLoadAppKeyA
+                          2D RegSetValueExA
+                           1 RegCopyTreeW
+                          17 RegLoadKeyA
+                          30 RegUnLoadKeyW
+                          20 RegQueryInfoKeyA
+                          18 RegLoadKeyW
+                          1D RegOpenKeyExA
+                          14 RegGetValueW
+                          27 RegRestoreKeyW
+                           F RegEnumValueA
+                           B RegDeleteValueW
+                          26 RegRestoreKeyA
+                           A RegDeleteValueA
+                          10 RegEnumValueW
+                           D RegEnumKeyExA
+                           0 RegCloseKey
+                          1E RegOpenKeyExW
+                          25 RegQueryValueExW
+
+    api-ms-win-core-registry-l1-1-1.dll
+             180077C70 Import Address Table
+             180098F60 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          2C RegSetKeyValueW
+                           6 RegDeleteKeyValueA
+                           7 RegDeleteKeyValueW
+                          2B RegSetKeyValueA
+
+    api-ms-win-core-registry-l1-1-2.dll
+             180077C98 Import Address Table
+             180098F88 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          22 RegQueryMultipleValuesA
+                          23 RegQueryMultipleValuesW
+
+    api-ms-win-core-sysinfo-l1-1-0.dll
+             180077CB0 Import Address Table
+             180098FA0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           2 GetComputerNameExA
+                          13 GetSystemTime
+                          19 GetSystemWindowsDirectoryW
+                          16 GetSystemTimeAsFileTime
+                          1A GetTickCount
+                           5 GetLocalTime
+                           3 GetComputerNameExW
+                           F GetSystemDirectoryW
+
+    KERNEL32.dll
+             1800775A8 Import Address Table
+             180098898 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         286 GetModuleFileNameW
+                         406 MultiByteToWideChar
+                         3E6 LocalFree
+                         624 WideCharToMultiByte
+                         13F EnterCriticalSection
+                         3D4 LeaveCriticalSection
+                         272 GetLastError
+                         2C2 GetProcAddress
+                         116 DelayLoadFailureHook
+                         4DF ResolveDelayLoadedAPI
+                         1BB FreeLibrary
+                         3DA LoadLibraryExW
+                         5D3 UnhandledExceptionFilter
+                         592 SetUnhandledExceptionFilter
+                         460 QueryPerformanceCounter
+                          C7 CreateEventW
+                          8E CloseHandle
+                         320 GetThreadUILanguage
+                         1E7 GetCommandLineW
+                         289 GetModuleHandleExW
+                         638 WriteFile
+                         172 ExpandEnvironmentStringsW
+                         544 SetFilePointer
+                          D3 CreateFileW
+                         1B7 FormatMessageW
+                         254 GetFileAttributesExW
+                         42C OutputDebugStringW
+                         11E DeleteFileW
+                         402 MoveFileW
+                         28A GetModuleHandleW
+                         25E GetFileSizeEx
+                          D0 CreateFileMappingW
+                         361 HeapAlloc
+                         2C9 GetProcessHeap
+                         3F5 MapViewOfFile
+                         5D6 UnmapViewOfFile
+                         365 HeapFree
+                         27F GetLongPathNameW
+                          9F CompareFileTime
+                         1A5 FindResourceExW
+                         3DE LoadResource
+                         33E GetVolumePathNameW
+                         119 DeleteCriticalSection
+                         5FD WaitForSingleObject
+                         373 InitOnceBeginInitialize
+                          A2 CompareStringOrdinal
+                         4C5 ReleaseMutex
+                         374 InitOnceComplete
+                         1EF GetComputerNameW
+                         171 ExpandEnvironmentStringsA
+                          24 AreFileApisANSI
+                         4FA SearchPathW
+                         26B GetFullPathNameW
+                         257 GetFileAttributesW
+                         5A5 SleepEx
+                         3D9 LoadLibraryExA
+                         3D8 LoadLibraryA
+                          E2 CreateMutexW
+                         37A InitializeCriticalSection
+                         5A1 SizeofResource
+                         3F2 LockResource
+                         538 SetEvent
+                         4DC ResetEvent
+                         25F GetFileTime
+                         178 FileTimeToDosDateTime
+                         132 DosDateTimeToFileTime
+                         25D GetFileSize
+                         18B FindFirstFileExW
+                         19C FindNextFileW
+                         185 FindClose
+                         5B6 TermsrvDeleteKey
+                         5BC TermsrvOpenUserClasses
+                         48B ReadProcessMemory
+                         112 DecodePointer
+                         3DB LoadLibraryW
+                         137 DuplicateHandle
+                         1BC FreeLibraryAndExitThread
+                         13B EncodePointer
+                         1BD FreeLibraryWhenCallbackReturns
+                          97 CloseThreadpoolIo
+                          7A CancelIoEx
+                          7C CancelThreadpoolIo
+                          FC CreateThreadpoolIo
+                         129 DeviceIoControl
+                         5A8 StartThreadpoolIo
+                         25C GetFileMUIPath
+                         168 EnumUILanguagesW
+                         537 SetErrorMode
+                         477 RaiseException
+                         542 SetFileInformationByHandle
+                          B2 CopyFileExW
+                         553 SetLastError
+
+    RPCRT4.dll
+             180077960 Import Address Table
+             180098C50 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         170 RpcBindingBind
+                         173 RpcBindingCreateW
+                         206 RpcSsDestroyClientContext
+                         186 RpcBindingSetAuthInfoExW
+                         215 RpcStringFreeW
+                         174 RpcBindingFree
+                          A4 NdrClientCall3
+                         1A2 RpcExceptionFilter
+                         227 UuidToStringW
+                         223 UuidFromStringW
+                          A3 NdrClientCall2
+                         176 RpcBindingFromStringBindingW
+                         1B4 RpcMgmtInqServerPrincNameW
+                         211 RpcStringBindingComposeW
+                          58 I_RpcSNCHOption
+                         184 RpcBindingSetAuthInfoA
+                         197 RpcEpResolveBinding
+                         187 RpcBindingSetAuthInfoW
+                          44 I_RpcMapWin32Status
+                          2E I_RpcExceptionFilter
+
+    api-ms-win-core-timezone-l1-1-0.dll
+             180077CF8 Import Address Table
+             180098FE8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 EnumDynamicTimeZoneInformation
+                           3 GetDynamicTimeZoneInformationEffectiveYears
+
+    api-ms-win-security-audit-l1-1-1.dll
+             180077DE8 Import Address Table
+             1800990D8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           6 AuditLookupSubCategoryNameW
+                           9 AuditQuerySecurity
+                           2 AuditEnumeratePerUserPolicy
+                           C AuditSetPerUserPolicy
+                           3 AuditEnumerateSubCategories
+                           7 AuditQueryGlobalSaclW
+                           1 AuditEnumerateCategories
+                           8 AuditQueryPerUserPolicy
+                           5 AuditLookupCategoryNameW
+                           B AuditSetGlobalSaclW
+                           D AuditSetSecurity
+
+    api-ms-win-security-audit-l1-1-0.dll
+             180077DC0 Import Address Table
+             1800990B0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 AuditComputeEffectivePolicyBySid
+                           4 AuditFree
+                           A AuditQuerySystemPolicy
+                           E AuditSetSystemPolicy
+
+    api-ms-win-core-apiquery-l1-1-0.dll
+             180077A28 Import Address Table
+             180098D18 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           0 ApiSetQueryApiSetPresence
+
+    api-ms-win-eventing-provider-l1-1-0.dll
+             180077D98 Import Address Table
+             180099088 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           3 EventRegister
+                           4 EventSetInformation
+                           5 EventUnregister
+                           9 EventWriteTransfer
+
+    api-ms-win-core-pcw-l1-1-0.dll
+             180077A48 Import Address Table
+             180098D38 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                           2 PcwCollectData
+                          10 PcwSetQueryItemUserData
+                           0 PcwAddQueryItem
+                           C PcwRemoveQueryItem
+                           D PcwSendNotification
+                           E PcwSendStatelessNotification
+                           4 PcwCreateNotifier
+                           7 PcwEnumerateInstances
+                           5 PcwCreateQuery
+
+  Section contains the following delay load imports:
+
+    CRYPTSP.dll
+              00000001 Characteristics
+      00000001800A0D10 Address of HMODULE
+      00000001800A8040 Import Address Table
+      000000018008FB30 Import Name Table
+      0000000180090AF8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001C43B    21 CryptSetProviderExA
+                                    000000018001C44D    1E CryptSetKeyParam
+                                    000000018001C45F     C CryptEnumProviderTypesA
+                                    000000018001C471    13 CryptGetDefaultProviderA
+                                    000000018001C483     7 CryptDestroyHash
+                                    000000018001C495     3 CryptContextAddRef
+                                    000000018001C4A7    1D CryptSetHashParam
+                                    000000018001C4B9    19 CryptHashData
+                                    000000018001C4CB     6 CryptDeriveKey
+                                    000000018001C4DD     4 CryptCreateHash
+                                    000000018001C4EF    10 CryptExportKey
+                                    000000018001C501    1A CryptHashSessionKey
+                                    000000018001C513    27 CryptVerifySignatureW
+                                    000000018001C525     5 CryptDecrypt
+                                    000000018001C537    24 CryptSignHashA
+                                    000000018001C417    25 CryptSignHashW
+                                    000000018001C55B     A CryptDuplicateKey
+                                    000000018001C56D    12 CryptGenRandom
+                                    000000018001C57F     B CryptEncrypt
+                                    000000018001C591     D CryptEnumProviderTypesW
+                                    000000018001C5A3    20 CryptSetProviderA
+                                    000000018001C5B5     F CryptEnumProvidersW
+                                    000000018001C5C7     E CryptEnumProvidersA
+                                    000000018001C5D9     2 CryptAcquireContextW
+                                    000000018001C5EB    16 CryptGetKeyParam
+                                    000000018001C5FD    1F CryptSetProvParam
+                                    000000018001C60F     1 CryptAcquireContextA
+                                    000000018001C621    26 CryptVerifySignatureA
+                                    000000018001C633     9 CryptDuplicateHash
+                                    000000018001C645    18 CryptGetUserKey
+                                    000000018001C657     8 CryptDestroyKey
+                                    000000018001C332    1C CryptReleaseContext
+                                    000000018001C405    15 CryptGetHashParam
+                                    000000018001C3F3    23 CryptSetProviderW
+                                    000000018001C3E1    17 CryptGetProvParam
+                                    000000018001C3CF    11 CryptGenKey
+                                    000000018001C3BD    22 CryptSetProviderExW
+                                    000000018001C429    1B CryptImportKey
+                                    000000018001C549    14 CryptGetDefaultProviderW
+
+    WINTRUST.dll
+              00000001 Characteristics
+      00000001800A0D18 Address of HMODULE
+      00000001800A81C8 Import Address Table
+      000000018008FCB8 Import Name Table
+      0000000180090C38 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001C784     B CryptCATAdminEnumCatalogFromHash
+                                    000000018001C7BA     E CryptCATAdminReleaseContext
+                                    000000018001C7A8     D CryptCATAdminReleaseCatalogContext
+                                    000000018001C72A    6C WTHelperProvDataFromStateData
+                                    000000018001C73C    67 WTHelperGetProvSignerFromChain
+                                    000000018001C74E    65 WTHelperGetProvCertFromChain
+                                    000000018001C760     8 CryptCATAdminCalcHashFromFileHandle
+                                    000000018001C796    1A CryptCATCatalogInfoFromContext
+                                    000000018001C718    69 WTHelperIsChainedToMicrosoftFromStateData
+                                    000000018001C68D    8F WinVerifyTrust
+                                    000000018001C772     5 CryptCATAdminAcquireContext
+
+    CRYPTBASE.dll
+              00000001 Characteristics
+      00000001800A0D20 Address of HMODULE
+      00000001800A8010 Import Address Table
+      000000018008FB00 Import Name Table
+      0000000180090C98 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001C887     5 SystemFunction028
+                                    000000018001C899     9 SystemFunction040
+                                    000000018001C875     1 SystemFunction002
+                                    000000018001D4B3     3 SystemFunction004
+                                    000000018001D4C5     4 SystemFunction005
+
+    SspiCli.dll
+              00000001 Characteristics
+      00000001800A0D28 Address of HMODULE
+      00000001800A8180 Import Address Table
+      000000018008FC70 Import Name Table
+      0000000180090CB8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001C948    18 GetUserNameExA
+                                    000000018001C936    19 GetUserNameExW
+                                    000000018001C8AB    21 LogonUserExExW
+
+    USER32.dll
+              00000001 Characteristics
+      00000001800A0D30 Address of HMODULE
+      00000001800A81A0 Import Address Table
+      000000018008FC90 Import Name Table
+      0000000180090CD8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001CA59   1CD GetThreadDesktop
+                                    000000018001CA47   1D9 GetUserObjectInformationW
+                                    000000018001CA6B   1F9 GetWindowThreadProcessId
+                                    000000018001C9BC   1AF GetProcessWindowStation
+
+    CRYPT32.dll
+              00000001 Characteristics
+      00000001800A0D38 Address of HMODULE
+      00000001800A8000 Import Address Table
+      000000018008FAF0 Import Name Table
+      0000000180090D00 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001CA7D    76 CertVerifyCertificateChainPolicy
+
+    bcrypt.dll
+              00000001 Characteristics
+      00000001800A0D40 Address of HMODULE
+      00000001800A8400 Import Address Table
+      000000018008FEF0 Import Name Table
+      0000000180090D10 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001CC23    27 BCryptOpenAlgorithmProvider
+                                    000000018001CC35    21 BCryptGetProperty
+                                    000000018001CC11     2 BCryptCloseAlgorithmProvider
+                                    000000018001CBFF     D BCryptDestroyHash
+                                    000000018001CBED    1B BCryptFinishHash
+                                    000000018001CBDB    23 BCryptHashData
+                                    000000018001CBC9     6 BCryptCreateHash
+                                    000000018001CBB7    1F BCryptGenerateSymmetricKey
+                                    000000018001CBA5    1D BCryptGenRandom
+                                    000000018001CB08    12 BCryptEncrypt
+                                    000000018001CB93     E BCryptDestroyKey
+
+    api-ms-win-security-lsalookup-l1-1-0.dll
+              00000001 Characteristics
+      00000001800A0D48 Address of HMODULE
+      00000001800A83A0 Import Address Table
+      000000018008FE90 Import Name Table
+      0000000180090D70 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001CCD2     5 LookupAccountNameLocalW
+                                    000000018001CC47     7 LookupAccountSidLocalW
+                                    000000018001CCF6     6 LookupAccountSidLocalA
+                                    000000018001CCE4     4 LookupAccountNameLocalA
+
+    api-ms-win-security-credentials-l1-1-0.dll
+              00000001 Characteristics
+      00000001800A0D50 Address of HMODULE
+      00000001800A8240 Import Address Table
+      000000018008FD30 Import Name Table
+      0000000180090D98 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001CF79    1C CredWriteW
+                                    000000018001CF67     8 CredGetTargetInfoA
+                                    000000018001CF55    12 CredReadDomainCredentialsA
+                                    000000018001CF43     5 CredFindBestCredentialW
+                                    000000018001CF31     A CredIsMarshaledCredentialW
+                                    000000018001CF1F     9 CredGetTargetInfoW
+                                    000000018001CF0D    14 CredReadW
+                                    000000018001CEFB    1B CredWriteDomainCredentialsW
+                                    000000018001CEE9     3 CredEnumerateW
+                                    000000018001CED7    13 CredReadDomainCredentialsW
+                                    000000018001CEC5    15 CredUnmarshalCredentialA
+                                    000000018001CEB3     F CredProtectA
+                                    000000018001CD08    10 CredProtectW
+                                    000000018001CEA1     4 CredFindBestCredentialA
+                                    000000018001CD93     C CredIsProtectedW
+                                    000000018001CDA5     1 CredDeleteW
+                                    000000018001CDB7    17 CredUnprotectA
+                                    000000018001CDC9     D CredMarshalCredentialA
+                                    000000018001CDDB     E CredMarshalCredentialW
+                                    000000018001CDED    11 CredReadA
+                                    000000018001CDFF     7 CredGetSessionTypes
+                                    000000018001CE11    16 CredUnmarshalCredentialW
+                                    000000018001CE23     0 CredDeleteA
+                                    000000018001CE35    19 CredWriteA
+                                    000000018001CE47     B CredIsProtectedA
+                                    000000018001CE59    1A CredWriteDomainCredentialsA
+                                    000000018001CE6B     6 CredFree
+                                    000000018001CE7D    18 CredUnprotectW
+                                    000000018001CE8F     2 CredEnumerateA
+
+    api-ms-win-security-credentials-l2-1-0.dll
+              00000001 Characteristics
+      00000001800A0D58 Address of HMODULE
+      00000001800A8330 Import Address Table
+      000000018008FE20 Import Name Table
+      0000000180090E88 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001D0DC     E CredpEncodeCredential
+                                    000000018001D0CA     F CredpEncodeSecret
+                                    000000018001D0B8     1 CredEncryptAndMarshalBinaryBlob
+                                    000000018001D0A6     C CredpConvertTargetInfo
+                                    000000018001D094     A CredpConvertCredential
+                                    000000018001D082     8 CredRestoreCredentials
+                                    000000018001D070     7 CredReadByTokenHandle
+                                    000000018001D05E     4 CredProfileLoadedEx
+                                    000000018001D04C     B CredpConvertOneCredentialSize
+                                    000000018001D03A     0 CredBackupCredentials
+                                    000000018001D028     D CredpDecodeCredential
+                                    000000018001D016     3 CredProfileLoaded
+                                    000000018001CF8B     5 CredProfileUnloaded
+
+    api-ms-win-security-provider-l1-1-0.dll
+              00000001 Characteristics
+      00000001800A0D70 Address of HMODULE
+      00000001800A83C8 Import Address Table
+      000000018008FEB8 Import Name Table
+      0000000180090EF8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001D247     4 SetNamedSecurityInfoW
+                                    000000018001D259     3 SetEntriesInAclW
+                                    000000018001D235     1 GetNamedSecurityInfoW
+                                    000000018001D26B     0 GetExplicitEntriesFromAclW
+                                    000000018001D198     2 GetSecurityInfo
+                                    000000018001D223     5 SetSecurityInfo
+
+    api-ms-win-devices-config-l1-1-1.dll
+              00000001 Characteristics
+      00000001800A0D78 Address of HMODULE
+      00000001800A8228 Import Address Table
+      000000018008FD18 Import Name Table
+      0000000180090F30 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001D290    21 CM_Locate_DevNodeW
+                                    000000018001D320     F CM_Get_DevNode_Registry_PropertyW
+
+    ext-ms-win32-subsystem-query-l1-1-0.dll
+              00000001 Characteristics
+      00000001800A0D90 Address of HMODULE
+      00000001800A8460 Import Address Table
+      000000018008FF50 Import Name Table
+      0000000180090F48 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001D3DC     0 QueryWin32SubsystemHost
+
+  Summary
+
+        5000 .data
+        1000 .didat
+        5000 .pdata
+       36000 .rdata
+        2000 .reloc
+        1000 .rsrc
+       67000 .text

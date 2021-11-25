@@ -1,0 +1,573 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\ieui.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    msvcrt.dll
+    ntdll.dll
+    KERNEL32.dll
+    USER32.dll
+    GDI32.dll
+    ADVAPI32.dll
+
+  Image has the following delay load dependencies:
+
+    api-ms-win-rtcore-ntuser-wmpointer-l1-1-0.dll
+    ole32.dll
+    gdiplus.dll
+    MSIMG32.dll
+    dwmapi.dll
+    d3d11.dll
+    dxgi.dll
+
+  Section contains the following exports for IEUI.dll
+
+    00000000 characteristics
+    D12BB13F time date stamp
+        0.00 version
+           1 ordinal base
+         150 number of functions
+         150 number of names
+
+    ordinal hint RVA      name
+
+          7    0 00032E10 AddGadgetMessageHandler
+          8    1 00032F70 AddLayeredRef
+          9    2 00033050 AdjustClipInsideRef
+         10    3 00033140 AttachWndProcA
+         11    4 00033180 AttachWndProcW
+         12    5 00012F00 AutoTrace
+         13    6 0001B980 BeginHideInputPaneAnimation
+         14    7 0001B9C0 BeginShowInputPaneAnimation
+         15    8 0001BA00 BuildAnimation
+         16    9 0001BA90 BuildDropTarget
+         17    A 0001BB20 BuildInterpolation
+         18    B 0001BBB0 CacheDWriteRenderTarget
+         19    C 0001BC10 ChangeCurrentAnimationScenario
+         20    D 000331C0 ClearPushedOpacitiesFromGadgetTree
+         21    E 0001BC70 ClearTopmostVisual
+         22    F 000332E0 CreateAction
+         23   10 00006680 CreateGadget
+         24   11 0001BCB0 CustomGadgetHitTestQuery
+         25   12 000333A0 DUserBuildGadget
+         26   13 00033410 DUserCastClass
+         27   14 000334A0 DUserCastDirect
+          1   15 00032790 DUserCastHandle
+          2   16 000327B0 DUserDeleteGadget
+         28   17 000334F0 DUserFindClass
+         29   18 0000D6C0 DUserFlushDeferredMessages
+         30   19 00008CE0 DUserFlushMessages
+         31   1A 0001D130 DUserGetAlphaPRID
+         32   1B 00033550 DUserGetGutsData
+         33   1C 0001D140 DUserGetRectPRID
+         34   1D 0001D150 DUserGetRotatePRID
+         35   1E 0001D160 DUserGetScalePRID
+         36   1F 000335E0 DUserInstanceOf
+         37   20 0000DB20 DUserPostEvent
+         38   21 00033660 DUserPostMethod
+         39   22 0000E340 DUserRegisterGuts
+         40   23 0000E940 DUserRegisterStub
+         41   24 0000EC60 DUserRegisterSuper
+         42   25 0000A050 DUserSendEvent
+         43   26 00033710 DUserSendMethod
+         44   27 0001D810 DUserStopAnimation
+         45   28 0001BD50 DUserStopPVLAnimation
+         46   29 00007E40 DeleteHandle
+         47   2A 0001BDC0 DestroyPendingDCVisuals
+         48   2B 0001BDF0 DetachGadgetVisuals
+         49   2C 000337D0 DetachWndProc
+         50   2D 0000B0D0 DisableContainerHwnd
+         51   2E 000127F0 DllMain
+         52   2F 00033870 DrawGadgetTree
+         53   30 0001BE90 EndInputPaneAnimation
+         54   31 0001BED0 EnsureAnimationsEnabled
+         55   32 0001BF20 EnsureGadgetTransInitialized
+         56   33 000339A0 EnumGadgets
+         57   34 00033B00 FindGadgetFromPoint
+         58   35 00033C10 FindGadgetMessages
+         59   36 00033CF0 FindGadgetTargetingInfo
+         60   37 0000C960 FindStdColor
+         61   38 00033DC0 FireGadgetMessages
+         62   39 00033EC0 ForwardGadgetMessage
+         63   3A 00034040 FreeGdiDxInteropStagingBuffer
+         64   3B 00034100 GadgetTransCompositionChanged
+         65   3C 0001BF60 GadgetTransSettingChanged
+         66   3D 00034200 GetActionTimeslice
+         67   3E 0001BFB0 GetCachedDWriteRenderTarget
+         68   3F 000342B0 GetDUserModule
+         69   40 00012F40 GetDebug
+         70   41 0001C050 GetFinalAnimatingPosition
+         71   42 000342D0 GetGadget
+         72   43 0001C0D0 GetGadgetAnimation
+         73   44 000343B0 GetGadgetBitmap
+         74   45 000344D0 GetGadgetBufferInfo
+         75   46 000345E0 GetGadgetCenterPoint
+         76   47 0000BAE0 GetGadgetFlags
+         77   48 000346D0 GetGadgetFocus
+         78   49 00034770 GetGadgetLayerInfo
+         79   4A 00034860 GetGadgetMessageFilter
+         80   4B 00034940 GetGadgetProperty
+         81   4C 00034A40 GetGadgetRect
+         82   4D 00034B40 GetGadgetRgn
+         83   4E 00034C40 GetGadgetRootInfo
+         84   4F 00034D40 GetGadgetRotation
+         85   50 00034E30 GetGadgetScale
+         86   51 00034F20 GetGadgetSize
+         87   52 00035020 GetGadgetStyle
+         88   53 00007710 GetGadgetTicket
+         89   54 0001C150 GetGadgetVisual
+         90   55 0000B800 GetMessageExA
+         91   56 000350F0 GetMessageExW
+          3   57 00032B50 GetStdColorBrushF
+         92   58 000351A0 GetStdColorBrushI
+          4   59 00032C00 GetStdColorF
+         93   5A 00035280 GetStdColorI
+         94   5B 000352D0 GetStdColorName
+          5   5C 00032C70 GetStdColorPenF
+         95   5D 00035320 GetStdColorPenI
+         96   5E 00035410 GetStdPalette
+         97   5F 00035420 InitGadgetComponent
+         98   60 0000DE80 InitGadgets
+         99   61 00001F10 InvalidateGadget
+        100   62 000354F0 InvalidateLayeredDescendants
+        101   63 00035610 IsGadgetParentChainStyle
+        102   64 00035720 IsInsideContext
+        103   65 00035780 IsStartDelete
+        104   66 00035850 LookupGadgetTicket
+        105   67 00035910 MapGadgetPoints
+        106   68 00035A40 PeekMessageExA
+        107   69 000087E0 PeekMessageExW
+        108   6A 0000F190 RegisterGadgetMessage
+        109   6B 00035B00 RegisterGadgetMessageString
+        110   6C 0000F230 RegisterGadgetProperty
+        111   6D 0001C1D0 ReleaseDetachedObjects
+        112   6E 00035B30 ReleaseLayeredRef
+        113   6F 00035C10 ReleaseMouseCapture
+        114   70 0001C230 RemoveClippingImmunityFromVisual
+        115   71 00035CF0 RemoveGadgetMessageHandler
+        116   72 00035E50 RemoveGadgetProperty
+        117   73 00035F80 ResetDUserDevice
+        118   74 0001C290 ScheduleGadgetTransitions
+        119   75 00036080 SetActionTimeslice
+        120   76 00036130 SetAtlasingHints
+        121   77 000361D0 SetGadgetBufferInfo
+        122   78 00036320 SetGadgetCenterPoint
+        123   79 00036470 SetGadgetFillF
+        124   7A 000365A0 SetGadgetFillI
+        125   7B 00036700 SetGadgetFlags
+        126   7C 00036860 SetGadgetFocus
+        127   7D 00036990 SetGadgetFocusEx
+        128   7E 00036AC0 SetGadgetLayerInfo
+        129   7F 0000BDC0 SetGadgetMessageFilter
+        130   80 00036BB0 SetGadgetOrder
+        131   81 000027A0 SetGadgetParent
+        132   82 00036D30 SetGadgetProperty
+        133   83 00003570 SetGadgetRect
+        134   84 0000A110 SetGadgetRootInfo
+        135   85 00036E70 SetGadgetRotation
+        136   86 00036FB0 SetGadgetScale
+        137   87 000038A0 SetGadgetStyle
+        138   88 00037100 SetHardwareDeviceUsage
+        139   89 0001C330 SetMinimumDCompVersion
+        140   8A 000371B0 SetRestoreCachedLayeredRefFlag
+        141   8B 0001C3A0 SetTransitionVisualProperties
+        142   8C 00037270 SetWindowResizeFlag
+        143   8D 00037340 UnregisterGadgetMessage
+        144   8E 00035B00 UnregisterGadgetMessageString
+        145   8F 000373E0 UnregisterGadgetProperty
+        146   90 00037480 UtilBuildFont
+        147   91 00037490 UtilDrawBlendRect
+          6   92 00032E00 UtilDrawOutlineRect
+        148   93 000374A0 UtilGetColor
+        149   94 000374B0 UtilSetBackground
+        150   95 00008670 WaitMessageEx
+
+  Section contains the following imports:
+
+    msvcrt.dll
+             18004A118 Import Address Table
+             180053D90 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         433 ceil
+                         439 cosf
+                         44C floor
+                         490 log10f
+                         49F memcpy
+                         4A1 memmove
+                         4A3 memset
+                         4A8 pow
+                         29C _onexit
+                          84 __dllonexit
+                         2B4 _resetstkoflw
+                         2AA _purecall
+                          C5 _beginthreadex
+                         3A1 _wcsnicmp
+                         34E _unlock
+                         1F2 _lock
+                          5E __C_specific_handler
+                         189 _initterm
+                         493 malloc
+                         459 free
+                          B7 _amsg_exit
+                          5A _XcptFilter
+                         4B1 qsort
+                         397 _wcsicmp
+                         4C2 sinf
+
+    ntdll.dll
+             18004A1E8 Import Address Table
+             180053E60 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         4FE RtlLookupFunctionEntry
+                         2FE RtlCaptureContext
+                         642 RtlVirtualUnwind
+
+    KERNEL32.dll
+             180049D40 Import Address Table
+             1800539B8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         5CB TlsSetValue
+                         287 GetModuleFileNameA
+                         3DA LoadLibraryA
+                         601 WaitForMultipleObjectsEx
+                         251 GetExitCodeThread
+                         4E0 ResetEvent
+                         37C InitializeCriticalSection
+                         2FB GetSystemInfo
+                         1B2 FlushInstructionCache
+                         114 DecodePointer
+                         13D EncodePointer
+                         5F1 VirtualAlloc
+                         5F4 VirtualFree
+                         118 DelayLoadFailureHook
+                         3DB LoadLibraryExA
+                         407 MulDiv
+                         338 GetVersionExA
+                         2C4 GetProcAddress
+                         28C GetModuleHandleW
+                         12C DisableThreadLibraryCalls
+                         5CA TlsGetValue
+                         557 SetLastError
+                         274 GetLastError
+                         1BD FreeLibrary
+                         465 QueryPerformanceFrequency
+                         3DC LoadLibraryExW
+                         141 EnterCriticalSection
+                         3D6 LeaveCriticalSection
+                         5C9 TlsFree
+                         186 FindAtomW
+                         5A7 Sleep
+                         4CC ReleaseSRWLockExclusive
+                           0 AcquireSRWLockExclusive
+                         60A WakeAllConditionVariable
+                         5A9 SleepConditionVariableSRW
+                         464 QueryPerformanceCounter
+                         22B GetCurrentProcessId
+                         22F GetCurrentThreadId
+                         301 GetSystemTimeAsFileTime
+                         323 GetTickCount
+                         5D8 UnhandledExceptionFilter
+                         597 SetUnhandledExceptionFilter
+                         22A GetCurrentProcess
+                         5B6 TerminateProcess
+                         363 HeapAlloc
+                         2CB GetProcessHeap
+                         36A HeapReAlloc
+                         5C8 TlsAlloc
+                         367 HeapFree
+                         53C SetEvent
+                          8E CloseHandle
+                          C4 CreateEventA
+                         602 WaitForSingleObject
+                         381 InitializeSListHead
+                         387 InterlockedPushEntrySList
+                         45A QueryDepthSList
+                         37D InitializeCriticalSectionAndSpinCount
+                         11B DeleteCriticalSection
+                         385 InterlockedFlushSList
+                         119 DeleteAtom
+                           6 AddAtomW
+                         1CF GetAtomNameW
+                         386 InterlockedPopEntrySList
+
+    USER32.dll
+             180049F40 Import Address Table
+             180053BB8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         191 GetParent
+                         16E GetKeyboardState
+                         3B2 TranslateMessage
+                          BC DispatchMessageA
+                         2AF PostThreadMessageA
+                          DE DrawTextW
+                         3E6 WindowFromDC
+                          11 BeginPaint
+                         2AC PostMessageA
+                         188 GetMessagePos
+                         140 GetCursorInfo
+                         3AB TrackMouseEvent
+                         31C SetCapture
+                         223 InvalidateRect
+                         142 GetDC
+                         1E9 GetWindowLongPtrW
+                          20 CallWindowProcA
+                         37A SetWindowLongPtrA
+                         2F9 RegisterWindowMessageA
+                         1E1 GetWindowDC
+                         2FB ReleaseCapture
+                         125 GetCapture
+                         309 ScreenToClient
+                         141 GetCursorPos
+                         337 SetFocus
+                         158 GetFocus
+                         1F1 GetWindowRect
+                         2FC ReleaseDC
+                         151 GetDoubleClickTime
+                         2B7 PtInRect
+                         169 GetKeyState
+                         1C8 GetSystemMetrics
+                         29A OffsetRect
+                         3B8 UnionRect
+                         23D IsRectEmpty
+                         222 IntersectRect
+                         189 GetMessageTime
+                         292 MsgWaitForMultipleObjectsEx
+                          21 CallWindowProcW
+                          A6 DefWindowProcA
+                         37B SetWindowLongPtrW
+                         1E8 GetWindowLongPtrA
+                         3E3 WaitMessage
+                         2A9 PeekMessageW
+                         2A8 PeekMessageA
+                         18A GetMessageW
+                         186 GetMessageA
+                         35D SetRectEmpty
+                         313 SendMessageA
+                         3A0 SystemParametersInfoA
+                         18C GetMonitorInfoW
+                          4D ClientToScreen
+                         133 GetClientRect
+                         247 IsWindow
+                         318 SendMessageW
+                          F4 EndPaint
+                         110 FillRect
+                          4A ChildWindowFromPointEx
+
+    GDI32.dll
+             180049BA8 Import Address Table
+             180053820 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          32 CreateDCA
+                         2B0 GetObjectType
+                         27E GetDIBits
+                         2C7 GetSystemPaletteEntries
+                          22 CombineRgn
+                          52 CreatePolygonRgn
+                          53 CreateRectRgn
+                         366 SelectClipRgn
+                         3A5 StretchDIBits
+                         39A SetViewportOrgEx
+                         2AF GetObjectA
+                         304 OffsetRgn
+                         2DE GetViewportOrgEx
+                         2BD GetRandomRgn
+                         373 SetBrushOrgEx
+                         25C GetBrushOrgEx
+                         277 GetCurrentObject
+                         330 RestoreDC
+                         337 SaveDC
+                         300 ModifyWorldTransform
+                         2D0 GetTextExtentExPointW
+                         2D3 GetTextExtentPoint32W
+                          43 CreateFontIndirectW
+                         1DB ExtTextOutW
+                         3AA TextOutW
+                         21C GdiFlush
+                          37 CreateDIBSection
+                         272 GetClipBox
+                         391 SetRectRgn
+                          13 BitBlt
+                         1D9 ExtSelectClipRgn
+                         2E7 IntersectClipRect
+                         273 GetClipRgn
+                         2E2 GetWorldTransform
+                         323 RealizePalette
+                         369 SelectPalette
+                         39F SetWorldTransform
+                         37E SetGraphicsMode
+                         2E0 GetWindowExtEx
+                         2DD GetViewportExtEx
+                         185 DeleteDC
+                         30D PatBlt
+                         368 SelectObject
+                          31 CreateCompatibleDC
+                          30 CreateCompatibleBitmap
+                          4F CreatePen
+                          5A CreateSolidBrush
+                         188 DeleteObject
+                         27F GetDeviceCaps
+                         2B8 GetPixel
+
+    ADVAPI32.dll
+             180049B48 Import Address Table
+             1800537C0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         172 GetTraceEnableLevel
+                         2BE RegisterTraceGuidsA
+                         171 GetTraceEnableFlags
+                         173 GetTraceLoggerHandle
+                         33F UnregisterTraceGuids
+                         295 RegOpenKeyExA
+                         2A2 RegQueryValueExA
+                         265 RegCloseKey
+                         296 RegOpenKeyExW
+                         2A3 RegQueryValueExW
+                         330 TraceEvent
+
+  Section contains the following delay load imports:
+
+    api-ms-win-rtcore-ntuser-wmpointer-l1-1-0.dll
+              00000001 Characteristics
+      0000000180058598 Address of HMODULE
+      000000018005F010 Import Address Table
+      0000000180051E98 Import Name Table
+      0000000180052458 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    00000001800120E6    14 GetPointerType
+
+    ole32.dll
+              00000001 Characteristics
+      00000001800585A0 Address of HMODULE
+      000000018005F1B0 Import Address Table
+      0000000180052038 Import Name Table
+      0000000180052468 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    0000000180012195    2B CoCreateInstance
+
+    gdiplus.dll
+              00000001 Characteristics
+      00000001800585A8 Address of HMODULE
+      000000018005F050 Import Address Table
+      0000000180051ED8 Import Name Table
+      0000000180052478 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    00000001800122F3    ED GdipFree
+                                    0000000180012305    7C GdipCreateRegion
+                                    0000000180012317    F6 GdipGetClip
+                                    0000000180012329   1A0 GdipIsClipEmpty
+                                    000000018001233B   201 GdipSetClipRegion
+                                    000000018001234D    96 GdipDeleteRegion
+                                    000000018001235F    8A GdipDeleteBrush
+                                    0000000180012371    32 GdipCloneBrush
+                                    0000000180012383    94 GdipDeletePen
+                                    0000000180012395    82 GdipCreateSolidFill
+                                    00000001800123A7    7A GdipCreatePen1
+                                    00000001800123B9   275 GdiplusStartup
+                                    00000001800123CB   274 GdiplusShutdown
+                                    00000001800123DD   249 GdipSetSmoothingMode
+                                    00000001800123EF   246 GdipSetPixelOffsetMode
+                                    0000000180012401   203 GdipSetCompositingQuality
+                                    0000000180012413   1E4 GdipResetWorldTransform
+                                    0000000180012425    6B GdipCreateMatrix2
+                                    00000001800122E1    90 GdipDeleteGraphics
+                                    0000000180012449   257 GdipSetWorldTransform
+                                    000000018001245B   1EF GdipSaveGraphics
+                                    000000018001246D   1E5 GdipRestoreGraphics
+                                    000000018001247F    6A GdipCreateMatrix
+                                    0000000180012491   202 GdipSetCompositingMode
+                                    00000001800124A3    F9 GdipGetCompositingMode
+                                    00000001800124B5    FA GdipGetCompositingQuality
+                                    00000001800124C7   218 GdipSetInterpolationMode
+                                    00000001800124D9   12D GdipGetInterpolationMode
+                                    00000001800124EB   182 GdipGetSmoothingMode
+                                    00000001800124FD   172 GdipGetPixelOffsetMode
+                                    000000018001250F   253 GdipSetTextContrast
+                                    0000000180012521   18D GdipGetTextContrast
+                                    0000000180012533   254 GdipSetTextRenderingHint
+                                    0000000180012545   18E GdipGetTextRenderingHint
+                                    0000000180012557   194 GdipGetWorldTransform
+                                    0000000180012569   26A GdipTranslateRegionI
+                                    000000018001257B   101 GdipGetDC
+                                    000000018001258D   1DA GdipReleaseDC
+                                    00000001800122CF   1FF GdipSetClipRect
+                                    00000001800122BD    5B GdipCreateFromHDC
+                                    00000001800122AB    21 GdipAlloc
+                                    0000000180012220    E4 GdipFillRectangle
+                                    0000000180012437    91 GdipDeleteMatrix
+
+    MSIMG32.dll
+              00000001 Characteristics
+      00000001800585B0 Address of HMODULE
+      000000018005F000 Import Address Table
+      0000000180051E88 Import Name Table
+      00000001800525D8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001259F     0 AlphaBlend
+
+    dwmapi.dll
+              00000001 Characteristics
+      00000001800585B8 Address of HMODULE
+      000000018005F030 Import Address Table
+      0000000180051EB8 Import Name Table
+      00000001800525E8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    000000018001262A    12 DwmIsCompositionEnabled
+
+    d3d11.dll
+              00000001 Characteristics
+      00000001800585C0 Address of HMODULE
+      000000018005F020 Import Address Table
+      0000000180051EA8 Import Name Table
+      00000001800525F8 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    00000001800126B5     6 D3D11CreateDevice
+
+    dxgi.dll
+              00000001 Characteristics
+      00000001800585C8 Address of HMODULE
+      000000018005F040 Import Address Table
+      0000000180051EC8 Import Name Table
+      0000000180052608 Bound Import Name Table
+      0000000000000000 Unload Import Name Table
+                     0 time date stamp
+
+                                    0000000180012740     4 CreateDXGIFactory1
+
+  Summary
+
+        5000 .data
+        1000 .didat
+        5000 .pdata
+        D000 .rdata
+        1000 .reloc
+        9000 .rsrc
+       47000 .text

@@ -1,0 +1,199 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\cdd.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    ntoskrnl.exe
+    watchdog.sys
+    WIN32K.SYS
+
+  Section contains the following imports:
+
+    ntoskrnl.exe
+             1C00401C8 Import Address Table
+             1C00406F0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          70 EtwActivityIdControl
+                         6EE PsGetCurrentProcessSessionId
+                         51C KeStackAttachProcess
+                         52B KeUnstackDetachProcess
+                          8C ExAcquirePushLockExclusiveEx
+                         459 KeEnterCriticalRegion
+                         4A5 KeLeaveCriticalRegion
+                         116 ExReleasePushLockExclusiveEx
+                         87F RtlInitUnicodeString
+                         333 IoGetDeviceObjectPointer
+                         2D0 IoBuildDeviceIoControlRequest
+                         A89 ZwClose
+                         663 ObReferenceObjectByHandle
+                         652 ObDuplicateObject
+                         649 ObCloseHandle
+                         4E5 KeReleaseSemaphore
+                         4CA KeQueryTimeIncrement
+                         2C4 IoAllocateMdl
+                         31D IoFreeMdl
+                         49A KeInvalidateRangeAllCaches
+                          7F EtwWriteTransfer
+                         5A5 MmMapViewOfSection
+                         4E3 KeReleaseMutex
+                         B4A ZwSetSystemInformation
+                         530 KeWaitForSingleObject
+                         6E0 PsCreateSystemThread
+                         65E ObOpenObjectByPointer
+                         441 KeCancelTimer
+                         BDA vsprintf_s
+                          5E DbgPrintEx
+                         446 KeClearEvent
+                         4D0 KeReadStateEvent
+                         52E KeWaitForMultipleObjects
+                         515 KeSetTimer
+                         48D KeInitializeTimer
+                         500 KeSetActualBasePriorityThread
+                         450 KeDelayExecutionThread
+                         675 ObfReferenceObject
+                          F3 ExQueryDepthSList
+                         15B ExpInterlockedPushEntrySList
+                         15A ExpInterlockedPopEntrySList
+                         7D7 RtlCopyMemoryNonTemporal
+                         5CD MmUnmapViewOfSection
+                         B73 _purecall
+                         6EC PsGetCurrentProcess
+                         711 PsGetProcessImageFileName
+                         5AE MmProbeAndLockPages
+                         5C0 MmSizeOfMdl
+                         5A1 MmMapViewInSessionSpace
+                         56F MmCreateSection
+                         5CB MmUnmapViewInSessionSpace
+                         5C5 MmUnlockPages
+                          B2 ExDeleteLookasideListEx
+                         673 ObfDereferenceObject
+                          66 DbgkWerCaptureLiveKernelDump
+                          BA ExEnterCriticalRegionAndAcquireFastMutexUnsafe
+                         111 ExReleaseFastMutexUnsafeAndLeaveCriticalRegion
+                         908 RtlQueryRegistryValuesEx
+                         483 KeInitializeEvent
+                          D7 ExInitializeLookasideListEx
+                          5D DbgPrint
+                         412 KdDebuggerEnabled
+                         478 KeGetRecommendedSharedDataAlignment
+                          EC ExIsProcessorFeaturePresent
+                         505 KeSetEvent
+                          F7 ExQueryWnfStateData
+                         487 KeInitializeMutex
+                         48A KeInitializeSemaphore
+                          79 EtwUnregister
+                          74 EtwRegister
+                          77 EtwSetInformation
+                         B14 ZwQuerySystemInformation
+                         8DE RtlNotifyFeatureUsage
+                          A3 ExAllocatePoolWithTag
+                          CA ExFreePoolWithTag
+                         B1A ZwQueryWnfStateData
+                         967 RtlUnregisterFeatureConfigurationChangeNotification
+                         916 RtlRegisterFeatureConfigurationChangeNotification
+                         8FE RtlQueryFeatureConfiguration
+                         8FF RtlQueryFeatureConfigurationChangeStamp
+                         40D IofCallDriver
+                         B65 __C_specific_handler
+
+    watchdog.sys
+             1C0040460 Import Address Table
+             1C0040988 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          52 WdLogNewEntry5_WdTrace
+                          42 WdLogEvent5_WdLowResource
+                          4F WdLogNewEntry5_WdLowResource
+                          40 WdLogEvent5_WdError
+                          4D WdLogNewEntry5_WdError
+                          18 SMgrGdiCallout
+                          53 WdLogNewEntry5_WdWarning
+                          41 WdLogEvent5_WdEvent
+                          4E WdLogNewEntry5_WdEvent
+                          49 WdLogNewEntry5_WdAssertion
+                          3C WdLogEvent5_WdAssertion
+                          46 WdLogEvent5_WdWarning
+
+    WIN32K.SYS
+             1C0040000 Import Address Table
+             1C0040528 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          9A EngTransparentBlt
+                          F9 XLATEOBJ_iXlate
+                          13 EngBitBlt
+                          97 EngStrokePath
+                          C4 PATHOBJ_vGetBounds
+                          3D EngEqualRgn
+                           C EngAcquireSemaphoreSharedNoWait
+                          64 EngIsSemaphoreSharedByCurrentThread
+                           A EngAcquireSemaphoreNoWait
+                          A6 EngUpdateDeviceSurface
+                          1C EngCopyBits
+                          BB PALOBJ_cGetColors
+                          25 EngCreatePalette
+                          32 EngDeletePalette
+                          85 EngQueryW32kCddInterface
+                          63 EngIsSemaphoreOwnedByCurrentThread
+                          20 EngCreateDeviceBitmap
+                          28 EngCreateRedirectionDeviceBitmap
+                          16 EngCTGetGammaTable
+                          62 EngIsSemaphoreOwned
+                          87 EngRectInRgn
+                          59 EngGetRgnBox
+                          19 EngCombineRgn
+                          5A EngGetRgnData
+                           5 CLIPOBJ_bEnum
+                           6 CLIPOBJ_cEnumStart
+                          92 EngSetRectRgn
+                          12 EngAssociateSurface
+                          6B EngLockSurface
+                          1E EngCreateBitmap
+                          21 EngCreateDeviceSurface
+                          89 EngReleaseSemaphore
+                           9 EngAcquireSemaphore
+                          74 EngModifySurface
+                          37 EngDeleteSurface
+                          A0 EngUnlockSurface
+                          34 EngDeleteRgn
+                          27 EngCreateRectRgn
+                          36 EngDeleteSemaphore
+                          29 EngCreateSemaphore
+                           D EngAllocMem
+                          47 EngFreeMem
+                          11 EngAlphaBlend
+                          5D EngGradientFill
+                          94 EngStretchBlt
+                          1D EngCopyRgn
+                          7A EngOffsetRgn
+                          99 EngTextOut
+                          15 EngCTGetCurrentGamma
+                          65 EngLineTo
+                          41 EngFillPath
+                          96 EngStrokeAndFillPath
+                          95 EngStretchBltROP
+                          7C EngPlgBlt
+                          61 EngIsCddDeviceBitmap
+                          14 EngBugCheckEx
+
+  Summary
+
+        2000 .data
+        2000 .idata
+        2000 .pdata
+        5000 .rdata
+        4000 .reloc
+        1000 .rsrc
+       36000 .text
+        1000 GFIDS
+        1000 INIT
+        1000 PAGE

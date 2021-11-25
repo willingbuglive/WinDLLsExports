@@ -1,0 +1,229 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30137.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Windows\System32\FXSTIFF.dll
+
+File Type: DLL
+
+  Image has the following dependencies:
+
+    msvcrt.dll
+    GDI32.dll
+    KERNEL32.dll
+    WINSPOOL.DRV
+    USER32.dll
+    ADVAPI32.dll
+    SHLWAPI.dll
+
+  Section contains the following exports for FXSTIFF.dll
+
+    00000000 characteristics
+    8D8232AA time date stamp
+        0.00 version
+           1 ordinal base
+          42 number of functions
+          42 number of names
+
+    ordinal hint RVA      name
+
+          1    0 000096A0 ConvMmrPageHiResToMrLoRes
+          2    1 000096D0 ConvMmrPageToMh
+          3    2 00009700 ConvMmrPageToMrSameRes
+          4    3 000033A0 ConvertTiffFileToValidFaxFormat
+          5    4 00003C60 FXSTIFFInitialize
+          6    5 00009730 FindNextEol
+          7    6 00003C70 FreeMsTagInfo
+          8    7 00003E60 GetMsTagDwordLong
+          9    8 00003EB0 GetMsTagFileTime
+         10    9 00003F00 GetMsTagString
+         11    A 000041F0 GetW2kMsTiffTags
+         12    B 000045F0 MemoryMapTiffFile
+         13    C 00004960 MergeTiffFiles
+         14    D 00004C10 MmrAddBranding
+         15    E 00005420 PrintTiffFile
+         16    F 0000B7B0 ScanMhSegment
+         17   10 0000BC20 ScanMrSegment
+         18   11 000058E0 TiffAddMsTags
+         19   12 00006C70 TiffClose
+         20   13 00006D10 TiffCreate
+         21   14 00007050 TiffEncodeLinesMmrCompression
+         22   15 00007060 TiffEndPage
+         23   16 00007240 TiffEndPageForInMemoryConversion
+         24   17 000072D0 TiffExtractFirstPage
+         25   18 000073A0 TiffGetCurrentPageData
+         26   19 000073F0 TiffGetIFDData
+         27   1A 00007430 TiffGetIFDSize
+         28   1B 00007450 TiffLimitTagNumber
+         29   1C 00007820 TiffOpen
+         30   1D 0000C4D0 TiffPostProcessFast
+         31   1E 0000D560 TiffPrint
+         32   1F 0000D660 TiffPrintDC
+         33   20 000080A0 TiffRead
+         34   21 00008180 TiffRecoverGoodPages
+         35   22 000082B0 TiffSeekToPage
+         36   23 00008A10 TiffSetCurrentPageParams
+         37   24 00008A70 TiffSetNextIFDOffset
+         38   25 00008A90 TiffStartPage
+         39   26 00008B00 TiffStartPageForInMemoryConversion
+         40   27 0000C5A0 TiffUncompressMmrPage
+         41   28 0000C6A0 TiffUncompressMmrPageRaw
+         42   29 00008C80 TiffWriteRaw
+
+  Section contains the following imports:
+
+    msvcrt.dll
+             164711410 Import Address Table
+             164764CD0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         51D wcsrchr
+                         376 _vsnwprintf
+                          5A _XcptFilter
+                          B7 _amsg_exit
+                         459 free
+                         4A3 memset
+                         49F memcpy
+                         50E wcschr
+                         3A5 _wcsnset
+                         1E5 _itow
+                         189 _initterm
+                          5E __C_specific_handler
+                         523 wcstok
+                         493 malloc
+                         4CF strcmp
+
+    GDI32.dll
+             1647111C8 Import Address Table
+             164764A88 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          43 CreateFontIndirectW
+                         188 DeleteObject
+                         185 DeleteDC
+                         27F GetDeviceCaps
+                         3A5 StretchDIBits
+                          31 CreateCompatibleDC
+                          37 CreateDIBSection
+                         3A3 StartPage
+                         368 SelectObject
+                         3A1 StartDocW
+                          34 CreateDCW
+                         192 EndDoc
+                         195 EndPage
+
+    KERNEL32.dll
+             164711238 Import Address Table
+             164764AF8 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         4F1 RtlLookupFunctionEntry
+                         4F8 RtlVirtualUnwind
+                         5D8 UnhandledExceptionFilter
+                         597 SetUnhandledExceptionFilter
+                         22A GetCurrentProcess
+                         5B6 TerminateProcess
+                         367 HeapFree
+                         363 HeapAlloc
+                         120 DeleteFileW
+                         2CB GetProcessHeap
+                         174 ExpandEnvironmentStringsW
+                         310 GetTempPathW
+                         536 SetEndOfFile
+                          D3 CreateFileW
+                         262 GetFileType
+                         3F8 MapViewOfFileEx
+                         323 GetTickCount
+                         408 MultiByteToWideChar
+                         629 WideCharToMultiByte
+                         141 EnterCriticalSection
+                         37D InitializeCriticalSectionAndSpinCount
+                         3D6 LeaveCriticalSection
+                         11B DeleteCriticalSection
+                         430 OutputDebugStringW
+                         274 GetLastError
+                         5A7 Sleep
+                         5DB UnmapViewOfFile
+                         602 WaitForSingleObject
+                         548 SetFilePointer
+                         63D WriteFile
+                         557 SetLastError
+                         48C ReadFile
+                         5F1 VirtualAlloc
+                         5F4 VirtualFree
+                         4E9 RtlCaptureContext
+                         301 GetSystemTimeAsFileTime
+                         22F GetCurrentThreadId
+                         22B GetCurrentProcessId
+                         464 QueryPerformanceCounter
+                         12C DisableThreadLibraryCalls
+                         404 MoveFileW
+                         3F7 MapViewOfFile
+                          D0 CreateFileMappingW
+                         30E GetTempPath2W
+                         30C GetTempFileNameW
+                         25F GetFileSize
+                          8E CloseHandle
+                         366 HeapDestroy
+
+    WINSPOOL.DRV
+             1647113E0 Import Address Table
+             164764CA0 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          6D FindFirstPrinterChangeNotification
+                          6E FindNextPrinterChangeNotification
+                          6C FindClosePrinterChangeNotification
+                          1D ClosePrinter
+                          96 OpenPrinterW
+
+    USER32.dll
+             1647113D0 Import Address Table
+             164764C90 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                          DE DrawTextW
+
+    ADVAPI32.dll
+             164711148 Import Address Table
+             164764A08 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                         33F UnregisterTraceGuids
+                         265 RegCloseKey
+                         332 TraceMessage
+                         172 GetTraceEnableLevel
+                          ED DeregisterEventSource
+                         2B8 RegisterEventSourceW
+                         285 RegEnumKeyW
+                         29D RegQueryInfoKeyW
+                         26E RegCreateKeyExW
+                         2B3 RegSetValueExW
+                         171 GetTraceEnableFlags
+                         173 GetTraceLoggerHandle
+                         296 RegOpenKeyExW
+                         2A3 RegQueryValueExW
+                         2BF RegisterTraceGuidsW
+
+    SHLWAPI.dll
+             1647113C0 Import Address Table
+             164764C80 Import Name Table
+                     0 time date stamp
+                     0 Index of first forwarder reference
+
+                             Ordinal   487
+
+  Summary
+
+        1000 .data
+        1000 .pdata
+       55000 .rdata
+        1000 .reloc
+        1000 .rsrc
+       10000 .text
